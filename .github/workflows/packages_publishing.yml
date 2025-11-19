@@ -150,7 +150,7 @@ jobs:
       - name: Publish to npm.pkg.github.com
         working-directory: ${{ steps.scopedPackage.outputs.packageDir }}
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
         run: |
           pnpm set //npm.pkg.github.com/:_authToken="$NODE_AUTH_TOKEN";
           pnpm publish --no-git-checks --quiet --ignore-scripts --registry https://npm.pkg.github.com;
