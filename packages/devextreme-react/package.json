@@ -1,6 +1,6 @@
 {
-  "author": "Developer Express Inc.",
-  "name": "devextreme-react",
+  "author": "ISalikhzyanov",
+  "name": "@ISalikhzyanov/devextreme-react",
   "version": "25.2.0",
   "description": "DevExtreme React UI and Visualization Components",
   "repository": {
@@ -83,9 +83,5 @@
     "@typescript-eslint/eslint-plugin": "catalog:",
     "@typescript-eslint/parser": "catalog:",
     "eslint-config-devextreme": "1.1.6"
-  },
-  "publishConfig": {
-    "directory": "npm",
-    "linkDirectory": true
   }
 }
