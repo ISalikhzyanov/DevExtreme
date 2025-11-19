@@ -1,5 +1,8 @@
 name: Publishing to GitHub Packages
 
+permissions:
+  contents: read
+  packages: write
 on:
   workflow_dispatch:
     inputs:
@@ -173,18 +176,3 @@ jobs:
         run: |
           pnpm set //npm.pkg.github.com/:_authToken="$NODE_AUTH_TOKEN"
           pnpm dist-tag add $PACKAGE_NAME@$PACKAGE_VERSION $PACKAGE_VERSION_MAJOR-stable --registry=https://npm.pkg.github.com
-
-
-  notify:
-    runs-on: devextreme-shr2
-    name: Send notifications
-    needs: [ build, publish ]
-    if: failure()
-
-    steps:
-      - uses: actions/checkout@v4
-      - uses: DevExpress/github-actions/send-teams-notification@v1
-        with:
-          hook_url: ${{secrets.TEAMS_ALERT}}
-          bearer_token: ${{secrets.GITHUB_TOKEN}}
-          specific_repo: DevExpress/DevExtreme
