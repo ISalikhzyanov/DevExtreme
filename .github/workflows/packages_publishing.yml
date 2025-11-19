@@ -161,7 +161,7 @@ jobs:
           PACKAGE_NAME: ${{ steps.scopedPackage.outputs.name }}
           PACKAGE_VERSION: ${{ steps.scopedPackage.outputs.version }}
           PACKAGE_VERSION_MAJOR: ${{ steps.scopedPackage.outputs.majorVersion }}
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
         run: |
           pnpm set //npm.pkg.github.com/:_authToken="$NODE_AUTH_TOKEN"
           pnpm dist-tag add $PACKAGE_NAME@$PACKAGE_VERSION $PACKAGE_VERSION_MAJOR-daily --registry=https://npm.pkg.github.com
@@ -172,7 +172,7 @@ jobs:
           PACKAGE_NAME: ${{ steps.scopedPackage.outputs.name }}
           PACKAGE_VERSION: ${{ steps.scopedPackage.outputs.version }}
           PACKAGE_VERSION_MAJOR: ${{ steps.scopedPackage.outputs.majorVersion }}
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
         run: |
           pnpm set //npm.pkg.github.com/:_authToken="$NODE_AUTH_TOKEN"
           pnpm dist-tag add $PACKAGE_NAME@$PACKAGE_VERSION $PACKAGE_VERSION_MAJOR-stable --registry=https://npm.pkg.github.com
