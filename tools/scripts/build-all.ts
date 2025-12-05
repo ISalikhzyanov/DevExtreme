@@ -148,10 +148,20 @@ sh.exec(`pnpm pkg set version="${devextremeNpmVersion}"`);
 packAndCopy(NPM_DIR);
 sh.popd();
 
+const safeCopyTgz = (srcPattern: string, destDir: string) => {
+    const files = sh.ls(srcPattern);
+    if (files.code === 0 && files.length > 0) {
+        sh.cp(srcPattern, destDir);
+        console.log(`✅ Copied: ${path.basename(files[0])}`);
+    } else {
+        console.warn(`⚠️  No files matched: ${srcPattern}`);
+    }
+};
+
 // Копируем уже подменённые .tgz
-sh.cp(path.join(ROOT_DIR, 'packages', 'devextreme-react', 'npm', '*.tgz'), NPM_DIR);
-sh.cp(path.join(ROOT_DIR, 'packages', 'devextreme-vue', 'npm', '*.tgz'), NPM_DIR);
-sh.cp(path.join(ROOT_DIR, 'packages', 'devextreme-angular', 'npm', '*.tgz'), NPM_DIR);
+safeCopyTgz(path.join(ROOT_DIR, 'packages', 'devextreme-react', 'npm', '*.tgz'), NPM_DIR);
+safeCopyTgz(path.join(ROOT_DIR, 'packages', 'devextreme-vue', 'npm', '*.tgz'), NPM_DIR);
+safeCopyTgz(path.join(ROOT_DIR, 'packages', 'devextreme-angular', 'npm', '*.tgz'), NPM_DIR);
 
 // Internal (если нужно)
 if (sh.env.BUILD_INTERNAL_PACKAGE === 'true') {
