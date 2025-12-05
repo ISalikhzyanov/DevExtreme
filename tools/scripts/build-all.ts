@@ -116,7 +116,7 @@ const updatePackageJson = (pkgPath: string, newName: string) => {
     const newPeerDeps: Record<string, string> = {};
     for (const [key, value] of Object.entries(pkg.peerDependencies || {})) {
         if (key !== 'devextreme') {
-            newPeerDeps[key] = value;
+            newPeerDeps[key] = value as string;
         }
     }
     newPeerDeps[`${SCOPE}/devextreme`] = devextremeNpmVersion;
