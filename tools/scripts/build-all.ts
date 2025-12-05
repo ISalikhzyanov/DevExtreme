@@ -161,7 +161,6 @@ const safeCopyTgz = (srcPattern: string, destDir: string) => {
 // Копируем уже подменённые .tgz
 safeCopyTgz(path.join(ROOT_DIR, 'packages', 'devextreme-react', 'npm', '*.tgz'), NPM_DIR);
 safeCopyTgz(path.join(ROOT_DIR, 'packages', 'devextreme-vue', 'npm', '*.tgz'), NPM_DIR);
-safeCopyTgz(path.join(ROOT_DIR, 'packages', 'devextreme-angular', 'npm', '*.tgz'), NPM_DIR);
 
 // Internal (если нужно)
 if (sh.env.BUILD_INTERNAL_PACKAGE === 'true') {
