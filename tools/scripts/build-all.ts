@@ -1,5 +1,6 @@
 import sh from 'shelljs';
 import path from 'node:path';
+import fs from 'node:fs';
 import yargs from 'yargs';
 import { ARTIFACTS_DIR, INTERNAL_TOOLS_ARTIFACTS, ROOT_DIR, NPM_DIR, JS_ARTIFACTS, CSS_ARTIFACTS } from './common/paths';
 import { version as devextremeNpmVersion } from '../../packages/devextreme/package.json';
@@ -9,6 +10,7 @@ const argv = yargs
     .parseSync();
 
 const devMode = argv.dev;
+const SCOPE = '@ISalikhzyanov';
 
 console.log(`Dev mode: ${devMode}`);
 
@@ -29,16 +31,15 @@ const injectDescriptions = () => {
 
     sh.exec('pnpm run devextreme:inject-descriptions');
     sh.popd();
-}
+};
 
 sh.set('-e');
-
 sh.mkdir('-p', NPM_DIR);
 
 const packAndCopy = (outputDir: string) => {
     sh.exec('pnpm pack', { silent: true });
     sh.cp('*.tgz', outputDir);
-}
+};
 
 const monorepoVersion = sh.exec('pnpm pkg get version', { silent: true }).stdout.replaceAll('"', '');
 const MAJOR_VERSION = monorepoVersion.split('.').slice(0, 2).join('_');
@@ -46,9 +47,7 @@ const MAJOR_VERSION = monorepoVersion.split('.').slice(0, 2).join('_');
 sh.cd(ROOT_DIR);
 
 if (!devMode) {
-    // aspnet metadata will be used in Build custom-tasks to inject aspnet descriptions
     sh.exec(`pnpx nx run devextreme-metadata:make-aspnet-metadata`);
-
     injectDescriptions();
 }
 
@@ -68,10 +67,9 @@ sh.exec(`pnpx nx build devextreme-themebuilder${devMode ? '' : ' --skipNxCache'}
 
 // Copy artifacts for DXBuild (Installation)
 sh.pushd(path.join(ROOT_DIR, 'packages/devextreme/artifacts'));
-    sh.cp('-r', ['ts', 'js', 'css'], ARTIFACTS_DIR);
+sh.cp('-r', ['ts', 'js', 'css'], ARTIFACTS_DIR);
 sh.popd();
 
-// TODO: maybe we should add bootstrap to vendors
 const BOOTSTRAP_DIR = path.join(ROOT_DIR, 'packages', 'devextreme-themebuilder', 'node_modules', 'bootstrap', 'dist');
 sh.cp([path.join(BOOTSTRAP_DIR, 'js', 'bootstrap.js'), path.join(BOOTSTRAP_DIR, 'js', 'bootstrap.min.js')], JS_ARTIFACTS);
 sh.cp([path.join(BOOTSTRAP_DIR, 'css', 'bootstrap.css'), path.join(BOOTSTRAP_DIR, 'css', 'bootstrap.min.css')], CSS_ARTIFACTS);
@@ -82,17 +80,59 @@ sh.exec('pnpx nx pack devextreme-react', { silent: true });
 sh.exec('pnpx nx pack devextreme-vue', { silent: true });
 sh.exec(`pnpx nx pack devextreme-angular${devMode ? '' : ' --with-descriptions'}`, { silent: true });
 
+// === ПОДГОТОВКА К ПУБЛИКАЦИИ: ПОДМЕНА ИМЁН И ИМПОРТОВ ===
+
+const replaceInFiles = (dir: string, from: string, to: string) => {
+    const files = sh.find(dir).filter(file =>
+        file.endsWith('.js') ||
+        file.endsWith('.d.ts') ||
+        file.endsWith('.json')
+    );
+    files.forEach(file => {
+        const content = fs.readFileSync(file, 'utf8');
+        if (content.includes(from)) {
+            fs.writeFileSync(file, content.replaceAll(from, to), 'utf8');
+        }
+    });
+};
+
+// 1. Подмена devextreme
+const devextremeNpmPath = path.join(DEVEXTREME_NPM_DIR, 'devextreme');
+sh.exec(`pnpm pkg set name="${SCOPE}/devextreme"`, { cwd: devextremeNpmPath });
+
+// 2. Подмена devextreme-react
+const reactNpmPath = path.join(ROOT_DIR, 'packages', 'devextreme-react', 'npm');
+
+// Имя
+sh.exec(`pnpm pkg set name="${SCOPE}/devextreme-react"`, { cwd: reactNpmPath });
+
+// Peer dependency
+const reactPkgPath = path.join(reactNpmPath, 'package.json');
+let reactPkg = JSON.parse(fs.readFileSync(reactPkgPath, 'utf8'));
+delete reactPkg.peerDependencies.devextreme;
+reactPkg.peerDependencies[`${SCOPE}/devextreme`] = devextremeNpmVersion;
+fs.writeFileSync(reactPkgPath, JSON.stringify(reactPkg, null, 2), 'utf8');
+
+// Импорты
+replaceInFiles(reactNpmPath, "from 'devextreme/", `from '${SCOPE}/devextreme/`);
+
+// (опционально) Подмена devextreme-vue и devextreme-angular — если публикуете их
+// Аналогично: замените имя и импорты
+
+// === КОНЕЦ ПОДГОТОВКИ ===
+
+// Копирование финальных .tgz в NPM_DIR
 sh.pushd(path.join(DEVEXTREME_NPM_DIR, 'devextreme'));
-    packAndCopy(NPM_DIR);
+packAndCopy(NPM_DIR);
 sh.popd();
 
 sh.pushd(path.join(DEVEXTREME_NPM_DIR, 'devextreme-dist'));
-    packAndCopy(NPM_DIR);
+packAndCopy(NPM_DIR);
 sh.popd();
 
 sh.pushd(path.join(ROOT_DIR, 'packages', 'devextreme-themebuilder', 'dist'));
-    sh.exec(`pnpm pkg set version="${devextremeNpmVersion}"`);
-    packAndCopy(NPM_DIR);
+sh.exec(`pnpm pkg set version="${devextremeNpmVersion}"`);
+packAndCopy(NPM_DIR);
 sh.popd();
 
 sh.cp(path.join(ROOT_DIR, 'packages', 'devextreme-angular', 'npm', 'dist', '*.tgz'), NPM_DIR);
@@ -103,11 +143,13 @@ if (sh.env.BUILD_INTERNAL_PACKAGE === 'true') {
     sh.exec('pnpx nx build-dist devextreme');
 
     sh.pushd(path.join(DEVEXTREME_NPM_DIR, 'devextreme-internal'));
-        sh.exec(`pnpm pkg set version="${devextremeNpmVersion}"`);
-        packAndCopy(NPM_DIR);
+    sh.exec(`pnpm pkg set name="${SCOPE}/devextreme-internal"`);
+    packAndCopy(NPM_DIR);
     sh.popd();
 
     sh.pushd(path.join(DEVEXTREME_NPM_DIR, 'devextreme-dist-internal'));
-        packAndCopy(NPM_DIR);
+    packAndCopy(NPM_DIR);
     sh.popd();
 }
+
+console.log('✅ Сборка завершена. Пакеты готовы к публикации с scope:', SCOPE);
