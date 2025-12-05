@@ -75,8 +75,6 @@ const BOOTSTRAP_DIR = path.join(ROOT_DIR, 'packages', 'devextreme-themebuilder',
 sh.cp([path.join(BOOTSTRAP_DIR, 'js', 'bootstrap.js'), path.join(BOOTSTRAP_DIR, 'js', 'bootstrap.min.js')], JS_ARTIFACTS);
 sh.cp([path.join(BOOTSTRAP_DIR, 'css', 'bootstrap.css'), path.join(BOOTSTRAP_DIR, 'css', 'bootstrap.min.css')], CSS_ARTIFACTS);
 
-sh.exec('pnpm run all:pack-and-copy');
-
 // ===============================================================
 // 📦 СБОРКА ФРЕЙМВОРК-ПАКЕТОВ (nx pack создаёт npm/ папки)
 // ===============================================================
