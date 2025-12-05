@@ -25,7 +25,7 @@ const injectDescriptions = () => {
     const MAJOR_VERSION = monorepoVersion.split('.').slice(0, 2).join('_');
     const DOCUMENTATION_TEMP_DIR = path.join(ARTIFACTS_DIR, 'doc_tmp');
 
-    sh.exec(`git clone -b ${MAJOR_VERSION} --depth 1 --config core.longpaths=true https://github.com/DevExpress/devextreme-documentation.git ${DOCUMENTATION_TEMP_DIR}`);
+    sh.exec(`git clone -b ${MAJOR_VERSION} --depth 1 --config core.longpaths=true https://github.com/DevExpress/devextreme-documentation.git   ${DOCUMENTATION_TEMP_DIR}`);
 
     sh.pushd(DOCUMENTATION_TEMP_DIR);
     sh.exec('npm i');
@@ -75,18 +75,22 @@ const BOOTSTRAP_DIR = path.join(ROOT_DIR, 'packages', 'devextreme-themebuilder',
 sh.cp([path.join(BOOTSTRAP_DIR, 'js', 'bootstrap.js'), path.join(BOOTSTRAP_DIR, 'js', 'bootstrap.min.js')], JS_ARTIFACTS);
 sh.cp([path.join(BOOTSTRAP_DIR, 'css', 'bootstrap.css'), path.join(BOOTSTRAP_DIR, 'css', 'bootstrap.min.css')], CSS_ARTIFACTS);
 
+
+const reactNpmPath = path.join(ROOT_DIR, 'packages', 'devextreme-react', 'npm');
+const reactPkgPath = path.join(reactNpmPath, 'package.json');
+updatePackageJson(reactPkgPath, `${SCOPE}/devextreme-react`);
+replaceInFiles(reactNpmPath, "from 'devextreme/", `from '${SCOPE}/devextreme/`);
+console.log(`✅ Updated ${SCOPE}/devextreme-react`);
 // ===============================================================
-// 📦 СБОРКА ФРЕЙМВОРК-ПАКЕТОВ (nx pack создаёт npm/ папки)
+// 📦 СБОРКА ФРЕЙМВОРК-ПАКЕТОВ (только devextreme-react)
 // ===============================================================
 sh.exec('pnpx nx pack devextreme-react --skipNxCache', { silent: true });
-sh.exec('pnpx nx pack devextreme-vue --skipNxCache', { silent: true });
-sh.exec(`pnpx nx pack devextreme-angular${devMode ? '' : ' --with-descriptions'} --skipNxCache`, { silent: true });
 
 // ===============================================================
 // 🔧 ПОДМЕНА ПОСЛЕ nx pack — ГАРАНТИРОВАННО В ФИНАЛЬНЫХ АРТЕФАКТАХ
 // ===============================================================
 
-const replaceInFiles = (dir: string, from: string, to: string) => {
+function replaceInFiles(dir: string, from: string, to: string) {
     const files = sh.find(dir).filter(file =>
         file.endsWith('.js') || file.endsWith('.d.ts')
     );
@@ -104,7 +108,7 @@ sh.exec(`pnpm pkg set name="${SCOPE}/devextreme"`, { cwd: devextremeNpmPath });
 console.log(`✅ Renamed devextreme → ${SCOPE}/devextreme`);
 
 // --- 2. devextreme-react ---
-const updatePackageJson = (pkgPath: string, newName: string) => {
+function updatePackageJson (pkgPath: string, newName: string) {
     const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf8'));
 
     // Имя
@@ -122,12 +126,6 @@ const updatePackageJson = (pkgPath: string, newName: string) => {
 
     fs.writeFileSync(pkgPath, JSON.stringify(pkg, null, 2) + '\n', 'utf8');
 };
-
-const reactNpmPath = path.join(ROOT_DIR, 'packages', 'devextreme-react', 'npm');
-const reactPkgPath = path.join(reactNpmPath, 'package.json');
-updatePackageJson(reactPkgPath, `${SCOPE}/devextreme-react`);
-replaceInFiles(reactNpmPath, "from 'devextreme/", `from '${SCOPE}/devextreme/`);
-console.log(`✅ Updated ${SCOPE}/devextreme-react`);
 
 // ===============================================================
 // 📤 КОПИРОВАНИЕ .tgz В ФИНАЛЬНУЮ ПАПКУ
@@ -156,9 +154,8 @@ const safeCopyTgz = (srcPattern: string, destDir: string) => {
     }
 };
 
-// Копируем уже подменённые .tgz
+// Копируем только devextreme-react
 safeCopyTgz(path.join(ROOT_DIR, 'packages', 'devextreme-react', 'npm', '*.tgz'), NPM_DIR);
-safeCopyTgz(path.join(ROOT_DIR, 'packages', 'devextreme-vue', 'npm', '*.tgz'), NPM_DIR);
 
 // Internal (если нужно)
 if (sh.env.BUILD_INTERNAL_PACKAGE === 'true') {
