@@ -3,12 +3,12 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxSortable, {
     Properties
-} from "devextreme/ui/sortable";
+} from "@ISalikhzyanov/devextreme/ui/sortable";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { AddEvent, DisposingEvent, DragChangeEvent, DragEndEvent, DragMoveEvent, DragStartEvent, InitializedEvent, RemoveEvent, ReorderEvent } from "devextreme/ui/sortable";
+import type { AddEvent, DisposingEvent, DragChangeEvent, DragEndEvent, DragMoveEvent, DragStartEvent, InitializedEvent, RemoveEvent, ReorderEvent } from "@ISalikhzyanov/devextreme/ui/sortable";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

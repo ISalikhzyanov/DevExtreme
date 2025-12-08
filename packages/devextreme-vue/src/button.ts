@@ -1,18 +1,18 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Button, { Properties } from "devextreme/ui/button";
+import Button, { Properties } from "@ISalikhzyanov/devextreme/ui/button";
 import {
  ClickEvent,
  ContentReadyEvent,
  DisposingEvent,
  InitializedEvent,
  OptionChangedEvent,
-} from "devextreme/ui/button";
+} from "@ISalikhzyanov/devextreme/ui/button";
 import {
  ButtonStyle,
  ButtonType,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 
 type AccessibleOptions = Pick<Properties,
   "accessKey" |
@@ -119,5 +119,5 @@ export default DxButton;
 export {
   DxButton
 };
-import type * as DxButtonTypes from "devextreme/ui/button_types";
+import type * as DxButtonTypes from "@ISalikhzyanov/devextreme/ui/button_types";
 export { DxButtonTypes };

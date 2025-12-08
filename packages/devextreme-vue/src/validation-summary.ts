@@ -1,18 +1,18 @@
-export { ExplicitTypes } from "devextreme/ui/validation_summary";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/validation_summary";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import ValidationSummary, { Properties } from "devextreme/ui/validation_summary";
+import ValidationSummary, { Properties } from "@ISalikhzyanov/devextreme/ui/validation_summary";
 import {
  CollectionWidgetItem,
-} from "devextreme/ui/collection/ui.collection_widget.base";
+} from "@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base";
 import {
  ContentReadyEvent,
  DisposingEvent,
  InitializedEvent,
  ItemClickEvent,
  OptionChangedEvent,
-} from "devextreme/ui/validation_summary";
+} from "@ISalikhzyanov/devextreme/ui/validation_summary";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -109,5 +109,5 @@ export {
   DxValidationSummary,
   DxItem
 };
-import type * as DxValidationSummaryTypes from "devextreme/ui/validation_summary_types";
+import type * as DxValidationSummaryTypes from "@ISalikhzyanov/devextreme/ui/validation_summary_types";
 export { DxValidationSummaryTypes };

@@ -10,7 +10,7 @@ import DataGrid, {
   SearchPanel
 } from "devextreme-react/data-grid";
 import TabPanel, { Item } from "devextreme-react/tab-panel";
-import ODataStore from "devextreme/data/odata/store";
+import ODataStore from "@ISalikhzyanov/devextreme/data/odata/store";
 
 const meta: Meta<typeof DataGrid> = {
   title: 'Example/Common/Custom Configuration Components',

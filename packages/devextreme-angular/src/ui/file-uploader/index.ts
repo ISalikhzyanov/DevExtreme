@@ -1355,7 +1355,7 @@ export class DxFileUploaderComponent extends DxComponent implements OnDestroy, C
 export class DxFileUploaderModule { }
 
 
-import type * as DxFileUploaderTypes from "devextreme/ui/file_uploader_types";
+import type * as DxFileUploaderTypes from "@ISalikhzyanov/devextreme/ui/file_uploader_types";
 export { DxFileUploaderTypes };
 
 

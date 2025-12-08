@@ -1,8 +1,8 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Diagram, { Properties } from "devextreme/ui/diagram";
-import  DataSource from "devextreme/data/data_source";
+import Diagram, { Properties } from "@ISalikhzyanov/devextreme/ui/diagram";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  AutoZoomMode,
  ContentReadyEvent,
@@ -25,18 +25,18 @@ import {
  ConnectorLineEnd,
  ConnectorLineType,
  PanelVisibility,
-} from "devextreme/ui/diagram";
+} from "@ISalikhzyanov/devextreme/ui/diagram";
 import {
  PageOrientation,
  Orientation,
  ToolbarItemLocation,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -1020,5 +1020,5 @@ export {
   DxViewToolbar,
   DxZoomLevel
 };
-import type * as DxDiagramTypes from "devextreme/ui/diagram_types";
+import type * as DxDiagramTypes from "@ISalikhzyanov/devextreme/ui/diagram_types";
 export { DxDiagramTypes };

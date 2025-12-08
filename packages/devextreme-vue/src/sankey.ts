@@ -1,21 +1,21 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Sankey, { Properties } from "devextreme/viz/sankey";
-import  DataSource from "devextreme/data/data_source";
+import Sankey, { Properties } from "@ISalikhzyanov/devextreme/viz/sankey";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  VerticalAlignment,
  ExportFormat,
  Format,
  HorizontalAlignment,
  VerticalEdge,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  DisposingEvent,
  DrawnEvent,
@@ -31,7 +31,7 @@ import {
  OptionChangedEvent,
  dxSankeyNode,
  SankeyColorMode,
-} from "devextreme/viz/sankey";
+} from "@ISalikhzyanov/devextreme/viz/sankey";
 import {
  Palette,
  PaletteExtensionMode,
@@ -41,10 +41,10 @@ import {
  Font,
  TextOverflow,
  WordWrap,
-} from "devextreme/common/charts";
+} from "@ISalikhzyanov/devextreme/common/charts";
 import {
  Format as LocalizationFormat,
-} from "devextreme/common/core/localization";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -765,5 +765,5 @@ export {
   DxTooltip,
   DxTooltipBorder
 };
-import type * as DxSankeyTypes from "devextreme/viz/sankey_types";
+import type * as DxSankeyTypes from "@ISalikhzyanov/devextreme/viz/sankey_types";
 export { DxSankeyTypes };

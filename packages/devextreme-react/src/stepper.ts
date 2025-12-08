@@ -1,17 +1,17 @@
 "use client"
-export { ExplicitTypes } from "devextreme/ui/stepper";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/stepper";
 import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxStepper, {
     Properties
-} from "devextreme/ui/stepper";
+} from "@ISalikhzyanov/devextreme/ui/stepper";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { dxStepperItem, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemRenderedEvent, SelectionChangingEvent } from "devextreme/ui/stepper";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type { template } from "devextreme/common";
+import type { dxStepperItem, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemRenderedEvent, SelectionChangingEvent } from "@ISalikhzyanov/devextreme/ui/stepper";
+import type { CollectionWidgetItem } from "@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base";
+import type { template } from "@ISalikhzyanov/devextreme/common";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

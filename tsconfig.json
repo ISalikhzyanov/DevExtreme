@@ -8,7 +8,7 @@
       "devextreme-angular/*": [
         "devextreme-angular/npm/dist/*"
       ],
-      "devextreme-react": [
+      "@ISalikhzyanov/devextreme-react": [
         "devextreme-react/npm"
       ],
       "devextreme-react/*": [

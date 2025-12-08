@@ -1,17 +1,17 @@
 "use client"
-export { ExplicitTypes } from "devextreme/ui/box";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/box";
 import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxBox, {
     Properties
-} from "devextreme/ui/box";
+} from "@ISalikhzyanov/devextreme/ui/box";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { dxBoxItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, dxBoxOptions } from "devextreme/ui/box";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type { template } from "devextreme/common";
+import type { dxBoxItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, dxBoxOptions } from "@ISalikhzyanov/devextreme/ui/box";
+import type { CollectionWidgetItem } from "@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base";
+import type { template } from "@ISalikhzyanov/devextreme/common";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

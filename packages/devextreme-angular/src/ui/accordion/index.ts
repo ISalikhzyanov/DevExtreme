@@ -835,7 +835,7 @@ export class DxAccordionModule { }
 
 export * from 'devextreme-angular/ui/accordion/nested';
 
-import type * as DxAccordionTypes from "devextreme/ui/accordion_types";
+import type * as DxAccordionTypes from "@ISalikhzyanov/devextreme/ui/accordion_types";
 export { DxAccordionTypes };
 
 

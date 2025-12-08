@@ -1,11 +1,11 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import DateBox, { Properties } from "devextreme/ui/date_box";
-import  dxDateBox from "devextreme/ui/date_box";
-import  dxOverlay from "devextreme/ui/overlay";
-import  DOMComponent from "devextreme/core/dom_component";
-import  dxPopup from "devextreme/ui/popup";
+import DateBox, { Properties } from "@ISalikhzyanov/devextreme/ui/date_box";
+import  dxDateBox from "@ISalikhzyanov/devextreme/ui/date_box";
+import  dxOverlay from "@ISalikhzyanov/devextreme/ui/overlay";
+import  DOMComponent from "@ISalikhzyanov/devextreme/core/dom_component";
+import  dxPopup from "@ISalikhzyanov/devextreme/ui/popup";
 import {
  ApplyValueMode,
  TextEditorButton,
@@ -26,10 +26,10 @@ import {
  ButtonType,
  ToolbarItemLocation,
  ToolbarItemComponent,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  DropDownPredefinedButton,
-} from "devextreme/ui/drop_down_editor/ui.drop_down_editor";
+} from "@ISalikhzyanov/devextreme/ui/drop_down_editor/ui.drop_down_editor";
 import {
  dxCalendarOptions,
  DisabledDate,
@@ -40,15 +40,15 @@ import {
  ValueChangedEvent as CalendarValueChangedEvent,
  CalendarSelectionMode,
  WeekNumberRule,
-} from "devextreme/ui/calendar";
+} from "@ISalikhzyanov/devextreme/ui/calendar";
 import {
  Format,
-} from "devextreme/common/core/localization";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
 import {
  dxPopupOptions,
  dxPopupToolbarItem,
  ToolbarLocation,
-} from "devextreme/ui/popup";
+} from "@ISalikhzyanov/devextreme/ui/popup";
 import {
  ChangeEvent,
  ClosedEvent,
@@ -69,7 +69,7 @@ import {
  ValueChangedEvent,
  DatePickerType,
  DateType,
-} from "devextreme/ui/date_box";
+} from "@ISalikhzyanov/devextreme/ui/date_box";
 import {
  AnimationConfig,
  CollisionResolution,
@@ -77,7 +77,7 @@ import {
  AnimationState,
  AnimationType,
  CollisionResolutionCombination,
-} from "devextreme/common/core/animation";
+} from "@ISalikhzyanov/devextreme/common/core/animation";
 import {
  dxButtonOptions,
  ClickEvent,
@@ -85,20 +85,20 @@ import {
  DisposingEvent as ButtonDisposingEvent,
  InitializedEvent as ButtonInitializedEvent,
  OptionChangedEvent as ButtonOptionChangedEvent,
-} from "devextreme/ui/button";
+} from "@ISalikhzyanov/devextreme/ui/button";
 import {
  event,
-} from "devextreme/events/events.types";
+} from "@ISalikhzyanov/devextreme/events/events.types";
 import {
  EventInfo,
-} from "devextreme/common/core/events";
+} from "@ISalikhzyanov/devextreme/common/core/events";
 import {
  Component,
-} from "devextreme/core/component";
+} from "@ISalikhzyanov/devextreme/core/component";
 import {
  LocateInMenuMode,
  ShowTextMode,
-} from "devextreme/ui/toolbar";
+} from "@ISalikhzyanov/devextreme/ui/toolbar";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -1042,5 +1042,5 @@ export {
   DxTo,
   DxToolbarItem
 };
-import type * as DxDateBoxTypes from "devextreme/ui/date_box_types";
+import type * as DxDateBoxTypes from "@ISalikhzyanov/devextreme/ui/date_box_types";
 export { DxDateBoxTypes };

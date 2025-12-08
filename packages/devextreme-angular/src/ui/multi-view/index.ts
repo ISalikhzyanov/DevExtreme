@@ -717,7 +717,7 @@ export class DxMultiViewModule { }
 
 export * from 'devextreme-angular/ui/multi-view/nested';
 
-import type * as DxMultiViewTypes from "devextreme/ui/multi_view_types";
+import type * as DxMultiViewTypes from "@ISalikhzyanov/devextreme/ui/multi_view_types";
 export { DxMultiViewTypes };
 
 

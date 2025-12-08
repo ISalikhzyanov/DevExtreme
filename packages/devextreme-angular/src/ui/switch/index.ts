@@ -723,7 +723,7 @@ export class DxSwitchComponent extends DxComponent implements OnDestroy, Control
 export class DxSwitchModule { }
 
 
-import type * as DxSwitchTypes from "devextreme/ui/switch_types";
+import type * as DxSwitchTypes from "@ISalikhzyanov/devextreme/ui/switch_types";
 export { DxSwitchTypes };
 
 

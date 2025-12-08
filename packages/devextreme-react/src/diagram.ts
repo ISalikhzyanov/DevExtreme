@@ -3,18 +3,18 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxDiagram, {
     Properties
-} from "devextreme/ui/diagram";
+} from "@ISalikhzyanov/devextreme/ui/diagram";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { ContentReadyEvent, CustomCommandEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemDblClickEvent, RequestEditOperationEvent, RequestLayoutUpdateEvent, DataLayoutType, Command as DiagramCommand, CustomCommand, ShapeCategory, ToolboxDisplayMode, ShapeType, dxDiagramShape, ConnectorLineEnd, ConnectorLineType, PanelVisibility } from "devextreme/ui/diagram";
-import type { Orientation, ToolbarItemLocation, template } from "devextreme/common";
-import type { dxSVGElement } from "devextreme/core/element";
-import type { DataSourceOptions } from "devextreme/data/data_source";
-import type { Store } from "devextreme/data/store";
+import type { ContentReadyEvent, CustomCommandEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemDblClickEvent, RequestEditOperationEvent, RequestLayoutUpdateEvent, DataLayoutType, Command as DiagramCommand, CustomCommand, ShapeCategory, ToolboxDisplayMode, ShapeType, dxDiagramShape, ConnectorLineEnd, ConnectorLineType, PanelVisibility } from "@ISalikhzyanov/devextreme/ui/diagram";
+import type { Orientation, ToolbarItemLocation, template } from "@ISalikhzyanov/devextreme/common";
+import type { dxSVGElement } from "@ISalikhzyanov/devextreme/core/element";
+import type { DataSourceOptions } from "@ISalikhzyanov/devextreme/data/data_source";
+import type { Store } from "@ISalikhzyanov/devextreme/data/store";
 
-import type DataSource from "devextreme/data/data_source";
+import type DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

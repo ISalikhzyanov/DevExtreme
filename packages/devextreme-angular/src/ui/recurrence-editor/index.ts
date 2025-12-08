@@ -660,7 +660,7 @@ export class DxRecurrenceEditorComponent extends DxComponent implements OnDestro
 export class DxRecurrenceEditorModule { }
 
 
-import type * as DxRecurrenceEditorTypes from "devextreme/ui/recurrence_editor_types";
+import type * as DxRecurrenceEditorTypes from "@ISalikhzyanov/devextreme/ui/recurrence_editor_types";
 export { DxRecurrenceEditorTypes };
 
 

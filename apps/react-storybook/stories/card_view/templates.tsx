@@ -1,4 +1,4 @@
-import Button from "devextreme/ui/button"
+import Button from "@ISalikhzyanov/devextreme/ui/button"
 
 export function renderFooter() {
   const container = document.createElement('div');

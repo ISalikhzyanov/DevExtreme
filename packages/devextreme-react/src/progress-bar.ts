@@ -3,11 +3,11 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxProgressBar, {
     Properties
-} from "devextreme/ui/progress_bar";
+} from "@ISalikhzyanov/devextreme/ui/progress_bar";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef } from "./core/component";
 
-import type { CompleteEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, ValueChangedEvent } from "devextreme/ui/progress_bar";
+import type { CompleteEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, ValueChangedEvent } from "@ISalikhzyanov/devextreme/ui/progress_bar";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

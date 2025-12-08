@@ -3,14 +3,14 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxToast, {
     Properties
-} from "devextreme/ui/toast";
+} from "@ISalikhzyanov/devextreme/ui/toast";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { PositionConfig, AnimationConfig, CollisionResolution, AnimationState, AnimationType, CollisionResolutionCombination } from "devextreme/common/core/animation";
-import type { ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, ShowingEvent, ShownEvent } from "devextreme/ui/toast";
-import type { HorizontalAlignment, VerticalAlignment, Direction, PositionAlignment } from "devextreme/common";
+import type { PositionConfig, AnimationConfig, CollisionResolution, AnimationState, AnimationType, CollisionResolutionCombination } from "@ISalikhzyanov/devextreme/common/core/animation";
+import type { ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, ShowingEvent, ShownEvent } from "@ISalikhzyanov/devextreme/ui/toast";
+import type { HorizontalAlignment, VerticalAlignment, Direction, PositionAlignment } from "@ISalikhzyanov/devextreme/common";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

@@ -3,11 +3,11 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxDrawer, {
     Properties
-} from "devextreme/ui/drawer";
+} from "@ISalikhzyanov/devextreme/ui/drawer";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef } from "./core/component";
 
-import type { DisposingEvent, InitializedEvent } from "devextreme/ui/drawer";
+import type { DisposingEvent, InitializedEvent } from "@ISalikhzyanov/devextreme/ui/drawer";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

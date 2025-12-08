@@ -16,7 +16,7 @@
     "@angular/platform-browser-dynamic": "17.3.12",
     "@angular/router": "17.3.12",
     "core-js": "^2.6.12",
-    "devextreme": "workspace:*",
+    "@ISalikhzyanov/devextreme": "workspace:*",
     "devextreme-angular": "workspace:*",
     "rxjs": "7.8.1",
     "tslib": "^2.6.1",

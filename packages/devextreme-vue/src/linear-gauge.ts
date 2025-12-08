@@ -1,7 +1,7 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import LinearGauge, { Properties } from "devextreme/viz/linear_gauge";
+import LinearGauge, { Properties } from "@ISalikhzyanov/devextreme/viz/linear_gauge";
 import {
  DisposingEvent,
  DrawnEvent,
@@ -13,10 +13,10 @@ import {
  OptionChangedEvent,
  TooltipHiddenEvent,
  TooltipShownEvent,
-} from "devextreme/viz/linear_gauge";
+} from "@ISalikhzyanov/devextreme/viz/linear_gauge";
 import {
  GaugeIndicator,
-} from "devextreme/viz/gauges/base_gauge";
+} from "@ISalikhzyanov/devextreme/viz/gauges/base_gauge";
 import {
  Theme,
  AnimationEaseMode,
@@ -28,7 +28,7 @@ import {
  PaletteExtensionMode,
  TextOverflow,
  WordWrap,
-} from "devextreme/common/charts";
+} from "@ISalikhzyanov/devextreme/common/charts";
 import {
  ExportFormat,
  Format,
@@ -37,10 +37,10 @@ import {
  VerticalAlignment,
  HorizontalEdge,
  VerticalEdge,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  Format as LocalizationFormat,
-} from "devextreme/common/core/localization";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -953,5 +953,5 @@ export {
   DxValueIndicator,
   DxWidth
 };
-import type * as DxLinearGaugeTypes from "devextreme/viz/linear_gauge_types";
+import type * as DxLinearGaugeTypes from "@ISalikhzyanov/devextreme/viz/linear_gauge_types";
 export { DxLinearGaugeTypes };

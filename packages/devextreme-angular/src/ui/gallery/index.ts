@@ -843,7 +843,7 @@ export class DxGalleryModule { }
 
 export * from 'devextreme-angular/ui/gallery/nested';
 
-import type * as DxGalleryTypes from "devextreme/ui/gallery_types";
+import type * as DxGalleryTypes from "@ISalikhzyanov/devextreme/ui/gallery_types";
 export { DxGalleryTypes };
 
 

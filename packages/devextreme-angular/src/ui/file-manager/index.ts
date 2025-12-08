@@ -1038,7 +1038,7 @@ export class DxFileManagerModule { }
 
 export * from 'devextreme-angular/ui/file-manager/nested';
 
-import type * as DxFileManagerTypes from "devextreme/ui/file_manager_types";
+import type * as DxFileManagerTypes from "@ISalikhzyanov/devextreme/ui/file_manager_types";
 export { DxFileManagerTypes };
 
 

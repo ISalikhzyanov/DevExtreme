@@ -3,11 +3,11 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxButton, {
     Properties
-} from "devextreme/ui/button";
+} from "@ISalikhzyanov/devextreme/ui/button";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef } from "./core/component";
 
-import type { ClickEvent, ContentReadyEvent, DisposingEvent, InitializedEvent } from "devextreme/ui/button";
+import type { ClickEvent, ContentReadyEvent, DisposingEvent, InitializedEvent } from "@ISalikhzyanov/devextreme/ui/button";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

@@ -937,7 +937,7 @@ export class DxPopoverModule { }
 
 export * from 'devextreme-angular/ui/popover/nested';
 
-import type * as DxPopoverTypes from "devextreme/ui/popover_types";
+import type * as DxPopoverTypes from "@ISalikhzyanov/devextreme/ui/popover_types";
 export { DxPopoverTypes };
 
 

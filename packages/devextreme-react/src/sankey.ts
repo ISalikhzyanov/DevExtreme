@@ -3,15 +3,15 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxSankey, {
     Properties
-} from "devextreme/viz/sankey";
+} from "@ISalikhzyanov/devextreme/viz/sankey";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, LinkClickEvent, NodeClickEvent, dxSankeyNode, SankeyColorMode } from "devextreme/viz/sankey";
-import type { DashStyle, HatchDirection, Font as ChartsFont, TextOverflow, WordWrap } from "devextreme/common/charts";
-import type { ExportFormat, Format as CommonFormat, HorizontalAlignment, VerticalEdge, template } from "devextreme/common";
-import type { Format as LocalizationFormat } from "devextreme/common/core/localization";
+import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, LinkClickEvent, NodeClickEvent, dxSankeyNode, SankeyColorMode } from "@ISalikhzyanov/devextreme/viz/sankey";
+import type { DashStyle, HatchDirection, Font as ChartsFont, TextOverflow, WordWrap } from "@ISalikhzyanov/devextreme/common/charts";
+import type { ExportFormat, Format as CommonFormat, HorizontalAlignment, VerticalEdge, template } from "@ISalikhzyanov/devextreme/common";
+import type { Format as LocalizationFormat } from "@ISalikhzyanov/devextreme/common/core/localization";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

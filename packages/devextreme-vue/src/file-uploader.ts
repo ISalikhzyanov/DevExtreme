@@ -1,8 +1,8 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import FileUploader, { Properties } from "devextreme/ui/file_uploader";
-import  UploadInfo from "devextreme/file_management/upload_info";
+import FileUploader, { Properties } from "@ISalikhzyanov/devextreme/ui/file_uploader";
+import  UploadInfo from "@ISalikhzyanov/devextreme/file_management/upload_info";
 import {
  BeforeSendEvent,
  ContentReadyEvent,
@@ -20,10 +20,10 @@ import {
  ValueChangedEvent,
  UploadHttpMethod,
  FileUploadMode,
-} from "devextreme/ui/file_uploader";
+} from "@ISalikhzyanov/devextreme/ui/file_uploader";
 import {
  ValidationStatus,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 
 type AccessibleOptions = Pick<Properties,
   "abortUpload" |
@@ -250,5 +250,5 @@ export default DxFileUploader;
 export {
   DxFileUploader
 };
-import type * as DxFileUploaderTypes from "devextreme/ui/file_uploader_types";
+import type * as DxFileUploaderTypes from "@ISalikhzyanov/devextreme/ui/file_uploader_types";
 export { DxFileUploaderTypes };

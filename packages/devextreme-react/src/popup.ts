@@ -3,16 +3,16 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxPopup, {
     Properties
-} from "devextreme/ui/popup";
+} from "@ISalikhzyanov/devextreme/ui/popup";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { PositionAlignment, HorizontalAlignment, VerticalAlignment, Direction, ToolbarItemLocation, template, ToolbarItemComponent } from "devextreme/common";
-import type { PositionConfig, AnimationConfig, CollisionResolution, AnimationState, AnimationType, CollisionResolutionCombination } from "devextreme/common/core/animation";
-import type { LocateInMenuMode, ShowTextMode } from "devextreme/ui/toolbar";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type { ToolbarLocation } from "devextreme/ui/popup";
+import type { PositionAlignment, HorizontalAlignment, VerticalAlignment, Direction, ToolbarItemLocation, template, ToolbarItemComponent } from "@ISalikhzyanov/devextreme/common";
+import type { PositionConfig, AnimationConfig, CollisionResolution, AnimationState, AnimationType, CollisionResolutionCombination } from "@ISalikhzyanov/devextreme/common/core/animation";
+import type { LocateInMenuMode, ShowTextMode } from "@ISalikhzyanov/devextreme/ui/toolbar";
+import type { CollectionWidgetItem } from "@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base";
+import type { ToolbarLocation } from "@ISalikhzyanov/devextreme/ui/popup";
 
 type IPopupOptions = React.PropsWithChildren<Properties & IHtmlOptions & {
   contentRender?: (...params: any) => React.ReactNode;

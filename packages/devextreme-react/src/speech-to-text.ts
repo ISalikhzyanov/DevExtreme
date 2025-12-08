@@ -3,12 +3,12 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxSpeechToText, {
     Properties
-} from "devextreme/ui/speech_to_text";
+} from "@ISalikhzyanov/devextreme/ui/speech_to_text";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { ContentReadyEvent, DisposingEvent, EndEvent, ErrorEvent, InitializedEvent, ResultEvent, StartClickEvent, StopClickEvent } from "devextreme/ui/speech_to_text";
+import type { ContentReadyEvent, DisposingEvent, EndEvent, ErrorEvent, InitializedEvent, ResultEvent, StartClickEvent, StopClickEvent } from "@ISalikhzyanov/devextreme/ui/speech_to_text";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

@@ -1,7 +1,7 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import TextBox, { Properties } from "devextreme/ui/text_box";
+import TextBox, { Properties } from "@ISalikhzyanov/devextreme/ui/text_box";
 import {
  TextBoxPredefinedButton,
  TextEditorButton,
@@ -14,7 +14,7 @@ import {
  TextEditorButtonLocation,
  ButtonStyle,
  ButtonType,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  TextBoxType,
  ChangeEvent,
@@ -32,7 +32,7 @@ import {
  OptionChangedEvent,
  PasteEvent,
  ValueChangedEvent,
-} from "devextreme/ui/text_box";
+} from "@ISalikhzyanov/devextreme/ui/text_box";
 import {
  dxButtonOptions,
  ClickEvent,
@@ -40,7 +40,7 @@ import {
  DisposingEvent as ButtonDisposingEvent,
  InitializedEvent as ButtonInitializedEvent,
  OptionChangedEvent as ButtonOptionChangedEvent,
-} from "devextreme/ui/button";
+} from "@ISalikhzyanov/devextreme/ui/button";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -336,5 +336,5 @@ export {
   DxButton,
   DxOptions
 };
-import type * as DxTextBoxTypes from "devextreme/ui/text_box_types";
+import type * as DxTextBoxTypes from "@ISalikhzyanov/devextreme/ui/text_box_types";
 export { DxTextBoxTypes };

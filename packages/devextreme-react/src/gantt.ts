@@ -3,27 +3,27 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxGantt, {
     Properties
-} from "devextreme/ui/gantt";
+} from "@ISalikhzyanov/devextreme/ui/gantt";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { ContentReadyEvent, ContextMenuPreparingEvent, CustomCommandEvent, DependencyDeletedEvent, DependencyDeletingEvent, DependencyInsertedEvent, DependencyInsertingEvent, DisposingEvent, InitializedEvent, ResourceAssignedEvent, ResourceAssigningEvent, ResourceDeletedEvent, ResourceDeletingEvent, ResourceInsertedEvent, ResourceInsertingEvent, ResourceManagerDialogShowingEvent, ResourceUnassignedEvent, ResourceUnassigningEvent, ScaleCellPreparedEvent, TaskClickEvent, TaskDblClickEvent, TaskDeletedEvent, TaskDeletingEvent, TaskEditDialogShowingEvent, TaskInsertedEvent, TaskInsertingEvent, TaskMovingEvent, TaskUpdatedEvent, TaskUpdatingEvent, dxGanttContextMenuItem, GanttPredefinedContextMenuItem, dxGanttFilterRowOperationDescriptions, dxGanttHeaderFilterTexts, GanttPredefinedToolbarItem, GanttScaleType, dxGanttToolbarItem } from "devextreme/ui/gantt";
-import type { ContentReadyEvent as TextBoxContentReadyEvent, DisposingEvent as TextBoxDisposingEvent, InitializedEvent as TextBoxInitializedEvent, dxTextBoxOptions, TextBoxType, ChangeEvent, CopyEvent, CutEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InputEvent, KeyDownEvent, KeyUpEvent, OptionChangedEvent, PasteEvent, ValueChangedEvent } from "devextreme/ui/text_box";
-import type { ContentReadyEvent as ButtonContentReadyEvent, DisposingEvent as ButtonDisposingEvent, InitializedEvent as ButtonInitializedEvent, dxButtonOptions, OptionChangedEvent as ButtonOptionChangedEvent, ClickEvent } from "devextreme/ui/button";
-import type { AIIntegration } from "devextreme/common/ai-integration";
-import type { AIColumnMode, ColumnAIOptions, FilterOperation, FilterType, ColumnHeaderFilter as GridsColumnHeaderFilter, SelectedFilterOperation, HeaderFilterGroupInterval, ColumnHeaderFilterSearchConfig, HeaderFilterSearchConfig } from "devextreme/common/grids";
-import type { TextEditorButtonLocation, HorizontalAlignment, template, DataType, Format as CommonFormat, SortOrder, SearchMode, TextBoxPredefinedButton, TextEditorButton, LabelMode, MaskMode, EditorStyle, ValidationMessageMode, Position, ValidationStatus, ToolbarItemLocation, ToolbarItemComponent, ButtonStyle, ButtonType, SingleMultipleOrNone } from "devextreme/common";
-import type { dxTreeListColumn, dxTreeListRowObject } from "devextreme/ui/tree_list";
-import type { Format as LocalizationFormat } from "devextreme/common/core/localization";
-import type { DataSourceOptions } from "devextreme/data/data_source";
-import type { Store } from "devextreme/data/store";
-import type { dxContextMenuItem } from "devextreme/ui/context_menu";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type { LocateInMenuMode, ShowTextMode } from "devextreme/ui/toolbar";
+import type { ContentReadyEvent, ContextMenuPreparingEvent, CustomCommandEvent, DependencyDeletedEvent, DependencyDeletingEvent, DependencyInsertedEvent, DependencyInsertingEvent, DisposingEvent, InitializedEvent, ResourceAssignedEvent, ResourceAssigningEvent, ResourceDeletedEvent, ResourceDeletingEvent, ResourceInsertedEvent, ResourceInsertingEvent, ResourceManagerDialogShowingEvent, ResourceUnassignedEvent, ResourceUnassigningEvent, ScaleCellPreparedEvent, TaskClickEvent, TaskDblClickEvent, TaskDeletedEvent, TaskDeletingEvent, TaskEditDialogShowingEvent, TaskInsertedEvent, TaskInsertingEvent, TaskMovingEvent, TaskUpdatedEvent, TaskUpdatingEvent, dxGanttContextMenuItem, GanttPredefinedContextMenuItem, dxGanttFilterRowOperationDescriptions, dxGanttHeaderFilterTexts, GanttPredefinedToolbarItem, GanttScaleType, dxGanttToolbarItem } from "@ISalikhzyanov/devextreme/ui/gantt";
+import type { ContentReadyEvent as TextBoxContentReadyEvent, DisposingEvent as TextBoxDisposingEvent, InitializedEvent as TextBoxInitializedEvent, dxTextBoxOptions, TextBoxType, ChangeEvent, CopyEvent, CutEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InputEvent, KeyDownEvent, KeyUpEvent, OptionChangedEvent, PasteEvent, ValueChangedEvent } from "@ISalikhzyanov/devextreme/ui/text_box";
+import type { ContentReadyEvent as ButtonContentReadyEvent, DisposingEvent as ButtonDisposingEvent, InitializedEvent as ButtonInitializedEvent, dxButtonOptions, OptionChangedEvent as ButtonOptionChangedEvent, ClickEvent } from "@ISalikhzyanov/devextreme/ui/button";
+import type { AIIntegration } from "@ISalikhzyanov/devextreme/common/ai-integration";
+import type { AIColumnMode, ColumnAIOptions, FilterOperation, FilterType, ColumnHeaderFilter as GridsColumnHeaderFilter, SelectedFilterOperation, HeaderFilterGroupInterval, ColumnHeaderFilterSearchConfig, HeaderFilterSearchConfig } from "@ISalikhzyanov/devextreme/common/grids";
+import type { TextEditorButtonLocation, HorizontalAlignment, template, DataType, Format as CommonFormat, SortOrder, SearchMode, TextBoxPredefinedButton, TextEditorButton, LabelMode, MaskMode, EditorStyle, ValidationMessageMode, Position, ValidationStatus, ToolbarItemLocation, ToolbarItemComponent, ButtonStyle, ButtonType, SingleMultipleOrNone } from "@ISalikhzyanov/devextreme/common";
+import type { dxTreeListColumn, dxTreeListRowObject } from "@ISalikhzyanov/devextreme/ui/tree_list";
+import type { Format as LocalizationFormat } from "@ISalikhzyanov/devextreme/common/core/localization";
+import type { DataSourceOptions } from "@ISalikhzyanov/devextreme/data/data_source";
+import type { Store } from "@ISalikhzyanov/devextreme/data/store";
+import type { dxContextMenuItem } from "@ISalikhzyanov/devextreme/ui/context_menu";
+import type { CollectionWidgetItem } from "@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base";
+import type { LocateInMenuMode, ShowTextMode } from "@ISalikhzyanov/devextreme/ui/toolbar";
 
-import type dxTreeList from "devextreme/ui/tree_list";
-import type DataSource from "devextreme/data/data_source";
+import type dxTreeList from "@ISalikhzyanov/devextreme/ui/tree_list";
+import type DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

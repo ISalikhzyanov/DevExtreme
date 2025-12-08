@@ -1,8 +1,8 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import PolarChart, { Properties } from "devextreme/viz/polar_chart";
-import  DataSource from "devextreme/data/data_source";
+import PolarChart, { Properties } from "@ISalikhzyanov/devextreme/viz/polar_chart";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxPolarChartAnnotationConfig,
  dxPolarChartCommonAnnotationConfig,
@@ -30,7 +30,7 @@ import {
  PolarChartSeries,
  PolarChartSeriesType,
  dxPolarChartPointInfo,
-} from "devextreme/viz/polar_chart";
+} from "@ISalikhzyanov/devextreme/viz/polar_chart";
 import {
  SeriesLabel,
  SeriesPoint,
@@ -61,13 +61,13 @@ import {
  ValueAxisVisualRangeUpdateMode,
  ValueErrorBarDisplayMode,
  ValueErrorBarType,
-} from "devextreme/common/charts";
+} from "@ISalikhzyanov/devextreme/common/charts";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  SingleOrMultiple,
  Format,
@@ -76,11 +76,11 @@ import {
  Position,
  Orientation,
  VerticalEdge,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  Format as LocalizationFormat,
-} from "devextreme/common/core/localization";
-import  * as CommonChartTypes from "devextreme/common/charts";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
+import  * as CommonChartTypes from "@ISalikhzyanov/devextreme/common/charts";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -2802,5 +2802,5 @@ export {
   DxVisualRange,
   DxWholeRange
 };
-import type * as DxPolarChartTypes from "devextreme/viz/polar_chart_types";
+import type * as DxPolarChartTypes from "@ISalikhzyanov/devextreme/viz/polar_chart_types";
 export { DxPolarChartTypes };

@@ -1,14 +1,14 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Slider, { Properties } from "devextreme/ui/slider";
+import Slider, { Properties } from "@ISalikhzyanov/devextreme/ui/slider";
 import {
  ContentReadyEvent,
  DisposingEvent,
  InitializedEvent,
  OptionChangedEvent,
  ValueChangedEvent,
-} from "devextreme/ui/slider";
+} from "@ISalikhzyanov/devextreme/ui/slider";
 import {
  ValidationMessageMode,
  Position,
@@ -17,10 +17,10 @@ import {
  Format,
  VerticalEdge,
  TooltipShowMode,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  Format as LocalizationFormat,
-} from "devextreme/common/core/localization";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -247,5 +247,5 @@ export {
   DxLabel,
   DxTooltip
 };
-import type * as DxSliderTypes from "devextreme/ui/slider_types";
+import type * as DxSliderTypes from "@ISalikhzyanov/devextreme/ui/slider_types";
 export { DxSliderTypes };

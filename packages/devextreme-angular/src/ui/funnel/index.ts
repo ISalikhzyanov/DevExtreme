@@ -1015,7 +1015,7 @@ export class DxFunnelModule { }
 
 export * from 'devextreme-angular/ui/funnel/nested';
 
-import type * as DxFunnelTypes from "devextreme/viz/funnel_types";
+import type * as DxFunnelTypes from "@ISalikhzyanov/devextreme/viz/funnel_types";
 export { DxFunnelTypes };
 
 

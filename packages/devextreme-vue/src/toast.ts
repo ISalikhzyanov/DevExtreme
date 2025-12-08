@@ -1,10 +1,10 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Toast, { Properties } from "devextreme/ui/toast";
+import Toast, { Properties } from "@ISalikhzyanov/devextreme/ui/toast";
 import {
  event,
-} from "devextreme/events/events.types";
+} from "@ISalikhzyanov/devextreme/events/events.types";
 import {
  ContentReadyEvent,
  DisposingEvent,
@@ -15,7 +15,7 @@ import {
  ShowingEvent,
  ShownEvent,
  ToastType,
-} from "devextreme/ui/toast";
+} from "@ISalikhzyanov/devextreme/ui/toast";
 import {
  PositionConfig,
  AnimationConfig,
@@ -23,13 +23,13 @@ import {
  AnimationState,
  AnimationType,
  CollisionResolutionCombination,
-} from "devextreme/common/core/animation";
+} from "@ISalikhzyanov/devextreme/common/core/animation";
 import {
  HorizontalAlignment,
  VerticalAlignment,
  Direction,
  PositionAlignment,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -474,5 +474,5 @@ export {
   DxShow,
   DxTo
 };
-import type * as DxToastTypes from "devextreme/ui/toast_types";
+import type * as DxToastTypes from "@ISalikhzyanov/devextreme/ui/toast_types";
 export { DxToastTypes };

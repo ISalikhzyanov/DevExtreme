@@ -3,29 +3,29 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxScheduler, {
     Properties
-} from "devextreme/ui/scheduler";
+} from "@ISalikhzyanov/devextreme/ui/scheduler";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { ViewType, AppointmentAddedEvent, AppointmentAddingEvent, AppointmentClickEvent, AppointmentContextMenuEvent, AppointmentDblClickEvent, AppointmentDeletedEvent, AppointmentDeletingEvent, AppointmentFormOpeningEvent, AppointmentRenderedEvent, AppointmentTooltipShowingEvent, AppointmentUpdatedEvent, AppointmentUpdatingEvent, CellClickEvent, CellContextMenuEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, AppointmentFormIconsShowMode, SchedulerPredefinedToolbarItem, DateNavigatorItemProperties, SchedulerPredefinedDateNavigatorItem, dxSchedulerToolbarItem, AllDayPanelMode, AppointmentCollectorTemplateData, AppointmentTemplateData, AppointmentTooltipTemplateData, CellAppointmentsLimit, dxSchedulerScrolling } from "devextreme/ui/scheduler";
-import type { ContentReadyEvent as ButtonContentReadyEvent, DisposingEvent as ButtonDisposingEvent, InitializedEvent as ButtonInitializedEvent, dxButtonOptions, ClickEvent, OptionChangedEvent } from "devextreme/ui/button";
-import type { ContentReadyEvent as ButtonGroupContentReadyEvent, DisposingEvent as ButtonGroupDisposingEvent, InitializedEvent as ButtonGroupInitializedEvent, OptionChangedEvent as ButtonGroupOptionChangedEvent, dxButtonGroupItem, ItemClickEvent, SelectionChangedEvent } from "devextreme/ui/button_group";
-import type { ContentReadyEvent as TabPanelContentReadyEvent, DisposingEvent as TabPanelDisposingEvent, InitializedEvent as TabPanelInitializedEvent, OptionChangedEvent as TabPanelOptionChangedEvent, dxTabPanelOptions, ItemClickEvent as TabPanelItemClickEvent, SelectionChangedEvent as TabPanelSelectionChangedEvent, dxTabPanelItem, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, SelectionChangingEvent, TitleClickEvent, TitleHoldEvent, TitleRenderedEvent } from "devextreme/ui/tab_panel";
-import type { event } from "devextreme/events/events.types";
-import type { ValidationRuleType, HorizontalAlignment, VerticalAlignment, ButtonStyle, template, ButtonType, ComparisonOperator, ToolbarItemLocation, ToolbarItemComponent, SingleMultipleOrNone, ScrollMode, TabsIconPosition, TabsStyle, Position, FirstDayOfWeek, Orientation } from "devextreme/common";
-import type { FormItemType, FormPredefinedButtonItem, dxFormButtonItem, dxFormEmptyItem, dxFormGroupItem, dxFormSimpleItem, dxFormTabbedItem, FormItemComponent, LabelLocation } from "devextreme/ui/form";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type { LocateInMenuMode, ShowTextMode } from "devextreme/ui/toolbar";
-import type { DataSourceOptions } from "devextreme/data/data_source";
-import type { Store } from "devextreme/data/store";
+import type { ViewType, AppointmentAddedEvent, AppointmentAddingEvent, AppointmentClickEvent, AppointmentContextMenuEvent, AppointmentDblClickEvent, AppointmentDeletedEvent, AppointmentDeletingEvent, AppointmentFormOpeningEvent, AppointmentRenderedEvent, AppointmentTooltipShowingEvent, AppointmentUpdatedEvent, AppointmentUpdatingEvent, CellClickEvent, CellContextMenuEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, AppointmentFormIconsShowMode, SchedulerPredefinedToolbarItem, DateNavigatorItemProperties, SchedulerPredefinedDateNavigatorItem, dxSchedulerToolbarItem, AllDayPanelMode, AppointmentCollectorTemplateData, AppointmentTemplateData, AppointmentTooltipTemplateData, CellAppointmentsLimit, dxSchedulerScrolling } from "@ISalikhzyanov/devextreme/ui/scheduler";
+import type { ContentReadyEvent as ButtonContentReadyEvent, DisposingEvent as ButtonDisposingEvent, InitializedEvent as ButtonInitializedEvent, dxButtonOptions, ClickEvent, OptionChangedEvent } from "@ISalikhzyanov/devextreme/ui/button";
+import type { ContentReadyEvent as ButtonGroupContentReadyEvent, DisposingEvent as ButtonGroupDisposingEvent, InitializedEvent as ButtonGroupInitializedEvent, OptionChangedEvent as ButtonGroupOptionChangedEvent, dxButtonGroupItem, ItemClickEvent, SelectionChangedEvent } from "@ISalikhzyanov/devextreme/ui/button_group";
+import type { ContentReadyEvent as TabPanelContentReadyEvent, DisposingEvent as TabPanelDisposingEvent, InitializedEvent as TabPanelInitializedEvent, OptionChangedEvent as TabPanelOptionChangedEvent, dxTabPanelOptions, ItemClickEvent as TabPanelItemClickEvent, SelectionChangedEvent as TabPanelSelectionChangedEvent, dxTabPanelItem, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, SelectionChangingEvent, TitleClickEvent, TitleHoldEvent, TitleRenderedEvent } from "@ISalikhzyanov/devextreme/ui/tab_panel";
+import type { event } from "@ISalikhzyanov/devextreme/events/events.types";
+import type { ValidationRuleType, HorizontalAlignment, VerticalAlignment, ButtonStyle, template, ButtonType, ComparisonOperator, ToolbarItemLocation, ToolbarItemComponent, SingleMultipleOrNone, ScrollMode, TabsIconPosition, TabsStyle, Position, FirstDayOfWeek, Orientation } from "@ISalikhzyanov/devextreme/common";
+import type { FormItemType, FormPredefinedButtonItem, dxFormButtonItem, dxFormEmptyItem, dxFormGroupItem, dxFormSimpleItem, dxFormTabbedItem, FormItemComponent, LabelLocation } from "@ISalikhzyanov/devextreme/ui/form";
+import type { CollectionWidgetItem } from "@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base";
+import type { LocateInMenuMode, ShowTextMode } from "@ISalikhzyanov/devextreme/ui/toolbar";
+import type { DataSourceOptions } from "@ISalikhzyanov/devextreme/data/data_source";
+import type { Store } from "@ISalikhzyanov/devextreme/data/store";
 
-import type dxSortable from "devextreme/ui/sortable";
-import type dxDraggable from "devextreme/ui/draggable";
-import type dxForm from "devextreme/ui/form";
-import type DataSource from "devextreme/data/data_source";
+import type dxSortable from "@ISalikhzyanov/devextreme/ui/sortable";
+import type dxDraggable from "@ISalikhzyanov/devextreme/ui/draggable";
+import type dxForm from "@ISalikhzyanov/devextreme/ui/form";
+import type DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 
-import type * as CommonTypes from "devextreme/common";
+import type * as CommonTypes from "@ISalikhzyanov/devextreme/common";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

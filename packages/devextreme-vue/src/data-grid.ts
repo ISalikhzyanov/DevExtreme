@@ -1,18 +1,18 @@
-export { ExplicitTypes } from "devextreme/ui/data_grid";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/data_grid";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import DataGrid, { Properties } from "devextreme/ui/data_grid";
-import  DataSource from "devextreme/data/data_source";
-import  dxDataGrid from "devextreme/ui/data_grid";
-import  dxOverlay from "devextreme/ui/overlay";
-import  DOMComponent from "devextreme/core/dom_component";
-import  dxPopup from "devextreme/ui/popup";
-import  dxSortable from "devextreme/ui/sortable";
-import  dxDraggable from "devextreme/ui/draggable";
+import DataGrid, { Properties } from "@ISalikhzyanov/devextreme/ui/data_grid";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
+import  dxDataGrid from "@ISalikhzyanov/devextreme/ui/data_grid";
+import  dxOverlay from "@ISalikhzyanov/devextreme/ui/overlay";
+import  DOMComponent from "@ISalikhzyanov/devextreme/core/dom_component";
+import  dxPopup from "@ISalikhzyanov/devextreme/ui/popup";
+import  dxSortable from "@ISalikhzyanov/devextreme/ui/sortable";
+import  dxDraggable from "@ISalikhzyanov/devextreme/ui/draggable";
 import {
  AIIntegration,
-} from "devextreme/common/ai-integration";
+} from "@ISalikhzyanov/devextreme/common/ai-integration";
 import {
  ColumnChooser,
  ColumnResizeMode,
@@ -52,7 +52,7 @@ import {
  GridBase,
  DataRenderMode,
  StateStoreType,
-} from "devextreme/common/grids";
+} from "@ISalikhzyanov/devextreme/common/grids";
 import {
  dxDataGridColumn,
  AdaptiveDetailRowPreparingEvent,
@@ -108,7 +108,7 @@ import {
  DataGridPredefinedToolbarItem,
  DataGridScrollMode,
  dxDataGridToolbarItem,
-} from "devextreme/ui/data_grid";
+} from "@ISalikhzyanov/devextreme/ui/data_grid";
 import {
  Mode,
  ValidationRuleType,
@@ -140,13 +140,13 @@ import {
  DragDirection,
  DragHighlight,
  ScrollbarMode,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  dxFilterBuilderOptions,
  dxFilterBuilderField,
@@ -161,15 +161,15 @@ import {
  InitializedEvent as FilterBuilderInitializedEvent,
  OptionChangedEvent as FilterBuilderOptionChangedEvent,
  ValueChangedEvent as FilterBuilderValueChangedEvent,
-} from "devextreme/ui/filter_builder";
+} from "@ISalikhzyanov/devextreme/ui/filter_builder";
 import {
  dxPopupOptions,
  dxPopupToolbarItem,
  ToolbarLocation,
-} from "devextreme/ui/popup";
+} from "@ISalikhzyanov/devextreme/ui/popup";
 import {
  PagerBase,
-} from "devextreme/ui/pagination";
+} from "@ISalikhzyanov/devextreme/ui/pagination";
 import {
  dxTextBoxOptions,
  TextBoxType,
@@ -188,7 +188,7 @@ import {
  OptionChangedEvent as TextBoxOptionChangedEvent,
  PasteEvent,
  ValueChangedEvent,
-} from "devextreme/ui/text_box";
+} from "@ISalikhzyanov/devextreme/ui/text_box";
 import {
  AnimationConfig,
  CollisionResolution,
@@ -196,7 +196,7 @@ import {
  AnimationState,
  AnimationType,
  CollisionResolutionCombination,
-} from "devextreme/common/core/animation";
+} from "@ISalikhzyanov/devextreme/common/core/animation";
 import {
  dxButtonOptions,
  ClickEvent,
@@ -204,10 +204,10 @@ import {
  DisposingEvent as ButtonDisposingEvent,
  InitializedEvent as ButtonInitializedEvent,
  OptionChangedEvent as ButtonOptionChangedEvent,
-} from "devextreme/ui/button";
+} from "@ISalikhzyanov/devextreme/ui/button";
 import {
  Format,
-} from "devextreme/common/core/localization";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
 import {
  dxFormSimpleItem,
  dxFormOptions,
@@ -227,27 +227,27 @@ import {
  SmartPastingEvent,
  FormItemComponent,
  FormItemType,
-} from "devextreme/ui/form";
+} from "@ISalikhzyanov/devextreme/ui/form";
 import {
  event,
-} from "devextreme/events/events.types";
+} from "@ISalikhzyanov/devextreme/events/events.types";
 import {
  EventInfo,
-} from "devextreme/common/core/events";
+} from "@ISalikhzyanov/devextreme/common/core/events";
 import {
  Component,
-} from "devextreme/core/component";
+} from "@ISalikhzyanov/devextreme/core/component";
 import {
  LoadingAnimationType,
-} from "devextreme/ui/load_indicator";
+} from "@ISalikhzyanov/devextreme/ui/load_indicator";
 import {
  LocateInMenuMode,
  ShowTextMode,
-} from "devextreme/ui/toolbar";
+} from "@ISalikhzyanov/devextreme/ui/toolbar";
 import {
  LoadPanelIndicatorProperties,
-} from "devextreme/ui/load_panel";
-import  * as CommonTypes from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/ui/load_panel";
+import  * as CommonTypes from "@ISalikhzyanov/devextreme/common";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -4182,5 +4182,5 @@ export {
   DxValidationRule,
   DxValueFormat
 };
-import type * as DxDataGridTypes from "devextreme/ui/data_grid_types";
+import type * as DxDataGridTypes from "@ISalikhzyanov/devextreme/ui/data_grid_types";
 export { DxDataGridTypes };

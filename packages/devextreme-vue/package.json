@@ -57,7 +57,7 @@
   "author": "Developer Express Inc.",
   "license": "MIT",
   "peerDependencies": {
-    "devextreme": "workspace:*",
+    "@ISalikhzyanov/devextreme": "workspace:*",
     "vue": "^3.0.0"
   },
   "devDependencies": {

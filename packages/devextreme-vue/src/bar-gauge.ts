@@ -1,7 +1,7 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import BarGauge, { Properties } from "devextreme/viz/bar_gauge";
+import BarGauge, { Properties } from "@ISalikhzyanov/devextreme/viz/bar_gauge";
 import {
  DisposingEvent,
  DrawnEvent,
@@ -15,7 +15,7 @@ import {
  TooltipShownEvent,
  BarGaugeBarInfo,
  BarGaugeLegendItem,
-} from "devextreme/viz/bar_gauge";
+} from "@ISalikhzyanov/devextreme/viz/bar_gauge";
 import {
  Palette,
  PaletteExtensionMode,
@@ -26,7 +26,7 @@ import {
  TextOverflow,
  WordWrap,
  DashStyle,
-} from "devextreme/common/charts";
+} from "@ISalikhzyanov/devextreme/common/charts";
 import {
  HorizontalAlignment,
  VerticalEdge,
@@ -34,10 +34,10 @@ import {
  Format,
  Position,
  Orientation,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  Format as LocalizationFormat,
-} from "devextreme/common/core/localization";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -890,5 +890,5 @@ export {
   DxTooltip,
   DxTooltipBorder
 };
-import type * as DxBarGaugeTypes from "devextreme/viz/bar_gauge_types";
+import type * as DxBarGaugeTypes from "@ISalikhzyanov/devextreme/viz/bar_gauge_types";
 export { DxBarGaugeTypes };

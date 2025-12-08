@@ -538,7 +538,7 @@ export class DxSplitterModule { }
 
 export * from 'devextreme-angular/ui/splitter/nested';
 
-import type * as DxSplitterTypes from "devextreme/ui/splitter_types";
+import type * as DxSplitterTypes from "@ISalikhzyanov/devextreme/ui/splitter_types";
 export { DxSplitterTypes };
 
 

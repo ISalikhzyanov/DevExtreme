@@ -3,21 +3,21 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxHtmlEditor, {
     Properties
-} from "devextreme/ui/html_editor";
+} from "@ISalikhzyanov/devextreme/ui/html_editor";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { ContentReadyEvent, DisposingEvent, FocusInEvent, FocusOutEvent, InitializedEvent, ValueChangedEvent, AICommandNameExtended, HtmlEditorImageUploadMode, dxHtmlEditorImageUploadTabItem, HtmlEditorImageUploadTab, dxHtmlEditorTableContextMenuItem, HtmlEditorPredefinedContextMenuItem, HtmlEditorPredefinedToolbarItem, AICommand, AICommandName, AIToolbarItem, dxHtmlEditorToolbarItem } from "devextreme/ui/html_editor";
-import type { ContentReadyEvent as FileUploaderContentReadyEvent, DisposingEvent as FileUploaderDisposingEvent, InitializedEvent as FileUploaderInitializedEvent, ValueChangedEvent as FileUploaderValueChangedEvent, BeforeSendEvent, DropZoneEnterEvent, DropZoneLeaveEvent, FilesUploadedEvent, OptionChangedEvent, ProgressEvent, UploadAbortedEvent, UploadedEvent, UploadErrorEvent, UploadStartedEvent, UploadHttpMethod, FileUploadMode, dxFileUploaderOptions } from "devextreme/ui/file_uploader";
-import type { ValidationStatus, template, ToolbarItemLocation, ToolbarItemComponent } from "devextreme/common";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type { LocateInMenuMode, ShowTextMode } from "devextreme/ui/toolbar";
-import type { DataSourceOptions } from "devextreme/data/data_source";
-import type { Store } from "devextreme/data/store";
+import type { ContentReadyEvent, DisposingEvent, FocusInEvent, FocusOutEvent, InitializedEvent, ValueChangedEvent, AICommandNameExtended, HtmlEditorImageUploadMode, dxHtmlEditorImageUploadTabItem, HtmlEditorImageUploadTab, dxHtmlEditorTableContextMenuItem, HtmlEditorPredefinedContextMenuItem, HtmlEditorPredefinedToolbarItem, AICommand, AICommandName, AIToolbarItem, dxHtmlEditorToolbarItem } from "@ISalikhzyanov/devextreme/ui/html_editor";
+import type { ContentReadyEvent as FileUploaderContentReadyEvent, DisposingEvent as FileUploaderDisposingEvent, InitializedEvent as FileUploaderInitializedEvent, ValueChangedEvent as FileUploaderValueChangedEvent, BeforeSendEvent, DropZoneEnterEvent, DropZoneLeaveEvent, FilesUploadedEvent, OptionChangedEvent, ProgressEvent, UploadAbortedEvent, UploadedEvent, UploadErrorEvent, UploadStartedEvent, UploadHttpMethod, FileUploadMode, dxFileUploaderOptions } from "@ISalikhzyanov/devextreme/ui/file_uploader";
+import type { ValidationStatus, template, ToolbarItemLocation, ToolbarItemComponent } from "@ISalikhzyanov/devextreme/common";
+import type { CollectionWidgetItem } from "@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base";
+import type { LocateInMenuMode, ShowTextMode } from "@ISalikhzyanov/devextreme/ui/toolbar";
+import type { DataSourceOptions } from "@ISalikhzyanov/devextreme/data/data_source";
+import type { Store } from "@ISalikhzyanov/devextreme/data/store";
 
-import type UploadInfo from "devextreme/file_management/upload_info";
-import type DataSource from "devextreme/data/data_source";
+import type UploadInfo from "@ISalikhzyanov/devextreme/file_management/upload_info";
+import type DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

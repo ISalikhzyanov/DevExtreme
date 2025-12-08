@@ -3,14 +3,14 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxSlider, {
     Properties
-} from "devextreme/ui/slider";
+} from "@ISalikhzyanov/devextreme/ui/slider";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { ContentReadyEvent, DisposingEvent, InitializedEvent, ValueChangedEvent } from "devextreme/ui/slider";
-import type { Format as CommonFormat, VerticalEdge, TooltipShowMode } from "devextreme/common";
-import type { Format as LocalizationFormat } from "devextreme/common/core/localization";
+import type { ContentReadyEvent, DisposingEvent, InitializedEvent, ValueChangedEvent } from "@ISalikhzyanov/devextreme/ui/slider";
+import type { Format as CommonFormat, VerticalEdge, TooltipShowMode } from "@ISalikhzyanov/devextreme/common";
+import type { Format as LocalizationFormat } from "@ISalikhzyanov/devextreme/common/core/localization";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

@@ -1,23 +1,23 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import PivotGridFieldChooser, { Properties } from "devextreme/ui/pivot_grid_field_chooser";
-import  PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
+import PivotGridFieldChooser, { Properties } from "@ISalikhzyanov/devextreme/ui/pivot_grid_field_chooser";
+import  PivotGridDataSource from "@ISalikhzyanov/devextreme/ui/pivot_grid/data_source";
 import {
  ApplyChangesMode,
  HeaderFilterSearchConfig,
-} from "devextreme/common/grids";
+} from "@ISalikhzyanov/devextreme/common/grids";
 import {
  FieldChooserLayout,
  SearchMode,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  ContentReadyEvent,
  ContextMenuPreparingEvent,
  DisposingEvent,
  InitializedEvent,
  OptionChangedEvent,
-} from "devextreme/ui/pivot_grid_field_chooser";
+} from "@ISalikhzyanov/devextreme/ui/pivot_grid_field_chooser";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -278,5 +278,5 @@ export {
   DxSearch,
   DxTexts
 };
-import type * as DxPivotGridFieldChooserTypes from "devextreme/ui/pivot_grid_field_chooser_types";
+import type * as DxPivotGridFieldChooserTypes from "@ISalikhzyanov/devextreme/ui/pivot_grid_field_chooser_types";
 export { DxPivotGridFieldChooserTypes };

@@ -3,11 +3,11 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxValidationGroup, {
     Properties
-} from "devextreme/ui/validation_group";
+} from "@ISalikhzyanov/devextreme/ui/validation_group";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef } from "./core/component";
 
-import type { DisposingEvent, InitializedEvent } from "devextreme/ui/validation_group";
+import type { DisposingEvent, InitializedEvent } from "@ISalikhzyanov/devextreme/ui/validation_group";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

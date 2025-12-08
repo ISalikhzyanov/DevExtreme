@@ -1,7 +1,7 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import FilterBuilder, { Properties } from "devextreme/ui/filter_builder";
+import FilterBuilder, { Properties } from "@ISalikhzyanov/devextreme/ui/filter_builder";
 import {
  dxFilterBuilderCustomOperation,
  dxFilterBuilderField,
@@ -15,20 +15,20 @@ import {
  ValueChangedEvent,
  FieldInfo,
  FilterBuilderOperation,
-} from "devextreme/ui/filter_builder";
+} from "@ISalikhzyanov/devextreme/ui/filter_builder";
 import {
  DataType,
  Format as CommonFormat,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  Format,
-} from "devextreme/common/core/localization";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -350,5 +350,5 @@ export {
   DxGroupOperationDescriptions,
   DxLookup
 };
-import type * as DxFilterBuilderTypes from "devextreme/ui/filter_builder_types";
+import type * as DxFilterBuilderTypes from "@ISalikhzyanov/devextreme/ui/filter_builder_types";
 export { DxFilterBuilderTypes };

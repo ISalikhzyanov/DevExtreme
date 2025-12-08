@@ -827,7 +827,7 @@ export class DxLinearGaugeModule { }
 
 export * from 'devextreme-angular/ui/linear-gauge/nested';
 
-import type * as DxLinearGaugeTypes from "devextreme/viz/linear_gauge_types";
+import type * as DxLinearGaugeTypes from "@ISalikhzyanov/devextreme/viz/linear_gauge_types";
 export { DxLinearGaugeTypes };
 
 

@@ -3,19 +3,19 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxRangeSelector, {
     Properties
-} from "devextreme/viz/range_selector";
+} from "@ISalikhzyanov/devextreme/viz/range_selector";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, ValueChangedEvent, BackgroundImageLocation, ChartAxisScale, AxisScale } from "devextreme/viz/range_selector";
-import type { chartPointAggregationInfoObject, chartSeriesObject, ChartSeriesAggregationMethod, dxChartCommonSeriesSettings, FinancialChartReductionLevel } from "devextreme/viz/chart";
-import type { Format as CommonFormat, SliderValueChangeMode, HorizontalAlignment, ExportFormat, VerticalEdge } from "devextreme/common";
-import type { Format as LocalizationFormat } from "devextreme/common/core/localization";
-import type { DashStyle, ScaleBreakLineStyle, Palette, PaletteExtensionMode, ChartsDataType, ChartsColor, SeriesHoverMode, HatchDirection, Font as ChartsFont, RelativePosition, PointInteractionMode, PointSymbol, SeriesSelectionMode, SeriesType, ValueErrorBarDisplayMode, ValueErrorBarType, LabelOverlap, TimeInterval, ScaleBreak, DiscreteAxisDivisionMode, TextOverflow, WordWrap } from "devextreme/common/charts";
-import type { ChartSeries } from "devextreme/viz/common";
+import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, ValueChangedEvent, BackgroundImageLocation, ChartAxisScale, AxisScale } from "@ISalikhzyanov/devextreme/viz/range_selector";
+import type { chartPointAggregationInfoObject, chartSeriesObject, ChartSeriesAggregationMethod, dxChartCommonSeriesSettings, FinancialChartReductionLevel } from "@ISalikhzyanov/devextreme/viz/chart";
+import type { Format as CommonFormat, SliderValueChangeMode, HorizontalAlignment, ExportFormat, VerticalEdge } from "@ISalikhzyanov/devextreme/common";
+import type { Format as LocalizationFormat } from "@ISalikhzyanov/devextreme/common/core/localization";
+import type { DashStyle, ScaleBreakLineStyle, Palette, PaletteExtensionMode, ChartsDataType, ChartsColor, SeriesHoverMode, HatchDirection, Font as ChartsFont, RelativePosition, PointInteractionMode, PointSymbol, SeriesSelectionMode, SeriesType, ValueErrorBarDisplayMode, ValueErrorBarType, LabelOverlap, TimeInterval, ScaleBreak, DiscreteAxisDivisionMode, TextOverflow, WordWrap } from "@ISalikhzyanov/devextreme/common/charts";
+import type { ChartSeries } from "@ISalikhzyanov/devextreme/viz/common";
 
-import type * as CommonChartTypes from "devextreme/common/charts";
+import type * as CommonChartTypes from "@ISalikhzyanov/devextreme/common/charts";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

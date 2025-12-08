@@ -3,18 +3,18 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxChart, {
     Properties
-} from "devextreme/viz/chart";
+} from "@ISalikhzyanov/devextreme/viz/chart";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { ArgumentAxisClickEvent, DisposingEvent, DoneEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, LegendClickEvent, PointClickEvent, SeriesClickEvent, TooltipHiddenEvent, TooltipShownEvent, ZoomEndEvent, ZoomStartEvent, chartPointAggregationInfoObject, chartSeriesObject, ChartSeriesAggregationMethod, dxChartAnnotationConfig, AggregatedPointsPosition, ChartLabelDisplayMode, FinancialChartReductionLevel, chartPointObject, dxChartPointInfo, ChartTooltipLocation, ChartZoomAndPanMode, EventKeyModifier } from "devextreme/viz/chart";
-import type { AnimationEaseMode, DashStyle, Font as ChartsFont, TextOverflow, AnnotationType, WordWrap, TimeInterval, ChartsDataType, ScaleBreak, ScaleBreakLineStyle, RelativePosition, DiscreteAxisDivisionMode, ArgumentAxisHoverMode, ChartsAxisLabelOverlap, AxisScaleType, VisualRangeUpdateMode, ChartsColor, SeriesHoverMode, HatchDirection, PointInteractionMode, PointSymbol, SeriesSelectionMode, SeriesType, ValueErrorBarDisplayMode, ValueErrorBarType, LegendItem, LegendHoverMode, ValueAxisVisualRangeUpdateMode } from "devextreme/common/charts";
-import type { template, HorizontalAlignment, VerticalAlignment, Format as CommonFormat, Position, VerticalEdge, ExportFormat, Orientation } from "devextreme/common";
-import type { Format as LocalizationFormat } from "devextreme/common/core/localization";
-import type { ChartSeries } from "devextreme/viz/common";
+import type { ArgumentAxisClickEvent, DisposingEvent, DoneEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, LegendClickEvent, PointClickEvent, SeriesClickEvent, TooltipHiddenEvent, TooltipShownEvent, ZoomEndEvent, ZoomStartEvent, chartPointAggregationInfoObject, chartSeriesObject, ChartSeriesAggregationMethod, dxChartAnnotationConfig, AggregatedPointsPosition, ChartLabelDisplayMode, FinancialChartReductionLevel, chartPointObject, dxChartPointInfo, ChartTooltipLocation, ChartZoomAndPanMode, EventKeyModifier } from "@ISalikhzyanov/devextreme/viz/chart";
+import type { AnimationEaseMode, DashStyle, Font as ChartsFont, TextOverflow, AnnotationType, WordWrap, TimeInterval, ChartsDataType, ScaleBreak, ScaleBreakLineStyle, RelativePosition, DiscreteAxisDivisionMode, ArgumentAxisHoverMode, ChartsAxisLabelOverlap, AxisScaleType, VisualRangeUpdateMode, ChartsColor, SeriesHoverMode, HatchDirection, PointInteractionMode, PointSymbol, SeriesSelectionMode, SeriesType, ValueErrorBarDisplayMode, ValueErrorBarType, LegendItem, LegendHoverMode, ValueAxisVisualRangeUpdateMode } from "@ISalikhzyanov/devextreme/common/charts";
+import type { template, HorizontalAlignment, VerticalAlignment, Format as CommonFormat, Position, VerticalEdge, ExportFormat, Orientation } from "@ISalikhzyanov/devextreme/common";
+import type { Format as LocalizationFormat } from "@ISalikhzyanov/devextreme/common/core/localization";
+import type { ChartSeries } from "@ISalikhzyanov/devextreme/viz/common";
 
-import type * as CommonChartTypes from "devextreme/common/charts";
+import type * as CommonChartTypes from "@ISalikhzyanov/devextreme/common/charts";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

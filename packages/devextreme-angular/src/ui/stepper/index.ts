@@ -580,7 +580,7 @@ export class DxStepperModule { }
 
 export * from 'devextreme-angular/ui/stepper/nested';
 
-import type * as DxStepperTypes from "devextreme/ui/stepper_types";
+import type * as DxStepperTypes from "@ISalikhzyanov/devextreme/ui/stepper_types";
 export { DxStepperTypes };
 
 

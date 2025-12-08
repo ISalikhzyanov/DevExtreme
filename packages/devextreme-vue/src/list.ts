@@ -1,9 +1,9 @@
-export { ExplicitTypes } from "devextreme/ui/list";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/list";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import List, { Properties } from "devextreme/ui/list";
-import  DataSource from "devextreme/data/data_source";
+import List, { Properties } from "@ISalikhzyanov/devextreme/ui/list";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxListItem,
  ItemDeleteMode,
@@ -27,13 +27,13 @@ import {
  SelectAllValueChangedEvent,
  SelectionChangedEvent,
  SelectionChangingEvent,
-} from "devextreme/ui/list";
+} from "@ISalikhzyanov/devextreme/ui/list";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  dxSortableOptions,
  AddEvent,
@@ -46,7 +46,7 @@ import {
  OptionChangedEvent as SortableOptionChangedEvent,
  RemoveEvent,
  ReorderEvent,
-} from "devextreme/ui/sortable";
+} from "@ISalikhzyanov/devextreme/ui/sortable";
 import {
  PageLoadMode,
  SearchMode,
@@ -67,7 +67,7 @@ import {
  ValidationMessageMode,
  Position,
  ValidationStatus,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  dxTextBoxOptions,
  TextBoxType,
@@ -86,7 +86,7 @@ import {
  OptionChangedEvent as TextBoxOptionChangedEvent,
  PasteEvent,
  ValueChangedEvent,
-} from "devextreme/ui/text_box";
+} from "@ISalikhzyanov/devextreme/ui/text_box";
 import {
  dxButtonOptions,
  ClickEvent,
@@ -94,7 +94,7 @@ import {
  DisposingEvent as ButtonDisposingEvent,
  InitializedEvent as ButtonInitializedEvent,
  OptionChangedEvent as ButtonOptionChangedEvent,
-} from "devextreme/ui/button";
+} from "@ISalikhzyanov/devextreme/ui/button";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -733,5 +733,5 @@ export {
   DxOptions,
   DxSearchEditorOptions
 };
-import type * as DxListTypes from "devextreme/ui/list_types";
+import type * as DxListTypes from "@ISalikhzyanov/devextreme/ui/list_types";
 export { DxListTypes };

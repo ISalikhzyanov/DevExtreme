@@ -987,7 +987,7 @@ export class DxContextMenuModule { }
 
 export * from 'devextreme-angular/ui/context-menu/nested';
 
-import type * as DxContextMenuTypes from "devextreme/ui/context_menu_types";
+import type * as DxContextMenuTypes from "@ISalikhzyanov/devextreme/ui/context_menu_types";
 export { DxContextMenuTypes };
 
 

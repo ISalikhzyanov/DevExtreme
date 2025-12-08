@@ -12,7 +12,7 @@
     "@testcafe-community/axe": "3.5.0",
     "@types/jquery": "catalog:",
     "axe-core": "4.10.3",
-    "devextreme": "workspace:*",
+    "@ISalikhzyanov/devextreme": "workspace:*",
     "devextreme-screenshot-comparer": "2.0.17",
     "devextreme-testcafe-models": "workspace:*",
     "glob": "11.1.0",

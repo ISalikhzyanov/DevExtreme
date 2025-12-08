@@ -3,12 +3,12 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxDraggable, {
     Properties
-} from "devextreme/ui/draggable";
+} from "@ISalikhzyanov/devextreme/ui/draggable";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { DisposingEvent, DragEndEvent, DragMoveEvent, DragStartEvent, InitializedEvent } from "devextreme/ui/draggable";
+import type { DisposingEvent, DragEndEvent, DragMoveEvent, DragStartEvent, InitializedEvent } from "@ISalikhzyanov/devextreme/ui/draggable";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

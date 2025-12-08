@@ -943,7 +943,7 @@ export class DxTabPanelModule { }
 
 export * from 'devextreme-angular/ui/tab-panel/nested';
 
-import type * as DxTabPanelTypes from "devextreme/ui/tab_panel_types";
+import type * as DxTabPanelTypes from "@ISalikhzyanov/devextreme/ui/tab_panel_types";
 export { DxTabPanelTypes };
 
 

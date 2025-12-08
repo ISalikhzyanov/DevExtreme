@@ -1754,7 +1754,7 @@ export class DxDateRangeBoxModule { }
 
 export * from 'devextreme-angular/ui/date-range-box/nested';
 
-import type * as DxDateRangeBoxTypes from "devextreme/ui/date_range_box_types";
+import type * as DxDateRangeBoxTypes from "@ISalikhzyanov/devextreme/ui/date_range_box_types";
 export { DxDateRangeBoxTypes };
 
 

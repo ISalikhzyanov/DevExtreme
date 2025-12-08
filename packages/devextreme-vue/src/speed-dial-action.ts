@@ -1,14 +1,14 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import SpeedDialAction, { Properties } from "devextreme/ui/speed_dial_action";
+import SpeedDialAction, { Properties } from "@ISalikhzyanov/devextreme/ui/speed_dial_action";
 import {
  ClickEvent,
  ContentReadyEvent,
  DisposingEvent,
  InitializedEvent,
  OptionChangedEvent,
-} from "devextreme/ui/speed_dial_action";
+} from "@ISalikhzyanov/devextreme/ui/speed_dial_action";
 
 type AccessibleOptions = Pick<Properties,
   "accessKey" |
@@ -94,5 +94,5 @@ export default DxSpeedDialAction;
 export {
   DxSpeedDialAction
 };
-import type * as DxSpeedDialActionTypes from "devextreme/ui/speed_dial_action_types";
+import type * as DxSpeedDialActionTypes from "@ISalikhzyanov/devextreme/ui/speed_dial_action_types";
 export { DxSpeedDialActionTypes };

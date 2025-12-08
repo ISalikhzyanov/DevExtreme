@@ -493,7 +493,7 @@ export class DxDraggableModule { }
 
 export * from 'devextreme-angular/ui/draggable/nested';
 
-import type * as DxDraggableTypes from "devextreme/ui/draggable_types";
+import type * as DxDraggableTypes from "@ISalikhzyanov/devextreme/ui/draggable_types";
 export { DxDraggableTypes };
 
 

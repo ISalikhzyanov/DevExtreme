@@ -1,14 +1,14 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import RangeSelector, { Properties } from "devextreme/viz/range_selector";
-import  DataSource from "devextreme/data/data_source";
+import RangeSelector, { Properties } from "@ISalikhzyanov/devextreme/viz/range_selector";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  DisposingEvent,
  DrawnEvent,
@@ -22,7 +22,7 @@ import {
  BackgroundImageLocation,
  AxisScale,
  ChartAxisScale,
-} from "devextreme/viz/range_selector";
+} from "@ISalikhzyanov/devextreme/viz/range_selector";
 import {
  VisualRangeUpdateMode,
  Theme,
@@ -48,28 +48,28 @@ import {
  WordWrap,
  ValueErrorBarDisplayMode,
  ValueErrorBarType,
-} from "devextreme/common/charts";
+} from "@ISalikhzyanov/devextreme/common/charts";
 import {
  chartPointAggregationInfoObject,
  chartSeriesObject,
  ChartSeriesAggregationMethod,
  dxChartCommonSeriesSettings,
  FinancialChartReductionLevel,
-} from "devextreme/viz/chart";
+} from "@ISalikhzyanov/devextreme/viz/chart";
 import {
  Format,
  SliderValueChangeMode,
  HorizontalAlignment,
  ExportFormat,
  VerticalEdge,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  ChartSeries,
-} from "devextreme/viz/common";
+} from "@ISalikhzyanov/devextreme/viz/common";
 import {
  Format as LocalizationFormat,
-} from "devextreme/common/core/localization";
-import  * as CommonChartTypes from "devextreme/common/charts";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
+import  * as CommonChartTypes from "@ISalikhzyanov/devextreme/common/charts";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -2209,5 +2209,5 @@ export {
   DxValueErrorBar,
   DxWidth
 };
-import type * as DxRangeSelectorTypes from "devextreme/viz/range_selector_types";
+import type * as DxRangeSelectorTypes from "@ISalikhzyanov/devextreme/viz/range_selector_types";
 export { DxRangeSelectorTypes };

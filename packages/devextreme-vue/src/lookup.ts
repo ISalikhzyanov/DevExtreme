@@ -1,8 +1,8 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Lookup, { Properties } from "devextreme/ui/lookup";
-import  DataSource from "devextreme/data/data_source";
+import Lookup, { Properties } from "@ISalikhzyanov/devextreme/ui/lookup";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  ApplyValueMode,
  LabelMode,
@@ -19,16 +19,16 @@ import {
  PositionAlignment,
  ToolbarItemLocation,
  ToolbarItemComponent,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  CollectionWidgetItem,
-} from "devextreme/ui/collection/ui.collection_widget.base";
+} from "@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  dxPopoverOptions,
  ContentReadyEvent as PopoverContentReadyEvent,
@@ -40,7 +40,7 @@ import {
  ShowingEvent,
  ShownEvent,
  TitleRenderedEvent,
-} from "devextreme/ui/popover";
+} from "@ISalikhzyanov/devextreme/ui/popover";
 import {
  ClosedEvent,
  ContentReadyEvent,
@@ -54,7 +54,7 @@ import {
  ScrollEvent,
  SelectionChangedEvent,
  ValueChangedEvent,
-} from "devextreme/ui/lookup";
+} from "@ISalikhzyanov/devextreme/ui/lookup";
 import {
  AnimationConfig,
  CollisionResolution,
@@ -62,18 +62,18 @@ import {
  AnimationState,
  AnimationType,
  CollisionResolutionCombination,
-} from "devextreme/common/core/animation";
+} from "@ISalikhzyanov/devextreme/common/core/animation";
 import {
  event,
-} from "devextreme/events/events.types";
+} from "@ISalikhzyanov/devextreme/events/events.types";
 import {
  dxPopupToolbarItem,
  ToolbarLocation,
-} from "devextreme/ui/popup";
+} from "@ISalikhzyanov/devextreme/ui/popup";
 import {
  LocateInMenuMode,
  ShowTextMode,
-} from "devextreme/ui/toolbar";
+} from "@ISalikhzyanov/devextreme/ui/toolbar";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -868,5 +868,5 @@ export {
   DxTo,
   DxToolbarItem
 };
-import type * as DxLookupTypes from "devextreme/ui/lookup_types";
+import type * as DxLookupTypes from "@ISalikhzyanov/devextreme/ui/lookup_types";
 export { DxLookupTypes };

@@ -1,10 +1,10 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Chat, { Properties } from "devextreme/ui/chat";
-import  DataSource from "devextreme/data/data_source";
-import  dxChat from "devextreme/ui/chat";
-import  UploadInfo from "devextreme/file_management/upload_info";
+import Chat, { Properties } from "@ISalikhzyanov/devextreme/ui/chat";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
+import  dxChat from "@ISalikhzyanov/devextreme/ui/chat";
+import  UploadInfo from "@ISalikhzyanov/devextreme/file_management/upload_info";
 import {
  Alert,
  Message,
@@ -23,20 +23,20 @@ import {
  TypingStartEvent,
  User,
  Attachment,
-} from "devextreme/ui/chat";
+} from "@ISalikhzyanov/devextreme/ui/chat";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  Format,
-} from "devextreme/common/core/localization";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
 import {
  Format as CommonFormat,
  ValidationStatus,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  dxFileUploaderOptions,
  BeforeSendEvent,
@@ -55,7 +55,7 @@ import {
  ValueChangedEvent,
  UploadHttpMethod,
  FileUploadMode,
-} from "devextreme/ui/file_uploader";
+} from "@ISalikhzyanov/devextreme/ui/file_uploader";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -598,5 +598,5 @@ export {
   DxTypingUser,
   DxUser
 };
-import type * as DxChatTypes from "devextreme/ui/chat_types";
+import type * as DxChatTypes from "@ISalikhzyanov/devextreme/ui/chat_types";
 export { DxChatTypes };

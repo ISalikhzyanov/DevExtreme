@@ -1,14 +1,14 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Sparkline, { Properties } from "devextreme/viz/sparkline";
-import  DataSource from "devextreme/data/data_source";
+import Sparkline, { Properties } from "@ISalikhzyanov/devextreme/viz/sparkline";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  DisposingEvent,
  DrawnEvent,
@@ -21,19 +21,19 @@ import {
  TooltipHiddenEvent,
  TooltipShownEvent,
  SparklineType,
-} from "devextreme/viz/sparkline";
+} from "@ISalikhzyanov/devextreme/viz/sparkline";
 import {
  PointSymbol,
  Theme,
  DashStyle,
  Font,
-} from "devextreme/common/charts";
+} from "@ISalikhzyanov/devextreme/common/charts";
 import {
  Format,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  Format as LocalizationFormat,
-} from "devextreme/common/core/localization";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -399,5 +399,5 @@ export {
   DxSize,
   DxTooltip
 };
-import type * as DxSparklineTypes from "devextreme/viz/sparkline_types";
+import type * as DxSparklineTypes from "@ISalikhzyanov/devextreme/viz/sparkline_types";
 export { DxSparklineTypes };

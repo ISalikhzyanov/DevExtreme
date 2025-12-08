@@ -1,9 +1,9 @@
-export { ExplicitTypes } from "devextreme/ui/accordion";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/accordion";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Accordion, { Properties } from "devextreme/ui/accordion";
-import  DataSource from "devextreme/data/data_source";
+import Accordion, { Properties } from "@ISalikhzyanov/devextreme/ui/accordion";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxAccordionItem,
  ContentReadyEvent,
@@ -16,13 +16,13 @@ import {
  ItemTitleClickEvent,
  OptionChangedEvent,
  SelectionChangedEvent,
-} from "devextreme/ui/accordion";
+} from "@ISalikhzyanov/devextreme/ui/accordion";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -209,5 +209,5 @@ export {
   DxAccordion,
   DxItem
 };
-import type * as DxAccordionTypes from "devextreme/ui/accordion_types";
+import type * as DxAccordionTypes from "@ISalikhzyanov/devextreme/ui/accordion_types";
 export { DxAccordionTypes };

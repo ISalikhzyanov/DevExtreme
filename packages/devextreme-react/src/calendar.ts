@@ -3,11 +3,11 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxCalendar, {
     Properties
-} from "devextreme/ui/calendar";
+} from "@ISalikhzyanov/devextreme/ui/calendar";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef } from "./core/component";
 
-import type { CalendarZoomLevel, DisposingEvent, InitializedEvent, ValueChangedEvent } from "devextreme/ui/calendar";
+import type { CalendarZoomLevel, DisposingEvent, InitializedEvent, ValueChangedEvent } from "@ISalikhzyanov/devextreme/ui/calendar";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

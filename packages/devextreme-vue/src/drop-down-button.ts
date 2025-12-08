@@ -1,11 +1,11 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import DropDownButton, { Properties } from "devextreme/ui/drop_down_button";
-import  DataSource from "devextreme/data/data_source";
-import  dxOverlay from "devextreme/ui/overlay";
-import  DOMComponent from "devextreme/core/dom_component";
-import  dxPopup from "devextreme/ui/popup";
+import DropDownButton, { Properties } from "@ISalikhzyanov/devextreme/ui/drop_down_button";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
+import  dxOverlay from "@ISalikhzyanov/devextreme/ui/overlay";
+import  DOMComponent from "@ISalikhzyanov/devextreme/core/dom_component";
+import  dxPopup from "@ISalikhzyanov/devextreme/ui/popup";
 import {
  dxDropDownButtonItem,
  ButtonClickEvent,
@@ -15,18 +15,18 @@ import {
  ItemClickEvent,
  OptionChangedEvent,
  SelectionChangedEvent,
-} from "devextreme/ui/drop_down_button";
+} from "@ISalikhzyanov/devextreme/ui/drop_down_button";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  dxPopupOptions,
  dxPopupToolbarItem,
  ToolbarLocation,
-} from "devextreme/ui/popup";
+} from "@ISalikhzyanov/devextreme/ui/popup";
 import {
  ButtonStyle,
  ButtonType,
@@ -36,7 +36,7 @@ import {
  Direction,
  ToolbarItemLocation,
  ToolbarItemComponent,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  AnimationConfig,
  CollisionResolution,
@@ -44,20 +44,20 @@ import {
  AnimationState,
  AnimationType,
  CollisionResolutionCombination,
-} from "devextreme/common/core/animation";
+} from "@ISalikhzyanov/devextreme/common/core/animation";
 import {
  event,
-} from "devextreme/events/events.types";
+} from "@ISalikhzyanov/devextreme/events/events.types";
 import {
  EventInfo,
-} from "devextreme/common/core/events";
+} from "@ISalikhzyanov/devextreme/common/core/events";
 import {
  Component,
-} from "devextreme/core/component";
+} from "@ISalikhzyanov/devextreme/core/component";
 import {
  LocateInMenuMode,
  ShowTextMode,
-} from "devextreme/ui/toolbar";
+} from "@ISalikhzyanov/devextreme/ui/toolbar";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -713,5 +713,5 @@ export {
   DxTo,
   DxToolbarItem
 };
-import type * as DxDropDownButtonTypes from "devextreme/ui/drop_down_button_types";
+import type * as DxDropDownButtonTypes from "@ISalikhzyanov/devextreme/ui/drop_down_button_types";
 export { DxDropDownButtonTypes };

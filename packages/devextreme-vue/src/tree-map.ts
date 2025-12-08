@@ -1,14 +1,14 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import TreeMap, { Properties } from "devextreme/viz/tree_map";
-import  DataSource from "devextreme/data/data_source";
+import TreeMap, { Properties } from "@ISalikhzyanov/devextreme/viz/tree_map";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  TreeMapLayoutAlgorithm,
  TreeMapLayoutDirection,
@@ -28,14 +28,14 @@ import {
  SelectionChangedEvent,
  TreeMapColorizerType,
  dxTreeMapNode,
-} from "devextreme/viz/tree_map";
+} from "@ISalikhzyanov/devextreme/viz/tree_map";
 import {
  SingleMultipleOrNone,
  ExportFormat,
  Format,
  HorizontalAlignment,
  VerticalEdge,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  Theme,
  DashStyle,
@@ -44,10 +44,10 @@ import {
  Font,
  TextOverflow,
  WordWrap,
-} from "devextreme/common/charts";
+} from "@ISalikhzyanov/devextreme/common/charts";
 import {
  Format as LocalizationFormat,
-} from "devextreme/common/core/localization";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -822,5 +822,5 @@ export {
   DxTooltipBorder,
   DxTreeMapborder
 };
-import type * as DxTreeMapTypes from "devextreme/viz/tree_map_types";
+import type * as DxTreeMapTypes from "@ISalikhzyanov/devextreme/viz/tree_map_types";
 export { DxTreeMapTypes };

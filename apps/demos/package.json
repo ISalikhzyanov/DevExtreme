@@ -8,10 +8,10 @@
     },
     "author": "Developer Express Inc.",
     "peerDependencies": {
-        "devextreme": "workspace:*",
+        "@ISalikhzyanov/devextreme": "workspace:*",
         "devextreme-angular": "workspace:*",
         "devextreme-dist": "workspace:*",
-        "devextreme-react": "workspace:*",
+        "@ISalikhzyanov/devextreme-react": "workspace:*",
         "devextreme-vue": "workspace:*"
     },
     "dependencies": {

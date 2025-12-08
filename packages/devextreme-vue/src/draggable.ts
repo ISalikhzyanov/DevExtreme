@@ -1,10 +1,10 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Draggable, { Properties } from "devextreme/ui/draggable";
+import Draggable, { Properties } from "@ISalikhzyanov/devextreme/ui/draggable";
 import {
  DragDirection,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  DisposingEvent,
  DragEndEvent,
@@ -12,7 +12,7 @@ import {
  DragStartEvent,
  InitializedEvent,
  OptionChangedEvent,
-} from "devextreme/ui/draggable";
+} from "@ISalikhzyanov/devextreme/ui/draggable";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -138,5 +138,5 @@ export {
   DxDraggable,
   DxCursorOffset
 };
-import type * as DxDraggableTypes from "devextreme/ui/draggable_types";
+import type * as DxDraggableTypes from "@ISalikhzyanov/devextreme/ui/draggable_types";
 export { DxDraggableTypes };

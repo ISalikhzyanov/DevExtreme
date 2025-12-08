@@ -519,7 +519,7 @@ export class DxToolbarModule { }
 
 export * from 'devextreme-angular/ui/toolbar/nested';
 
-import type * as DxToolbarTypes from "devextreme/ui/toolbar_types";
+import type * as DxToolbarTypes from "@ISalikhzyanov/devextreme/ui/toolbar_types";
 export { DxToolbarTypes };
 
 

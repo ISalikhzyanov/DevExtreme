@@ -869,7 +869,7 @@ export class DxSliderModule { }
 
 export * from 'devextreme-angular/ui/slider/nested';
 
-import type * as DxSliderTypes from "devextreme/ui/slider_types";
+import type * as DxSliderTypes from "@ISalikhzyanov/devextreme/ui/slider_types";
 export { DxSliderTypes };
 
 

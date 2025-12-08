@@ -803,7 +803,7 @@ export class DxToastModule { }
 
 export * from 'devextreme-angular/ui/toast/nested';
 
-import type * as DxToastTypes from "devextreme/ui/toast_types";
+import type * as DxToastTypes from "@ISalikhzyanov/devextreme/ui/toast_types";
 export { DxToastTypes };
 
 

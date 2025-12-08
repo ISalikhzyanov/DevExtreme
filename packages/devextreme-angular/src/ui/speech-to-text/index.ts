@@ -541,7 +541,7 @@ export class DxSpeechToTextModule { }
 
 export * from 'devextreme-angular/ui/speech-to-text/nested';
 
-import type * as DxSpeechToTextTypes from "devextreme/ui/speech_to_text_types";
+import type * as DxSpeechToTextTypes from "@ISalikhzyanov/devextreme/ui/speech_to_text_types";
 export { DxSpeechToTextTypes };
 
 

@@ -76,4 +76,4 @@ export {
     StateStoring,
     SummaryType,
     ToolbarPreparingInfo,
-} from "devextreme/common/grids";
+} from "@ISalikhzyanov/devextreme/common/grids";

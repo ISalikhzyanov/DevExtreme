@@ -1,7 +1,7 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Calendar, { Properties } from "devextreme/ui/calendar";
+import Calendar, { Properties } from "@ISalikhzyanov/devextreme/ui/calendar";
 import {
  DisabledDate,
  CalendarZoomLevel,
@@ -11,13 +11,13 @@ import {
  ValueChangedEvent,
  CalendarSelectionMode,
  WeekNumberRule,
-} from "devextreme/ui/calendar";
+} from "@ISalikhzyanov/devextreme/ui/calendar";
 import {
  FirstDayOfWeek,
  ValidationMessageMode,
  Position,
  ValidationStatus,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 
 type AccessibleOptions = Pick<Properties,
   "accessKey" |
@@ -176,5 +176,5 @@ export default DxCalendar;
 export {
   DxCalendar
 };
-import type * as DxCalendarTypes from "devextreme/ui/calendar_types";
+import type * as DxCalendarTypes from "@ISalikhzyanov/devextreme/ui/calendar_types";
 export { DxCalendarTypes };

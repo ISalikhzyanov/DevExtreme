@@ -12,7 +12,7 @@ import DataGrid, {
     SearchPanel
 } from "devextreme-react/data-grid";
 import DiscountCell from "./DiscountCell";
-import ODataStore from "devextreme/data/odata/store";
+import ODataStore from "@ISalikhzyanov/devextreme/data/odata/store";
 import { AIIntegration } from 'devextreme-react/common/ai-integration';
 import { AzureOpenAI } from 'openai';
 

@@ -1,7 +1,7 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import CircularGauge, { Properties } from "devextreme/viz/circular_gauge";
+import CircularGauge, { Properties } from "@ISalikhzyanov/devextreme/viz/circular_gauge";
 import {
  DisposingEvent,
  DrawnEvent,
@@ -15,10 +15,10 @@ import {
  TooltipShownEvent,
  CircularGaugeLabelOverlap,
  CircularGaugeElementOrientation,
-} from "devextreme/viz/circular_gauge";
+} from "@ISalikhzyanov/devextreme/viz/circular_gauge";
 import {
  GaugeIndicator,
-} from "devextreme/viz/gauges/base_gauge";
+} from "@ISalikhzyanov/devextreme/viz/gauges/base_gauge";
 import {
  Theme,
  AnimationEaseMode,
@@ -30,17 +30,17 @@ import {
  PaletteExtensionMode,
  TextOverflow,
  WordWrap,
-} from "devextreme/common/charts";
+} from "@ISalikhzyanov/devextreme/common/charts";
 import {
  ExportFormat,
  Format,
  HorizontalEdge,
  VerticalEdge,
  HorizontalAlignment,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  Format as LocalizationFormat,
-} from "devextreme/common/core/localization";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -935,5 +935,5 @@ export {
   DxTooltip,
   DxValueIndicator
 };
-import type * as DxCircularGaugeTypes from "devextreme/viz/circular_gauge_types";
+import type * as DxCircularGaugeTypes from "@ISalikhzyanov/devextreme/viz/circular_gauge_types";
 export { DxCircularGaugeTypes };

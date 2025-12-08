@@ -3,11 +3,11 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxCheckBox, {
     Properties
-} from "devextreme/ui/check_box";
+} from "@ISalikhzyanov/devextreme/ui/check_box";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef } from "./core/component";
 
-import type { ContentReadyEvent, DisposingEvent, InitializedEvent, ValueChangedEvent } from "devextreme/ui/check_box";
+import type { ContentReadyEvent, DisposingEvent, InitializedEvent, ValueChangedEvent } from "@ISalikhzyanov/devextreme/ui/check_box";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

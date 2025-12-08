@@ -1,7 +1,7 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Resizable, { Properties } from "devextreme/ui/resizable";
+import Resizable, { Properties } from "@ISalikhzyanov/devextreme/ui/resizable";
 import {
  ResizeHandle,
  DisposingEvent,
@@ -10,7 +10,7 @@ import {
  ResizeEvent,
  ResizeEndEvent,
  ResizeStartEvent,
-} from "devextreme/ui/resizable";
+} from "@ISalikhzyanov/devextreme/ui/resizable";
 
 type AccessibleOptions = Pick<Properties,
   "area" |
@@ -96,5 +96,5 @@ export default DxResizable;
 export {
   DxResizable
 };
-import type * as DxResizableTypes from "devextreme/ui/resizable_types";
+import type * as DxResizableTypes from "@ISalikhzyanov/devextreme/ui/resizable_types";
 export { DxResizableTypes };

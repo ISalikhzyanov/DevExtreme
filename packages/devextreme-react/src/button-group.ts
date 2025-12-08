@@ -3,14 +3,14 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxButtonGroup, {
     Properties
-} from "devextreme/ui/button_group";
+} from "@ISalikhzyanov/devextreme/ui/button_group";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent } from "devextreme/ui/button_group";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type { template, ButtonType } from "devextreme/common";
+import type { ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent } from "@ISalikhzyanov/devextreme/ui/button_group";
+import type { CollectionWidgetItem } from "@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base";
+import type { template, ButtonType } from "@ISalikhzyanov/devextreme/common";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

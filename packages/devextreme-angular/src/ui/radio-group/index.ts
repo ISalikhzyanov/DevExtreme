@@ -833,7 +833,7 @@ export class DxRadioGroupModule { }
 
 export * from 'devextreme-angular/ui/radio-group/nested';
 
-import type * as DxRadioGroupTypes from "devextreme/ui/radio_group_types";
+import type * as DxRadioGroupTypes from "@ISalikhzyanov/devextreme/ui/radio_group_types";
 export { DxRadioGroupTypes };
 
 

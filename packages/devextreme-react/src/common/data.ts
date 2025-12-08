@@ -40,4 +40,4 @@ export {
     Store,
     StoreOptions,
     SummaryDescriptor,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";

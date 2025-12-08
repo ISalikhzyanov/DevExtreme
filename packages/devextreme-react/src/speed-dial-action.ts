@@ -3,11 +3,11 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxSpeedDialAction, {
     Properties
-} from "devextreme/ui/speed_dial_action";
+} from "@ISalikhzyanov/devextreme/ui/speed_dial_action";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef } from "./core/component";
 
-import type { ClickEvent, ContentReadyEvent, DisposingEvent, InitializedEvent } from "devextreme/ui/speed_dial_action";
+import type { ClickEvent, ContentReadyEvent, DisposingEvent, InitializedEvent } from "@ISalikhzyanov/devextreme/ui/speed_dial_action";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

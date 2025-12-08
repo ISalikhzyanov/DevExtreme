@@ -1,19 +1,19 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import CheckBox, { Properties } from "devextreme/ui/check_box";
+import CheckBox, { Properties } from "@ISalikhzyanov/devextreme/ui/check_box";
 import {
  ContentReadyEvent,
  DisposingEvent,
  InitializedEvent,
  OptionChangedEvent,
  ValueChangedEvent,
-} from "devextreme/ui/check_box";
+} from "@ISalikhzyanov/devextreme/ui/check_box";
 import {
  ValidationMessageMode,
  Position,
  ValidationStatus,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 
 type AccessibleOptions = Pick<Properties,
   "accessKey" |
@@ -139,5 +139,5 @@ export default DxCheckBox;
 export {
   DxCheckBox
 };
-import type * as DxCheckBoxTypes from "devextreme/ui/check_box_types";
+import type * as DxCheckBoxTypes from "@ISalikhzyanov/devextreme/ui/check_box_types";
 export { DxCheckBoxTypes };

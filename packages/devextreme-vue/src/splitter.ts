@@ -1,9 +1,9 @@
-export { ExplicitTypes } from "devextreme/ui/splitter";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/splitter";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Splitter, { Properties } from "devextreme/ui/splitter";
-import  DataSource from "devextreme/data/data_source";
+import Splitter, { Properties } from "@ISalikhzyanov/devextreme/ui/splitter";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxSplitterItem,
  ContentReadyEvent,
@@ -19,16 +19,16 @@ import {
  ResizeEndEvent,
  ResizeStartEvent,
  dxSplitterOptions,
-} from "devextreme/ui/splitter";
+} from "@ISalikhzyanov/devextreme/ui/splitter";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  Orientation,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -182,5 +182,5 @@ export {
   DxSplitter,
   DxItem
 };
-import type * as DxSplitterTypes from "devextreme/ui/splitter_types";
+import type * as DxSplitterTypes from "@ISalikhzyanov/devextreme/ui/splitter_types";
 export { DxSplitterTypes };

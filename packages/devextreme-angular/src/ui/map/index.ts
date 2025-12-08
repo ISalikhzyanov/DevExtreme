@@ -772,7 +772,7 @@ export class DxMapModule { }
 
 export * from 'devextreme-angular/ui/map/nested';
 
-import type * as DxMapTypes from "devextreme/ui/map_types";
+import type * as DxMapTypes from "@ISalikhzyanov/devextreme/ui/map_types";
 export { DxMapTypes };
 
 

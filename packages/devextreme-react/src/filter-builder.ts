@@ -3,16 +3,16 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxFilterBuilder, {
     Properties
-} from "devextreme/ui/filter_builder";
+} from "@ISalikhzyanov/devextreme/ui/filter_builder";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { ContentReadyEvent, DisposingEvent, EditorPreparedEvent, EditorPreparingEvent, InitializedEvent, ValueChangedEvent, dxFilterBuilderField, FieldInfo, FilterBuilderOperation } from "devextreme/ui/filter_builder";
-import type { DataType, template, Format as CommonFormat } from "devextreme/common";
-import type { Format as LocalizationFormat } from "devextreme/common/core/localization";
-import type { DataSourceOptions } from "devextreme/data/data_source";
-import type { Store } from "devextreme/data/store";
+import type { ContentReadyEvent, DisposingEvent, EditorPreparedEvent, EditorPreparingEvent, InitializedEvent, ValueChangedEvent, dxFilterBuilderField, FieldInfo, FilterBuilderOperation } from "@ISalikhzyanov/devextreme/ui/filter_builder";
+import type { DataType, template, Format as CommonFormat } from "@ISalikhzyanov/devextreme/common";
+import type { Format as LocalizationFormat } from "@ISalikhzyanov/devextreme/common/core/localization";
+import type { DataSourceOptions } from "@ISalikhzyanov/devextreme/data/data_source";
+import type { Store } from "@ISalikhzyanov/devextreme/data/store";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

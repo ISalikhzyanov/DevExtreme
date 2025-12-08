@@ -1,7 +1,7 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import ProgressBar, { Properties } from "devextreme/ui/progress_bar";
+import ProgressBar, { Properties } from "@ISalikhzyanov/devextreme/ui/progress_bar";
 import {
  CompleteEvent,
  ContentReadyEvent,
@@ -9,12 +9,12 @@ import {
  InitializedEvent,
  OptionChangedEvent,
  ValueChangedEvent,
-} from "devextreme/ui/progress_bar";
+} from "@ISalikhzyanov/devextreme/ui/progress_bar";
 import {
  ValidationMessageMode,
  Position,
  ValidationStatus,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 
 type AccessibleOptions = Pick<Properties,
   "disabled" |
@@ -130,5 +130,5 @@ export default DxProgressBar;
 export {
   DxProgressBar
 };
-import type * as DxProgressBarTypes from "devextreme/ui/progress_bar_types";
+import type * as DxProgressBarTypes from "@ISalikhzyanov/devextreme/ui/progress_bar_types";
 export { DxProgressBarTypes };

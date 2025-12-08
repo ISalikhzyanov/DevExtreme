@@ -1,9 +1,9 @@
-export { ExplicitTypes } from "devextreme/ui/tab_panel";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/tab_panel";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import TabPanel, { Properties } from "devextreme/ui/tab_panel";
-import  DataSource from "devextreme/data/data_source";
+import TabPanel, { Properties } from "@ISalikhzyanov/devextreme/ui/tab_panel";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxTabPanelItem,
  ContentReadyEvent,
@@ -19,18 +19,18 @@ import {
  TitleClickEvent,
  TitleHoldEvent,
  TitleRenderedEvent,
-} from "devextreme/ui/tab_panel";
+} from "@ISalikhzyanov/devextreme/ui/tab_panel";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  TabsIconPosition,
  TabsStyle,
  Position,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -240,5 +240,5 @@ export {
   DxTabPanel,
   DxItem
 };
-import type * as DxTabPanelTypes from "devextreme/ui/tab_panel_types";
+import type * as DxTabPanelTypes from "@ISalikhzyanov/devextreme/ui/tab_panel_types";
 export { DxTabPanelTypes };

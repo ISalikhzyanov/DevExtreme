@@ -605,7 +605,7 @@ export class DxButtonGroupModule { }
 
 export * from 'devextreme-angular/ui/button-group/nested';
 
-import type * as DxButtonGroupTypes from "devextreme/ui/button_group_types";
+import type * as DxButtonGroupTypes from "@ISalikhzyanov/devextreme/ui/button_group_types";
 export { DxButtonGroupTypes };
 
 

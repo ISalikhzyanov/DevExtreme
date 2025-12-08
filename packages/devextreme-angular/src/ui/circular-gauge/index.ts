@@ -842,7 +842,7 @@ export class DxCircularGaugeModule { }
 
 export * from 'devextreme-angular/ui/circular-gauge/nested';
 
-import type * as DxCircularGaugeTypes from "devextreme/viz/circular_gauge_types";
+import type * as DxCircularGaugeTypes from "@ISalikhzyanov/devextreme/viz/circular_gauge_types";
 export { DxCircularGaugeTypes };
 
 

@@ -3,18 +3,18 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxVectorMap, {
     Properties
-} from "devextreme/viz/vector_map";
+} from "@ISalikhzyanov/devextreme/viz/vector_map";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { ClickEvent, DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, TooltipHiddenEvent, TooltipShownEvent, dxVectorMapAnnotationConfig, MapLayerElement, VectorMapMarkerType, VectorMapLayerType, VectorMapLegendItem, VectorMapMarkerShape } from "devextreme/viz/vector_map";
-import type { DashStyle, Font as ChartsFont, TextOverflow, AnnotationType, WordWrap, Palette } from "devextreme/common/charts";
-import type { template, HorizontalAlignment, VerticalEdge, ExportFormat, SingleMultipleOrNone, Position, Orientation } from "devextreme/common";
-import type { DataSourceOptions } from "devextreme/data/data_source";
-import type { Store } from "devextreme/data/store";
+import type { ClickEvent, DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, TooltipHiddenEvent, TooltipShownEvent, dxVectorMapAnnotationConfig, MapLayerElement, VectorMapMarkerType, VectorMapLayerType, VectorMapLegendItem, VectorMapMarkerShape } from "@ISalikhzyanov/devextreme/viz/vector_map";
+import type { DashStyle, Font as ChartsFont, TextOverflow, AnnotationType, WordWrap, Palette } from "@ISalikhzyanov/devextreme/common/charts";
+import type { template, HorizontalAlignment, VerticalEdge, ExportFormat, SingleMultipleOrNone, Position, Orientation } from "@ISalikhzyanov/devextreme/common";
+import type { DataSourceOptions } from "@ISalikhzyanov/devextreme/data/data_source";
+import type { Store } from "@ISalikhzyanov/devextreme/data/store";
 
-import type DataSource from "devextreme/data/data_source";
+import type DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

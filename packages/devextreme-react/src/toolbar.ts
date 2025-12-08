@@ -1,17 +1,17 @@
 "use client"
-export { ExplicitTypes } from "devextreme/ui/toolbar";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/toolbar";
 import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxToolbar, {
     Properties
-} from "devextreme/ui/toolbar";
+} from "@ISalikhzyanov/devextreme/ui/toolbar";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { dxToolbarItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, LocateInMenuMode, ShowTextMode } from "devextreme/ui/toolbar";
-import type { ToolbarItemLocation, template, ToolbarItemComponent } from "devextreme/common";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
+import type { dxToolbarItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, LocateInMenuMode, ShowTextMode } from "@ISalikhzyanov/devextreme/ui/toolbar";
+import type { ToolbarItemLocation, template, ToolbarItemComponent } from "@ISalikhzyanov/devextreme/common";
+import type { CollectionWidgetItem } from "@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

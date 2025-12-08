@@ -934,7 +934,7 @@ export class DxRangeSliderModule { }
 
 export * from 'devextreme-angular/ui/range-slider/nested';
 
-import type * as DxRangeSliderTypes from "devextreme/ui/range_slider_types";
+import type * as DxRangeSliderTypes from "@ISalikhzyanov/devextreme/ui/range_slider_types";
 export { DxRangeSliderTypes };
 
 

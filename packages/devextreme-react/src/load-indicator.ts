@@ -3,11 +3,11 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxLoadIndicator, {
     Properties
-} from "devextreme/ui/load_indicator";
+} from "@ISalikhzyanov/devextreme/ui/load_indicator";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef } from "./core/component";
 
-import type { ContentReadyEvent, DisposingEvent, InitializedEvent } from "devextreme/ui/load_indicator";
+import type { ContentReadyEvent, DisposingEvent, InitializedEvent } from "@ISalikhzyanov/devextreme/ui/load_indicator";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

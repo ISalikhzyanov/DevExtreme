@@ -299,7 +299,7 @@ export class DxValidationSummaryModule { }
 
 export * from 'devextreme-angular/ui/validation-summary/nested';
 
-import type * as DxValidationSummaryTypes from "devextreme/ui/validation_summary_types";
+import type * as DxValidationSummaryTypes from "@ISalikhzyanov/devextreme/ui/validation_summary_types";
 export { DxValidationSummaryTypes };
 
 

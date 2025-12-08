@@ -1,7 +1,7 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Bullet, { Properties } from "devextreme/viz/bullet";
+import Bullet, { Properties } from "@ISalikhzyanov/devextreme/viz/bullet";
 import {
  DisposingEvent,
  DrawnEvent,
@@ -13,18 +13,18 @@ import {
  OptionChangedEvent,
  TooltipHiddenEvent,
  TooltipShownEvent,
-} from "devextreme/viz/bullet";
+} from "@ISalikhzyanov/devextreme/viz/bullet";
 import {
  Theme,
  DashStyle,
  Font,
-} from "devextreme/common/charts";
+} from "@ISalikhzyanov/devextreme/common/charts";
 import {
  Format,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  Format as LocalizationFormat,
-} from "devextreme/common/core/localization";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -351,5 +351,5 @@ export {
   DxSize,
   DxTooltip
 };
-import type * as DxBulletTypes from "devextreme/viz/bullet_types";
+import type * as DxBulletTypes from "@ISalikhzyanov/devextreme/viz/bullet_types";
 export { DxBulletTypes };

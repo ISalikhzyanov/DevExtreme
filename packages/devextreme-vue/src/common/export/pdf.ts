@@ -6,4 +6,4 @@ export {
     exportGantt,
     GanttExportFont,
     GanttExportOptions,
-} from "devextreme/common/export/pdf";
+} from "@ISalikhzyanov/devextreme/common/export/pdf";

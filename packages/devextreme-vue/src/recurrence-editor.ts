@@ -1,19 +1,19 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import RecurrenceEditor, { Properties } from "devextreme/ui/recurrence_editor";
+import RecurrenceEditor, { Properties } from "@ISalikhzyanov/devextreme/ui/recurrence_editor";
 import {
  ContentReadyEvent,
  DisposingEvent,
  InitializedEvent,
  OptionChangedEvent,
  ValueChangedEvent,
-} from "devextreme/ui/recurrence_editor";
+} from "@ISalikhzyanov/devextreme/ui/recurrence_editor";
 import {
  ValidationMessageMode,
  Position,
  ValidationStatus,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 
 type AccessibleOptions = Pick<Properties,
   "accessKey" |
@@ -127,5 +127,5 @@ export default DxRecurrenceEditor;
 export {
   DxRecurrenceEditor
 };
-import type * as DxRecurrenceEditorTypes from "devextreme/ui/recurrence_editor_types";
+import type * as DxRecurrenceEditorTypes from "@ISalikhzyanov/devextreme/ui/recurrence_editor_types";
 export { DxRecurrenceEditorTypes };

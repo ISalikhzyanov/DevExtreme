@@ -1,10 +1,10 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import LoadPanel, { Properties } from "devextreme/ui/load_panel";
+import LoadPanel, { Properties } from "@ISalikhzyanov/devextreme/ui/load_panel";
 import {
  event,
-} from "devextreme/events/events.types";
+} from "@ISalikhzyanov/devextreme/events/events.types";
 import {
  LoadPanelIndicatorProperties,
  ContentReadyEvent,
@@ -15,13 +15,13 @@ import {
  OptionChangedEvent,
  ShowingEvent,
  ShownEvent,
-} from "devextreme/ui/load_panel";
+} from "@ISalikhzyanov/devextreme/ui/load_panel";
 import {
  PositionAlignment,
  HorizontalAlignment,
  VerticalAlignment,
  Direction,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  PositionConfig,
  AnimationConfig,
@@ -29,10 +29,10 @@ import {
  AnimationState,
  AnimationType,
  CollisionResolutionCombination,
-} from "devextreme/common/core/animation";
+} from "@ISalikhzyanov/devextreme/common/core/animation";
 import {
  LoadingAnimationType,
-} from "devextreme/ui/load_indicator";
+} from "@ISalikhzyanov/devextreme/ui/load_indicator";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -499,5 +499,5 @@ export {
   DxShow,
   DxTo
 };
-import type * as DxLoadPanelTypes from "devextreme/ui/load_panel_types";
+import type * as DxLoadPanelTypes from "@ISalikhzyanov/devextreme/ui/load_panel_types";
 export { DxLoadPanelTypes };

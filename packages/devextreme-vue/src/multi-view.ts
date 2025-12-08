@@ -1,9 +1,9 @@
-export { ExplicitTypes } from "devextreme/ui/multi_view";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/multi_view";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import MultiView, { Properties } from "devextreme/ui/multi_view";
-import  DataSource from "devextreme/data/data_source";
+import MultiView, { Properties } from "@ISalikhzyanov/devextreme/ui/multi_view";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxMultiViewItem,
  ContentReadyEvent,
@@ -15,13 +15,13 @@ import {
  ItemRenderedEvent,
  OptionChangedEvent,
  SelectionChangedEvent,
-} from "devextreme/ui/multi_view";
+} from "@ISalikhzyanov/devextreme/ui/multi_view";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -184,5 +184,5 @@ export {
   DxMultiView,
   DxItem
 };
-import type * as DxMultiViewTypes from "devextreme/ui/multi_view_types";
+import type * as DxMultiViewTypes from "@ISalikhzyanov/devextreme/ui/multi_view_types";
 export { DxMultiViewTypes };

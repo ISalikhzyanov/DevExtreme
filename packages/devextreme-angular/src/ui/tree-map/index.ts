@@ -944,7 +944,7 @@ export class DxTreeMapModule { }
 
 export * from 'devextreme-angular/ui/tree-map/nested';
 
-import type * as DxTreeMapTypes from "devextreme/viz/tree_map_types";
+import type * as DxTreeMapTypes from "@ISalikhzyanov/devextreme/viz/tree_map_types";
 export { DxTreeMapTypes };
 
 

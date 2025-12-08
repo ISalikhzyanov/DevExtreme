@@ -688,7 +688,7 @@ export class DxTileViewModule { }
 
 export * from 'devextreme-angular/ui/tile-view/nested';
 
-import type * as DxTileViewTypes from "devextreme/ui/tile_view_types";
+import type * as DxTileViewTypes from "@ISalikhzyanov/devextreme/ui/tile_view_types";
 export { DxTileViewTypes };
 
 

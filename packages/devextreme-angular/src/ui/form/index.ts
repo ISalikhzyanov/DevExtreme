@@ -1049,7 +1049,7 @@ export class DxFormModule { }
 
 export * from 'devextreme-angular/ui/form/nested';
 
-import type * as DxFormTypes from "devextreme/ui/form_types";
+import type * as DxFormTypes from "@ISalikhzyanov/devextreme/ui/form_types";
 export { DxFormTypes };
 
 

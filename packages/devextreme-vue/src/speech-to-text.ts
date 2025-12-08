@@ -1,7 +1,7 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import SpeechToText, { Properties } from "devextreme/ui/speech_to_text";
+import SpeechToText, { Properties } from "@ISalikhzyanov/devextreme/ui/speech_to_text";
 import {
  CustomSpeechRecognizer,
  ContentReadyEvent,
@@ -14,11 +14,11 @@ import {
  StartClickEvent,
  StopClickEvent,
  SpeechRecognitionConfig,
-} from "devextreme/ui/speech_to_text";
+} from "@ISalikhzyanov/devextreme/ui/speech_to_text";
 import {
  ButtonStyle,
  ButtonType,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -192,5 +192,5 @@ export {
   DxCustomSpeechRecognizer,
   DxSpeechRecognitionConfig
 };
-import type * as DxSpeechToTextTypes from "devextreme/ui/speech_to_text_types";
+import type * as DxSpeechToTextTypes from "@ISalikhzyanov/devextreme/ui/speech_to_text_types";
 export { DxSpeechToTextTypes };

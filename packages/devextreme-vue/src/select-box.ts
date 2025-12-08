@@ -1,15 +1,15 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import SelectBox, { Properties } from "devextreme/ui/select_box";
-import  DataSource from "devextreme/data/data_source";
-import  dxOverlay from "devextreme/ui/overlay";
-import  DOMComponent from "devextreme/core/dom_component";
-import  dxPopup from "devextreme/ui/popup";
+import SelectBox, { Properties } from "@ISalikhzyanov/devextreme/ui/select_box";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
+import  dxOverlay from "@ISalikhzyanov/devextreme/ui/overlay";
+import  DOMComponent from "@ISalikhzyanov/devextreme/core/dom_component";
+import  dxPopup from "@ISalikhzyanov/devextreme/ui/popup";
 import {
  DropDownPredefinedButton,
  FieldAddons,
-} from "devextreme/ui/drop_down_editor/ui.drop_down_editor";
+} from "@ISalikhzyanov/devextreme/ui/drop_down_editor/ui.drop_down_editor";
 import {
  TextEditorButton,
  LabelMode,
@@ -28,21 +28,21 @@ import {
  ButtonType,
  ToolbarItemLocation,
  ToolbarItemComponent,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  CollectionWidgetItem,
-} from "devextreme/ui/collection/ui.collection_widget.base";
+} from "@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  dxPopupOptions,
  dxPopupToolbarItem,
  ToolbarLocation,
-} from "devextreme/ui/popup";
+} from "@ISalikhzyanov/devextreme/ui/popup";
 import {
  ChangeEvent,
  ClosedEvent,
@@ -64,7 +64,7 @@ import {
  PasteEvent,
  SelectionChangedEvent,
  ValueChangedEvent,
-} from "devextreme/ui/select_box";
+} from "@ISalikhzyanov/devextreme/ui/select_box";
 import {
  AnimationConfig,
  CollisionResolution,
@@ -72,7 +72,7 @@ import {
  AnimationState,
  AnimationType,
  CollisionResolutionCombination,
-} from "devextreme/common/core/animation";
+} from "@ISalikhzyanov/devextreme/common/core/animation";
 import {
  dxButtonOptions,
  ClickEvent,
@@ -80,20 +80,20 @@ import {
  DisposingEvent as ButtonDisposingEvent,
  InitializedEvent as ButtonInitializedEvent,
  OptionChangedEvent as ButtonOptionChangedEvent,
-} from "devextreme/ui/button";
+} from "@ISalikhzyanov/devextreme/ui/button";
 import {
  event,
-} from "devextreme/events/events.types";
+} from "@ISalikhzyanov/devextreme/events/events.types";
 import {
  EventInfo,
-} from "devextreme/common/core/events";
+} from "@ISalikhzyanov/devextreme/common/core/events";
 import {
  Component,
-} from "devextreme/core/component";
+} from "@ISalikhzyanov/devextreme/core/component";
 import {
  LocateInMenuMode,
  ShowTextMode,
-} from "devextreme/ui/toolbar";
+} from "@ISalikhzyanov/devextreme/ui/toolbar";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -979,5 +979,5 @@ export {
   DxTo,
   DxToolbarItem
 };
-import type * as DxSelectBoxTypes from "devextreme/ui/select_box_types";
+import type * as DxSelectBoxTypes from "@ISalikhzyanov/devextreme/ui/select_box_types";
 export { DxSelectBoxTypes };

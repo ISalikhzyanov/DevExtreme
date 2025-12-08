@@ -1671,7 +1671,7 @@ export class DxDateBoxModule { }
 
 export * from 'devextreme-angular/ui/date-box/nested';
 
-import type * as DxDateBoxTypes from "devextreme/ui/date_box_types";
+import type * as DxDateBoxTypes from "@ISalikhzyanov/devextreme/ui/date_box_types";
 export { DxDateBoxTypes };
 
 

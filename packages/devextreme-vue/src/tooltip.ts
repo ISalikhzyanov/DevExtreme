@@ -1,10 +1,10 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Tooltip, { Properties } from "devextreme/ui/tooltip";
+import Tooltip, { Properties } from "@ISalikhzyanov/devextreme/ui/tooltip";
 import {
  event,
-} from "devextreme/events/events.types";
+} from "@ISalikhzyanov/devextreme/events/events.types";
 import {
  ContentReadyEvent,
  DisposingEvent,
@@ -14,14 +14,14 @@ import {
  OptionChangedEvent,
  ShowingEvent,
  ShownEvent,
-} from "devextreme/ui/tooltip";
+} from "@ISalikhzyanov/devextreme/ui/tooltip";
 import {
  Position,
  HorizontalAlignment,
  VerticalAlignment,
  Direction,
  PositionAlignment,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  PositionConfig,
  AnimationConfig,
@@ -29,7 +29,7 @@ import {
  AnimationState,
  AnimationType,
  CollisionResolutionCombination,
-} from "devextreme/common/core/animation";
+} from "@ISalikhzyanov/devextreme/common/core/animation";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -507,5 +507,5 @@ export {
   DxShowEvent,
   DxTo
 };
-import type * as DxTooltipTypes from "devextreme/ui/tooltip_types";
+import type * as DxTooltipTypes from "@ISalikhzyanov/devextreme/ui/tooltip_types";
 export { DxTooltipTypes };

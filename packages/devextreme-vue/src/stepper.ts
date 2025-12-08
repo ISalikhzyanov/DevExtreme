@@ -1,9 +1,9 @@
-export { ExplicitTypes } from "devextreme/ui/stepper";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/stepper";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Stepper, { Properties } from "devextreme/ui/stepper";
-import  DataSource from "devextreme/data/data_source";
+import Stepper, { Properties } from "@ISalikhzyanov/devextreme/ui/stepper";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxStepperItem,
  DisposingEvent,
@@ -14,16 +14,16 @@ import {
  OptionChangedEvent,
  SelectionChangedEvent,
  SelectionChangingEvent,
-} from "devextreme/ui/stepper";
+} from "@ISalikhzyanov/devextreme/ui/stepper";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  Orientation,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -180,5 +180,5 @@ export {
   DxStepper,
   DxItem
 };
-import type * as DxStepperTypes from "devextreme/ui/stepper_types";
+import type * as DxStepperTypes from "@ISalikhzyanov/devextreme/ui/stepper_types";
 export { DxStepperTypes };

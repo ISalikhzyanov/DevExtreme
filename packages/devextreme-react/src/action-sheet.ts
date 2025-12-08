@@ -1,24 +1,31 @@
-"use client"
-export { ExplicitTypes } from "devextreme/ui/action_sheet";
-import * as React from "react";
-import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
+import * as React from 'react';
+import {
+  memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement,
+} from 'react';
 import dxActionSheet, {
-    Properties
-} from "devextreme/ui/action_sheet";
+  Properties,
+} from '@ISalikhzyanov/devextreme/ui/action_sheet';
 
-import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
-import NestedOption from "./core/nested-option";
+import type {
+  dxActionSheetItem, CancelClickEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent,
+} from '@ISalikhzyanov/devextreme/ui/action_sheet';
+import type { NativeEventInfo } from '@ISalikhzyanov/devextreme/common/core/events';
+import type { ButtonStyle, template, ButtonType } from '@ISalikhzyanov/devextreme/common';
+import type { CollectionWidgetItem } from '@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base';
+import type * as ActionSheetTypes from 'devextreme/ui/action_sheet_types';
+import NestedOption from './core/nested-option';
+import {
+  Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta,
+} from './core/component';
 
-import type { dxActionSheetItem, CancelClickEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent } from "devextreme/ui/action_sheet";
-import type { NativeEventInfo } from "devextreme/common/core/events";
-import type { ButtonStyle, template, ButtonType } from "devextreme/common";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
+'use client';
+export { ExplicitTypes } from '@ISalikhzyanov/devextreme/ui/action_sheet';
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
-}
+};
 
-type IActionSheetOptionsNarrowedEvents<TItem = any, TKey = any> = {
+interface IActionSheetOptionsNarrowedEvents<TItem = any, TKey = any> {
   onCancelClick?: ((e: CancelClickEvent<TItem, TKey>) => void);
   onContentReady?: ((e: ContentReadyEvent<TItem, TKey>) => void);
   onDisposing?: ((e: DisposingEvent<TItem, TKey>) => void);
@@ -30,14 +37,14 @@ type IActionSheetOptionsNarrowedEvents<TItem = any, TKey = any> = {
 }
 
 type IActionSheetOptions<TItem = any, TKey = any> = React.PropsWithChildren<ReplaceFieldTypes<Properties<TItem, TKey>, IActionSheetOptionsNarrowedEvents<TItem, TKey>> & IHtmlOptions & {
-  dataSource?: Properties<TItem, TKey>["dataSource"];
+  dataSource?: Properties<TItem, TKey>['dataSource'];
   itemRender?: (...params: any) => React.ReactNode;
   itemComponent?: React.ComponentType<any>;
-  defaultItems?: Array<any | dxActionSheetItem | string>;
+  defaultItems?: (any | dxActionSheetItem | string)[];
   defaultVisible?: boolean;
-  onItemsChange?: (value: Array<any | dxActionSheetItem | string>) => void;
+  onItemsChange?: (value: (any | dxActionSheetItem | string)[]) => void;
   onVisibleChange?: (value: boolean) => void;
-}>
+}>;
 
 interface ActionSheetRef<TItem = any, TKey = any> {
   instance: () => dxActionSheet<TItem, TKey>;
@@ -52,29 +59,29 @@ const ActionSheet = memo(
         {
           instance() {
             return baseRef.current?.getInstance();
-          }
+          },
         }
       ), []);
 
-      const subscribableOptions = useMemo(() => (["items","visible"]), []);
-      const independentEvents = useMemo(() => (["onCancelClick","onContentReady","onDisposing","onInitialized","onItemClick","onItemContextMenu","onItemHold","onItemRendered"]), []);
+      const subscribableOptions = useMemo(() => ['items', 'visible'], []);
+      const independentEvents = useMemo(() => ['onCancelClick', 'onContentReady', 'onDisposing', 'onInitialized', 'onItemClick', 'onItemContextMenu', 'onItemHold', 'onItemRendered'], []);
 
       const defaults = useMemo(() => ({
-        defaultItems: "items",
-        defaultVisible: "visible",
+        defaultItems: 'items',
+        defaultVisible: 'visible',
       }), []);
 
       const expectedChildren = useMemo(() => ({
-        item: { optionName: "items", isCollectionItem: true }
+        item: { optionName: 'items', isCollectionItem: true },
       }), []);
 
-      const templateProps = useMemo(() => ([
+      const templateProps = useMemo(() => [
         {
-          tmplOption: "itemTemplate",
-          render: "itemRender",
-          component: "itemComponent"
+          tmplOption: 'itemTemplate',
+          render: 'itemRender',
+          component: 'itemComponent',
         },
-      ]), []);
+      ], []);
 
       return (
         React.createElement(BaseComponent<React.PropsWithChildren<IActionSheetOptions<TItem, TKey>>>, {
@@ -92,7 +99,6 @@ const ActionSheet = memo(
   ),
 ) as <TItem = any, TKey = any>(props: React.PropsWithChildren<IActionSheetOptions<TItem, TKey>> & { ref?: Ref<ActionSheetRef<TItem, TKey>> }) => ReactElement | null;
 
-
 // owners:
 // ActionSheet
 type IItemProps = React.PropsWithChildren<{
@@ -105,24 +111,22 @@ type IItemProps = React.PropsWithChildren<{
   type?: ButtonType | string;
   render?: (...params: any) => React.ReactNode;
   component?: React.ComponentType<any>;
-}>
-const _componentItem = (props: IItemProps) => {
-  return React.createElement(NestedOption<IItemProps>, {
-    ...props,
-    elementDescriptor: {
-      OptionName: "items",
-      IsCollectionItem: true,
-      TemplateProps: [{
-        tmplOption: "template",
-        render: "render",
-        component: "component"
-      }],
-    },
-  });
-};
+}>;
+const _componentItem = (props: IItemProps) => React.createElement(NestedOption<IItemProps>, {
+  ...props,
+  elementDescriptor: {
+    OptionName: 'items',
+    IsCollectionItem: true,
+    TemplateProps: [{
+      tmplOption: 'template',
+      render: 'render',
+      component: 'component',
+    }],
+  },
+});
 
 const Item = Object.assign<typeof _componentItem, NestedComponentMeta>(_componentItem, {
-  componentType: "option",
+  componentType: 'option',
 });
 
 export default ActionSheet;
@@ -131,8 +135,7 @@ export {
   IActionSheetOptions,
   ActionSheetRef,
   Item,
-  IItemProps
+  IItemProps,
 };
-import type * as ActionSheetTypes from 'devextreme/ui/action_sheet_types';
-export { ActionSheetTypes };
 
+export { ActionSheetTypes };

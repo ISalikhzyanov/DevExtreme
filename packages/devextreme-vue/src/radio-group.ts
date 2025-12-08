@@ -1,30 +1,30 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import RadioGroup, { Properties } from "devextreme/ui/radio_group";
-import  DataSource from "devextreme/data/data_source";
+import RadioGroup, { Properties } from "@ISalikhzyanov/devextreme/ui/radio_group";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  CollectionWidgetItem,
-} from "devextreme/ui/collection/ui.collection_widget.base";
+} from "@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  Orientation,
  ValidationMessageMode,
  Position,
  ValidationStatus,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  ContentReadyEvent,
  DisposingEvent,
  InitializedEvent,
  OptionChangedEvent,
  ValueChangedEvent,
-} from "devextreme/ui/radio_group";
+} from "@ISalikhzyanov/devextreme/ui/radio_group";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -191,5 +191,5 @@ export {
   DxRadioGroup,
   DxItem
 };
-import type * as DxRadioGroupTypes from "devextreme/ui/radio_group_types";
+import type * as DxRadioGroupTypes from "@ISalikhzyanov/devextreme/ui/radio_group_types";
 export { DxRadioGroupTypes };

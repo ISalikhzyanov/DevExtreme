@@ -3,25 +3,25 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxColorBox, {
     Properties
-} from "devextreme/ui/color_box";
+} from "@ISalikhzyanov/devextreme/ui/color_box";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { ChangeEvent, ClosedEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, OpenedEvent, PasteEvent, ValueChangedEvent } from "devextreme/ui/color_box";
-import type { DisposingEvent as ButtonDisposingEvent, InitializedEvent as ButtonInitializedEvent, dxButtonOptions, ClickEvent, ContentReadyEvent, OptionChangedEvent } from "devextreme/ui/button";
-import type { AnimationConfig, CollisionResolution, PositionConfig, AnimationState, AnimationType, CollisionResolutionCombination } from "devextreme/common/core/animation";
-import type { HorizontalAlignment, VerticalAlignment, TextEditorButtonLocation, template, PositionAlignment, Direction, ButtonStyle, ButtonType, ToolbarItemLocation, ToolbarItemComponent } from "devextreme/common";
-import type { event } from "devextreme/events/events.types";
-import type { EventInfo } from "devextreme/common/core/events";
-import type { Component } from "devextreme/core/component";
-import type { dxPopupToolbarItem, ToolbarLocation } from "devextreme/ui/popup";
-import type { LocateInMenuMode, ShowTextMode } from "devextreme/ui/toolbar";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
+import type { ChangeEvent, ClosedEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, OpenedEvent, PasteEvent, ValueChangedEvent } from "@ISalikhzyanov/devextreme/ui/color_box";
+import type { DisposingEvent as ButtonDisposingEvent, InitializedEvent as ButtonInitializedEvent, dxButtonOptions, ClickEvent, ContentReadyEvent, OptionChangedEvent } from "@ISalikhzyanov/devextreme/ui/button";
+import type { AnimationConfig, CollisionResolution, PositionConfig, AnimationState, AnimationType, CollisionResolutionCombination } from "@ISalikhzyanov/devextreme/common/core/animation";
+import type { HorizontalAlignment, VerticalAlignment, TextEditorButtonLocation, template, PositionAlignment, Direction, ButtonStyle, ButtonType, ToolbarItemLocation, ToolbarItemComponent } from "@ISalikhzyanov/devextreme/common";
+import type { event } from "@ISalikhzyanov/devextreme/events/events.types";
+import type { EventInfo } from "@ISalikhzyanov/devextreme/common/core/events";
+import type { Component } from "@ISalikhzyanov/devextreme/core/component";
+import type { dxPopupToolbarItem, ToolbarLocation } from "@ISalikhzyanov/devextreme/ui/popup";
+import type { LocateInMenuMode, ShowTextMode } from "@ISalikhzyanov/devextreme/ui/toolbar";
+import type { CollectionWidgetItem } from "@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base";
 
-import type dxOverlay from "devextreme/ui/overlay";
-import type DOMComponent from "devextreme/core/dom_component";
-import type dxPopup from "devextreme/ui/popup";
+import type dxOverlay from "@ISalikhzyanov/devextreme/ui/overlay";
+import type DOMComponent from "@ISalikhzyanov/devextreme/core/dom_component";
+import type dxPopup from "@ISalikhzyanov/devextreme/ui/popup";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

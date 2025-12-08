@@ -9,7 +9,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      "devextreme": path.resolve(__dirname, "../../artifacts/transpiled/")
+      "@ISalikhzyanov/devextreme": path.resolve(__dirname, "../../artifacts/transpiled/")
     }
   }
 };

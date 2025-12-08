@@ -1853,7 +1853,7 @@ export class DxLookupModule { }
 
 export * from 'devextreme-angular/ui/lookup/nested';
 
-import type * as DxLookupTypes from "devextreme/ui/lookup_types";
+import type * as DxLookupTypes from "@ISalikhzyanov/devextreme/ui/lookup_types";
 export { DxLookupTypes };
 
 

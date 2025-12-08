@@ -857,7 +857,7 @@ export class DxTabsModule { }
 
 export * from 'devextreme-angular/ui/tabs/nested';
 
-import type * as DxTabsTypes from "devextreme/ui/tabs_types";
+import type * as DxTabsTypes from "@ISalikhzyanov/devextreme/ui/tabs_types";
 export { DxTabsTypes };
 
 

@@ -669,7 +669,7 @@ export class DxProgressBarComponent extends DxComponent implements OnDestroy, Co
 export class DxProgressBarModule { }
 
 
-import type * as DxProgressBarTypes from "devextreme/ui/progress_bar_types";
+import type * as DxProgressBarTypes from "@ISalikhzyanov/devextreme/ui/progress_bar_types";
 export { DxProgressBarTypes };
 
 

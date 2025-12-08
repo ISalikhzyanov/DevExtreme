@@ -1,17 +1,17 @@
 "use client"
-export { ExplicitTypes } from "devextreme/ui/validation_summary";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/validation_summary";
 import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxValidationSummary, {
     Properties
-} from "devextreme/ui/validation_summary";
+} from "@ISalikhzyanov/devextreme/ui/validation_summary";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type { ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent } from "devextreme/ui/validation_summary";
-import type { template } from "devextreme/common";
+import type { CollectionWidgetItem } from "@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base";
+import type { ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent } from "@ISalikhzyanov/devextreme/ui/validation_summary";
+import type { template } from "@ISalikhzyanov/devextreme/common";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

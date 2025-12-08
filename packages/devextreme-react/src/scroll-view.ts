@@ -3,11 +3,11 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxScrollView, {
     Properties
-} from "devextreme/ui/scroll_view";
+} from "@ISalikhzyanov/devextreme/ui/scroll_view";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef } from "./core/component";
 
-import type { DisposingEvent, InitializedEvent, PullDownEvent, ReachBottomEvent, ScrollEvent, UpdatedEvent } from "devextreme/ui/scroll_view";
+import type { DisposingEvent, InitializedEvent, PullDownEvent, ReachBottomEvent, ScrollEvent, UpdatedEvent } from "@ISalikhzyanov/devextreme/ui/scroll_view";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

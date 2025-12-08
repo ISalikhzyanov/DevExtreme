@@ -1792,7 +1792,7 @@ export class DxSelectBoxModule { }
 
 export * from 'devextreme-angular/ui/select-box/nested';
 
-import type * as DxSelectBoxTypes from "devextreme/ui/select_box_types";
+import type * as DxSelectBoxTypes from "@ISalikhzyanov/devextreme/ui/select_box_types";
 export { DxSelectBoxTypes };
 
 

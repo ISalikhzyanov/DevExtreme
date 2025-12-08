@@ -1175,7 +1175,7 @@ export class DxTextBoxModule { }
 
 export * from 'devextreme-angular/ui/text-box/nested';
 
-import type * as DxTextBoxTypes from "devextreme/ui/text_box_types";
+import type * as DxTextBoxTypes from "@ISalikhzyanov/devextreme/ui/text_box_types";
 export { DxTextBoxTypes };
 
 

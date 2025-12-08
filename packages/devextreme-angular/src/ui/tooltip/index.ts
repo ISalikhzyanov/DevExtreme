@@ -753,7 +753,7 @@ export class DxTooltipModule { }
 
 export * from 'devextreme-angular/ui/tooltip/nested';
 
-import type * as DxTooltipTypes from "devextreme/ui/tooltip_types";
+import type * as DxTooltipTypes from "@ISalikhzyanov/devextreme/ui/tooltip_types";
 export { DxTooltipTypes };
 
 

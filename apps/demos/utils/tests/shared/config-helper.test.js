@@ -32,9 +32,9 @@ describe('Config helper tests', () => {
 
     expect(fs.writeFileSync).toHaveBeenCalledTimes(1);
     expect(fs.writeFileSync).toHaveBeenCalledWith(configPath, `{
-  "devextreme": "",
+  "@ISalikhzyanov/devextreme": "",
   "devextreme-angular": "",
-  "devextreme-react": "",
+  "@ISalikhzyanov/devextreme-react": "",
   "devextreme-vue": "",
   "devexpress-diagram": "",
   "devexpress-gantt": "",
@@ -44,9 +44,9 @@ describe('Config helper tests', () => {
 
   test('Has config file', () => {
     fs.existsSync.mockReturnValue(true);
-    fs.readFileSync.mockReturnValue(`{"devextreme":"1",
+    fs.readFileSync.mockReturnValue(`{"@ISalikhzyanov/devextreme":"1",
         "devextreme-angular":"1",
-        "devextreme-react":"1",
+        "@ISalikhzyanov/devextreme-react":"1",
         "devextreme-vue":"1",
         "devexpress-diagram":"1",
         "devexpress-gantt":"1",
@@ -64,9 +64,9 @@ describe('Config helper tests', () => {
 
   test('Update config', () => {
     fs.existsSync.mockReturnValue(true);
-    fs.readFileSync.mockReturnValue(`{"devextreme":"1",
+    fs.readFileSync.mockReturnValue(`{"@ISalikhzyanov/devextreme":"1",
         "devextreme-angular":"1",
-        "devextreme-react":"1",
+        "@ISalikhzyanov/devextreme-react":"1",
         "devextreme-vue":"1",
         "devexpress-diagram":"1",
         "devexpress-gantt":"1",
@@ -79,9 +79,9 @@ describe('Config helper tests', () => {
 
     expect(fs.writeFileSync).toHaveBeenCalledTimes(1);
     expect(fs.writeFileSync).toHaveBeenCalledWith(configPath, `{
-  "devextreme": "1",
+  "@ISalikhzyanov/devextreme": "1",
   "devextreme-angular": "1",
-  "devextreme-react": "1",
+  "@ISalikhzyanov/devextreme-react": "1",
   "devextreme-vue": "1",
   "devexpress-diagram": "1",
   "devexpress-gantt": "1",

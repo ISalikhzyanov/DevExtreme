@@ -3,17 +3,17 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxPopover, {
     Properties
-} from "devextreme/ui/popover";
+} from "@ISalikhzyanov/devextreme/ui/popover";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { Position as CommonPosition, HorizontalAlignment, VerticalAlignment, Direction, PositionAlignment, ToolbarItemLocation, template, ToolbarItemComponent } from "devextreme/common";
-import type { PositionConfig, AnimationConfig, CollisionResolution, AnimationState, AnimationType, CollisionResolutionCombination } from "devextreme/common/core/animation";
-import type { ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, ShowingEvent, ShownEvent, TitleRenderedEvent } from "devextreme/ui/popover";
-import type { LocateInMenuMode, ShowTextMode } from "devextreme/ui/toolbar";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type { ToolbarLocation } from "devextreme/ui/popup";
+import type { Position as CommonPosition, HorizontalAlignment, VerticalAlignment, Direction, PositionAlignment, ToolbarItemLocation, template, ToolbarItemComponent } from "@ISalikhzyanov/devextreme/common";
+import type { PositionConfig, AnimationConfig, CollisionResolution, AnimationState, AnimationType, CollisionResolutionCombination } from "@ISalikhzyanov/devextreme/common/core/animation";
+import type { ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, ShowingEvent, ShownEvent, TitleRenderedEvent } from "@ISalikhzyanov/devextreme/ui/popover";
+import type { LocateInMenuMode, ShowTextMode } from "@ISalikhzyanov/devextreme/ui/toolbar";
+import type { CollectionWidgetItem } from "@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base";
+import type { ToolbarLocation } from "@ISalikhzyanov/devextreme/ui/popup";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

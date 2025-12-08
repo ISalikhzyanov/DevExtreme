@@ -2679,7 +2679,7 @@ export class DxDataGridModule { }
 
 export * from 'devextreme-angular/ui/data-grid/nested';
 
-import type * as DxDataGridTypes from "devextreme/ui/data_grid_types";
+import type * as DxDataGridTypes from "@ISalikhzyanov/devextreme/ui/data_grid_types";
 export { DxDataGridTypes };
 
 

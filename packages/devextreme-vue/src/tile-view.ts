@@ -1,9 +1,9 @@
-export { ExplicitTypes } from "devextreme/ui/tile_view";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/tile_view";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import TileView, { Properties } from "devextreme/ui/tile_view";
-import  DataSource from "devextreme/data/data_source";
+import TileView, { Properties } from "@ISalikhzyanov/devextreme/ui/tile_view";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxTileViewItem,
  ContentReadyEvent,
@@ -14,17 +14,17 @@ import {
  ItemHoldEvent,
  ItemRenderedEvent,
  OptionChangedEvent,
-} from "devextreme/ui/tile_view";
+} from "@ISalikhzyanov/devextreme/ui/tile_view";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  Orientation,
  ScrollbarMode,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -185,5 +185,5 @@ export {
   DxTileView,
   DxItem
 };
-import type * as DxTileViewTypes from "devextreme/ui/tile_view_types";
+import type * as DxTileViewTypes from "@ISalikhzyanov/devextreme/ui/tile_view_types";
 export { DxTileViewTypes };

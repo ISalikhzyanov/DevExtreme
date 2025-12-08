@@ -1,10 +1,10 @@
-export { ExplicitTypes } from "devextreme/ui/card_view";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/card_view";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import CardView, { Properties } from "devextreme/ui/card_view";
-import  DataSource from "devextreme/data/data_source";
-import  DOMComponent from "devextreme/core/dom_component";
+import CardView, { Properties } from "@ISalikhzyanov/devextreme/ui/card_view";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
+import  DOMComponent from "@ISalikhzyanov/devextreme/core/dom_component";
 import {
  CardCover,
  CardHeader,
@@ -45,7 +45,7 @@ import {
  EditingTexts,
  PredefinedToolbarItem,
  dxCardViewToolbarItem,
-} from "devextreme/ui/card_view";
+} from "@ISalikhzyanov/devextreme/ui/card_view";
 import {
  Mode,
  ValidationRuleType,
@@ -70,7 +70,7 @@ import {
  TabsIconPosition,
  TabsStyle,
  Position,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  ColumnChooser,
  FilterPanel,
@@ -92,13 +92,13 @@ import {
  DataChange,
  FilterPanelTexts,
  PagerPageSize,
-} from "devextreme/common/grids";
+} from "@ISalikhzyanov/devextreme/common/grids";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  dxFilterBuilderOptions,
  dxFilterBuilderField,
@@ -113,7 +113,7 @@ import {
  InitializedEvent as FilterBuilderInitializedEvent,
  OptionChangedEvent as FilterBuilderOptionChangedEvent,
  ValueChangedEvent,
-} from "devextreme/ui/filter_builder";
+} from "@ISalikhzyanov/devextreme/ui/filter_builder";
 import {
  dxLoadPanelOptions,
  LoadPanelIndicatorProperties,
@@ -125,16 +125,16 @@ import {
  OptionChangedEvent as LoadPanelOptionChangedEvent,
  ShowingEvent,
  ShownEvent,
-} from "devextreme/ui/load_panel";
+} from "@ISalikhzyanov/devextreme/ui/load_panel";
 import {
  EventInfo,
-} from "devextreme/common/core/events";
+} from "@ISalikhzyanov/devextreme/common/core/events";
 import {
  Component,
-} from "devextreme/core/component";
+} from "@ISalikhzyanov/devextreme/core/component";
 import {
  PagerBase,
-} from "devextreme/ui/pagination";
+} from "@ISalikhzyanov/devextreme/ui/pagination";
 import {
  AnimationConfig,
  CollisionResolution,
@@ -142,7 +142,7 @@ import {
  AnimationState,
  AnimationType,
  CollisionResolutionCombination,
-} from "devextreme/common/core/animation";
+} from "@ISalikhzyanov/devextreme/common/core/animation";
 import {
  dxButtonOptions,
  ClickEvent,
@@ -150,7 +150,7 @@ import {
  DisposingEvent,
  InitializedEvent,
  OptionChangedEvent,
-} from "devextreme/ui/button";
+} from "@ISalikhzyanov/devextreme/ui/button";
 import {
  FormItemType,
  FormPredefinedButtonItem,
@@ -171,20 +171,20 @@ import {
  SmartPastedEvent,
  SmartPastingEvent,
  FormItemComponent,
-} from "devextreme/ui/form";
+} from "@ISalikhzyanov/devextreme/ui/form";
 import {
  LocateInMenuMode,
  ShowTextMode,
-} from "devextreme/ui/toolbar";
+} from "@ISalikhzyanov/devextreme/ui/toolbar";
 import {
  Format,
-} from "devextreme/common/core/localization";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
 import {
  AIIntegration,
-} from "devextreme/common/ai-integration";
+} from "@ISalikhzyanov/devextreme/common/ai-integration";
 import {
  LoadingAnimationType,
-} from "devextreme/ui/load_indicator";
+} from "@ISalikhzyanov/devextreme/ui/load_indicator";
 import {
  dxTabPanelOptions,
  dxTabPanelItem,
@@ -201,11 +201,11 @@ import {
  TitleClickEvent,
  TitleHoldEvent,
  TitleRenderedEvent,
-} from "devextreme/ui/tab_panel";
+} from "@ISalikhzyanov/devextreme/ui/tab_panel";
 import {
  event,
-} from "devextreme/events/events.types";
-import  * as CommonTypes from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/events/events.types";
+import  * as CommonTypes from "@ISalikhzyanov/devextreme/common";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -3354,5 +3354,5 @@ export {
   DxToolbarItem,
   DxValidationRule
 };
-import type * as DxCardViewTypes from "devextreme/ui/card_view_types";
+import type * as DxCardViewTypes from "@ISalikhzyanov/devextreme/ui/card_view_types";
 export { DxCardViewTypes };

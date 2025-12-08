@@ -1195,7 +1195,7 @@ export class DxRangeSelectorModule { }
 
 export * from 'devextreme-angular/ui/range-selector/nested';
 
-import type * as DxRangeSelectorTypes from "devextreme/viz/range_selector_types";
+import type * as DxRangeSelectorTypes from "@ISalikhzyanov/devextreme/viz/range_selector_types";
 export { DxRangeSelectorTypes };
 
 

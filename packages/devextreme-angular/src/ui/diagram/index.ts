@@ -1165,7 +1165,7 @@ export class DxDiagramModule { }
 
 export * from 'devextreme-angular/ui/diagram/nested';
 
-import type * as DxDiagramTypes from "devextreme/ui/diagram_types";
+import type * as DxDiagramTypes from "@ISalikhzyanov/devextreme/ui/diagram_types";
 export { DxDiagramTypes };
 
 

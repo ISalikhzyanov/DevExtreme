@@ -8,7 +8,7 @@ import 'devextreme-react/number-box';
 import 'devextreme-react/select-box';
 import 'devextreme-react/text-area';
 import type { SelectionChangedEvent, SelectionChangingEvent } from 'devextreme/ui/stepper';
-import validationEngine from "devextreme/ui/validation_engine";
+import validationEngine from "@ISalikhzyanov/devextreme/ui/validation_engine";
 
 import { initialSteps, formData, mealPlans, roomTypes } from "./data";
 import './styles.css';

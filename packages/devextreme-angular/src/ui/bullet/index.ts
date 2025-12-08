@@ -588,7 +588,7 @@ export class DxBulletModule { }
 
 export * from 'devextreme-angular/ui/bullet/nested';
 
-import type * as DxBulletTypes from "devextreme/viz/bullet_types";
+import type * as DxBulletTypes from "@ISalikhzyanov/devextreme/viz/bullet_types";
 export { DxBulletTypes };
 
 

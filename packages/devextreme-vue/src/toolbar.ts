@@ -1,9 +1,9 @@
-export { ExplicitTypes } from "devextreme/ui/toolbar";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/toolbar";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Toolbar, { Properties } from "devextreme/ui/toolbar";
-import  DataSource from "devextreme/data/data_source";
+import Toolbar, { Properties } from "@ISalikhzyanov/devextreme/ui/toolbar";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxToolbarItem,
  ContentReadyEvent,
@@ -16,17 +16,17 @@ import {
  OptionChangedEvent,
  LocateInMenuMode,
  ShowTextMode,
-} from "devextreme/ui/toolbar";
+} from "@ISalikhzyanov/devextreme/ui/toolbar";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  ToolbarItemLocation,
  ToolbarItemComponent,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -173,5 +173,5 @@ export {
   DxToolbar,
   DxItem
 };
-import type * as DxToolbarTypes from "devextreme/ui/toolbar_types";
+import type * as DxToolbarTypes from "@ISalikhzyanov/devextreme/ui/toolbar_types";
 export { DxToolbarTypes };

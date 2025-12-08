@@ -1,8 +1,8 @@
 import type {Meta, StoryObj} from "@storybook/react";
 
-import dxCardView from "devextreme/ui/card_view";
+import dxCardView from "@ISalikhzyanov/devextreme/ui/card_view";
 import { wrapDxWithReact } from "../../utils";
-import Button from "devextreme/ui/button";
+import Button from "@ISalikhzyanov/devextreme/ui/button";
 
 const CardView = wrapDxWithReact(dxCardView);
 

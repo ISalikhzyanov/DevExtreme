@@ -1,19 +1,19 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Switch, { Properties } from "devextreme/ui/switch";
+import Switch, { Properties } from "@ISalikhzyanov/devextreme/ui/switch";
 import {
  ContentReadyEvent,
  DisposingEvent,
  InitializedEvent,
  OptionChangedEvent,
  ValueChangedEvent,
-} from "devextreme/ui/switch";
+} from "@ISalikhzyanov/devextreme/ui/switch";
 import {
  ValidationMessageMode,
  Position,
  ValidationStatus,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 
 type AccessibleOptions = Pick<Properties,
   "accessKey" |
@@ -136,5 +136,5 @@ export default DxSwitch;
 export {
   DxSwitch
 };
-import type * as DxSwitchTypes from "devextreme/ui/switch_types";
+import type * as DxSwitchTypes from "@ISalikhzyanov/devextreme/ui/switch_types";
 export { DxSwitchTypes };

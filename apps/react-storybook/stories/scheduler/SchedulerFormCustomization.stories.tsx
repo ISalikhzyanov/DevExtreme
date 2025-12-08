@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import React from "react";
-import dxScheduler from "devextreme/ui/scheduler";
-import type { dxSchedulerOptions } from "devextreme/ui/scheduler";
+import dxScheduler from "@ISalikhzyanov/devextreme/ui/scheduler";
+import type { dxSchedulerOptions } from "@ISalikhzyanov/devextreme/ui/scheduler";
 import { wrapDxWithReact } from "../utils";
 import { data, resources } from "./data";
 import "./form-customization.css";

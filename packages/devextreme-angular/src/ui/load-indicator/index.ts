@@ -299,7 +299,7 @@ export class DxLoadIndicatorComponent extends DxComponent implements OnDestroy {
 export class DxLoadIndicatorModule { }
 
 
-import type * as DxLoadIndicatorTypes from "devextreme/ui/load_indicator_types";
+import type * as DxLoadIndicatorTypes from "@ISalikhzyanov/devextreme/ui/load_indicator_types";
 export { DxLoadIndicatorTypes };
 
 

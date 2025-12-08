@@ -1,8 +1,8 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import FileManager, { Properties } from "devextreme/ui/file_manager";
-import  FileSystemItem from "devextreme/file_management/file_system_item";
+import FileManager, { Properties } from "@ISalikhzyanov/devextreme/ui/file_manager";
+import  FileSystemItem from "@ISalikhzyanov/devextreme/file_management/file_system_item";
 import {
  dxFileManagerContextMenu,
  dxFileManagerDetailsColumn,
@@ -37,7 +37,7 @@ import {
  FileManagerPredefinedToolbarItem,
  FileManagerItemViewMode,
  dxFileManagerToolbarItem,
-} from "devextreme/ui/file_manager";
+} from "@ISalikhzyanov/devextreme/ui/file_manager";
 import {
  SingleOrMultiple,
  HorizontalAlignment,
@@ -45,11 +45,11 @@ import {
  SortOrder,
  ToolbarItemLocation,
  ToolbarItemComponent,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  LocateInMenuMode,
  ShowTextMode,
-} from "devextreme/ui/toolbar";
+} from "@ISalikhzyanov/devextreme/ui/toolbar";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -627,5 +627,5 @@ export {
   DxToolbarItem,
   DxUpload
 };
-import type * as DxFileManagerTypes from "devextreme/ui/file_manager_types";
+import type * as DxFileManagerTypes from "@ISalikhzyanov/devextreme/ui/file_manager_types";
 export { DxFileManagerTypes };

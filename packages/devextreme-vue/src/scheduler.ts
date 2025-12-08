@@ -1,11 +1,11 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Scheduler, { Properties } from "devextreme/ui/scheduler";
-import  DataSource from "devextreme/data/data_source";
-import  dxScheduler from "devextreme/ui/scheduler";
-import  dxSortable from "devextreme/ui/sortable";
-import  dxDraggable from "devextreme/ui/draggable";
+import Scheduler, { Properties } from "@ISalikhzyanov/devextreme/ui/scheduler";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
+import  dxScheduler from "@ISalikhzyanov/devextreme/ui/scheduler";
+import  dxSortable from "@ISalikhzyanov/devextreme/ui/sortable";
+import  dxDraggable from "@ISalikhzyanov/devextreme/ui/draggable";
 import {
  AllDayPanelMode,
  ViewType,
@@ -37,13 +37,13 @@ import {
  DateNavigatorItemProperties,
  SchedulerPredefinedDateNavigatorItem,
  dxSchedulerToolbarItem,
-} from "devextreme/ui/scheduler";
+} from "@ISalikhzyanov/devextreme/ui/scheduler";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  FirstDayOfWeek,
  ValidationRuleType,
@@ -60,10 +60,10 @@ import {
  TabsStyle,
  Position,
  Orientation,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  event,
-} from "devextreme/events/events.types";
+} from "@ISalikhzyanov/devextreme/events/events.types";
 import {
  dxButtonOptions,
  ClickEvent,
@@ -71,7 +71,7 @@ import {
  DisposingEvent as ButtonDisposingEvent,
  InitializedEvent as ButtonInitializedEvent,
  OptionChangedEvent as ButtonOptionChangedEvent,
-} from "devextreme/ui/button";
+} from "@ISalikhzyanov/devextreme/ui/button";
 import {
  FormItemType,
  FormPredefinedButtonItem,
@@ -82,7 +82,7 @@ import {
  dxFormTabbedItem,
  FormItemComponent,
  LabelLocation,
-} from "devextreme/ui/form";
+} from "@ISalikhzyanov/devextreme/ui/form";
 import {
  dxTabPanelOptions,
  dxTabPanelItem,
@@ -99,11 +99,11 @@ import {
  TitleClickEvent,
  TitleHoldEvent,
  TitleRenderedEvent,
-} from "devextreme/ui/tab_panel";
+} from "@ISalikhzyanov/devextreme/ui/tab_panel";
 import {
  LocateInMenuMode,
  ShowTextMode,
-} from "devextreme/ui/toolbar";
+} from "@ISalikhzyanov/devextreme/ui/toolbar";
 import {
  dxButtonGroupOptions,
  dxButtonGroupItem,
@@ -113,8 +113,8 @@ import {
  ItemClickEvent,
  OptionChangedEvent as ButtonGroupOptionChangedEvent,
  SelectionChangedEvent,
-} from "devextreme/ui/button_group";
-import  * as CommonTypes from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/ui/button_group";
+import  * as CommonTypes from "@ISalikhzyanov/devextreme/common";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -1761,5 +1761,5 @@ export {
   DxValidationRule,
   DxView
 };
-import type * as DxSchedulerTypes from "devextreme/ui/scheduler_types";
+import type * as DxSchedulerTypes from "@ISalikhzyanov/devextreme/ui/scheduler_types";
 export { DxSchedulerTypes };

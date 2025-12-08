@@ -1934,7 +1934,7 @@ export class DxTagBoxModule { }
 
 export * from 'devextreme-angular/ui/tag-box/nested';
 
-import type * as DxTagBoxTypes from "devextreme/ui/tag_box_types";
+import type * as DxTagBoxTypes from "@ISalikhzyanov/devextreme/ui/tag_box_types";
 export { DxTagBoxTypes };
 
 

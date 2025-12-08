@@ -1,12 +1,12 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Sortable, { Properties } from "devextreme/ui/sortable";
+import Sortable, { Properties } from "@ISalikhzyanov/devextreme/ui/sortable";
 import {
  DragDirection,
  DragHighlight,
  Orientation,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  AddEvent,
  DisposingEvent,
@@ -18,7 +18,7 @@ import {
  OptionChangedEvent,
  RemoveEvent,
  ReorderEvent,
-} from "devextreme/ui/sortable";
+} from "@ISalikhzyanov/devextreme/ui/sortable";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -171,5 +171,5 @@ export {
   DxSortable,
   DxCursorOffset
 };
-import type * as DxSortableTypes from "devextreme/ui/sortable_types";
+import type * as DxSortableTypes from "@ISalikhzyanov/devextreme/ui/sortable_types";
 export { DxSortableTypes };

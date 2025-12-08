@@ -3,14 +3,14 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxFileManager, {
     Properties
-} from "devextreme/ui/file_manager";
+} from "@ISalikhzyanov/devextreme/ui/file_manager";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { ContentReadyEvent, ContextMenuItemClickEvent, ContextMenuShowingEvent, DirectoryCreatedEvent, DirectoryCreatingEvent, DisposingEvent, ErrorOccurredEvent, FileUploadedEvent, FileUploadingEvent, InitializedEvent, ItemCopiedEvent, ItemCopyingEvent, ItemDeletedEvent, ItemDeletingEvent, ItemDownloadingEvent, ItemMovedEvent, ItemMovingEvent, ItemRenamedEvent, ItemRenamingEvent, SelectedFileOpenedEvent, ToolbarItemClickEvent, dxFileManagerContextMenuItem, FileManagerPredefinedContextMenuItem, dxFileManagerDetailsColumn, FileManagerPredefinedToolbarItem, FileManagerItemViewMode, dxFileManagerToolbarItem } from "devextreme/ui/file_manager";
-import type { HorizontalAlignment, DataType, SortOrder, ToolbarItemLocation, ToolbarItemComponent } from "devextreme/common";
-import type { LocateInMenuMode, ShowTextMode } from "devextreme/ui/toolbar";
+import type { ContentReadyEvent, ContextMenuItemClickEvent, ContextMenuShowingEvent, DirectoryCreatedEvent, DirectoryCreatingEvent, DisposingEvent, ErrorOccurredEvent, FileUploadedEvent, FileUploadingEvent, InitializedEvent, ItemCopiedEvent, ItemCopyingEvent, ItemDeletedEvent, ItemDeletingEvent, ItemDownloadingEvent, ItemMovedEvent, ItemMovingEvent, ItemRenamedEvent, ItemRenamingEvent, SelectedFileOpenedEvent, ToolbarItemClickEvent, dxFileManagerContextMenuItem, FileManagerPredefinedContextMenuItem, dxFileManagerDetailsColumn, FileManagerPredefinedToolbarItem, FileManagerItemViewMode, dxFileManagerToolbarItem } from "@ISalikhzyanov/devextreme/ui/file_manager";
+import type { HorizontalAlignment, DataType, SortOrder, ToolbarItemLocation, ToolbarItemComponent } from "@ISalikhzyanov/devextreme/common";
+import type { LocateInMenuMode, ShowTextMode } from "@ISalikhzyanov/devextreme/ui/toolbar";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

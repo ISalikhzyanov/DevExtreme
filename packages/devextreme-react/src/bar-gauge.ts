@@ -3,15 +3,15 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxBarGauge, {
     Properties
-} from "devextreme/viz/bar_gauge";
+} from "@ISalikhzyanov/devextreme/viz/bar_gauge";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, TooltipHiddenEvent, TooltipShownEvent, BarGaugeBarInfo, BarGaugeLegendItem } from "devextreme/viz/bar_gauge";
-import type { AnimationEaseMode, Font as ChartsFont, TextOverflow, WordWrap, DashStyle } from "devextreme/common/charts";
-import type { HorizontalAlignment, VerticalEdge, ExportFormat, Format as CommonFormat, Position, template, Orientation } from "devextreme/common";
-import type { Format as LocalizationFormat } from "devextreme/common/core/localization";
+import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, TooltipHiddenEvent, TooltipShownEvent, BarGaugeBarInfo, BarGaugeLegendItem } from "@ISalikhzyanov/devextreme/viz/bar_gauge";
+import type { AnimationEaseMode, Font as ChartsFont, TextOverflow, WordWrap, DashStyle } from "@ISalikhzyanov/devextreme/common/charts";
+import type { HorizontalAlignment, VerticalEdge, ExportFormat, Format as CommonFormat, Position, template, Orientation } from "@ISalikhzyanov/devextreme/common";
+import type { Format as LocalizationFormat } from "@ISalikhzyanov/devextreme/common/core/localization";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

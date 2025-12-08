@@ -4,4 +4,4 @@ export {
     hideTopOverlay,
     initMobileViewport,
     SchedulerTimeZone,
-} from "devextreme/common/core/environment";
+} from "@ISalikhzyanov/devextreme/common/core/environment";

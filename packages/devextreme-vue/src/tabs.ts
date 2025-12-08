@@ -1,9 +1,9 @@
-export { ExplicitTypes } from "devextreme/ui/tabs";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/tabs";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Tabs, { Properties } from "devextreme/ui/tabs";
-import  DataSource from "devextreme/data/data_source";
+import Tabs, { Properties } from "@ISalikhzyanov/devextreme/ui/tabs";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxTabsItem,
  ContentReadyEvent,
@@ -16,19 +16,19 @@ import {
  OptionChangedEvent,
  SelectionChangedEvent,
  SelectionChangingEvent,
-} from "devextreme/ui/tabs";
+} from "@ISalikhzyanov/devextreme/ui/tabs";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  TabsIconPosition,
  Orientation,
  SingleOrMultiple,
  TabsStyle,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -216,5 +216,5 @@ export {
   DxTabs,
   DxItem
 };
-import type * as DxTabsTypes from "devextreme/ui/tabs_types";
+import type * as DxTabsTypes from "@ISalikhzyanov/devextreme/ui/tabs_types";
 export { DxTabsTypes };

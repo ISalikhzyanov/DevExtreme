@@ -1,14 +1,14 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import LoadIndicator, { Properties } from "devextreme/ui/load_indicator";
+import LoadIndicator, { Properties } from "@ISalikhzyanov/devextreme/ui/load_indicator";
 import {
  LoadingAnimationType,
  ContentReadyEvent,
  DisposingEvent,
  InitializedEvent,
  OptionChangedEvent,
-} from "devextreme/ui/load_indicator";
+} from "@ISalikhzyanov/devextreme/ui/load_indicator";
 
 type AccessibleOptions = Pick<Properties,
   "animationType" |
@@ -79,5 +79,5 @@ export default DxLoadIndicator;
 export {
   DxLoadIndicator
 };
-import type * as DxLoadIndicatorTypes from "devextreme/ui/load_indicator_types";
+import type * as DxLoadIndicatorTypes from "@ISalikhzyanov/devextreme/ui/load_indicator_types";
 export { DxLoadIndicatorTypes };

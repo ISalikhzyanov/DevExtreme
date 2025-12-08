@@ -1,7 +1,7 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import NumberBox, { Properties } from "devextreme/ui/number_box";
+import NumberBox, { Properties } from "@ISalikhzyanov/devextreme/ui/number_box";
 import {
  NumberBoxPredefinedButton,
  NumberBoxType,
@@ -20,7 +20,7 @@ import {
  OptionChangedEvent,
  PasteEvent,
  ValueChangedEvent,
-} from "devextreme/ui/number_box";
+} from "@ISalikhzyanov/devextreme/ui/number_box";
 import {
  TextEditorButton,
  Format as CommonFormat,
@@ -32,10 +32,10 @@ import {
  TextEditorButtonLocation,
  ButtonStyle,
  ButtonType,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  Format,
-} from "devextreme/common/core/localization";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
 import {
  dxButtonOptions,
  ClickEvent,
@@ -43,7 +43,7 @@ import {
  DisposingEvent as ButtonDisposingEvent,
  InitializedEvent as ButtonInitializedEvent,
  OptionChangedEvent as ButtonOptionChangedEvent,
-} from "devextreme/ui/button";
+} from "@ISalikhzyanov/devextreme/ui/button";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -365,5 +365,5 @@ export {
   DxFormat,
   DxOptions
 };
-import type * as DxNumberBoxTypes from "devextreme/ui/number_box_types";
+import type * as DxNumberBoxTypes from "@ISalikhzyanov/devextreme/ui/number_box_types";
 export { DxNumberBoxTypes };

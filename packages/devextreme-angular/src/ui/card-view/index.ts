@@ -1538,7 +1538,7 @@ export class DxCardViewModule { }
 
 export * from 'devextreme-angular/ui/card-view/nested';
 
-import type * as DxCardViewTypes from "devextreme/ui/card_view_types";
+import type * as DxCardViewTypes from "@ISalikhzyanov/devextreme/ui/card_view_types";
 export { DxCardViewTypes };
 
 

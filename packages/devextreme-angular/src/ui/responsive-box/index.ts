@@ -580,7 +580,7 @@ export class DxResponsiveBoxModule { }
 
 export * from 'devextreme-angular/ui/responsive-box/nested';
 
-import type * as DxResponsiveBoxTypes from "devextreme/ui/responsive_box_types";
+import type * as DxResponsiveBoxTypes from "@ISalikhzyanov/devextreme/ui/responsive_box_types";
 export { DxResponsiveBoxTypes };
 
 

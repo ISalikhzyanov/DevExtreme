@@ -882,7 +882,7 @@ export class DxSankeyModule { }
 
 export * from 'devextreme-angular/ui/sankey/nested';
 
-import type * as DxSankeyTypes from "devextreme/viz/sankey_types";
+import type * as DxSankeyTypes from "@ISalikhzyanov/devextreme/viz/sankey_types";
 export { DxSankeyTypes };
 
 

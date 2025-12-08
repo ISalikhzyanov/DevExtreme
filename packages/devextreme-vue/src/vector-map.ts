@@ -1,8 +1,8 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import VectorMap, { Properties } from "devextreme/viz/vector_map";
-import  DataSource from "devextreme/data/data_source";
+import VectorMap, { Properties } from "@ISalikhzyanov/devextreme/viz/vector_map";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxVectorMapAnnotationConfig,
  dxVectorMapCommonAnnotationConfig,
@@ -25,11 +25,11 @@ import {
  VectorMapLayerType,
  VectorMapLegendItem,
  VectorMapMarkerShape,
-} from "devextreme/viz/vector_map";
+} from "@ISalikhzyanov/devextreme/viz/vector_map";
 import {
  VectorMapProjection,
  VectorMapProjectionConfig,
-} from "devextreme/viz/vector_map/projection";
+} from "@ISalikhzyanov/devextreme/viz/vector_map/projection";
 import {
  Theme,
  Font,
@@ -38,7 +38,7 @@ import {
  WordWrap,
  DashStyle,
  Palette,
-} from "devextreme/common/charts";
+} from "@ISalikhzyanov/devextreme/common/charts";
 import {
  HorizontalAlignment,
  VerticalEdge,
@@ -46,13 +46,13 @@ import {
  SingleMultipleOrNone,
  Position,
  Orientation,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -1171,5 +1171,5 @@ export {
   DxVectorMapTitle,
   DxVectorMapTitleSubtitle
 };
-import type * as DxVectorMapTypes from "devextreme/viz/vector_map_types";
+import type * as DxVectorMapTypes from "@ISalikhzyanov/devextreme/viz/vector_map_types";
 export { DxVectorMapTypes };

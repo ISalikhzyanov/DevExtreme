@@ -522,7 +522,7 @@ export class DxBoxModule { }
 
 export * from 'devextreme-angular/ui/box/nested';
 
-import type * as DxBoxTypes from "devextreme/ui/box_types";
+import type * as DxBoxTypes from "@ISalikhzyanov/devextreme/ui/box_types";
 export { DxBoxTypes };
 
 

@@ -1538,7 +1538,7 @@ export class DxListModule { }
 
 export * from 'devextreme-angular/ui/list/nested';
 
-import type * as DxListTypes from "devextreme/ui/list_types";
+import type * as DxListTypes from "@ISalikhzyanov/devextreme/ui/list_types";
 export { DxListTypes };
 
 

@@ -1306,7 +1306,7 @@ export class DxTreeViewModule { }
 
 export * from 'devextreme-angular/ui/tree-view/nested';
 
-import type * as DxTreeViewTypes from "devextreme/ui/tree_view_types";
+import type * as DxTreeViewTypes from "@ISalikhzyanov/devextreme/ui/tree_view_types";
 export { DxTreeViewTypes };
 
 

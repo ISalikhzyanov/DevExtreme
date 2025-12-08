@@ -1,8 +1,8 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Funnel, { Properties } from "devextreme/viz/funnel";
-import  DataSource from "devextreme/data/data_source";
+import Funnel, { Properties } from "@ISalikhzyanov/devextreme/viz/funnel";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  FunnelAlgorithm,
  DisposingEvent,
@@ -19,13 +19,13 @@ import {
  SelectionChangedEvent,
  dxFunnelItem,
  FunnelLegendItem,
-} from "devextreme/viz/funnel";
+} from "@ISalikhzyanov/devextreme/viz/funnel";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  Palette,
  PaletteExtensionMode,
@@ -37,7 +37,7 @@ import {
  WordWrap,
  HatchDirection,
  LabelPosition,
-} from "devextreme/common/charts";
+} from "@ISalikhzyanov/devextreme/common/charts";
 import {
  SingleMultipleOrNone,
  ExportFormat,
@@ -47,10 +47,10 @@ import {
  HorizontalEdge,
  Position,
  Orientation,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  Format as LocalizationFormat,
-} from "devextreme/common/core/localization";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -1054,5 +1054,5 @@ export {
   DxTooltip,
   DxTooltipBorder
 };
-import type * as DxFunnelTypes from "devextreme/viz/funnel_types";
+import type * as DxFunnelTypes from "@ISalikhzyanov/devextreme/viz/funnel_types";
 export { DxFunnelTypes };

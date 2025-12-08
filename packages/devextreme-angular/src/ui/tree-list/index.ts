@@ -2591,7 +2591,7 @@ export class DxTreeListModule { }
 
 export * from 'devextreme-angular/ui/tree-list/nested';
 
-import type * as DxTreeListTypes from "devextreme/ui/tree_list_types";
+import type * as DxTreeListTypes from "@ISalikhzyanov/devextreme/ui/tree_list_types";
 export { DxTreeListTypes };
 
 

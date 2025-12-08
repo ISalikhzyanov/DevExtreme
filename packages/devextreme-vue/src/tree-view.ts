@@ -1,9 +1,9 @@
-export { ExplicitTypes } from "devextreme/ui/tree_view";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/tree_view";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import TreeView, { Properties } from "devextreme/ui/tree_view";
-import  DataSource from "devextreme/data/data_source";
+import TreeView, { Properties } from "@ISalikhzyanov/devextreme/ui/tree_view";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxTreeViewNode,
  dxTreeViewItem,
@@ -22,13 +22,13 @@ import {
  SelectAllValueChangedEvent,
  SelectionChangedEvent,
  TreeViewCheckBoxMode,
-} from "devextreme/ui/tree_view";
+} from "@ISalikhzyanov/devextreme/ui/tree_view";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  DataStructure,
  ScrollDirection,
@@ -45,7 +45,7 @@ import {
  ValidationMessageMode,
  Position,
  ValidationStatus,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  dxTextBoxOptions,
  TextBoxType,
@@ -64,7 +64,7 @@ import {
  OptionChangedEvent as TextBoxOptionChangedEvent,
  PasteEvent,
  ValueChangedEvent,
-} from "devextreme/ui/text_box";
+} from "@ISalikhzyanov/devextreme/ui/text_box";
 import {
  dxButtonOptions,
  ClickEvent,
@@ -72,7 +72,7 @@ import {
  DisposingEvent as ButtonDisposingEvent,
  InitializedEvent as ButtonInitializedEvent,
  OptionChangedEvent as ButtonOptionChangedEvent,
-} from "devextreme/ui/button";
+} from "@ISalikhzyanov/devextreme/ui/button";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -559,5 +559,5 @@ export {
   DxOptions,
   DxSearchEditorOptions
 };
-import type * as DxTreeViewTypes from "devextreme/ui/tree_view_types";
+import type * as DxTreeViewTypes from "@ISalikhzyanov/devextreme/ui/tree_view_types";
 export { DxTreeViewTypes };

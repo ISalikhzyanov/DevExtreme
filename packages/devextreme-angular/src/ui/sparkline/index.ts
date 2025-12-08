@@ -898,7 +898,7 @@ export class DxSparklineModule { }
 
 export * from 'devextreme-angular/ui/sparkline/nested';
 
-import type * as DxSparklineTypes from "devextreme/viz/sparkline_types";
+import type * as DxSparklineTypes from "@ISalikhzyanov/devextreme/viz/sparkline_types";
 export { DxSparklineTypes };
 
 

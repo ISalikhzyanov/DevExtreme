@@ -1,9 +1,9 @@
-export { ExplicitTypes } from "devextreme/ui/gallery";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/gallery";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Gallery, { Properties } from "devextreme/ui/gallery";
-import  DataSource from "devextreme/data/data_source";
+import Gallery, { Properties } from "@ISalikhzyanov/devextreme/ui/gallery";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxGalleryItem,
  ContentReadyEvent,
@@ -15,13 +15,13 @@ import {
  ItemRenderedEvent,
  OptionChangedEvent,
  SelectionChangedEvent,
-} from "devextreme/ui/gallery";
+} from "@ISalikhzyanov/devextreme/ui/gallery";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -204,5 +204,5 @@ export {
   DxGallery,
   DxItem
 };
-import type * as DxGalleryTypes from "devextreme/ui/gallery_types";
+import type * as DxGalleryTypes from "@ISalikhzyanov/devextreme/ui/gallery_types";
 export { DxGalleryTypes };

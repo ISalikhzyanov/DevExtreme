@@ -1,10 +1,10 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import ScrollView, { Properties } from "devextreme/ui/scroll_view";
+import ScrollView, { Properties } from "@ISalikhzyanov/devextreme/ui/scroll_view";
 import {
  ScrollDirection,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  DisposingEvent,
  InitializedEvent,
@@ -13,7 +13,7 @@ import {
  ReachBottomEvent,
  ScrollEvent,
  UpdatedEvent,
-} from "devextreme/ui/scroll_view";
+} from "@ISalikhzyanov/devextreme/ui/scroll_view";
 
 type AccessibleOptions = Pick<Properties,
   "bounceEnabled" |
@@ -114,5 +114,5 @@ export default DxScrollView;
 export {
   DxScrollView
 };
-import type * as DxScrollViewTypes from "devextreme/ui/scroll_view_types";
+import type * as DxScrollViewTypes from "@ISalikhzyanov/devextreme/ui/scroll_view_types";
 export { DxScrollViewTypes };

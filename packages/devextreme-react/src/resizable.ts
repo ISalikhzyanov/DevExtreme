@@ -3,11 +3,11 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxResizable, {
     Properties
-} from "devextreme/ui/resizable";
+} from "@ISalikhzyanov/devextreme/ui/resizable";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef } from "./core/component";
 
-import type { DisposingEvent, InitializedEvent, ResizeEvent, ResizeEndEvent, ResizeStartEvent } from "devextreme/ui/resizable";
+import type { DisposingEvent, InitializedEvent, ResizeEvent, ResizeEndEvent, ResizeStartEvent } from "@ISalikhzyanov/devextreme/ui/resizable";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

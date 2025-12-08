@@ -9,7 +9,7 @@
   "devDependencies": {
     "@angular/common": "11.2.14",
     "@types/jquery": "catalog:",
-    "devextreme": "workspace:*",
+    "@ISalikhzyanov/devextreme": "workspace:*",
     "jquery": "catalog:",
     "typescript": "4.9.5",
     "eslint": "catalog:",

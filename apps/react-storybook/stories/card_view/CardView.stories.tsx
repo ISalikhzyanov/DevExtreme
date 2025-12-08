@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import dxCardView from "devextreme/ui/card_view";
+import dxCardView from "@ISalikhzyanov/devextreme/ui/card_view";
 import { wrapDxWithReact } from "../utils";
 import { store } from "./data";
 import { generatedData } from "./generatedData";

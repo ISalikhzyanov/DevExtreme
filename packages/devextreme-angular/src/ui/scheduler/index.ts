@@ -1718,7 +1718,7 @@ export class DxSchedulerModule { }
 
 export * from 'devextreme-angular/ui/scheduler/nested';
 
-import type * as DxSchedulerTypes from "devextreme/ui/scheduler_types";
+import type * as DxSchedulerTypes from "@ISalikhzyanov/devextreme/ui/scheduler_types";
 export { DxSchedulerTypes };
 
 

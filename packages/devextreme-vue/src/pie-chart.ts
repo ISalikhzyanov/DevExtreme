@@ -1,8 +1,8 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import PieChart, { Properties } from "devextreme/viz/pie_chart";
-import  DataSource from "devextreme/data/data_source";
+import PieChart, { Properties } from "@ISalikhzyanov/devextreme/viz/pie_chart";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxPieChartAnnotationConfig,
  dxPieChartCommonAnnotationConfig,
@@ -30,7 +30,7 @@ import {
  PieChartLegendHoverMode,
  SmallValuesGroupingMode,
  dxPieChartPointInfo,
-} from "devextreme/viz/pie_chart";
+} from "@ISalikhzyanov/devextreme/viz/pie_chart";
 import {
  SeriesLabel,
  SeriesPoint,
@@ -48,13 +48,13 @@ import {
  ChartsColor,
  HatchDirection,
  LabelPosition,
-} from "devextreme/common/charts";
+} from "@ISalikhzyanov/devextreme/common/charts";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  SingleOrMultiple,
  Format,
@@ -63,10 +63,10 @@ import {
  Position,
  Orientation,
  VerticalEdge,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  Format as LocalizationFormat,
-} from "devextreme/common/core/localization";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -1489,5 +1489,5 @@ export {
   DxTooltip,
   DxTooltipBorder
 };
-import type * as DxPieChartTypes from "devextreme/viz/pie_chart_types";
+import type * as DxPieChartTypes from "@ISalikhzyanov/devextreme/viz/pie_chart_types";
 export { DxPieChartTypes };

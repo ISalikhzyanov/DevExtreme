@@ -392,7 +392,7 @@ export class DxSpeedDialActionComponent extends DxComponent implements OnDestroy
 export class DxSpeedDialActionModule { }
 
 
-import type * as DxSpeedDialActionTypes from "devextreme/ui/speed_dial_action_types";
+import type * as DxSpeedDialActionTypes from "@ISalikhzyanov/devextreme/ui/speed_dial_action_types";
 export { DxSpeedDialActionTypes };
 
 

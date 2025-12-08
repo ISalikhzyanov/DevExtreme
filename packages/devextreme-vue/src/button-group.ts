@@ -1,7 +1,7 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import ButtonGroup, { Properties } from "devextreme/ui/button_group";
+import ButtonGroup, { Properties } from "@ISalikhzyanov/devextreme/ui/button_group";
 import {
  dxButtonGroupItem,
  ContentReadyEvent,
@@ -10,12 +10,12 @@ import {
  ItemClickEvent,
  OptionChangedEvent,
  SelectionChangedEvent,
-} from "devextreme/ui/button_group";
+} from "@ISalikhzyanov/devextreme/ui/button_group";
 import {
  SingleMultipleOrNone,
  ButtonStyle,
  ButtonType,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -163,5 +163,5 @@ export {
   DxButtonGroup,
   DxItem
 };
-import type * as DxButtonGroupTypes from "devextreme/ui/button_group_types";
+import type * as DxButtonGroupTypes from "@ISalikhzyanov/devextreme/ui/button_group_types";
 export { DxButtonGroupTypes };

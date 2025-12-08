@@ -1,43 +1,43 @@
 "use client"
-export { ExplicitTypes } from "devextreme/ui/data_grid";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/data_grid";
 import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxDataGrid, {
     Properties
-} from "devextreme/ui/data_grid";
+} from "@ISalikhzyanov/devextreme/ui/data_grid";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { dxDataGridColumn, AdaptiveDetailRowPreparingEvent, AIColumnRequestCreatingEvent, CellClickEvent, CellDblClickEvent, CellPreparedEvent, ContentReadyEvent, ContextMenuPreparingEvent, DataErrorOccurredEvent, DisposingEvent, EditCanceledEvent, EditCancelingEvent, EditingStartEvent, EditorPreparedEvent, EditorPreparingEvent, ExportingEvent, FocusedCellChangingEvent, FocusedRowChangingEvent, InitializedEvent, InitNewRowEvent, KeyDownEvent, RowClickEvent, RowCollapsedEvent, RowCollapsingEvent, RowDblClickEvent, RowExpandedEvent, RowExpandingEvent, RowInsertedEvent, RowInsertingEvent, RowPreparedEvent, RowRemovedEvent, RowRemovingEvent, RowUpdatedEvent, RowUpdatingEvent, RowValidatingEvent, SavedEvent, SavingEvent, ToolbarPreparingEvent, dxDataGridRowObject, DataGridPredefinedColumnButton, ColumnButtonClickEvent, dxDataGridColumnButton, DataGridCommandColumnType, SelectionSensitivity, DataGridExportFormat, DataGridPredefinedToolbarItem, DataGridScrollMode, dxDataGridToolbarItem } from "devextreme/ui/data_grid";
-import type { DataChange, AIColumnMode, DataChangeType, ColumnAIOptions, FilterOperation, FilterType, FixedPosition, ColumnHeaderFilter as GridsColumnHeaderFilter, SelectedFilterOperation, ColumnChooserMode, ColumnChooserSearchConfig, ColumnChooserSelectionConfig, HeaderFilterGroupInterval, ColumnHeaderFilterSearchConfig, HeaderFilterSearchConfig, HeaderFilterTexts, SelectionColumnDisplayMode, GridsEditMode, NewRowPosition, GridsEditRefreshMode, StartEditAction, FilterPanel as GridsFilterPanel, FilterPanelTexts as GridsFilterPanelTexts, ApplyFilterMode, GroupExpandMode, SummaryType, EnterKeyAction, EnterKeyDirection, PagerPageSize, GridBase, DataRenderMode, StateStoreType } from "devextreme/common/grids";
-import type { Mode, ValidationRuleType, HorizontalAlignment, VerticalAlignment, template, TextEditorButtonLocation, DataType, Format as CommonFormat, SortOrder, SearchMode, ComparisonOperator, SingleMultipleOrNone, SelectAllMode, TextBoxPredefinedButton, TextEditorButton, LabelMode, MaskMode, EditorStyle, ValidationMessageMode, Position as CommonPosition, ValidationStatus, PositionAlignment, Direction, ToolbarItemLocation, ToolbarItemComponent, ButtonStyle, ButtonType, DisplayMode, DragDirection, DragHighlight, ScrollbarMode } from "devextreme/common";
-import type { ContentReadyEvent as TextBoxContentReadyEvent, DisposingEvent as TextBoxDisposingEvent, InitializedEvent as TextBoxInitializedEvent, KeyDownEvent as TextBoxKeyDownEvent, dxTextBoxOptions, TextBoxType, ChangeEvent, CopyEvent, CutEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InputEvent, KeyUpEvent, OptionChangedEvent, PasteEvent, ValueChangedEvent } from "devextreme/ui/text_box";
-import type { ContentReadyEvent as FilterBuilderContentReadyEvent, DisposingEvent as FilterBuilderDisposingEvent, EditorPreparedEvent as FilterBuilderEditorPreparedEvent, EditorPreparingEvent as FilterBuilderEditorPreparingEvent, InitializedEvent as FilterBuilderInitializedEvent, dxFilterBuilderField, FieldInfo, OptionChangedEvent as FilterBuilderOptionChangedEvent, ValueChangedEvent as FilterBuilderValueChangedEvent, FilterBuilderOperation, dxFilterBuilderCustomOperation, GroupOperation } from "devextreme/ui/filter_builder";
-import type { ContentReadyEvent as FormContentReadyEvent, DisposingEvent as FormDisposingEvent, InitializedEvent as FormInitializedEvent, dxFormSimpleItem, dxFormOptions, OptionChangedEvent as FormOptionChangedEvent, dxFormGroupItem, dxFormTabbedItem, dxFormEmptyItem, dxFormButtonItem, LabelLocation, FormLabelMode, EditorEnterKeyEvent, FieldDataChangedEvent, SmartPastedEvent, SmartPastingEvent, FormItemComponent, FormItemType } from "devextreme/ui/form";
-import type { ContentReadyEvent as ButtonContentReadyEvent, DisposingEvent as ButtonDisposingEvent, InitializedEvent as ButtonInitializedEvent, dxButtonOptions, OptionChangedEvent as ButtonOptionChangedEvent, ClickEvent } from "devextreme/ui/button";
-import type { AIIntegration } from "devextreme/common/ai-integration";
-import type { AnimationConfig, CollisionResolution, PositionConfig, AnimationState, AnimationType, CollisionResolutionCombination } from "devextreme/common/core/animation";
-import type { Format as LocalizationFormat } from "devextreme/common/core/localization";
-import type { DataSourceOptions } from "devextreme/data/data_source";
-import type { Store } from "devextreme/data/store";
-import type { dxPopupOptions, dxPopupToolbarItem, ToolbarLocation } from "devextreme/ui/popup";
-import type { event } from "devextreme/events/events.types";
-import type { EventInfo } from "devextreme/common/core/events";
-import type { Component } from "devextreme/core/component";
-import type { LoadingAnimationType } from "devextreme/ui/load_indicator";
-import type { LocateInMenuMode, ShowTextMode } from "devextreme/ui/toolbar";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type { LoadPanelIndicatorProperties } from "devextreme/ui/load_panel";
+import type { dxDataGridColumn, AdaptiveDetailRowPreparingEvent, AIColumnRequestCreatingEvent, CellClickEvent, CellDblClickEvent, CellPreparedEvent, ContentReadyEvent, ContextMenuPreparingEvent, DataErrorOccurredEvent, DisposingEvent, EditCanceledEvent, EditCancelingEvent, EditingStartEvent, EditorPreparedEvent, EditorPreparingEvent, ExportingEvent, FocusedCellChangingEvent, FocusedRowChangingEvent, InitializedEvent, InitNewRowEvent, KeyDownEvent, RowClickEvent, RowCollapsedEvent, RowCollapsingEvent, RowDblClickEvent, RowExpandedEvent, RowExpandingEvent, RowInsertedEvent, RowInsertingEvent, RowPreparedEvent, RowRemovedEvent, RowRemovingEvent, RowUpdatedEvent, RowUpdatingEvent, RowValidatingEvent, SavedEvent, SavingEvent, ToolbarPreparingEvent, dxDataGridRowObject, DataGridPredefinedColumnButton, ColumnButtonClickEvent, dxDataGridColumnButton, DataGridCommandColumnType, SelectionSensitivity, DataGridExportFormat, DataGridPredefinedToolbarItem, DataGridScrollMode, dxDataGridToolbarItem } from "@ISalikhzyanov/devextreme/ui/data_grid";
+import type { DataChange, AIColumnMode, DataChangeType, ColumnAIOptions, FilterOperation, FilterType, FixedPosition, ColumnHeaderFilter as GridsColumnHeaderFilter, SelectedFilterOperation, ColumnChooserMode, ColumnChooserSearchConfig, ColumnChooserSelectionConfig, HeaderFilterGroupInterval, ColumnHeaderFilterSearchConfig, HeaderFilterSearchConfig, HeaderFilterTexts, SelectionColumnDisplayMode, GridsEditMode, NewRowPosition, GridsEditRefreshMode, StartEditAction, FilterPanel as GridsFilterPanel, FilterPanelTexts as GridsFilterPanelTexts, ApplyFilterMode, GroupExpandMode, SummaryType, EnterKeyAction, EnterKeyDirection, PagerPageSize, GridBase, DataRenderMode, StateStoreType } from "@ISalikhzyanov/devextreme/common/grids";
+import type { Mode, ValidationRuleType, HorizontalAlignment, VerticalAlignment, template, TextEditorButtonLocation, DataType, Format as CommonFormat, SortOrder, SearchMode, ComparisonOperator, SingleMultipleOrNone, SelectAllMode, TextBoxPredefinedButton, TextEditorButton, LabelMode, MaskMode, EditorStyle, ValidationMessageMode, Position as CommonPosition, ValidationStatus, PositionAlignment, Direction, ToolbarItemLocation, ToolbarItemComponent, ButtonStyle, ButtonType, DisplayMode, DragDirection, DragHighlight, ScrollbarMode } from "@ISalikhzyanov/devextreme/common";
+import type { ContentReadyEvent as TextBoxContentReadyEvent, DisposingEvent as TextBoxDisposingEvent, InitializedEvent as TextBoxInitializedEvent, KeyDownEvent as TextBoxKeyDownEvent, dxTextBoxOptions, TextBoxType, ChangeEvent, CopyEvent, CutEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InputEvent, KeyUpEvent, OptionChangedEvent, PasteEvent, ValueChangedEvent } from "@ISalikhzyanov/devextreme/ui/text_box";
+import type { ContentReadyEvent as FilterBuilderContentReadyEvent, DisposingEvent as FilterBuilderDisposingEvent, EditorPreparedEvent as FilterBuilderEditorPreparedEvent, EditorPreparingEvent as FilterBuilderEditorPreparingEvent, InitializedEvent as FilterBuilderInitializedEvent, dxFilterBuilderField, FieldInfo, OptionChangedEvent as FilterBuilderOptionChangedEvent, ValueChangedEvent as FilterBuilderValueChangedEvent, FilterBuilderOperation, dxFilterBuilderCustomOperation, GroupOperation } from "@ISalikhzyanov/devextreme/ui/filter_builder";
+import type { ContentReadyEvent as FormContentReadyEvent, DisposingEvent as FormDisposingEvent, InitializedEvent as FormInitializedEvent, dxFormSimpleItem, dxFormOptions, OptionChangedEvent as FormOptionChangedEvent, dxFormGroupItem, dxFormTabbedItem, dxFormEmptyItem, dxFormButtonItem, LabelLocation, FormLabelMode, EditorEnterKeyEvent, FieldDataChangedEvent, SmartPastedEvent, SmartPastingEvent, FormItemComponent, FormItemType } from "@ISalikhzyanov/devextreme/ui/form";
+import type { ContentReadyEvent as ButtonContentReadyEvent, DisposingEvent as ButtonDisposingEvent, InitializedEvent as ButtonInitializedEvent, dxButtonOptions, OptionChangedEvent as ButtonOptionChangedEvent, ClickEvent } from "@ISalikhzyanov/devextreme/ui/button";
+import type { AIIntegration } from "@ISalikhzyanov/devextreme/common/ai-integration";
+import type { AnimationConfig, CollisionResolution, PositionConfig, AnimationState, AnimationType, CollisionResolutionCombination } from "@ISalikhzyanov/devextreme/common/core/animation";
+import type { Format as LocalizationFormat } from "@ISalikhzyanov/devextreme/common/core/localization";
+import type { DataSourceOptions } from "@ISalikhzyanov/devextreme/data/data_source";
+import type { Store } from "@ISalikhzyanov/devextreme/data/store";
+import type { dxPopupOptions, dxPopupToolbarItem, ToolbarLocation } from "@ISalikhzyanov/devextreme/ui/popup";
+import type { event } from "@ISalikhzyanov/devextreme/events/events.types";
+import type { EventInfo } from "@ISalikhzyanov/devextreme/common/core/events";
+import type { Component } from "@ISalikhzyanov/devextreme/core/component";
+import type { LoadingAnimationType } from "@ISalikhzyanov/devextreme/ui/load_indicator";
+import type { LocateInMenuMode, ShowTextMode } from "@ISalikhzyanov/devextreme/ui/toolbar";
+import type { CollectionWidgetItem } from "@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base";
+import type { LoadPanelIndicatorProperties } from "@ISalikhzyanov/devextreme/ui/load_panel";
 
-import type dxOverlay from "devextreme/ui/overlay";
-import type DOMComponent from "devextreme/core/dom_component";
-import type dxPopup from "devextreme/ui/popup";
-import type dxForm from "devextreme/ui/form";
-import type dxSortable from "devextreme/ui/sortable";
-import type dxDraggable from "devextreme/ui/draggable";
+import type dxOverlay from "@ISalikhzyanov/devextreme/ui/overlay";
+import type DOMComponent from "@ISalikhzyanov/devextreme/core/dom_component";
+import type dxPopup from "@ISalikhzyanov/devextreme/ui/popup";
+import type dxForm from "@ISalikhzyanov/devextreme/ui/form";
+import type dxSortable from "@ISalikhzyanov/devextreme/ui/sortable";
+import type dxDraggable from "@ISalikhzyanov/devextreme/ui/draggable";
 
-import type * as CommonTypes from "devextreme/common";
+import type * as CommonTypes from "@ISalikhzyanov/devextreme/common";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

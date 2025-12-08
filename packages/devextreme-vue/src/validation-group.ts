@@ -1,12 +1,12 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import ValidationGroup, { Properties } from "devextreme/ui/validation_group";
+import ValidationGroup, { Properties } from "@ISalikhzyanov/devextreme/ui/validation_group";
 import {
  DisposingEvent,
  InitializedEvent,
  OptionChangedEvent,
-} from "devextreme/ui/validation_group";
+} from "@ISalikhzyanov/devextreme/ui/validation_group";
 
 type AccessibleOptions = Pick<Properties,
   "elementAttr" |
@@ -59,5 +59,5 @@ export default DxValidationGroup;
 export {
   DxValidationGroup
 };
-import type * as DxValidationGroupTypes from "devextreme/ui/validation_group_types";
+import type * as DxValidationGroupTypes from "@ISalikhzyanov/devextreme/ui/validation_group_types";
 export { DxValidationGroupTypes };

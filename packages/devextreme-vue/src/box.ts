@@ -1,9 +1,9 @@
-export { ExplicitTypes } from "devextreme/ui/box";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/box";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Box, { Properties } from "devextreme/ui/box";
-import  DataSource from "devextreme/data/data_source";
+import Box, { Properties } from "@ISalikhzyanov/devextreme/ui/box";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  Distribution,
  CrosswiseDistribution,
@@ -18,13 +18,13 @@ import {
  ItemRenderedEvent,
  OptionChangedEvent,
  dxBoxOptions,
-} from "devextreme/ui/box";
+} from "@ISalikhzyanov/devextreme/ui/box";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -165,5 +165,5 @@ export {
   DxBox,
   DxItem
 };
-import type * as DxBoxTypes from "devextreme/ui/box_types";
+import type * as DxBoxTypes from "@ISalikhzyanov/devextreme/ui/box_types";
 export { DxBoxTypes };

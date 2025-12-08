@@ -999,7 +999,7 @@ export class DxVectorMapModule { }
 
 export * from 'devextreme-angular/ui/vector-map/nested';
 
-import type * as DxVectorMapTypes from "devextreme/viz/vector_map_types";
+import type * as DxVectorMapTypes from "@ISalikhzyanov/devextreme/viz/vector_map_types";
 export { DxVectorMapTypes };
 
 

@@ -3,15 +3,15 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxLinearGauge, {
     Properties
-} from "devextreme/viz/linear_gauge";
+} from "@ISalikhzyanov/devextreme/viz/linear_gauge";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, TooltipHiddenEvent, TooltipShownEvent } from "devextreme/viz/linear_gauge";
-import type { AnimationEaseMode, DashStyle, Font as ChartsFont, LabelOverlap, ChartsColor, Palette, PaletteExtensionMode, TextOverflow, WordWrap } from "devextreme/common/charts";
-import type { ExportFormat, Format as CommonFormat, Orientation, HorizontalAlignment, VerticalAlignment, HorizontalEdge, VerticalEdge, template } from "devextreme/common";
-import type { Format as LocalizationFormat } from "devextreme/common/core/localization";
+import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, TooltipHiddenEvent, TooltipShownEvent } from "@ISalikhzyanov/devextreme/viz/linear_gauge";
+import type { AnimationEaseMode, DashStyle, Font as ChartsFont, LabelOverlap, ChartsColor, Palette, PaletteExtensionMode, TextOverflow, WordWrap } from "@ISalikhzyanov/devextreme/common/charts";
+import type { ExportFormat, Format as CommonFormat, Orientation, HorizontalAlignment, VerticalAlignment, HorizontalEdge, VerticalEdge, template } from "@ISalikhzyanov/devextreme/common";
+import type { Format as LocalizationFormat } from "@ISalikhzyanov/devextreme/common/core/localization";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

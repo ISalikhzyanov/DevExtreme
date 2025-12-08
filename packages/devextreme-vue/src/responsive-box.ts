@@ -1,9 +1,9 @@
-export { ExplicitTypes } from "devextreme/ui/responsive_box";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/responsive_box";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import ResponsiveBox, { Properties } from "devextreme/ui/responsive_box";
-import  DataSource from "devextreme/data/data_source";
+import ResponsiveBox, { Properties } from "@ISalikhzyanov/devextreme/ui/responsive_box";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxResponsiveBoxItem,
  ContentReadyEvent,
@@ -14,13 +14,13 @@ import {
  ItemHoldEvent,
  ItemRenderedEvent,
  OptionChangedEvent,
-} from "devextreme/ui/responsive_box";
+} from "@ISalikhzyanov/devextreme/ui/responsive_box";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -240,5 +240,5 @@ export {
   DxLocation,
   DxRow
 };
-import type * as DxResponsiveBoxTypes from "devextreme/ui/responsive_box_types";
+import type * as DxResponsiveBoxTypes from "@ISalikhzyanov/devextreme/ui/responsive_box_types";
 export { DxResponsiveBoxTypes };

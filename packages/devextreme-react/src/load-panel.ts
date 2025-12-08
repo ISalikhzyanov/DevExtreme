@@ -3,15 +3,15 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxLoadPanel, {
     Properties
-} from "devextreme/ui/load_panel";
+} from "@ISalikhzyanov/devextreme/ui/load_panel";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { PositionAlignment, HorizontalAlignment, VerticalAlignment, Direction } from "devextreme/common";
-import type { PositionConfig, AnimationConfig, CollisionResolution, AnimationState, AnimationType, CollisionResolutionCombination } from "devextreme/common/core/animation";
-import type { ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, ShowingEvent, ShownEvent } from "devextreme/ui/load_panel";
-import type { LoadingAnimationType } from "devextreme/ui/load_indicator";
+import type { PositionAlignment, HorizontalAlignment, VerticalAlignment, Direction } from "@ISalikhzyanov/devextreme/common";
+import type { PositionConfig, AnimationConfig, CollisionResolution, AnimationState, AnimationType, CollisionResolutionCombination } from "@ISalikhzyanov/devextreme/common/core/animation";
+import type { ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, ShowingEvent, ShownEvent } from "@ISalikhzyanov/devextreme/ui/load_panel";
+import type { LoadingAnimationType } from "@ISalikhzyanov/devextreme/ui/load_indicator";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

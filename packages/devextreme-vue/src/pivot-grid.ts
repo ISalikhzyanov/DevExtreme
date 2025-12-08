@@ -1,8 +1,8 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import PivotGrid, { Properties } from "devextreme/ui/pivot_grid";
-import  PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
+import PivotGrid, { Properties } from "@ISalikhzyanov/devextreme/ui/pivot_grid";
+import  PivotGridDataSource from "@ISalikhzyanov/devextreme/ui/pivot_grid/data_source";
 import {
  PivotGridDataFieldArea,
  CellClickEvent,
@@ -15,21 +15,21 @@ import {
  OptionChangedEvent,
  PivotGridRowHeaderLayout,
  PivotGridTotalDisplayMode,
-} from "devextreme/ui/pivot_grid";
+} from "@ISalikhzyanov/devextreme/ui/pivot_grid";
 import {
  PivotGridDataSourceOptions,
-} from "devextreme/ui/pivot_grid/data_source";
+} from "@ISalikhzyanov/devextreme/ui/pivot_grid/data_source";
 import {
  ApplyChangesMode,
  HeaderFilterSearchConfig,
  StateStoreType,
-} from "devextreme/common/grids";
+} from "@ISalikhzyanov/devextreme/common/grids";
 import {
  FieldChooserLayout,
  ScrollMode,
  Mode,
  SearchMode,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -602,5 +602,5 @@ export {
   DxStateStoring,
   DxTexts
 };
-import type * as DxPivotGridTypes from "devextreme/ui/pivot_grid_types";
+import type * as DxPivotGridTypes from "@ISalikhzyanov/devextreme/ui/pivot_grid_types";
 export { DxPivotGridTypes };

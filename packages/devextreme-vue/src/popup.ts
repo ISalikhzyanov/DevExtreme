@@ -1,19 +1,19 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Popup, { Properties } from "devextreme/ui/popup";
-import  dxOverlay from "devextreme/ui/overlay";
-import  DOMComponent from "devextreme/core/dom_component";
-import  dxPopup from "devextreme/ui/popup";
+import Popup, { Properties } from "@ISalikhzyanov/devextreme/ui/popup";
+import  dxOverlay from "@ISalikhzyanov/devextreme/ui/overlay";
+import  DOMComponent from "@ISalikhzyanov/devextreme/core/dom_component";
+import  dxPopup from "@ISalikhzyanov/devextreme/ui/popup";
 import {
  event,
-} from "devextreme/events/events.types";
+} from "@ISalikhzyanov/devextreme/events/events.types";
 import {
  EventInfo,
-} from "devextreme/common/core/events";
+} from "@ISalikhzyanov/devextreme/common/core/events";
 import {
  Component,
-} from "devextreme/core/component";
+} from "@ISalikhzyanov/devextreme/core/component";
 import {
  PositionAlignment,
  HorizontalAlignment,
@@ -21,7 +21,7 @@ import {
  Direction,
  ToolbarItemLocation,
  ToolbarItemComponent,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  PositionConfig,
  AnimationConfig,
@@ -29,15 +29,15 @@ import {
  AnimationState,
  AnimationType,
  CollisionResolutionCombination,
-} from "devextreme/common/core/animation";
+} from "@ISalikhzyanov/devextreme/common/core/animation";
 import {
  dxPopupToolbarItem,
  ToolbarLocation,
-} from "devextreme/ui/popup";
+} from "@ISalikhzyanov/devextreme/ui/popup";
 import {
  LocateInMenuMode,
  ShowTextMode,
-} from "devextreme/ui/toolbar";
+} from "@ISalikhzyanov/devextreme/ui/toolbar";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -565,5 +565,5 @@ export {
   DxTo,
   DxToolbarItem
 };
-import type * as DxPopupTypes from "devextreme/ui/popup_types";
+import type * as DxPopupTypes from "@ISalikhzyanov/devextreme/ui/popup_types";
 export { DxPopupTypes };

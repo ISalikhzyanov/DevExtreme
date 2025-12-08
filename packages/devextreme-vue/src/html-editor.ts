@@ -1,12 +1,12 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import HtmlEditor, { Properties } from "devextreme/ui/html_editor";
-import  UploadInfo from "devextreme/file_management/upload_info";
-import  DataSource from "devextreme/data/data_source";
+import HtmlEditor, { Properties } from "@ISalikhzyanov/devextreme/ui/html_editor";
+import  UploadInfo from "@ISalikhzyanov/devextreme/file_management/upload_info";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  AIIntegration,
-} from "devextreme/common/ai-integration";
+} from "@ISalikhzyanov/devextreme/common/ai-integration";
 import {
  Converter,
  dxHtmlEditorImageUpload,
@@ -34,7 +34,7 @@ import {
  AICommand,
  AIToolbarItem,
  dxHtmlEditorToolbarItem,
-} from "devextreme/ui/html_editor";
+} from "@ISalikhzyanov/devextreme/ui/html_editor";
 import {
  EditorStyle,
  ValidationMessageMode,
@@ -42,7 +42,7 @@ import {
  ValidationStatus,
  ToolbarItemLocation,
  ToolbarItemComponent,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  BeforeSendEvent,
  ContentReadyEvent as FileUploaderContentReadyEvent,
@@ -61,17 +61,17 @@ import {
  UploadHttpMethod,
  FileUploadMode,
  dxFileUploaderOptions,
-} from "devextreme/ui/file_uploader";
+} from "@ISalikhzyanov/devextreme/ui/file_uploader";
 import {
  LocateInMenuMode,
  ShowTextMode,
-} from "devextreme/ui/toolbar";
+} from "@ISalikhzyanov/devextreme/ui/toolbar";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -785,5 +785,5 @@ export {
   DxToolbarItem,
   DxVariables
 };
-import type * as DxHtmlEditorTypes from "devextreme/ui/html_editor_types";
+import type * as DxHtmlEditorTypes from "@ISalikhzyanov/devextreme/ui/html_editor_types";
 export { DxHtmlEditorTypes };

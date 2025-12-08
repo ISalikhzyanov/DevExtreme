@@ -744,7 +744,7 @@ export class DxCheckBoxComponent extends DxComponent implements OnDestroy, Contr
 export class DxCheckBoxModule { }
 
 
-import type * as DxCheckBoxTypes from "devextreme/ui/check_box_types";
+import type * as DxCheckBoxTypes from "@ISalikhzyanov/devextreme/ui/check_box_types";
 export { DxCheckBoxTypes };
 
 

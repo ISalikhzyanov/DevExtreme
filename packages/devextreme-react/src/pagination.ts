@@ -3,7 +3,7 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxPagination, {
     Properties
-} from "devextreme/ui/pagination";
+} from "@ISalikhzyanov/devextreme/ui/pagination";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef } from "./core/component";
 

@@ -3,26 +3,26 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxDateRangeBox, {
     Properties
-} from "devextreme/ui/date_range_box";
+} from "@ISalikhzyanov/devextreme/ui/date_range_box";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { ChangeEvent, ClosedEvent, ContentReadyEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, OpenedEvent, PasteEvent, ValueChangedEvent } from "devextreme/ui/date_range_box";
-import type { ContentReadyEvent as ButtonContentReadyEvent, DisposingEvent as ButtonDisposingEvent, InitializedEvent as ButtonInitializedEvent, dxButtonOptions, OptionChangedEvent as ButtonOptionChangedEvent, ClickEvent } from "devextreme/ui/button";
-import type { DisposingEvent as CalendarDisposingEvent, InitializedEvent as CalendarInitializedEvent, ValueChangedEvent as CalendarValueChangedEvent, DisabledDate, CalendarZoomLevel, OptionChangedEvent, CalendarSelectionMode, WeekNumberRule } from "devextreme/ui/calendar";
-import type { AnimationConfig, CollisionResolution, PositionConfig, AnimationState, AnimationType, CollisionResolutionCombination } from "devextreme/common/core/animation";
-import type { HorizontalAlignment, VerticalAlignment, TextEditorButtonLocation, template, FirstDayOfWeek, ValidationMessageMode, Position as CommonPosition, ValidationStatus, Format, PositionAlignment, Direction, ButtonStyle, ButtonType, ToolbarItemLocation, ToolbarItemComponent } from "devextreme/common";
-import type { event } from "devextreme/events/events.types";
-import type { EventInfo } from "devextreme/common/core/events";
-import type { Component } from "devextreme/core/component";
-import type { dxPopupToolbarItem, ToolbarLocation } from "devextreme/ui/popup";
-import type { LocateInMenuMode, ShowTextMode } from "devextreme/ui/toolbar";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
+import type { ChangeEvent, ClosedEvent, ContentReadyEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, OpenedEvent, PasteEvent, ValueChangedEvent } from "@ISalikhzyanov/devextreme/ui/date_range_box";
+import type { ContentReadyEvent as ButtonContentReadyEvent, DisposingEvent as ButtonDisposingEvent, InitializedEvent as ButtonInitializedEvent, dxButtonOptions, OptionChangedEvent as ButtonOptionChangedEvent, ClickEvent } from "@ISalikhzyanov/devextreme/ui/button";
+import type { DisposingEvent as CalendarDisposingEvent, InitializedEvent as CalendarInitializedEvent, ValueChangedEvent as CalendarValueChangedEvent, DisabledDate, CalendarZoomLevel, OptionChangedEvent, CalendarSelectionMode, WeekNumberRule } from "@ISalikhzyanov/devextreme/ui/calendar";
+import type { AnimationConfig, CollisionResolution, PositionConfig, AnimationState, AnimationType, CollisionResolutionCombination } from "@ISalikhzyanov/devextreme/common/core/animation";
+import type { HorizontalAlignment, VerticalAlignment, TextEditorButtonLocation, template, FirstDayOfWeek, ValidationMessageMode, Position as CommonPosition, ValidationStatus, Format, PositionAlignment, Direction, ButtonStyle, ButtonType, ToolbarItemLocation, ToolbarItemComponent } from "@ISalikhzyanov/devextreme/common";
+import type { event } from "@ISalikhzyanov/devextreme/events/events.types";
+import type { EventInfo } from "@ISalikhzyanov/devextreme/common/core/events";
+import type { Component } from "@ISalikhzyanov/devextreme/core/component";
+import type { dxPopupToolbarItem, ToolbarLocation } from "@ISalikhzyanov/devextreme/ui/popup";
+import type { LocateInMenuMode, ShowTextMode } from "@ISalikhzyanov/devextreme/ui/toolbar";
+import type { CollectionWidgetItem } from "@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base";
 
-import type dxOverlay from "devextreme/ui/overlay";
-import type DOMComponent from "devextreme/core/dom_component";
-import type dxPopup from "devextreme/ui/popup";
+import type dxOverlay from "@ISalikhzyanov/devextreme/ui/overlay";
+import type DOMComponent from "@ISalikhzyanov/devextreme/core/dom_component";
+import type dxPopup from "@ISalikhzyanov/devextreme/ui/popup";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

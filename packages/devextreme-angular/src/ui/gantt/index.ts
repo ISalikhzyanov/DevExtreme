@@ -1452,7 +1452,7 @@ export class DxGanttModule { }
 
 export * from 'devextreme-angular/ui/gantt/nested';
 
-import type * as DxGanttTypes from "devextreme/ui/gantt_types";
+import type * as DxGanttTypes from "@ISalikhzyanov/devextreme/ui/gantt_types";
 export { DxGanttTypes };
 
 

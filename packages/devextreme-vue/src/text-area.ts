@@ -1,14 +1,14 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import TextArea, { Properties } from "devextreme/ui/text_area";
+import TextArea, { Properties } from "@ISalikhzyanov/devextreme/ui/text_area";
 import {
  LabelMode,
  EditorStyle,
  ValidationMessageMode,
  Position,
  ValidationStatus,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  ChangeEvent,
  ContentReadyEvent,
@@ -25,7 +25,7 @@ import {
  OptionChangedEvent,
  PasteEvent,
  ValueChangedEvent,
-} from "devextreme/ui/text_area";
+} from "@ISalikhzyanov/devextreme/ui/text_area";
 
 type AccessibleOptions = Pick<Properties,
   "accessKey" |
@@ -208,5 +208,5 @@ export default DxTextArea;
 export {
   DxTextArea
 };
-import type * as DxTextAreaTypes from "devextreme/ui/text_area_types";
+import type * as DxTextAreaTypes from "@ISalikhzyanov/devextreme/ui/text_area_types";
 export { DxTextAreaTypes };

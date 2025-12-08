@@ -1,10 +1,10 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Drawer, { Properties } from "devextreme/ui/drawer";
+import Drawer, { Properties } from "@ISalikhzyanov/devextreme/ui/drawer";
 import {
  event,
-} from "devextreme/events/events.types";
+} from "@ISalikhzyanov/devextreme/events/events.types";
 import {
  DisposingEvent,
  InitializedEvent,
@@ -12,7 +12,7 @@ import {
  OpenedStateMode,
  PanelLocation,
  RevealMode,
-} from "devextreme/ui/drawer";
+} from "@ISalikhzyanov/devextreme/ui/drawer";
 
 type AccessibleOptions = Pick<Properties,
   "activeStateEnabled" |
@@ -116,5 +116,5 @@ export default DxDrawer;
 export {
   DxDrawer
 };
-import type * as DxDrawerTypes from "devextreme/ui/drawer_types";
+import type * as DxDrawerTypes from "@ISalikhzyanov/devextreme/ui/drawer_types";
 export { DxDrawerTypes };

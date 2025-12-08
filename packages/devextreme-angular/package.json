@@ -22,7 +22,7 @@
     "@angular/common": ">=17.0.0",
     "@angular/core": ">=17.0.0",
     "@angular/forms": ">=17.0.0",
-    "devextreme": "workspace:*"
+    "@ISalikhzyanov/devextreme": "workspace:*"
   },
   "devDependencies": {
     "@angular-devkit/architect": "0.1900.2",

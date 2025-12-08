@@ -3,14 +3,14 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxPivotGrid, {
     Properties
-} from "devextreme/ui/pivot_grid";
+} from "@ISalikhzyanov/devextreme/ui/pivot_grid";
 
 import { Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { CellClickEvent, CellPreparedEvent, ContentReadyEvent, ContextMenuPreparingEvent, DisposingEvent, ExportingEvent, InitializedEvent } from "devextreme/ui/pivot_grid";
-import type { ApplyChangesMode, HeaderFilterSearchConfig, StateStoreType } from "devextreme/common/grids";
-import type { FieldChooserLayout, ScrollMode, Mode, SearchMode } from "devextreme/common";
+import type { CellClickEvent, CellPreparedEvent, ContentReadyEvent, ContextMenuPreparingEvent, DisposingEvent, ExportingEvent, InitializedEvent } from "@ISalikhzyanov/devextreme/ui/pivot_grid";
+import type { ApplyChangesMode, HeaderFilterSearchConfig, StateStoreType } from "@ISalikhzyanov/devextreme/common/grids";
+import type { FieldChooserLayout, ScrollMode, Mode, SearchMode } from "@ISalikhzyanov/devextreme/common";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

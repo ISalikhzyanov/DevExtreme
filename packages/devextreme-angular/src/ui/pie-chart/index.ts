@@ -1240,7 +1240,7 @@ export class DxPieChartModule { }
 
 export * from 'devextreme-angular/ui/pie-chart/nested';
 
-import type * as DxPieChartTypes from "devextreme/viz/pie_chart_types";
+import type * as DxPieChartTypes from "@ISalikhzyanov/devextreme/viz/pie_chart_types";
 export { DxPieChartTypes };
 
 

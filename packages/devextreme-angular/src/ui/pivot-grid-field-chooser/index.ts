@@ -643,7 +643,7 @@ export class DxPivotGridFieldChooserModule { }
 
 export * from 'devextreme-angular/ui/pivot-grid-field-chooser/nested';
 
-import type * as DxPivotGridFieldChooserTypes from "devextreme/ui/pivot_grid_field_chooser_types";
+import type * as DxPivotGridFieldChooserTypes from "@ISalikhzyanov/devextreme/ui/pivot_grid_field_chooser_types";
 export { DxPivotGridFieldChooserTypes };
 
 

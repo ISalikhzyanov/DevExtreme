@@ -1,7 +1,7 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Map, { Properties } from "devextreme/ui/map";
+import Map, { Properties } from "@ISalikhzyanov/devextreme/ui/map";
 import {
  ClickEvent,
  DisposingEvent,
@@ -15,7 +15,7 @@ import {
  MapProvider,
  MapType,
  RouteMode,
-} from "devextreme/ui/map";
+} from "@ISalikhzyanov/devextreme/ui/map";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -318,5 +318,5 @@ export {
   DxRoute,
   DxTooltip
 };
-import type * as DxMapTypes from "devextreme/ui/map_types";
+import type * as DxMapTypes from "@ISalikhzyanov/devextreme/ui/map_types";
 export { DxMapTypes };

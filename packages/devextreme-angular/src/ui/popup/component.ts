@@ -1078,7 +1078,7 @@ export class DxPopupModule { }
 
 export * from 'devextreme-angular/ui/popup/nested';
 
-import type * as DxPopupTypes from "devextreme/ui/popup_types";
+import type * as DxPopupTypes from "@ISalikhzyanov/devextreme/ui/popup_types";
 export { DxPopupTypes };
 
 

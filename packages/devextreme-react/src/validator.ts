@@ -3,14 +3,14 @@ import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo, ForwardedRef, Ref, ReactElement } from "react";
 import dxValidator, {
     Properties
-} from "devextreme/ui/validator";
+} from "@ISalikhzyanov/devextreme/ui/validator";
 
 import { ExtensionComponent as BaseComponent } from "./core/extension-component";
 import { IHtmlOptions, ComponentRef, NestedComponentMeta } from "./core/component";
 import NestedOption from "./core/nested-option";
 
-import type { DisposingEvent, InitializedEvent, ValidatedEvent } from "devextreme/ui/validator";
-import type { ValidationRuleType, ComparisonOperator } from "devextreme/common";
+import type { DisposingEvent, InitializedEvent, ValidatedEvent } from "@ISalikhzyanov/devextreme/ui/validator";
+import type { ValidationRuleType, ComparisonOperator } from "@ISalikhzyanov/devextreme/common";
 
 type ReplaceFieldTypes<TSource, TReplacement> = {
   [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];

@@ -383,7 +383,7 @@ export class DxValidatorModule { }
 
 export * from 'devextreme-angular/ui/validator/nested';
 
-import type * as DxValidatorTypes from "devextreme/ui/validator_types";
+import type * as DxValidatorTypes from "@ISalikhzyanov/devextreme/ui/validator_types";
 export { DxValidatorTypes };
 
 

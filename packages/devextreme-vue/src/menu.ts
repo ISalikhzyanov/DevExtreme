@@ -1,9 +1,9 @@
-export { ExplicitTypes } from "devextreme/ui/menu";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/menu";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Menu, { Properties } from "devextreme/ui/menu";
-import  DataSource from "devextreme/data/data_source";
+import Menu, { Properties } from "@ISalikhzyanov/devextreme/ui/menu";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxMenuItem,
  ContentReadyEvent,
@@ -19,13 +19,13 @@ import {
  SubmenuShowingEvent,
  SubmenuShownEvent,
  SubmenuDirection,
-} from "devextreme/ui/menu";
+} from "@ISalikhzyanov/devextreme/ui/menu";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  Orientation,
  SingleOrNone,
@@ -34,7 +34,7 @@ import {
  VerticalAlignment,
  Direction,
  PositionAlignment,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  AnimationConfig,
  CollisionResolution,
@@ -42,7 +42,7 @@ import {
  AnimationState,
  AnimationType,
  CollisionResolutionCombination,
-} from "devextreme/common/core/animation";
+} from "@ISalikhzyanov/devextreme/common/core/animation";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -620,5 +620,5 @@ export {
   DxShowSubmenuMode,
   DxTo
 };
-import type * as DxMenuTypes from "devextreme/ui/menu_types";
+import type * as DxMenuTypes from "@ISalikhzyanov/devextreme/ui/menu_types";
 export { DxMenuTypes };

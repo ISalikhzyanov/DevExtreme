@@ -1,11 +1,11 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Form, { Properties } from "devextreme/ui/form";
-import  DataSource from "devextreme/data/data_source";
+import Form, { Properties } from "@ISalikhzyanov/devextreme/ui/form";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  AIIntegration,
-} from "devextreme/common/ai-integration";
+} from "@ISalikhzyanov/devextreme/common/ai-integration";
 import {
  Mode,
  ValidationRuleType,
@@ -17,7 +17,7 @@ import {
  TabsIconPosition,
  TabsStyle,
  Position,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  dxFormSimpleItem,
  dxFormGroupItem,
@@ -37,7 +37,7 @@ import {
  FormItemType,
  FormPredefinedButtonItem,
  FormItemComponent,
-} from "devextreme/ui/form";
+} from "@ISalikhzyanov/devextreme/ui/form";
 import {
  dxButtonOptions,
  ClickEvent,
@@ -45,7 +45,7 @@ import {
  DisposingEvent as ButtonDisposingEvent,
  InitializedEvent as ButtonInitializedEvent,
  OptionChangedEvent as ButtonOptionChangedEvent,
-} from "devextreme/ui/button";
+} from "@ISalikhzyanov/devextreme/ui/button";
 import {
  dxTabPanelOptions,
  dxTabPanelItem,
@@ -62,14 +62,14 @@ import {
  TitleClickEvent,
  TitleHoldEvent,
  TitleRenderedEvent,
-} from "devextreme/ui/tab_panel";
+} from "@ISalikhzyanov/devextreme/ui/tab_panel";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
-import  * as CommonTypes from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/data/store";
+import  * as CommonTypes from "@ISalikhzyanov/devextreme/common";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -1194,5 +1194,5 @@ export {
   DxTabPanelOptionsItem,
   DxValidationRule
 };
-import type * as DxFormTypes from "devextreme/ui/form_types";
+import type * as DxFormTypes from "@ISalikhzyanov/devextreme/ui/form_types";
 export { DxFormTypes };

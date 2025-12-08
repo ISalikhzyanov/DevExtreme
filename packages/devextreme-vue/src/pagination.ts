@@ -1,18 +1,18 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Pagination, { Properties } from "devextreme/ui/pagination";
-import  DOMComponent from "devextreme/core/dom_component";
+import Pagination, { Properties } from "@ISalikhzyanov/devextreme/ui/pagination";
+import  DOMComponent from "@ISalikhzyanov/devextreme/core/dom_component";
 import {
  DisplayMode,
  Mode,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  EventInfo,
-} from "devextreme/common/core/events";
+} from "@ISalikhzyanov/devextreme/common/core/events";
 import {
  Component,
-} from "devextreme/core/component";
+} from "@ISalikhzyanov/devextreme/core/component";
 
 type AccessibleOptions = Pick<Properties,
   "accessKey" |
@@ -125,5 +125,5 @@ export default DxPagination;
 export {
   DxPagination
 };
-import type * as DxPaginationTypes from "devextreme/ui/pagination_types";
+import type * as DxPaginationTypes from "@ISalikhzyanov/devextreme/ui/pagination_types";
 export { DxPaginationTypes };

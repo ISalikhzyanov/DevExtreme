@@ -1,8 +1,8 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Gantt, { Properties } from "devextreme/ui/gantt";
-import  DataSource from "devextreme/data/data_source";
+import Gantt, { Properties } from "@ISalikhzyanov/devextreme/ui/gantt";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxGanttColumn,
  dxGanttContextMenu,
@@ -50,7 +50,7 @@ import {
  dxGanttHeaderFilterTexts,
  GanttPredefinedToolbarItem,
  dxGanttToolbarItem,
-} from "devextreme/ui/gantt";
+} from "@ISalikhzyanov/devextreme/ui/gantt";
 import {
  FirstDayOfWeek,
  TextEditorButtonLocation,
@@ -72,10 +72,10 @@ import {
  ButtonStyle,
  ButtonType,
  SingleMultipleOrNone,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  AIIntegration,
-} from "devextreme/common/ai-integration";
+} from "@ISalikhzyanov/devextreme/common/ai-integration";
 import {
  dxTextBoxOptions,
  TextBoxType,
@@ -94,7 +94,7 @@ import {
  OptionChangedEvent as TextBoxOptionChangedEvent,
  PasteEvent,
  ValueChangedEvent,
-} from "devextreme/ui/text_box";
+} from "@ISalikhzyanov/devextreme/ui/text_box";
 import {
  AIColumnMode,
  ColumnAIOptions,
@@ -105,7 +105,7 @@ import {
  HeaderFilterGroupInterval,
  ColumnHeaderFilterSearchConfig,
  HeaderFilterSearchConfig,
-} from "devextreme/common/grids";
+} from "@ISalikhzyanov/devextreme/common/grids";
 import {
  dxButtonOptions,
  ClickEvent,
@@ -113,23 +113,23 @@ import {
  DisposingEvent as ButtonDisposingEvent,
  InitializedEvent as ButtonInitializedEvent,
  OptionChangedEvent as ButtonOptionChangedEvent,
-} from "devextreme/ui/button";
+} from "@ISalikhzyanov/devextreme/ui/button";
 import {
  Format,
-} from "devextreme/common/core/localization";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  dxContextMenuItem,
-} from "devextreme/ui/context_menu";
+} from "@ISalikhzyanov/devextreme/ui/context_menu";
 import {
  LocateInMenuMode,
  ShowTextMode,
-} from "devextreme/ui/toolbar";
+} from "@ISalikhzyanov/devextreme/ui/toolbar";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -1518,5 +1518,5 @@ export {
   DxToolbarItem,
   DxValidation
 };
-import type * as DxGanttTypes from "devextreme/ui/gantt_types";
+import type * as DxGanttTypes from "@ISalikhzyanov/devextreme/ui/gantt_types";
 export { DxGanttTypes };

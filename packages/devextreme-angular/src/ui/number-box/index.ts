@@ -1161,7 +1161,7 @@ export class DxNumberBoxModule { }
 
 export * from 'devextreme-angular/ui/number-box/nested';
 
-import type * as DxNumberBoxTypes from "devextreme/ui/number_box_types";
+import type * as DxNumberBoxTypes from "@ISalikhzyanov/devextreme/ui/number_box_types";
 export { DxNumberBoxTypes };
 
 

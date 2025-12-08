@@ -1,9 +1,9 @@
-export { ExplicitTypes } from "devextreme/ui/action_sheet";
+export { ExplicitTypes } from "@ISalikhzyanov/devextreme/ui/action_sheet";
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import ActionSheet, { Properties } from "devextreme/ui/action_sheet";
-import  DataSource from "devextreme/data/data_source";
+import ActionSheet, { Properties } from "@ISalikhzyanov/devextreme/ui/action_sheet";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxActionSheetItem,
  CancelClickEvent,
@@ -15,20 +15,20 @@ import {
  ItemHoldEvent,
  ItemRenderedEvent,
  OptionChangedEvent,
-} from "devextreme/ui/action_sheet";
+} from "@ISalikhzyanov/devextreme/ui/action_sheet";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  NativeEventInfo,
-} from "devextreme/common/core/events";
+} from "@ISalikhzyanov/devextreme/common/core/events";
 import {
  ButtonStyle,
  ButtonType,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -180,5 +180,5 @@ export {
   DxActionSheet,
   DxItem
 };
-import type * as DxActionSheetTypes from "devextreme/ui/action_sheet_types";
+import type * as DxActionSheetTypes from "@ISalikhzyanov/devextreme/ui/action_sheet_types";
 export { DxActionSheetTypes };

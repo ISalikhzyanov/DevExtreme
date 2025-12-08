@@ -1,8 +1,8 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareComponentConfig } from "./core/index";
-import Chart, { Properties } from "devextreme/viz/chart";
-import  DataSource from "devextreme/data/data_source";
+import Chart, { Properties } from "@ISalikhzyanov/devextreme/viz/chart";
+import  DataSource from "@ISalikhzyanov/devextreme/data/data_source";
 import {
  dxChartAnnotationConfig,
  dxChartCommonAnnotationConfig,
@@ -38,7 +38,7 @@ import {
  ChartTooltipLocation,
  ChartZoomAndPanMode,
  EventKeyModifier,
-} from "devextreme/viz/chart";
+} from "@ISalikhzyanov/devextreme/viz/chart";
 import {
  SeriesLabel,
  SeriesPoint,
@@ -74,13 +74,13 @@ import {
  ValueAxisVisualRangeUpdateMode,
  ValueErrorBarDisplayMode,
  ValueErrorBarType,
-} from "devextreme/common/charts";
+} from "@ISalikhzyanov/devextreme/common/charts";
 import {
  DataSourceOptions,
-} from "devextreme/common/data";
+} from "@ISalikhzyanov/devextreme/common/data";
 import {
  Store,
-} from "devextreme/data/store";
+} from "@ISalikhzyanov/devextreme/data/store";
 import {
  SingleOrMultiple,
  Position,
@@ -90,14 +90,14 @@ import {
  VerticalEdge,
  ExportFormat,
  Orientation,
-} from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
 import {
  ChartSeries,
-} from "devextreme/viz/common";
+} from "@ISalikhzyanov/devextreme/viz/common";
 import {
  Format as LocalizationFormat,
-} from "devextreme/common/core/localization";
-import  * as CommonChartTypes from "devextreme/common/charts";
+} from "@ISalikhzyanov/devextreme/common/core/localization";
+import  * as CommonChartTypes from "@ISalikhzyanov/devextreme/common/charts";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -3748,5 +3748,5 @@ export {
   DxWidth,
   DxZoomAndPan
 };
-import type * as DxChartTypes from "devextreme/viz/chart_types";
+import type * as DxChartTypes from "@ISalikhzyanov/devextreme/viz/chart_types";
 export { DxChartTypes };

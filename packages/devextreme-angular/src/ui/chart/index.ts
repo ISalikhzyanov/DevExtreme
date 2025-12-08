@@ -1984,7 +1984,7 @@ export class DxChartModule { }
 
 export * from 'devextreme-angular/ui/chart/nested';
 
-import type * as DxChartTypes from "devextreme/viz/chart_types";
+import type * as DxChartTypes from "@ISalikhzyanov/devextreme/viz/chart_types";
 export { DxChartTypes };
 
 

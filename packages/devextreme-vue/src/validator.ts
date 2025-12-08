@@ -1,18 +1,18 @@
 import { PropType } from "vue";
 import { defineComponent } from "vue";
 import { prepareExtensionComponentConfig } from "./core/index";
-import Validator, { Properties } from "devextreme/ui/validator";
+import Validator, { Properties } from "@ISalikhzyanov/devextreme/ui/validator";
 import {
  DisposingEvent,
  InitializedEvent,
  OptionChangedEvent,
  ValidatedEvent,
-} from "devextreme/ui/validator";
+} from "@ISalikhzyanov/devextreme/ui/validator";
 import {
  ValidationRuleType,
  ComparisonOperator,
-} from "devextreme/common";
-import  * as CommonTypes from "devextreme/common";
+} from "@ISalikhzyanov/devextreme/common";
+import  * as CommonTypes from "@ISalikhzyanov/devextreme/common";
 import { prepareConfigurationComponentConfig } from "./core/index";
 
 type AccessibleOptions = Pick<Properties,
@@ -425,5 +425,5 @@ export {
   DxStringLengthRule,
   DxValidationRule
 };
-import type * as DxValidatorTypes from "devextreme/ui/validator_types";
+import type * as DxValidatorTypes from "@ISalikhzyanov/devextreme/ui/validator_types";
 export { DxValidatorTypes };

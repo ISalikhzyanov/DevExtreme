@@ -612,7 +612,7 @@ export class DxActionSheetModule { }
 
 export * from 'devextreme-angular/ui/action-sheet/nested';
 
-import type * as DxActionSheetTypes from "devextreme/ui/action_sheet_types";
+import type * as DxActionSheetTypes from "@ISalikhzyanov/devextreme/ui/action_sheet_types";
 export { DxActionSheetTypes };
 
 
