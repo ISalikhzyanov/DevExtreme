@@ -18,8 +18,8 @@ import {
 import { DOCUMENT } from '@angular/common';
 
 
-import { HorizontalAlignment } from 'devextreme/common';
-import { LabelLocation } from 'devextreme/ui/form';
+import { HorizontalAlignment } from '@ISalikhzyanov/devextreme/common';
+import { LabelLocation } from '@ISalikhzyanov/devextreme/ui/form';
 
 import {
     DxIntegrationModule,

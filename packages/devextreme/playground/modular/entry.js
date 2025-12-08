@@ -1,4 +1,4 @@
-import ListBase from 'devextreme/ui/list_light';
+import ListBase from '@ISalikhzyanov/devextreme/ui/list_light';
 
 const container = document.getElementById('container');
 const newElement = (name) => {

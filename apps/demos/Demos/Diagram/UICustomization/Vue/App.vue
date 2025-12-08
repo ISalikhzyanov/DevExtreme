@@ -115,7 +115,7 @@ import {
   DxToolbox,
   type DxDiagramTypes,
 } from 'devextreme-vue/diagram';
-import { confirm } from 'devextreme/ui/dialog';
+import { confirm } from '@ISalikhzyanov/devextreme/ui/dialog';
 import 'whatwg-fetch';
 
 const diagram = ref();

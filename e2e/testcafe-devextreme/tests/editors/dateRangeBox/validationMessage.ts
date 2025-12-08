@@ -2,7 +2,7 @@
 import { createScreenshotsComparer } from 'devextreme-screenshot-comparer';
 import Form from 'devextreme-testcafe-models/form/form';
 import DateRangeBox from 'devextreme-testcafe-models/dateRangeBox';
-import Guid from 'devextreme/core/guid';
+import Guid from '@ISalikhzyanov/devextreme/core/guid';
 import { testScreenshot } from '../../../helpers/themeUtils';
 import url from '../../../helpers/getPageUrl';
 import { createWidget } from '../../../helpers/createWidget';

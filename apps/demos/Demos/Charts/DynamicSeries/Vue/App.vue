@@ -24,7 +24,7 @@
   </DxChart>
 </template>
 <script setup lang="ts">
-import { type ChartSeries } from 'devextreme/viz/common';
+import { type ChartSeries } from '@ISalikhzyanov/devextreme/viz/common';
 import DxChart, {
   DxLegend,
   DxSeriesTemplate,

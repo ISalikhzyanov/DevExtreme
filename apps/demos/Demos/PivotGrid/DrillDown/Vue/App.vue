@@ -46,7 +46,7 @@ import { ref } from 'vue';
 import { DxPivotGrid, DxFieldChooser, type DxPivotGridTypes } from 'devextreme-vue/pivot-grid';
 import { DxPopup } from 'devextreme-vue/popup';
 import { DxDataGrid, DxColumn } from 'devextreme-vue/data-grid';
-import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+import PivotGridDataSource from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
 import { DataSource } from 'devextreme-vue/common/data';
 import { sales } from './data.ts';
 

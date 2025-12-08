@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import Button from 'devextreme-react/button';
 import Popup from 'devextreme-react/popup';
 import { housesSource } from './data.ts';

@@ -153,6 +153,6 @@ export {
   Item,
   IItemProps
 };
-import type * as TabPanelTypes from 'devextreme/ui/tab_panel_types';
+import type * as TabPanelTypes from '@ISalikhzyanov/devextreme/ui/tab_panel_types';
 export { TabPanelTypes };
 

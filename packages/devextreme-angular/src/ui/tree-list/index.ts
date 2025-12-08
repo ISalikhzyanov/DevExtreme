@@ -21,25 +21,25 @@ import {
     QueryList
 } from '@angular/core';
 
-export { ExplicitTypes } from 'devextreme/ui/tree_list';
+export { ExplicitTypes } from '@ISalikhzyanov/devextreme/ui/tree_list';
 
-import DataSource from 'devextreme/data/data_source';
-import dxTreeList from 'devextreme/ui/tree_list';
-import dxSortable from 'devextreme/ui/sortable';
-import dxDraggable from 'devextreme/ui/draggable';
-import { AIIntegration } from 'devextreme/common/ai-integration';
-import { ColumnChooser, ColumnResizeMode, DataChange, GridsEditMode, GridsEditRefreshMode, StartEditAction, FilterPanel, ApplyFilterMode, HeaderFilter, EnterKeyAction, EnterKeyDirection, Pager, GridBase, DataRenderMode, SearchPanel, Sorting, StateStoreType } from 'devextreme/common/grids';
-import { dxTreeListColumn, dxTreeListRowObject, TreeListFilterMode, AdaptiveDetailRowPreparingEvent, AIColumnRequestCreatingEvent, CellClickEvent, CellDblClickEvent, CellHoverChangedEvent, CellPreparedEvent, ContentReadyEvent, ContextMenuPreparingEvent, DataErrorOccurredEvent, DisposingEvent, EditCanceledEvent, EditCancelingEvent, EditingStartEvent, EditorPreparedEvent, EditorPreparingEvent, FocusedCellChangedEvent, FocusedCellChangingEvent, FocusedRowChangedEvent, FocusedRowChangingEvent, InitializedEvent, InitNewRowEvent, KeyDownEvent, NodesInitializedEvent, OptionChangedEvent, RowClickEvent, RowCollapsedEvent, RowCollapsingEvent, RowDblClickEvent, RowExpandedEvent, RowExpandingEvent, RowInsertedEvent, RowInsertingEvent, RowPreparedEvent, RowRemovedEvent, RowRemovingEvent, RowUpdatedEvent, RowUpdatingEvent, RowValidatingEvent, SavedEvent, SavingEvent, SelectionChangedEvent, ToolbarPreparingEvent, dxTreeListToolbar } from 'devextreme/ui/tree_list';
-import { Mode, DataStructure, DragDirection, DragHighlight, ScrollMode, ScrollbarMode, SingleMultipleOrNone } from 'devextreme/common';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { dxFormOptions } from 'devextreme/ui/form';
-import { dxPopupOptions } from 'devextreme/ui/popup';
-import { dxFilterBuilderOptions } from 'devextreme/ui/filter_builder';
-import { LoadPanelIndicatorProperties } from 'devextreme/ui/load_panel';
-import { event } from 'devextreme/events/events.types';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import dxTreeList from '@ISalikhzyanov/devextreme/ui/tree_list';
+import dxSortable from '@ISalikhzyanov/devextreme/ui/sortable';
+import dxDraggable from '@ISalikhzyanov/devextreme/ui/draggable';
+import { AIIntegration } from '@ISalikhzyanov/devextreme/common/ai-integration';
+import { ColumnChooser, ColumnResizeMode, DataChange, GridsEditMode, GridsEditRefreshMode, StartEditAction, FilterPanel, ApplyFilterMode, HeaderFilter, EnterKeyAction, EnterKeyDirection, Pager, GridBase, DataRenderMode, SearchPanel, Sorting, StateStoreType } from '@ISalikhzyanov/devextreme/common/grids';
+import { dxTreeListColumn, dxTreeListRowObject, TreeListFilterMode, AdaptiveDetailRowPreparingEvent, AIColumnRequestCreatingEvent, CellClickEvent, CellDblClickEvent, CellHoverChangedEvent, CellPreparedEvent, ContentReadyEvent, ContextMenuPreparingEvent, DataErrorOccurredEvent, DisposingEvent, EditCanceledEvent, EditCancelingEvent, EditingStartEvent, EditorPreparedEvent, EditorPreparingEvent, FocusedCellChangedEvent, FocusedCellChangingEvent, FocusedRowChangedEvent, FocusedRowChangingEvent, InitializedEvent, InitNewRowEvent, KeyDownEvent, NodesInitializedEvent, OptionChangedEvent, RowClickEvent, RowCollapsedEvent, RowCollapsingEvent, RowDblClickEvent, RowExpandedEvent, RowExpandingEvent, RowInsertedEvent, RowInsertingEvent, RowPreparedEvent, RowRemovedEvent, RowRemovingEvent, RowUpdatedEvent, RowUpdatingEvent, RowValidatingEvent, SavedEvent, SavingEvent, SelectionChangedEvent, ToolbarPreparingEvent, dxTreeListToolbar } from '@ISalikhzyanov/devextreme/ui/tree_list';
+import { Mode, DataStructure, DragDirection, DragHighlight, ScrollMode, ScrollbarMode, SingleMultipleOrNone } from '@ISalikhzyanov/devextreme/common';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { dxFormOptions } from '@ISalikhzyanov/devextreme/ui/form';
+import { dxPopupOptions } from '@ISalikhzyanov/devextreme/ui/popup';
+import { dxFilterBuilderOptions } from '@ISalikhzyanov/devextreme/ui/filter_builder';
+import { LoadPanelIndicatorProperties } from '@ISalikhzyanov/devextreme/ui/load_panel';
+import { event } from '@ISalikhzyanov/devextreme/events/events.types';
 
-import DxTreeList from 'devextreme/ui/tree_list';
+import DxTreeList from '@ISalikhzyanov/devextreme/ui/tree_list';
 
 
 import {

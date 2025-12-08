@@ -57,6 +57,6 @@ export {
   ILoadIndicatorOptions,
   LoadIndicatorRef
 };
-import type * as LoadIndicatorTypes from 'devextreme/ui/load_indicator_types';
+import type * as LoadIndicatorTypes from '@ISalikhzyanov/devextreme/ui/load_indicator_types';
 export { LoadIndicatorTypes };
 

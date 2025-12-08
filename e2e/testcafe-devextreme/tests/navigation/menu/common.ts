@@ -1,5 +1,5 @@
 import { createScreenshotsComparer } from 'devextreme-screenshot-comparer';
-import { Item } from 'devextreme/ui/menu.d';
+import { Item } from '@ISalikhzyanov/devextreme/ui/menu.d';
 import Menu from 'devextreme-testcafe-models/menu';
 import {
   insertStylesheetRulesToPage,

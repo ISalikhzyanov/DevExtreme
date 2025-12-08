@@ -14,7 +14,7 @@ import {
 
 
 
-import { Font, TextOverflow } from 'devextreme/common/charts';
+import { Font, TextOverflow } from '@ISalikhzyanov/devextreme/common/charts';
 
 import {
     DxIntegrationModule,

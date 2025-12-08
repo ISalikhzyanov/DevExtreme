@@ -387,6 +387,6 @@ export {
   ValidationRule,
   IValidationRuleProps
 };
-import type * as ValidatorTypes from 'devextreme/ui/validator_types';
+import type * as ValidatorTypes from '@ISalikhzyanov/devextreme/ui/validator_types';
 export { ValidatorTypes };
 

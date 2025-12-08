@@ -14,8 +14,8 @@ import {
 
 
 
-import { DragDirection, DragHighlight } from 'devextreme/common';
-import { UserDefinedElement } from 'devextreme/core/element';
+import { DragDirection, DragHighlight } from '@ISalikhzyanov/devextreme/common';
+import { UserDefinedElement } from '@ISalikhzyanov/devextreme/core/element';
 
 import {
     DxIntegrationModule,

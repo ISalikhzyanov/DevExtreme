@@ -14,9 +14,9 @@ import {
 
 
 
-import { Format } from 'devextreme/common/core/localization';
-import { DashStyle, Font } from 'devextreme/common/charts';
-import { dxPieChartPointInfo } from 'devextreme/viz/pie_chart';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
+import { DashStyle, Font } from '@ISalikhzyanov/devextreme/common/charts';
+import { dxPieChartPointInfo } from '@ISalikhzyanov/devextreme/viz/pie_chart';
 
 import {
     DxIntegrationModule,

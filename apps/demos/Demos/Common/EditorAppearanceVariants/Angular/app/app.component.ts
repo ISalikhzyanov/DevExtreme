@@ -11,7 +11,7 @@ import {
   DxDateRangeBoxModule,
   DxTextBoxModule,
 } from 'devextreme-angular';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { EditorStyle, LabelMode } from 'devextreme-angular/common';
 import { Service } from './app.service';
 

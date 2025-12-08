@@ -62,7 +62,7 @@ export {
 /** @public */
 export type FunnelAlgorithm = 'dynamicHeight' | 'dynamicSlope';
 /**
- * @deprecated Use ShiftLabelOverlap from 'devextreme/common/charts' instead
+ * @deprecated Use ShiftLabelOverlap from '@ISalikhzyanov/devextreme/common/charts' instead
  */
 export type FunnelLabelOverlap = ShiftLabelOverlap;
 

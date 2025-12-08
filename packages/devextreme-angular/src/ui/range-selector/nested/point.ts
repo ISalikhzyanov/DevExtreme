@@ -14,7 +14,7 @@ import {
 
 
 
-import { ChartsColor, PointInteractionMode, PointSymbol } from 'devextreme/common/charts';
+import { ChartsColor, PointInteractionMode, PointSymbol } from '@ISalikhzyanov/devextreme/common/charts';
 
 import {
     DxIntegrationModule,

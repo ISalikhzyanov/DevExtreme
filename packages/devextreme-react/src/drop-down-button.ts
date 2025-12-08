@@ -591,6 +591,6 @@ export {
   ToolbarItem,
   IToolbarItemProps
 };
-import type * as DropDownButtonTypes from 'devextreme/ui/drop_down_button_types';
+import type * as DropDownButtonTypes from '@ISalikhzyanov/devextreme/ui/drop_down_button_types';
 export { DropDownButtonTypes };
 

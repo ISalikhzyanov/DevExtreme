@@ -8,7 +8,7 @@ import Diagram, {
   PropertiesPanel,
   Group,
 } from 'devextreme-react/diagram';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { ArrayStore } from 'devextreme-react/common/data';
 import service from './data.js';
 

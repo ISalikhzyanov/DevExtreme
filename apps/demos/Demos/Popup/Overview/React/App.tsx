@@ -1,6 +1,6 @@
 import React, { useCallback, useMemo, useState } from 'react';
 import { Popup, Position, ToolbarItem } from 'devextreme-react/popup';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { EmployeeItem, EmployeeItemProps } from './EmployeeItem.tsx';
 import { employees } from './data.ts';
 

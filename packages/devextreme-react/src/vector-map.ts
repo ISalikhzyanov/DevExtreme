@@ -1071,6 +1071,6 @@ export {
   VectorMapTitleSubtitle,
   IVectorMapTitleSubtitleProps
 };
-import type * as VectorMapTypes from 'devextreme/viz/vector_map_types';
+import type * as VectorMapTypes from '@ISalikhzyanov/devextreme/viz/vector_map_types';
 export { VectorMapTypes };
 

@@ -9,4 +9,4 @@ export {
     PositionConfig,
     requestAnimationFrame,
     TransitionExecutor,
-} from 'devextreme/common/core/animation';
+} from '@ISalikhzyanov/devextreme/common/core/animation';

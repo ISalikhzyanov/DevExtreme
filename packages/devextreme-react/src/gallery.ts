@@ -133,6 +133,6 @@ export {
   Item,
   IItemProps
 };
-import type * as GalleryTypes from 'devextreme/ui/gallery_types';
+import type * as GalleryTypes from '@ISalikhzyanov/devextreme/ui/gallery_types';
 export { GalleryTypes };
 

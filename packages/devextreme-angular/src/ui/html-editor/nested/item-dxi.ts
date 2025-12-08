@@ -18,9 +18,9 @@ import {
 import { DOCUMENT } from '@angular/common';
 
 
-import { dxHtmlEditorTableContextMenuItem, HtmlEditorPredefinedContextMenuItem, HtmlEditorPredefinedToolbarItem, AICommand, AICommandName } from 'devextreme/ui/html_editor';
-import { LocateInMenuMode, ShowTextMode } from 'devextreme/ui/toolbar';
-import { ToolbarItemLocation, ToolbarItemComponent } from 'devextreme/common';
+import { dxHtmlEditorTableContextMenuItem, HtmlEditorPredefinedContextMenuItem, HtmlEditorPredefinedToolbarItem, AICommand, AICommandName } from '@ISalikhzyanov/devextreme/ui/html_editor';
+import { LocateInMenuMode, ShowTextMode } from '@ISalikhzyanov/devextreme/ui/toolbar';
+import { ToolbarItemLocation, ToolbarItemComponent } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

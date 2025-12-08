@@ -3,9 +3,9 @@ import {
 } from '@angular/common/http';
 import { throwError, Subject } from 'rxjs';
 import { takeUntil, timeoutWith } from 'rxjs/operators';
-import { Deferred, DeferredObj } from 'devextreme/core/utils/deferred';
-import { isDefined } from 'devextreme/core/utils/type';
-import { getWindow } from 'devextreme/core/utils/window';
+import { Deferred, DeferredObj } from '@ISalikhzyanov/devextreme/core/utils/deferred';
+import { isDefined } from '@ISalikhzyanov/devextreme/core/utils/type';
+import { getWindow } from '@ISalikhzyanov/devextreme/core/utils/window';
 import {
   isCrossDomain,
   evalCrossDomainScript,
@@ -15,7 +15,7 @@ import {
   getAcceptHeader,
   getMethod,
   evalScript,
-} from 'devextreme/core/utils/ajax_utils';
+} from '@ISalikhzyanov/devextreme/core/utils/ajax_utils';
 
 type Result = Promise<any> & { abort: () => void };
 type DeferredResult = DeferredObj<any>;

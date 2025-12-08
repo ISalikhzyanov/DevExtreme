@@ -14,11 +14,11 @@ import {
 
 
 
-import DataSource from 'devextreme/data/data_source';
-import { DataLayoutType } from 'devextreme/ui/diagram';
-import { Orientation } from 'devextreme/common';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { DataLayoutType } from '@ISalikhzyanov/devextreme/ui/diagram';
+import { Orientation } from '@ISalikhzyanov/devextreme/common';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
 
 import {
     DxIntegrationModule,

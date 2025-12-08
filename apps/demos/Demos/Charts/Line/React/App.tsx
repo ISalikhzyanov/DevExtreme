@@ -13,7 +13,7 @@ import {
   Tooltip,
   Grid,
 } from 'devextreme-react/chart';
-import { Properties as ChartPropsType } from 'devextreme/viz/chart';
+import { Properties as ChartPropsType } from '@ISalikhzyanov/devextreme/viz/chart';
 
 import service from './data.ts';
 

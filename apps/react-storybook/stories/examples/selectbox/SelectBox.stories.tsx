@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 
 import React, { useCallback, useState } from 'react';
 import SelectBox, { SelectBoxTypes } from 'devextreme-react/select-box';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 import service from "./data";
 import Field from "./Field";

@@ -17,11 +17,11 @@ import {
 } from '@angular/core';
 
 
-import { AnimationConfig, PositionConfig } from 'devextreme/common/core/animation';
-import { event } from 'devextreme/events/events.types';
-import { ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, OptionChangedEvent, ShowingEvent, ShownEvent, ToastType } from 'devextreme/ui/toast';
+import { AnimationConfig, PositionConfig } from '@ISalikhzyanov/devextreme/common/core/animation';
+import { event } from '@ISalikhzyanov/devextreme/events/events.types';
+import { ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, OptionChangedEvent, ShowingEvent, ShownEvent, ToastType } from '@ISalikhzyanov/devextreme/ui/toast';
 
-import DxToast from 'devextreme/ui/toast';
+import DxToast from '@ISalikhzyanov/devextreme/ui/toast';
 
 
 import {

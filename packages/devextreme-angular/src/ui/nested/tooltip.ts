@@ -14,11 +14,11 @@ import {
 
 
 
-import { TooltipShowMode, VerticalEdge } from 'devextreme/common';
-import { DashStyle, Font } from 'devextreme/common/charts';
-import { Format } from 'devextreme/common/core/localization';
-import { UserDefinedElement } from 'devextreme/core/element';
-import { ChartTooltipLocation } from 'devextreme/viz/chart';
+import { TooltipShowMode, VerticalEdge } from '@ISalikhzyanov/devextreme/common';
+import { DashStyle, Font } from '@ISalikhzyanov/devextreme/common/charts';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
+import { UserDefinedElement } from '@ISalikhzyanov/devextreme/core/element';
+import { ChartTooltipLocation } from '@ISalikhzyanov/devextreme/viz/chart';
 
 import {
     DxIntegrationModule,

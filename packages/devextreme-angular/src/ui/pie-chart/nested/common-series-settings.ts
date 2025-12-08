@@ -14,9 +14,9 @@ import {
 
 
 
-import { ChartsDataType, DashStyle, ChartsColor, HatchDirection, Font, LabelPosition, TextOverflow, WordWrap } from 'devextreme/common/charts';
-import { PieChartSeriesInteractionMode, SmallValuesGroupingMode } from 'devextreme/viz/pie_chart';
-import { Format } from 'devextreme/common/core/localization';
+import { ChartsDataType, DashStyle, ChartsColor, HatchDirection, Font, LabelPosition, TextOverflow, WordWrap } from '@ISalikhzyanov/devextreme/common/charts';
+import { PieChartSeriesInteractionMode, SmallValuesGroupingMode } from '@ISalikhzyanov/devextreme/viz/pie_chart';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
 
 import {
     DxIntegrationModule,

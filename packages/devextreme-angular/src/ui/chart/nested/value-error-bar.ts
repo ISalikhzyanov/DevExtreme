@@ -14,7 +14,7 @@ import {
 
 
 
-import { ValueErrorBarDisplayMode, ValueErrorBarType } from 'devextreme/common/charts';
+import { ValueErrorBarDisplayMode, ValueErrorBarType } from '@ISalikhzyanov/devextreme/common/charts';
 
 import {
     DxIntegrationModule,

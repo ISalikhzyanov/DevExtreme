@@ -14,9 +14,9 @@ import {
 
 
 
-import { DashStyle, ChartsColor, SeriesHoverMode, HatchDirection, Font, RelativePosition, PointInteractionMode, PointSymbol, SeriesSelectionMode, ValueErrorBarDisplayMode, ValueErrorBarType } from 'devextreme/common/charts';
-import { Format } from 'devextreme/common/core/localization';
-import { PolarChartSeriesType } from 'devextreme/viz/polar_chart';
+import { DashStyle, ChartsColor, SeriesHoverMode, HatchDirection, Font, RelativePosition, PointInteractionMode, PointSymbol, SeriesSelectionMode, ValueErrorBarDisplayMode, ValueErrorBarType } from '@ISalikhzyanov/devextreme/common/charts';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
+import { PolarChartSeriesType } from '@ISalikhzyanov/devextreme/viz/polar_chart';
 
 import {
     DxIntegrationModule,

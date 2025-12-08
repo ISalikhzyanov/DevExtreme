@@ -16,10 +16,10 @@ import {
 import { DOCUMENT } from '@angular/common';
 
 
-import dxDataGrid from 'devextreme/ui/data_grid';
-import { dxDataGridColumn, dxDataGridRowObject, DataGridPredefinedColumnButton, ColumnButtonClickEvent } from 'devextreme/ui/data_grid';
-import { TextEditorButtonLocation } from 'devextreme/common';
-import { dxButtonOptions } from 'devextreme/ui/button';
+import dxDataGrid from '@ISalikhzyanov/devextreme/ui/data_grid';
+import { dxDataGridColumn, dxDataGridRowObject, DataGridPredefinedColumnButton, ColumnButtonClickEvent } from '@ISalikhzyanov/devextreme/ui/data_grid';
+import { TextEditorButtonLocation } from '@ISalikhzyanov/devextreme/common';
+import { dxButtonOptions } from '@ISalikhzyanov/devextreme/ui/button';
 
 import {
     DxIntegrationModule,

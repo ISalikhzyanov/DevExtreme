@@ -423,6 +423,6 @@ export {
   SearchEditorOptions,
   ISearchEditorOptionsProps
 };
-import type * as ListTypes from 'devextreme/ui/list_types';
+import type * as ListTypes from '@ISalikhzyanov/devextreme/ui/list_types';
 export { ListTypes };
 

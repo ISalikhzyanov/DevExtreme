@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as events from 'devextreme/events';
+import * as events from '@ISalikhzyanov/devextreme/events';
 
 import {
   useContext,
@@ -13,9 +13,9 @@ import {
   ReactElement,
 } from 'react';
 
-import { requestAnimationFrame } from 'devextreme/animation/frame';
-import { deferUpdate } from 'devextreme/core/utils/common';
-import config from 'devextreme/core/config';
+import { requestAnimationFrame } from '@ISalikhzyanov/devextreme/animation/frame';
+import { deferUpdate } from '@ISalikhzyanov/devextreme/core/utils/common';
+import config from '@ISalikhzyanov/devextreme/core/config';
 
 import { createPortal } from 'react-dom';
 

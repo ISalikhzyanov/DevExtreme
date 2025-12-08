@@ -35,7 +35,7 @@ import {
   DxSource,
   DxTooltip,
 } from 'devextreme-vue/vector-map';
-import { type MapLayerElement } from 'devextreme/viz/vector_map';
+import { type MapLayerElement } from '@ISalikhzyanov/devextreme/viz/vector_map';
 import { populations } from './data.ts';
 
 const mapsWorld = mapsData.world;

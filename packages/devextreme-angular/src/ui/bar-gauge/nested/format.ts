@@ -14,7 +14,7 @@ import {
 
 
 
-import { Format } from 'devextreme/common';
+import { Format } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

@@ -24,9 +24,9 @@ import {
 } from '@angular/core';
 
 
-import { dxFilterBuilderCustomOperation, dxFilterBuilderField, GroupOperation, ContentReadyEvent, DisposingEvent, EditorPreparedEvent, EditorPreparingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent } from 'devextreme/ui/filter_builder';
+import { dxFilterBuilderCustomOperation, dxFilterBuilderField, GroupOperation, ContentReadyEvent, DisposingEvent, EditorPreparedEvent, EditorPreparingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/filter_builder';
 
-import DxFilterBuilder from 'devextreme/ui/filter_builder';
+import DxFilterBuilder from '@ISalikhzyanov/devextreme/ui/filter_builder';
 
 import {
     ControlValueAccessor,

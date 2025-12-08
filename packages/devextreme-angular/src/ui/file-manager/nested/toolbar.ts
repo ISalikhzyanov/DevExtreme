@@ -16,7 +16,7 @@ import {
 
 
 
-import { dxFileManagerToolbarItem, FileManagerPredefinedToolbarItem } from 'devextreme/ui/file_manager';
+import { dxFileManagerToolbarItem, FileManagerPredefinedToolbarItem } from '@ISalikhzyanov/devextreme/ui/file_manager';
 
 import {
     DxIntegrationModule,

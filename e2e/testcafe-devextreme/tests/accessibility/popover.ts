@@ -1,4 +1,4 @@
-import { Properties } from 'devextreme/ui/popover.d';
+import { Properties } from '@ISalikhzyanov/devextreme/ui/popover.d';
 import url from '../../helpers/getPageUrl';
 import { defaultSelector, testAccessibility, Configuration } from '../../helpers/accessibility/test';
 import { Options } from '../../helpers/generateOptionMatrix';

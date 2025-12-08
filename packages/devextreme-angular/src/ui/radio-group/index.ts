@@ -24,14 +24,14 @@ import {
 } from '@angular/core';
 
 
-import DataSource from 'devextreme/data/data_source';
-import { CollectionWidgetItem } from 'devextreme/ui/collection/ui.collection_widget.base';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { Orientation, ValidationMessageMode, Position, ValidationStatus } from 'devextreme/common';
-import { ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent } from 'devextreme/ui/radio_group';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { CollectionWidgetItem } from '@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { Orientation, ValidationMessageMode, Position, ValidationStatus } from '@ISalikhzyanov/devextreme/common';
+import { ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/radio_group';
 
-import DxRadioGroup from 'devextreme/ui/radio_group';
+import DxRadioGroup from '@ISalikhzyanov/devextreme/ui/radio_group';
 
 import {
     ControlValueAccessor,

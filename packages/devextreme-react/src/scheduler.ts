@@ -1549,6 +1549,6 @@ export {
   View,
   IViewProps
 };
-import type * as SchedulerTypes from 'devextreme/ui/scheduler_types';
+import type * as SchedulerTypes from '@ISalikhzyanov/devextreme/ui/scheduler_types';
 export { SchedulerTypes };
 

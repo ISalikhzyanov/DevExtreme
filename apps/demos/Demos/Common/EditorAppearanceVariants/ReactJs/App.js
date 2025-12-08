@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { SelectBox } from 'devextreme-react/select-box';
 import { TextBox } from 'devextreme-react/text-box';
 import { DateBox } from 'devextreme-react/date-box';

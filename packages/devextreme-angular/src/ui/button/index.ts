@@ -17,10 +17,10 @@ import {
 } from '@angular/core';
 
 
-import { ClickEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent } from 'devextreme/ui/button';
-import { ButtonStyle, ButtonType } from 'devextreme/common';
+import { ClickEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent } from '@ISalikhzyanov/devextreme/ui/button';
+import { ButtonStyle, ButtonType } from '@ISalikhzyanov/devextreme/common';
 
-import DxButton from 'devextreme/ui/button';
+import DxButton from '@ISalikhzyanov/devextreme/ui/button';
 
 
 import {

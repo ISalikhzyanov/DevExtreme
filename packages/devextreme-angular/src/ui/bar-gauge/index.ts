@@ -20,12 +20,12 @@ import {
 } from '@angular/core';
 
 
-import { AnimationEaseMode, Font, DashStyle, Palette, PaletteExtensionMode, ShiftLabelOverlap, Theme, TextOverflow, WordWrap } from 'devextreme/common/charts';
-import { ExportFormat, HorizontalAlignment, Position, Orientation, VerticalEdge } from 'devextreme/common';
-import { Format } from 'devextreme/common/core/localization';
-import { BarGaugeBarInfo, BarGaugeLegendItem, DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, OptionChangedEvent, TooltipHiddenEvent, TooltipShownEvent } from 'devextreme/viz/bar_gauge';
+import { AnimationEaseMode, Font, DashStyle, Palette, PaletteExtensionMode, ShiftLabelOverlap, Theme, TextOverflow, WordWrap } from '@ISalikhzyanov/devextreme/common/charts';
+import { ExportFormat, HorizontalAlignment, Position, Orientation, VerticalEdge } from '@ISalikhzyanov/devextreme/common';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
+import { BarGaugeBarInfo, BarGaugeLegendItem, DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, OptionChangedEvent, TooltipHiddenEvent, TooltipShownEvent } from '@ISalikhzyanov/devextreme/viz/bar_gauge';
 
-import DxBarGauge from 'devextreme/viz/bar_gauge';
+import DxBarGauge from '@ISalikhzyanov/devextreme/viz/bar_gauge';
 
 
 import {

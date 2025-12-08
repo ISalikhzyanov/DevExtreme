@@ -1,4 +1,4 @@
-import { Properties } from 'devextreme/ui/calendar.d';
+import { Properties } from '@ISalikhzyanov/devextreme/ui/calendar.d';
 import url from '../../helpers/getPageUrl';
 import { testAccessibility, Configuration } from '../../helpers/accessibility/test';
 import { Options } from '../../helpers/generateOptionMatrix';

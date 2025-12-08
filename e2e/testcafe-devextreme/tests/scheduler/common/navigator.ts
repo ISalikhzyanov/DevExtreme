@@ -1,5 +1,5 @@
 import Scheduler from 'devextreme-testcafe-models/scheduler';
-import { extend } from 'devextreme/core/utils/extend';
+import { extend } from '@ISalikhzyanov/devextreme/core/utils/extend';
 import { createWidget } from '../../../helpers/createWidget';
 import url from '../../../helpers/getPageUrl';
 

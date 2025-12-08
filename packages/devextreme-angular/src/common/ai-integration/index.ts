@@ -7,4 +7,4 @@ export {
     RequestParams,
     RequestParamsData,
     Response,
-} from 'devextreme/common/ai-integration';
+} from '@ISalikhzyanov/devextreme/common/ai-integration';

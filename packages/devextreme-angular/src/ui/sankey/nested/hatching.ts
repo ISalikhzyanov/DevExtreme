@@ -14,7 +14,7 @@ import {
 
 
 
-import { HatchDirection } from 'devextreme/common/charts';
+import { HatchDirection } from '@ISalikhzyanov/devextreme/common/charts';
 
 import {
     DxIntegrationModule,

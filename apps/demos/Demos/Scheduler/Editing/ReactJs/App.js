@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react';
 import Scheduler, { Editing } from 'devextreme-react/scheduler';
 import { CheckBox } from 'devextreme-react/check-box';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { data } from './data.js';
 
 const currentDate = new Date(2021, 3, 29);

@@ -301,6 +301,6 @@ export {
   SearchEditorOptions,
   ISearchEditorOptionsProps
 };
-import type * as TreeViewTypes from 'devextreme/ui/tree_view_types';
+import type * as TreeViewTypes from '@ISalikhzyanov/devextreme/ui/tree_view_types';
 export { TreeViewTypes };
 

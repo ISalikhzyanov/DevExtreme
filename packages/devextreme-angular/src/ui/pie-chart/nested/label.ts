@@ -14,8 +14,8 @@ import {
 
 
 
-import { Format } from 'devextreme/common/core/localization';
-import { DashStyle, Font, LabelPosition, TextOverflow, WordWrap } from 'devextreme/common/charts';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
+import { DashStyle, Font, LabelPosition, TextOverflow, WordWrap } from '@ISalikhzyanov/devextreme/common/charts';
 
 import {
     DxIntegrationModule,

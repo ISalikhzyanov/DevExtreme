@@ -12,8 +12,8 @@ import { DxServerTransferStateModule } from 'devextreme-angular';
 
 import { DxServerModule } from 'devextreme-angular/server';
 
-import { Deferred } from 'devextreme/core/utils/deferred';
-import ajax from 'devextreme/core/utils/ajax';
+import { Deferred } from '@ISalikhzyanov/devextreme/core/utils/deferred';
+import ajax from '@ISalikhzyanov/devextreme/core/utils/ajax';
 
 import { ServerModule, ServerTransferStateModule } from '@angular/platform-server';
 import { BrowserModule } from '@angular/platform-browser';

@@ -1,5 +1,5 @@
 import { createScreenshotsComparer } from 'devextreme-screenshot-comparer';
-import { ButtonType } from 'devextreme/common';
+import { ButtonType } from '@ISalikhzyanov/devextreme/common';
 import { Selector } from 'testcafe';
 import { testScreenshot } from '../../../helpers/themeUtils';
 import {

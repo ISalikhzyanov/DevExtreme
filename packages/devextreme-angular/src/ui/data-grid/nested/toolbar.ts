@@ -16,7 +16,7 @@ import {
 
 
 
-import { DataGridPredefinedToolbarItem, dxDataGridToolbarItem } from 'devextreme/ui/data_grid';
+import { DataGridPredefinedToolbarItem, dxDataGridToolbarItem } from '@ISalikhzyanov/devextreme/ui/data_grid';
 
 import {
     DxIntegrationModule,

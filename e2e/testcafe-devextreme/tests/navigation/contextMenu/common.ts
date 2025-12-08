@@ -1,7 +1,7 @@
 import { Selector } from 'testcafe';
 import { createScreenshotsComparer } from 'devextreme-screenshot-comparer';
 import ContextMenu from 'devextreme-testcafe-models/contextMenu';
-import { Item } from 'devextreme/ui/context_menu.d';
+import { Item } from '@ISalikhzyanov/devextreme/ui/context_menu.d';
 import { testScreenshot } from '../../../helpers/themeUtils';
 import url from '../../../helpers/getPageUrl';
 import { createWidget } from '../../../helpers/createWidget';

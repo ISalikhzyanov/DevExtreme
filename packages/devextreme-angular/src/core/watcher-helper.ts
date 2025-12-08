@@ -2,7 +2,7 @@ import {
   Injectable,
 } from '@angular/core';
 
-import { equalByValue } from 'devextreme/core/utils/common';
+import { equalByValue } from '@ISalikhzyanov/devextreme/core/utils/common';
 
 @Injectable()
 export class WatcherHelper {

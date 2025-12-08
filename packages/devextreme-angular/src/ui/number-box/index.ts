@@ -24,11 +24,11 @@ import {
 } from '@angular/core';
 
 
-import { NumberBoxPredefinedButton, NumberBoxType, ChangeEvent, ContentReadyEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, OptionChangedEvent, PasteEvent, ValueChangedEvent } from 'devextreme/ui/number_box';
-import { TextEditorButton, LabelMode, EditorStyle, ValidationMessageMode, Position, ValidationStatus } from 'devextreme/common';
-import { Format } from 'devextreme/common/core/localization';
+import { NumberBoxPredefinedButton, NumberBoxType, ChangeEvent, ContentReadyEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, OptionChangedEvent, PasteEvent, ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/number_box';
+import { TextEditorButton, LabelMode, EditorStyle, ValidationMessageMode, Position, ValidationStatus } from '@ISalikhzyanov/devextreme/common';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
 
-import DxNumberBox from 'devextreme/ui/number_box';
+import DxNumberBox from '@ISalikhzyanov/devextreme/ui/number_box';
 
 import {
     ControlValueAccessor,

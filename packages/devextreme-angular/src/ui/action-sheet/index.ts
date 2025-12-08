@@ -21,14 +21,14 @@ import {
     QueryList
 } from '@angular/core';
 
-export { ExplicitTypes } from 'devextreme/ui/action_sheet';
+export { ExplicitTypes } from '@ISalikhzyanov/devextreme/ui/action_sheet';
 
-import DataSource from 'devextreme/data/data_source';
-import { dxActionSheetItem, CancelClickEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, OptionChangedEvent } from 'devextreme/ui/action_sheet';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { dxActionSheetItem, CancelClickEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, OptionChangedEvent } from '@ISalikhzyanov/devextreme/ui/action_sheet';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
 
-import DxActionSheet from 'devextreme/ui/action_sheet';
+import DxActionSheet from '@ISalikhzyanov/devextreme/ui/action_sheet';
 
 
 import {

@@ -7,8 +7,8 @@ import {
   DxSelectBoxModule,
   DxNumberBoxModule,
 } from 'devextreme-angular';
-import notify from 'devextreme/ui/notify';
-import hideToasts from 'devextreme/ui/toast/hide_toasts';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
+import hideToasts from '@ISalikhzyanov/devextreme/ui/toast/hide_toasts';
 
 if (!/localhost/.test(document.location.host)) {
   enableProdMode();

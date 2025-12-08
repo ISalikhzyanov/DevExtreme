@@ -16,9 +16,9 @@ import {
 import { DOCUMENT } from '@angular/common';
 
 
-import { LocateInMenuMode, ShowTextMode } from 'devextreme/ui/toolbar';
-import { ToolbarItemLocation, ToolbarItemComponent } from 'devextreme/common';
-import { CardHeaderPredefinedItem } from 'devextreme/ui/card_view';
+import { LocateInMenuMode, ShowTextMode } from '@ISalikhzyanov/devextreme/ui/toolbar';
+import { ToolbarItemLocation, ToolbarItemComponent } from '@ISalikhzyanov/devextreme/common';
+import { CardHeaderPredefinedItem } from '@ISalikhzyanov/devextreme/ui/card_view';
 
 import {
     DxIntegrationModule,

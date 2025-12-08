@@ -24,16 +24,16 @@ import {
 } from '@angular/core';
 
 
-import DataSource from 'devextreme/data/data_source';
-import { DropDownPredefinedButton } from 'devextreme/ui/drop_down_editor/ui.drop_down_editor';
-import { TextEditorButton, LabelMode, SimplifiedSearchMode, EditorStyle, ValidationMessageMode, Mode, Position, ValidationStatus } from 'devextreme/common';
-import { CollectionWidgetItem } from 'devextreme/ui/collection/ui.collection_widget.base';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { dxPopupOptions } from 'devextreme/ui/popup';
-import { ChangeEvent, ClosedEvent, ContentReadyEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, ItemClickEvent, KeyDownEvent, KeyUpEvent, OpenedEvent, OptionChangedEvent, PasteEvent, SelectionChangedEvent, ValueChangedEvent } from 'devextreme/ui/autocomplete';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { DropDownPredefinedButton } from '@ISalikhzyanov/devextreme/ui/drop_down_editor/ui.drop_down_editor';
+import { TextEditorButton, LabelMode, SimplifiedSearchMode, EditorStyle, ValidationMessageMode, Mode, Position, ValidationStatus } from '@ISalikhzyanov/devextreme/common';
+import { CollectionWidgetItem } from '@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { dxPopupOptions } from '@ISalikhzyanov/devextreme/ui/popup';
+import { ChangeEvent, ClosedEvent, ContentReadyEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, ItemClickEvent, KeyDownEvent, KeyUpEvent, OpenedEvent, OptionChangedEvent, PasteEvent, SelectionChangedEvent, ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/autocomplete';
 
-import DxAutocomplete from 'devextreme/ui/autocomplete';
+import DxAutocomplete from '@ISalikhzyanov/devextreme/ui/autocomplete';
 
 import {
     ControlValueAccessor,

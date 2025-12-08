@@ -1,6 +1,6 @@
 import { ClientFunction, Selector } from 'testcafe';
-import DataGridInstance from 'devextreme/ui/data_grid';
-import type { SelectionSensitivity } from 'devextreme/ui/data_grid';
+import DataGridInstance from '@ISalikhzyanov/devextreme/ui/data_grid';
+import type { SelectionSensitivity } from '@ISalikhzyanov/devextreme/ui/data_grid';
 import Toolbar from '../toolbar';
 import DataRow from './data/row';
 import GroupRow from './groupRow';

@@ -2,9 +2,9 @@ import {
   Component, QueryList, ElementRef, Renderer2, EventEmitter,
 } from '@angular/core';
 
-import render from 'devextreme/core/renderer';
-import { triggerHandler } from 'devextreme/events';
-import domAdapter from 'devextreme/core/dom_adapter';
+import render from '@ISalikhzyanov/devextreme/core/renderer';
+import { triggerHandler } from '@ISalikhzyanov/devextreme/events';
+import domAdapter from '@ISalikhzyanov/devextreme/core/dom_adapter';
 import { getElement } from './utils';
 import { warnIfLegacyNestedComponent } from './deprecated-config-warning';
 import { DX_TEMPLATE_WRAPPER_CLASS } from './template';

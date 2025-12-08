@@ -24,15 +24,15 @@ import {
 } from '@angular/core';
 
 
-import DataSource from 'devextreme/data/data_source';
-import { DropDownPredefinedButton, FieldAddons } from 'devextreme/ui/drop_down_editor/ui.drop_down_editor';
-import { TextEditorButton, LabelMode, EditorStyle, ValidationMessageMode, Mode, Position, ValidationStatus } from 'devextreme/common';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { dxPopupOptions } from 'devextreme/ui/popup';
-import { ChangeEvent, ClosedEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, OpenedEvent, OptionChangedEvent, PasteEvent, ValueChangedEvent } from 'devextreme/ui/drop_down_box';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { DropDownPredefinedButton, FieldAddons } from '@ISalikhzyanov/devextreme/ui/drop_down_editor/ui.drop_down_editor';
+import { TextEditorButton, LabelMode, EditorStyle, ValidationMessageMode, Mode, Position, ValidationStatus } from '@ISalikhzyanov/devextreme/common';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { dxPopupOptions } from '@ISalikhzyanov/devextreme/ui/popup';
+import { ChangeEvent, ClosedEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, OpenedEvent, OptionChangedEvent, PasteEvent, ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/drop_down_box';
 
-import DxDropDownBox from 'devextreme/ui/drop_down_box';
+import DxDropDownBox from '@ISalikhzyanov/devextreme/ui/drop_down_box';
 
 import {
     ControlValueAccessor,

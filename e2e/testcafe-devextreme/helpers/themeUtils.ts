@@ -1,4 +1,4 @@
-import { isString } from 'devextreme/core/utils/type';
+import { isString } from '@ISalikhzyanov/devextreme/core/utils/type';
 import { ClientFunction } from 'testcafe';
 import { changeTheme } from './changeTheme';
 

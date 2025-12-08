@@ -322,8 +322,8 @@ import DxButtonGroup, { type DxButtonGroupTypes } from 'devextreme-vue/button-gr
 import DxResizable from 'devextreme-vue/resizable';
 import DxDropDownButton from 'devextreme-vue/drop-down-button';
 import DxSelectBox from 'devextreme-vue/select-box';
-import themes from 'devextreme/ui/themes';
-import notify from 'devextreme/ui/notify';
+import themes from '@ISalikhzyanov/devextreme/ui/themes';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import {
   fontSizes,
   lineHeights,

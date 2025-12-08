@@ -14,8 +14,8 @@ import {
 
 
 
-import { HorizontalAlignment } from 'devextreme/common';
-import { Font, TextOverflow, WordWrap } from 'devextreme/common/charts';
+import { HorizontalAlignment } from '@ISalikhzyanov/devextreme/common';
+import { Font, TextOverflow, WordWrap } from '@ISalikhzyanov/devextreme/common/charts';
 
 import {
     DxIntegrationModule,

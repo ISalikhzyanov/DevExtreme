@@ -23,7 +23,7 @@ import {
   RadioGroup,
 } from 'devextreme-react/radio-group';
 
-import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+import PivotGridDataSource from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
 
 import { ApplyChangesMode } from 'devextreme-react/common/grids';
 import { FieldChooserLayout } from 'devextreme-react/common';

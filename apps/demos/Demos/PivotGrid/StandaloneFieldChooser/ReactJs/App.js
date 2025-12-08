@@ -4,7 +4,7 @@ import { PivotGridFieldChooser, Texts } from 'devextreme-react/pivot-grid-field-
 import { SelectBox } from 'devextreme-react/select-box';
 import { Button } from 'devextreme-react/button';
 import { RadioGroup } from 'devextreme-react/radio-group';
-import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+import PivotGridDataSource from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
 import service from './data.js';
 
 const applyChangesModeLabel = { 'aria-label': 'Apply Changes Mode' };

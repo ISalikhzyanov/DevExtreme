@@ -4,7 +4,7 @@ import Toolbar, { Item } from 'devextreme-react/toolbar';
 import List from 'devextreme-react/list';
 
 import { DataSource } from 'devextreme-react/common/data';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import 'devextreme/ui/select_box';
 
 import { productTypes, products } from './data.ts';

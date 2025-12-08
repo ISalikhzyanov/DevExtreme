@@ -449,6 +449,6 @@ export {
   To,
   IToProps
 };
-import type * as TooltipTypes from 'devextreme/ui/tooltip_types';
+import type * as TooltipTypes from '@ISalikhzyanov/devextreme/ui/tooltip_types';
 export { TooltipTypes };
 

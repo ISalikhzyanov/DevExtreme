@@ -4,7 +4,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import {
   DxButtonModule, DxPopupModule, DxPopoverModule,
 } from 'devextreme-angular';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { Service, House } from './app.service';
 
 if (!/localhost/.test(document.location.host)) {

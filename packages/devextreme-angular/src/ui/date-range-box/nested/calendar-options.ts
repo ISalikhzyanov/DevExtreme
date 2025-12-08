@@ -16,8 +16,8 @@ import {
 
 
 
-import { DisabledDate, CalendarZoomLevel, DisposingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent, CalendarSelectionMode, WeekNumberRule } from 'devextreme/ui/calendar';
-import { FirstDayOfWeek, ValidationMessageMode, Position, ValidationStatus } from 'devextreme/common';
+import { DisabledDate, CalendarZoomLevel, DisposingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent, CalendarSelectionMode, WeekNumberRule } from '@ISalikhzyanov/devextreme/ui/calendar';
+import { FirstDayOfWeek, ValidationMessageMode, Position, ValidationStatus } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

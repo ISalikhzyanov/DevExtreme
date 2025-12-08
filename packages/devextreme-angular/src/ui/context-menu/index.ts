@@ -21,17 +21,17 @@ import {
     QueryList
 } from '@angular/core';
 
-export { ExplicitTypes } from 'devextreme/ui/context_menu';
+export { ExplicitTypes } from '@ISalikhzyanov/devextreme/ui/context_menu';
 
-import DataSource from 'devextreme/data/data_source';
-import { AnimationConfig, PositionConfig } from 'devextreme/common/core/animation';
-import { dxContextMenuItem, ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemRenderedEvent, OptionChangedEvent, PositioningEvent, SelectionChangedEvent, ShowingEvent, ShownEvent, ContextSubmenuDirection } from 'devextreme/ui/context_menu';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { event } from 'devextreme/events/events.types';
-import { SingleOrNone, SubmenuShowMode } from 'devextreme/common';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { AnimationConfig, PositionConfig } from '@ISalikhzyanov/devextreme/common/core/animation';
+import { dxContextMenuItem, ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemRenderedEvent, OptionChangedEvent, PositioningEvent, SelectionChangedEvent, ShowingEvent, ShownEvent, ContextSubmenuDirection } from '@ISalikhzyanov/devextreme/ui/context_menu';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { event } from '@ISalikhzyanov/devextreme/events/events.types';
+import { SingleOrNone, SubmenuShowMode } from '@ISalikhzyanov/devextreme/common';
 
-import DxContextMenu from 'devextreme/ui/context_menu';
+import DxContextMenu from '@ISalikhzyanov/devextreme/ui/context_menu';
 
 
 import {

@@ -1,4 +1,4 @@
-import { Properties } from 'devextreme/ui/range_slider.d';
+import { Properties } from '@ISalikhzyanov/devextreme/ui/range_slider.d';
 import url from '../../helpers/getPageUrl';
 import { testAccessibility, Configuration } from '../../helpers/accessibility/test';
 import { Options } from '../../helpers/generateOptionMatrix';

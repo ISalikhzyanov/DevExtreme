@@ -16,8 +16,8 @@ import {
 
 
 
-import { dxFileUploaderOptions } from 'devextreme/ui/file_uploader';
-import { HtmlEditorImageUploadMode, dxHtmlEditorImageUploadTabItem, HtmlEditorImageUploadTab } from 'devextreme/ui/html_editor';
+import { dxFileUploaderOptions } from '@ISalikhzyanov/devextreme/ui/file_uploader';
+import { HtmlEditorImageUploadMode, dxHtmlEditorImageUploadTabItem, HtmlEditorImageUploadTab } from '@ISalikhzyanov/devextreme/ui/html_editor';
 
 import {
     DxIntegrationModule,

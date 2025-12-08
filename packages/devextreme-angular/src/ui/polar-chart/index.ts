@@ -22,16 +22,16 @@ import {
 } from '@angular/core';
 
 
-import DataSource from 'devextreme/data/data_source';
-import * as CommonChartTypes from 'devextreme/common/charts';
-import { AnimationEaseMode, ChartsDataType, DashStyle, Font, DiscreteAxisDivisionMode, ArgumentAxisHoverMode, LabelOverlap, TimeInterval, AxisScaleType, ChartsColor, SeriesHoverMode, HatchDirection, RelativePosition, PointInteractionMode, PointSymbol, SeriesSelectionMode, ValueErrorBarDisplayMode, ValueErrorBarType, SeriesLabel, SeriesPoint, LegendItem, LegendHoverMode, Palette, PaletteExtensionMode, Theme, TextOverflow, WordWrap, ValueAxisVisualRangeUpdateMode } from 'devextreme/common/charts';
-import { dxPolarChartAnnotationConfig, dxPolarChartCommonAnnotationConfig, PolarChartSeriesType, ArgumentAxisClickEvent, DisposingEvent, DoneEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, LegendClickEvent, OptionChangedEvent, PointClickEvent, PointHoverChangedEvent, PointSelectionChangedEvent, SeriesClickEvent, SeriesHoverChangedEvent, SeriesSelectionChangedEvent, TooltipHiddenEvent, TooltipShownEvent, ZoomEndEvent, ZoomStartEvent, PolarChartSeries, dxPolarChartPointInfo } from 'devextreme/viz/polar_chart';
-import { Format } from 'devextreme/common/core/localization';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { ExportFormat, HorizontalAlignment, Position, Orientation, VerticalEdge, SingleOrMultiple } from 'devextreme/common';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import * as CommonChartTypes from '@ISalikhzyanov/devextreme/common/charts';
+import { AnimationEaseMode, ChartsDataType, DashStyle, Font, DiscreteAxisDivisionMode, ArgumentAxisHoverMode, LabelOverlap, TimeInterval, AxisScaleType, ChartsColor, SeriesHoverMode, HatchDirection, RelativePosition, PointInteractionMode, PointSymbol, SeriesSelectionMode, ValueErrorBarDisplayMode, ValueErrorBarType, SeriesLabel, SeriesPoint, LegendItem, LegendHoverMode, Palette, PaletteExtensionMode, Theme, TextOverflow, WordWrap, ValueAxisVisualRangeUpdateMode } from '@ISalikhzyanov/devextreme/common/charts';
+import { dxPolarChartAnnotationConfig, dxPolarChartCommonAnnotationConfig, PolarChartSeriesType, ArgumentAxisClickEvent, DisposingEvent, DoneEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, LegendClickEvent, OptionChangedEvent, PointClickEvent, PointHoverChangedEvent, PointSelectionChangedEvent, SeriesClickEvent, SeriesHoverChangedEvent, SeriesSelectionChangedEvent, TooltipHiddenEvent, TooltipShownEvent, ZoomEndEvent, ZoomStartEvent, PolarChartSeries, dxPolarChartPointInfo } from '@ISalikhzyanov/devextreme/viz/polar_chart';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { ExportFormat, HorizontalAlignment, Position, Orientation, VerticalEdge, SingleOrMultiple } from '@ISalikhzyanov/devextreme/common';
 
-import DxPolarChart from 'devextreme/viz/polar_chart';
+import DxPolarChart from '@ISalikhzyanov/devextreme/viz/polar_chart';
 
 
 import {

@@ -25,10 +25,10 @@ import {
 } from '@angular/core';
 
 
-import * as CommonTypes from 'devextreme/common';
-import { DisposingEvent, InitializedEvent, OptionChangedEvent, ValidatedEvent } from 'devextreme/ui/validator';
+import * as CommonTypes from '@ISalikhzyanov/devextreme/common';
+import { DisposingEvent, InitializedEvent, OptionChangedEvent, ValidatedEvent } from '@ISalikhzyanov/devextreme/ui/validator';
 
-import DxValidator from 'devextreme/ui/validator';
+import DxValidator from '@ISalikhzyanov/devextreme/ui/validator';
 
 
 import {

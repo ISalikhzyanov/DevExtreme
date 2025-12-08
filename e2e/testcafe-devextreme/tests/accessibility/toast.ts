@@ -1,4 +1,4 @@
-import { Properties } from 'devextreme/ui/toast.d';
+import { Properties } from '@ISalikhzyanov/devextreme/ui/toast.d';
 import url from '../../helpers/getPageUrl';
 import { testAccessibility, Configuration } from '../../helpers/accessibility/test';
 import { Options } from '../../helpers/generateOptionMatrix';

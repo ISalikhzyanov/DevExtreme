@@ -68,6 +68,6 @@ export {
   IRecurrenceEditorOptions,
   RecurrenceEditorRef
 };
-import type * as RecurrenceEditorTypes from 'devextreme/ui/recurrence_editor_types';
+import type * as RecurrenceEditorTypes from '@ISalikhzyanov/devextreme/ui/recurrence_editor_types';
 export { RecurrenceEditorTypes };
 

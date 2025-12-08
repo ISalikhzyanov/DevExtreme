@@ -100,6 +100,6 @@ export {
   CursorOffset,
   ICursorOffsetProps
 };
-import type * as DraggableTypes from 'devextreme/ui/draggable_types';
+import type * as DraggableTypes from '@ISalikhzyanov/devextreme/ui/draggable_types';
 export { DraggableTypes };
 

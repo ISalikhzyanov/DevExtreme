@@ -14,7 +14,7 @@ import {
 
 
 
-import { Position } from 'devextreme/common';
+import { Position } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

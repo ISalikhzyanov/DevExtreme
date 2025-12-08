@@ -146,6 +146,6 @@ export {
   Item,
   IItemProps
 };
-import type * as ToolbarTypes from 'devextreme/ui/toolbar_types';
+import type * as ToolbarTypes from '@ISalikhzyanov/devextreme/ui/toolbar_types';
 export { ToolbarTypes };
 

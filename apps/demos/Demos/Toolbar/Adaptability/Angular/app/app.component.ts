@@ -10,8 +10,8 @@ import {
   DxButtonGroupModule,
   DxCheckBoxModule,
 } from 'devextreme-angular';
-import themes from 'devextreme/ui/themes';
-import notify from 'devextreme/ui/notify';
+import themes from '@ISalikhzyanov/devextreme/ui/themes';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import {
   FontFamily,
   FontSize,

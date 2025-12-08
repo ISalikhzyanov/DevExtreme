@@ -64,7 +64,7 @@
 import { ref } from 'vue';
 import DxScheduler, { DxEditing, type DxSchedulerTypes } from 'devextreme-vue/scheduler';
 import DxCheckBox from 'devextreme-vue/check-box';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { data } from './data.ts';
 
 const views = ['day', 'week'];

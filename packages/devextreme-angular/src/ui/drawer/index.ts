@@ -17,10 +17,10 @@ import {
 } from '@angular/core';
 
 
-import { event } from 'devextreme/events/events.types';
-import { DisposingEvent, InitializedEvent, OptionChangedEvent, OpenedStateMode, PanelLocation, RevealMode } from 'devextreme/ui/drawer';
+import { event } from '@ISalikhzyanov/devextreme/events/events.types';
+import { DisposingEvent, InitializedEvent, OptionChangedEvent, OpenedStateMode, PanelLocation, RevealMode } from '@ISalikhzyanov/devextreme/ui/drawer';
 
-import DxDrawer from 'devextreme/ui/drawer';
+import DxDrawer from '@ISalikhzyanov/devextreme/ui/drawer';
 
 
 import {

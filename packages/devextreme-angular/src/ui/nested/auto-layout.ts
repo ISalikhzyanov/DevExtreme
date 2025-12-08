@@ -14,8 +14,8 @@ import {
 
 
 
-import { Orientation } from 'devextreme/common';
-import { DataLayoutType } from 'devextreme/ui/diagram';
+import { Orientation } from '@ISalikhzyanov/devextreme/common';
+import { DataLayoutType } from '@ISalikhzyanov/devextreme/ui/diagram';
 
 import {
     DxIntegrationModule,

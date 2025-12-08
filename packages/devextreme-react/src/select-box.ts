@@ -733,6 +733,6 @@ export {
   ToolbarItem,
   IToolbarItemProps
 };
-import type * as SelectBoxTypes from 'devextreme/ui/select_box_types';
+import type * as SelectBoxTypes from '@ISalikhzyanov/devextreme/ui/select_box_types';
 export { SelectBoxTypes };
 

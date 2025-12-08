@@ -18,8 +18,8 @@ import {
 import { DOCUMENT } from '@angular/common';
 
 
-import { DashStyle, Font, TextOverflow, AnnotationType, WordWrap } from 'devextreme/common/charts';
-import { dxChartAnnotationConfig } from 'devextreme/viz/chart';
+import { DashStyle, Font, TextOverflow, AnnotationType, WordWrap } from '@ISalikhzyanov/devextreme/common/charts';
+import { dxChartAnnotationConfig } from '@ISalikhzyanov/devextreme/viz/chart';
 
 import {
     DxIntegrationModule,

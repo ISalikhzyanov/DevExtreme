@@ -1,6 +1,6 @@
-import type { Properties as DataGridProperties } from 'devextreme/ui/data_grid';
-import type { Properties as FilterBuilderProperties } from 'devextreme/ui/filter_builder';
-import type { Properties as GanttProperties } from 'devextreme/ui/gantt';
+import type { Properties as DataGridProperties } from '@ISalikhzyanov/devextreme/ui/data_grid';
+import type { Properties as FilterBuilderProperties } from '@ISalikhzyanov/devextreme/ui/filter_builder';
+import type { Properties as GanttProperties } from '@ISalikhzyanov/devextreme/ui/gantt';
 
 export type WidgetName =
   'dxAccordion'

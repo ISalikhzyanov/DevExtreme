@@ -14,7 +14,7 @@ import {
 
 
 
-import { EnterKeyAction, EnterKeyDirection } from 'devextreme/common/grids';
+import { EnterKeyAction, EnterKeyDirection } from '@ISalikhzyanov/devextreme/common/grids';
 
 import {
     DxIntegrationModule,

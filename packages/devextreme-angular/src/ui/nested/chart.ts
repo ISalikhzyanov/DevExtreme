@@ -16,9 +16,9 @@ import {
 
 
 
-import { ChartsDataType, Palette, PaletteExtensionMode } from 'devextreme/common/charts';
-import { ChartSeries } from 'devextreme/viz/common';
-import { ChartAxisScale } from 'devextreme/viz/range_selector';
+import { ChartsDataType, Palette, PaletteExtensionMode } from '@ISalikhzyanov/devextreme/common/charts';
+import { ChartSeries } from '@ISalikhzyanov/devextreme/viz/common';
+import { ChartAxisScale } from '@ISalikhzyanov/devextreme/viz/range_selector';
 
 import {
     DxIntegrationModule,

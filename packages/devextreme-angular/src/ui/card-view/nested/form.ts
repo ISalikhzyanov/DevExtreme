@@ -18,9 +18,9 @@ import {
 
 
 
-import { AIIntegration } from 'devextreme/common/ai-integration';
-import { Mode } from 'devextreme/common';
-import { dxFormSimpleItem, dxFormGroupItem, dxFormTabbedItem, dxFormEmptyItem, dxFormButtonItem, LabelLocation, FormLabelMode, ContentReadyEvent, DisposingEvent, EditorEnterKeyEvent, FieldDataChangedEvent, InitializedEvent, OptionChangedEvent, SmartPastedEvent, SmartPastingEvent } from 'devextreme/ui/form';
+import { AIIntegration } from '@ISalikhzyanov/devextreme/common/ai-integration';
+import { Mode } from '@ISalikhzyanov/devextreme/common';
+import { dxFormSimpleItem, dxFormGroupItem, dxFormTabbedItem, dxFormEmptyItem, dxFormButtonItem, LabelLocation, FormLabelMode, ContentReadyEvent, DisposingEvent, EditorEnterKeyEvent, FieldDataChangedEvent, InitializedEvent, OptionChangedEvent, SmartPastedEvent, SmartPastingEvent } from '@ISalikhzyanov/devextreme/ui/form';
 
 import {
     DxIntegrationModule,

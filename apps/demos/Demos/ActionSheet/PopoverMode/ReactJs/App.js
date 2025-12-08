@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react';
 import ActionSheet from 'devextreme-react/action-sheet';
 import List from 'devextreme-react/list';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import RenderContactItem from './ContactItem.js';
 import { actionSheetItems, contacts } from './data.js';
 

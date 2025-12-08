@@ -5,8 +5,8 @@ import {
     Component,
 } from '@angular/core';
 
-import { AnnotationType, DashStyle, Font, TextOverflow, WordWrap } from 'devextreme/common/charts';
-import { PieChartAnnotationLocation } from 'devextreme/viz/pie_chart';
+import { AnnotationType, DashStyle, Font, TextOverflow, WordWrap } from '@ISalikhzyanov/devextreme/common/charts';
+import { PieChartAnnotationLocation } from '@ISalikhzyanov/devextreme/viz/pie_chart';
 
 @Component({
     template: ''

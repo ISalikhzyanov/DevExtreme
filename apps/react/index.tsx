@@ -3,7 +3,7 @@ import 'devextreme/dist/css/dx.light.css';
 
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import themes from 'devextreme/ui/themes';
+import themes from '@ISalikhzyanov/devextreme/ui/themes';
 
 import App from './App';
 
@@ -22,7 +22,7 @@ themes.initialized(() => {
 
 // import React from 'react';
 // import ReactDOM from 'react-dom';
-// import themes from 'devextreme/ui/themes';
+// import themes from '@ISalikhzyanov/devextreme/ui/themes';
 
 // import App from './App';
 

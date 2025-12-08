@@ -14,7 +14,7 @@ import {
 
 
 
-import { HorizontalAlignment, VerticalAlignment } from 'devextreme/common';
+import { HorizontalAlignment, VerticalAlignment } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

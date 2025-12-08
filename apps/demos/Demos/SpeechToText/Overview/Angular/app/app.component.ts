@@ -6,7 +6,7 @@ import { DxTextAreaModule } from 'devextreme-angular/ui/text-area';
 import { DxButtonModule } from 'devextreme-angular/ui/button';
 import { DxSelectBoxModule } from 'devextreme-angular/ui/select-box';
 import { DxSwitchModule } from 'devextreme-angular/ui/switch';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 import { AppService } from './app.service';
 

@@ -107,7 +107,7 @@ import { DxTextArea } from 'devextreme-vue/text-area';
 import { DxButton, type DxButtonTypes } from 'devextreme-vue/button';
 import { DxSelectBox } from 'devextreme-vue/select-box';
 import { DxSwitch } from 'devextreme-vue/switch';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { displayModes, stylingModes, types, languages, langMap } from './data.ts';
 
 declare global {

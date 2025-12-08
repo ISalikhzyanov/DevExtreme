@@ -12,7 +12,7 @@ import {
 
 
 
-import { Font } from 'devextreme/common/charts';
+import { Font } from '@ISalikhzyanov/devextreme/common/charts';
 
 import {
     DxIntegrationModule,

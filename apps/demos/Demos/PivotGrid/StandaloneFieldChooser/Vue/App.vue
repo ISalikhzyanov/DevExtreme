@@ -80,7 +80,7 @@ import {
   DxPivotGridFieldChooser,
   DxTexts,
 } from 'devextreme-vue/pivot-grid-field-chooser';
-import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+import PivotGridDataSource from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
 import {
   DxSelectBox,
 } from 'devextreme-vue/select-box';

@@ -25,9 +25,9 @@ import {
   WatcherHelper,
 } from 'devextreme-angular';
 
-import config from 'devextreme/core/config';
+import config from '@ISalikhzyanov/devextreme/core/config';
 // TODO: Try to replace dxButton to Widget ('require' required)
-import dxButton from 'devextreme/ui/button';
+import dxButton from '@ISalikhzyanov/devextreme/ui/button';
 
 const DxTestWidget = dxButton;
 

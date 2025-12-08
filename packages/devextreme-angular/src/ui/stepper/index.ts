@@ -21,15 +21,15 @@ import {
     QueryList
 } from '@angular/core';
 
-export { ExplicitTypes } from 'devextreme/ui/stepper';
+export { ExplicitTypes } from '@ISalikhzyanov/devextreme/ui/stepper';
 
-import DataSource from 'devextreme/data/data_source';
-import { dxStepperItem, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemRenderedEvent, OptionChangedEvent, SelectionChangedEvent, SelectionChangingEvent } from 'devextreme/ui/stepper';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { Orientation } from 'devextreme/common';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { dxStepperItem, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemRenderedEvent, OptionChangedEvent, SelectionChangedEvent, SelectionChangingEvent } from '@ISalikhzyanov/devextreme/ui/stepper';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { Orientation } from '@ISalikhzyanov/devextreme/common';
 
-import DxStepper from 'devextreme/ui/stepper';
+import DxStepper from '@ISalikhzyanov/devextreme/ui/stepper';
 
 
 import {

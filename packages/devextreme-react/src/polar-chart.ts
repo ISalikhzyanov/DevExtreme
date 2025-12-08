@@ -3047,6 +3047,6 @@ export {
   WholeRange,
   IWholeRangeProps
 };
-import type * as PolarChartTypes from 'devextreme/viz/polar_chart_types';
+import type * as PolarChartTypes from '@ISalikhzyanov/devextreme/viz/polar_chart_types';
 export { PolarChartTypes };
 

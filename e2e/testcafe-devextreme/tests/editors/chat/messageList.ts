@@ -1,7 +1,7 @@
 import { createScreenshotsComparer } from 'devextreme-screenshot-comparer';
 import Chat from 'devextreme-testcafe-models/chat';
 import { ClientFunction } from 'testcafe';
-import { User } from 'devextreme/ui/chat';
+import { User } from '@ISalikhzyanov/devextreme/ui/chat';
 import TabPanel from 'devextreme-testcafe-models/tabPanel';
 import { createUser, generateMessages, getLongText } from './data';
 import url from '../../../helpers/getPageUrl';

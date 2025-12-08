@@ -1,4 +1,4 @@
-import { Item, Properties } from 'devextreme/ui/splitter';
+import { Item, Properties } from '@ISalikhzyanov/devextreme/ui/splitter';
 import url from '../../helpers/getPageUrl';
 import { testAccessibility, Configuration } from '../../helpers/accessibility/test';
 import { Options } from '../../helpers/generateOptionMatrix';

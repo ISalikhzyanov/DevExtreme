@@ -19,7 +19,7 @@ import { RoomMealPlanFormComponent } from './room-meal-plan-form/room-meal-plan-
 import { AdditionalFormComponent } from './additional-form/additional-form.component';
 import { ConfirmationComponent } from './confirmation/confirmation.component';
 
-import validationEngine from 'devextreme/ui/validation_engine';
+import validationEngine from '@ISalikhzyanov/devextreme/ui/validation_engine';
 
 if (!/localhost/.test(document.location.host)) {
   enableProdMode();

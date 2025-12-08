@@ -16,9 +16,9 @@ import {
 
 
 
-import { HorizontalAlignment, VerticalAlignment } from 'devextreme/common';
-import { ChartsColor, Palette, PaletteExtensionMode } from 'devextreme/common/charts';
-import { CircularGaugeElementOrientation } from 'devextreme/viz/circular_gauge';
+import { HorizontalAlignment, VerticalAlignment } from '@ISalikhzyanov/devextreme/common';
+import { ChartsColor, Palette, PaletteExtensionMode } from '@ISalikhzyanov/devextreme/common/charts';
+import { CircularGaugeElementOrientation } from '@ISalikhzyanov/devextreme/viz/circular_gauge';
 
 import {
     DxIntegrationModule,

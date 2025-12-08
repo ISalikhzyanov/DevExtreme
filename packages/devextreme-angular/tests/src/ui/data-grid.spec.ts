@@ -15,7 +15,7 @@ import {
   DxDataGridComponent,
 } from 'devextreme-angular';
 
-import DxDataGrid from 'devextreme/ui/data_grid';
+import DxDataGrid from '@ISalikhzyanov/devextreme/ui/data_grid';
 
 @Component({
   selector: 'test-container-component',

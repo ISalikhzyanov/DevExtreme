@@ -17,12 +17,12 @@ import {
 } from '@angular/core';
 
 
-import { AnimationConfig, PositionConfig } from 'devextreme/common/core/animation';
-import { event } from 'devextreme/events/events.types';
-import { ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, OptionChangedEvent, ShowingEvent, ShownEvent } from 'devextreme/ui/tooltip';
-import { Position } from 'devextreme/common';
+import { AnimationConfig, PositionConfig } from '@ISalikhzyanov/devextreme/common/core/animation';
+import { event } from '@ISalikhzyanov/devextreme/events/events.types';
+import { ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, OptionChangedEvent, ShowingEvent, ShownEvent } from '@ISalikhzyanov/devextreme/ui/tooltip';
+import { Position } from '@ISalikhzyanov/devextreme/common';
 
-import DxTooltip from 'devextreme/ui/tooltip';
+import DxTooltip from '@ISalikhzyanov/devextreme/ui/tooltip';
 
 
 import {

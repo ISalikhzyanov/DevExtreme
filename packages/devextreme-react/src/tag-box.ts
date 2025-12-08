@@ -739,6 +739,6 @@ export {
   ToolbarItem,
   IToolbarItemProps
 };
-import type * as TagBoxTypes from 'devextreme/ui/tag_box_types';
+import type * as TagBoxTypes from '@ISalikhzyanov/devextreme/ui/tag_box_types';
 export { TagBoxTypes };
 

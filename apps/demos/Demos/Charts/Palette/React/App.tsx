@@ -4,7 +4,7 @@ import PieChart, {
   Legend,
 } from 'devextreme-react/pie-chart';
 import SelectBox, { type SelectBoxTypes } from 'devextreme-react/select-box';
-import { getPalette } from 'devextreme/viz/palette';
+import { getPalette } from '@ISalikhzyanov/devextreme/viz/palette';
 import {
   paletteCollection, paletteExtensionModes, dataSource, paletteLabel, paletteExtensionLabel,
 } from './data.ts';

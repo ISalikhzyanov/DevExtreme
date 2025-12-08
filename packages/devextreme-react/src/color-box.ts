@@ -683,6 +683,6 @@ export {
   ToolbarItem,
   IToolbarItemProps
 };
-import type * as ColorBoxTypes from 'devextreme/ui/color_box_types';
+import type * as ColorBoxTypes from '@ISalikhzyanov/devextreme/ui/color_box_types';
 export { ColorBoxTypes };
 

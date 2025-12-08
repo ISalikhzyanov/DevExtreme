@@ -58,6 +58,6 @@ export {
   IPaginationOptions,
   PaginationRef
 };
-import type * as PaginationTypes from 'devextreme/ui/pagination_types';
+import type * as PaginationTypes from '@ISalikhzyanov/devextreme/ui/pagination_types';
 export { PaginationTypes };
 

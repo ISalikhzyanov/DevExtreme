@@ -2,8 +2,8 @@ import React, { useState, useCallback, useEffect, useMemo } from 'react';
 import { Chat, ChatTypes } from 'devextreme-react/chat'
 import { Button, Toast } from 'devextreme-react';
 import type { Meta, StoryObj } from '@storybook/react';
-import DataSource from 'devextreme/data/data_source';
-import CustomStore from 'devextreme/data/custom_store';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import CustomStore from '@ISalikhzyanov/devextreme/data/custom_store';
 import {
     firstAuthor,
     secondAuthor,
@@ -22,7 +22,7 @@ import HTMLReactParser from 'html-react-parser';
 
 import './styles.css';
 import { Guid } from 'devextreme-react/cjs/common';
-import { Message } from 'devextreme/artifacts/npm/devextreme/ui/chat';
+import { Message } from '@ISalikhzyanov/devextreme/artifacts/npm/devextreme/ui/chat';
 
 const meta: Meta<typeof Chat> = {
     title: 'Components/Chat',

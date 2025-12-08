@@ -16,9 +16,9 @@ import {
 
 
 
-import { DataChange } from 'devextreme/common/grids';
-import { dxFormOptions } from 'devextreme/ui/form';
-import { EditingTexts } from 'devextreme/ui/card_view';
+import { DataChange } from '@ISalikhzyanov/devextreme/common/grids';
+import { dxFormOptions } from '@ISalikhzyanov/devextreme/ui/form';
+import { EditingTexts } from '@ISalikhzyanov/devextreme/ui/card_view';
 
 import {
     DxIntegrationModule,

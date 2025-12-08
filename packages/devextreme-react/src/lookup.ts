@@ -641,6 +641,6 @@ export {
   ToolbarItem,
   IToolbarItemProps
 };
-import type * as LookupTypes from 'devextreme/ui/lookup_types';
+import type * as LookupTypes from '@ISalikhzyanov/devextreme/ui/lookup_types';
 export { LookupTypes };
 

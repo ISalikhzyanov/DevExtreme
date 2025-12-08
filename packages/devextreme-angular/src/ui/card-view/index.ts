@@ -21,19 +21,19 @@ import {
     QueryList
 } from '@angular/core';
 
-export { ExplicitTypes } from 'devextreme/ui/card_view';
+export { ExplicitTypes } from '@ISalikhzyanov/devextreme/ui/card_view';
 
-import DataSource from 'devextreme/data/data_source';
-import { CardCover, CardHeader, ColumnProperties, dxCardViewEditing, HeaderPanel, CardClickEvent, CardDblClickEvent, CardHoverChangedEvent, CardInsertedEvent, CardInsertingEvent, CardPreparedEvent, CardRemovedEvent, CardRemovingEvent, CardSavedEvent, CardSavingEvent, CardUpdatedEvent, CardUpdatingEvent, ContextMenuPreparingEvent, EditCanceledEvent, EditCancelingEvent, EditingStartEvent, FieldCaptionClickEvent, FieldCaptionDblClickEvent, FieldCaptionPreparedEvent, FieldValueClickEvent, FieldValueDblClickEvent, FieldValuePreparedEvent, FocusedCardChanged, InitNewCardEvent, SelectionChangedEvent, Paging, RemoteOperations, SelectionConfiguration, dxCardViewToolbar } from 'devextreme/ui/card_view';
-import { Mode, ScrollbarMode } from 'devextreme/common';
-import { ColumnChooser, FilterPanel, HeaderFilter, Pager, SearchPanel, Sorting } from 'devextreme/common/grids';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { dxFilterBuilderOptions } from 'devextreme/ui/filter_builder';
-import { dxLoadPanelOptions } from 'devextreme/ui/load_panel';
-import { EventInfo } from 'devextreme/common/core/events';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { CardCover, CardHeader, ColumnProperties, dxCardViewEditing, HeaderPanel, CardClickEvent, CardDblClickEvent, CardHoverChangedEvent, CardInsertedEvent, CardInsertingEvent, CardPreparedEvent, CardRemovedEvent, CardRemovingEvent, CardSavedEvent, CardSavingEvent, CardUpdatedEvent, CardUpdatingEvent, ContextMenuPreparingEvent, EditCanceledEvent, EditCancelingEvent, EditingStartEvent, FieldCaptionClickEvent, FieldCaptionDblClickEvent, FieldCaptionPreparedEvent, FieldValueClickEvent, FieldValueDblClickEvent, FieldValuePreparedEvent, FocusedCardChanged, InitNewCardEvent, SelectionChangedEvent, Paging, RemoteOperations, SelectionConfiguration, dxCardViewToolbar } from '@ISalikhzyanov/devextreme/ui/card_view';
+import { Mode, ScrollbarMode } from '@ISalikhzyanov/devextreme/common';
+import { ColumnChooser, FilterPanel, HeaderFilter, Pager, SearchPanel, Sorting } from '@ISalikhzyanov/devextreme/common/grids';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { dxFilterBuilderOptions } from '@ISalikhzyanov/devextreme/ui/filter_builder';
+import { dxLoadPanelOptions } from '@ISalikhzyanov/devextreme/ui/load_panel';
+import { EventInfo } from '@ISalikhzyanov/devextreme/common/core/events';
 
-import DxCardView from 'devextreme/ui/card_view';
+import DxCardView from '@ISalikhzyanov/devextreme/ui/card_view';
 
 
 import {

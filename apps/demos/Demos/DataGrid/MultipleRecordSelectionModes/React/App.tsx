@@ -8,7 +8,7 @@ import DataGrid, {
   Pager,
 } from 'devextreme-react/data-grid';
 import { SelectBox } from 'devextreme-react/select-box';
-import themes from 'devextreme/ui/themes';
+import themes from '@ISalikhzyanov/devextreme/ui/themes';
 import { sales } from './data.ts';
 
 const selectAllFieldLabel = { 'aria-label': 'Select All Mode' };

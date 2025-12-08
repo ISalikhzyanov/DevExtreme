@@ -24,16 +24,16 @@ import {
 } from '@angular/core';
 
 
-import DataSource from 'devextreme/data/data_source';
-import { ApplyValueMode, TextEditorButton, LabelMode, SimplifiedSearchMode, SelectAllMode, EditorStyle, ValidationMessageMode, Mode, Position, ValidationStatus } from 'devextreme/common';
-import { DropDownPredefinedButton, FieldAddons } from 'devextreme/ui/drop_down_editor/ui.drop_down_editor';
-import { CollectionWidgetItem } from 'devextreme/ui/collection/ui.collection_widget.base';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { dxPopupOptions } from 'devextreme/ui/popup';
-import { ChangeEvent, ClosedEvent, ContentReadyEvent, CustomItemCreatingEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, ItemClickEvent, KeyDownEvent, KeyUpEvent, MultiTagPreparingEvent, OpenedEvent, OptionChangedEvent, SelectAllValueChangedEvent, SelectionChangedEvent, ValueChangedEvent } from 'devextreme/ui/tag_box';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { ApplyValueMode, TextEditorButton, LabelMode, SimplifiedSearchMode, SelectAllMode, EditorStyle, ValidationMessageMode, Mode, Position, ValidationStatus } from '@ISalikhzyanov/devextreme/common';
+import { DropDownPredefinedButton, FieldAddons } from '@ISalikhzyanov/devextreme/ui/drop_down_editor/ui.drop_down_editor';
+import { CollectionWidgetItem } from '@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { dxPopupOptions } from '@ISalikhzyanov/devextreme/ui/popup';
+import { ChangeEvent, ClosedEvent, ContentReadyEvent, CustomItemCreatingEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, ItemClickEvent, KeyDownEvent, KeyUpEvent, MultiTagPreparingEvent, OpenedEvent, OptionChangedEvent, SelectAllValueChangedEvent, SelectionChangedEvent, ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/tag_box';
 
-import DxTagBox from 'devextreme/ui/tag_box';
+import DxTagBox from '@ISalikhzyanov/devextreme/ui/tag_box';
 
 import {
     ControlValueAccessor,

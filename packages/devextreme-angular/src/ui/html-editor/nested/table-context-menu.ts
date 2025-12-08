@@ -16,7 +16,7 @@ import {
 
 
 
-import { dxHtmlEditorTableContextMenuItem, HtmlEditorPredefinedContextMenuItem } from 'devextreme/ui/html_editor';
+import { dxHtmlEditorTableContextMenuItem, HtmlEditorPredefinedContextMenuItem } from '@ISalikhzyanov/devextreme/ui/html_editor';
 
 import {
     DxIntegrationModule,

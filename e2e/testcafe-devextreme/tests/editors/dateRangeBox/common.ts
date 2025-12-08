@@ -1,11 +1,11 @@
 /* eslint-disable no-restricted-syntax */
 import { Selector } from 'testcafe';
 import { createScreenshotsComparer } from 'devextreme-screenshot-comparer';
-import Guid from 'devextreme/core/guid';
+import Guid from '@ISalikhzyanov/devextreme/core/guid';
 import DateRangeBox from 'devextreme-testcafe-models/dateRangeBox';
-import type { Properties as DateRangeBoxProperties } from 'devextreme/ui/date_range_box.d';
-import type { Properties as DropDownEditorProperties } from 'devextreme/ui/drop_down_editor/ui.drop_down_editor.d';
-import type { EditorStyle, LabelMode } from 'devextreme/common';
+import type { Properties as DateRangeBoxProperties } from '@ISalikhzyanov/devextreme/ui/date_range_box.d';
+import type { Properties as DropDownEditorProperties } from '@ISalikhzyanov/devextreme/ui/drop_down_editor/ui.drop_down_editor.d';
+import type { EditorStyle, LabelMode } from '@ISalikhzyanov/devextreme/common';
 import {
   insertStylesheetRulesToPage,
   appendElementTo,

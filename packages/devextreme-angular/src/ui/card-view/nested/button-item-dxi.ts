@@ -12,9 +12,9 @@ import {
 
 
 
-import { dxButtonOptions } from 'devextreme/ui/button';
-import { HorizontalAlignment, VerticalAlignment } from 'devextreme/common';
-import { FormItemType, FormPredefinedButtonItem } from 'devextreme/ui/form';
+import { dxButtonOptions } from '@ISalikhzyanov/devextreme/ui/button';
+import { HorizontalAlignment, VerticalAlignment } from '@ISalikhzyanov/devextreme/common';
+import { FormItemType, FormPredefinedButtonItem } from '@ISalikhzyanov/devextreme/ui/form';
 
 import {
     DxIntegrationModule,

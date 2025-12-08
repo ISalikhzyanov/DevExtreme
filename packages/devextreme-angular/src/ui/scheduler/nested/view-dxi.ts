@@ -12,8 +12,8 @@ import {
 
 
 
-import { AllDayPanelMode, CellAppointmentsLimit, dxSchedulerScrolling, ViewType } from 'devextreme/ui/scheduler';
-import { FirstDayOfWeek, Orientation } from 'devextreme/common';
+import { AllDayPanelMode, CellAppointmentsLimit, dxSchedulerScrolling, ViewType } from '@ISalikhzyanov/devextreme/ui/scheduler';
+import { FirstDayOfWeek, Orientation } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

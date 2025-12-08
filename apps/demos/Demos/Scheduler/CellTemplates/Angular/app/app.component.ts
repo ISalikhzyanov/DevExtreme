@@ -5,7 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { DxSchedulerComponent, DxSchedulerModule } from 'devextreme-angular';
 import { DataSource } from 'devextreme-angular/common/data';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { DxSchedulerTypes } from 'devextreme-angular/ui/scheduler';
 import { DxFormComponent } from 'devextreme-angular/ui/form';
 import { DataService } from './app.service';

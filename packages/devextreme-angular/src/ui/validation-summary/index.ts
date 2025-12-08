@@ -21,12 +21,12 @@ import {
     QueryList
 } from '@angular/core';
 
-export { ExplicitTypes } from 'devextreme/ui/validation_summary';
+export { ExplicitTypes } from '@ISalikhzyanov/devextreme/ui/validation_summary';
 
-import { CollectionWidgetItem } from 'devextreme/ui/collection/ui.collection_widget.base';
-import { ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, OptionChangedEvent } from 'devextreme/ui/validation_summary';
+import { CollectionWidgetItem } from '@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base';
+import { ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, OptionChangedEvent } from '@ISalikhzyanov/devextreme/ui/validation_summary';
 
-import DxValidationSummary from 'devextreme/ui/validation_summary';
+import DxValidationSummary from '@ISalikhzyanov/devextreme/ui/validation_summary';
 
 
 import {

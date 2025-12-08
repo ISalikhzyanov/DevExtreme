@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react';
 import SelectBox, { FieldAddons, type SelectBoxTypes } from 'devextreme-react/select-box';
 import { ArrayStore } from 'devextreme-react/common/data';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 import service from './data.ts';
 import Field from './Field.tsx';

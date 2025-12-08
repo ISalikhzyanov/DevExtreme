@@ -449,6 +449,6 @@ export {
   Texts,
   ITextsProps
 };
-import type * as PivotGridTypes from 'devextreme/ui/pivot_grid_types';
+import type * as PivotGridTypes from '@ISalikhzyanov/devextreme/ui/pivot_grid_types';
 export { PivotGridTypes };
 

@@ -3,7 +3,7 @@ import { useLayoutEffect } from 'react';
 import { TemplateManager } from '../template-manager';
 import { cleanup, render, act, screen } from '@testing-library/react';
 import * as config from '../config';
-import * as events from 'devextreme/events';
+import * as events from '@ISalikhzyanov/devextreme/events';
 import { InitArgument } from '../types';
 
 type TemplateComponentProps = {

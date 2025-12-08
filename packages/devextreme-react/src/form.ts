@@ -1051,6 +1051,6 @@ export {
   ValidationRule,
   IValidationRuleProps
 };
-import type * as FormTypes from 'devextreme/ui/form_types';
+import type * as FormTypes from '@ISalikhzyanov/devextreme/ui/form_types';
 export { FormTypes };
 

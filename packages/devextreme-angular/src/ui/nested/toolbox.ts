@@ -16,7 +16,7 @@ import {
 
 
 
-import { PanelVisibility, ShapeCategory, ShapeType, ToolboxDisplayMode } from 'devextreme/ui/diagram';
+import { PanelVisibility, ShapeCategory, ShapeType, ToolboxDisplayMode } from '@ISalikhzyanov/devextreme/ui/diagram';
 
 import {
     DxIntegrationModule,

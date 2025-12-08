@@ -14,9 +14,9 @@ import {
 
 
 
-import { chartPointObject } from 'devextreme/viz/chart';
-import { Font } from 'devextreme/common/charts';
-import { Format } from 'devextreme/common/core/localization';
+import { chartPointObject } from '@ISalikhzyanov/devextreme/viz/chart';
+import { Font } from '@ISalikhzyanov/devextreme/common/charts';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
 
 import {
     DxIntegrationModule,

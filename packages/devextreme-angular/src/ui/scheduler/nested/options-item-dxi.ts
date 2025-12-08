@@ -16,7 +16,7 @@ import {
 import { DOCUMENT } from '@angular/common';
 
 
-import { ButtonType } from 'devextreme/common';
+import { ButtonType } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

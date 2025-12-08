@@ -1,4 +1,4 @@
-import { type AnnotationType } from 'devextreme/common/charts';
+import { type AnnotationType } from '@ISalikhzyanov/devextreme/common/charts';
 
 export const annotationSources: {
   date: Date,

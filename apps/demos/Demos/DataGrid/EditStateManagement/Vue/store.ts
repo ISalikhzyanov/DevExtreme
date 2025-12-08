@@ -1,8 +1,8 @@
 import { createStore } from 'vuex';
 import 'whatwg-fetch';
 
-import applyChanges from 'devextreme/data/apply_changes';
-import { type DataChange } from 'devextreme/ui/data_grid';
+import applyChanges from '@ISalikhzyanov/devextreme/data/apply_changes';
+import { type DataChange } from '@ISalikhzyanov/devextreme/ui/data_grid';
 
 import { sendRequest } from './utils.ts';
 import { type Order } from './data.ts';

@@ -14,7 +14,7 @@ import {
 
 
 
-import { DashStyle } from 'devextreme/common/charts';
+import { DashStyle } from '@ISalikhzyanov/devextreme/common/charts';
 
 import {
     DxIntegrationModule,

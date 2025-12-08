@@ -1,4 +1,4 @@
-import { Field } from 'devextreme/ui/filter_builder';
+import { Field } from '@ISalikhzyanov/devextreme/ui/filter_builder';
 
 export const filter = [
   ['Category', '=', 'Video Players'],

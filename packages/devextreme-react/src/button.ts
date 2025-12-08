@@ -70,6 +70,6 @@ export {
   IButtonOptions,
   ButtonRef
 };
-import type * as ButtonTypes from 'devextreme/ui/button_types';
+import type * as ButtonTypes from '@ISalikhzyanov/devextreme/ui/button_types';
 export { ButtonTypes };
 

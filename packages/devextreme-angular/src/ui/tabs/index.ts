@@ -21,15 +21,15 @@ import {
     QueryList
 } from '@angular/core';
 
-export { ExplicitTypes } from 'devextreme/ui/tabs';
+export { ExplicitTypes } from '@ISalikhzyanov/devextreme/ui/tabs';
 
-import DataSource from 'devextreme/data/data_source';
-import { dxTabsItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, OptionChangedEvent, SelectionChangedEvent, SelectionChangingEvent } from 'devextreme/ui/tabs';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { TabsIconPosition, Orientation, SingleOrMultiple, TabsStyle } from 'devextreme/common';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { dxTabsItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, OptionChangedEvent, SelectionChangedEvent, SelectionChangingEvent } from '@ISalikhzyanov/devextreme/ui/tabs';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { TabsIconPosition, Orientation, SingleOrMultiple, TabsStyle } from '@ISalikhzyanov/devextreme/common';
 
-import DxTabs from 'devextreme/ui/tabs';
+import DxTabs from '@ISalikhzyanov/devextreme/ui/tabs';
 
 
 import {

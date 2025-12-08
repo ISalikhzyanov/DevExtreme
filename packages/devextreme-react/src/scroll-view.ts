@@ -60,6 +60,6 @@ export {
   IScrollViewOptions,
   ScrollViewRef
 };
-import type * as ScrollViewTypes from 'devextreme/ui/scroll_view_types';
+import type * as ScrollViewTypes from '@ISalikhzyanov/devextreme/ui/scroll_view_types';
 export { ScrollViewTypes };
 

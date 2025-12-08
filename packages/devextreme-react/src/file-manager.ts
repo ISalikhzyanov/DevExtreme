@@ -427,6 +427,6 @@ export {
   Upload,
   IUploadProps
 };
-import type * as FileManagerTypes from 'devextreme/ui/file_manager_types';
+import type * as FileManagerTypes from '@ISalikhzyanov/devextreme/ui/file_manager_types';
 export { FileManagerTypes };
 

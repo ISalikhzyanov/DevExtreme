@@ -14,8 +14,8 @@ import {
 
 
 
-import { AnimationEaseMode } from 'devextreme/common/charts';
-import { AnimationConfig } from 'devextreme/common/core/animation';
+import { AnimationEaseMode } from '@ISalikhzyanov/devextreme/common/charts';
+import { AnimationConfig } from '@ISalikhzyanov/devextreme/common/core/animation';
 
 import {
     DxIntegrationModule,

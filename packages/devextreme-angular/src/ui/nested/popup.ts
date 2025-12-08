@@ -18,8 +18,8 @@ import {
 
 
 
-import { PositionAlignment } from 'devextreme/common';
-import { PositionConfig } from 'devextreme/common/core/animation';
+import { PositionAlignment } from '@ISalikhzyanov/devextreme/common';
+import { PositionConfig } from '@ISalikhzyanov/devextreme/common/core/animation';
 
 import {
     DxIntegrationModule,

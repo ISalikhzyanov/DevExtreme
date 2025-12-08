@@ -5,4 +5,4 @@ export {
     exportPivotGrid,
     PivotGridCell,
     PivotGridExportOptions,
-} from 'devextreme/common/export/excel';
+} from '@ISalikhzyanov/devextreme/common/export/excel';

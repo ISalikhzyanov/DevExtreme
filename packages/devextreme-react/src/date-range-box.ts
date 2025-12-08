@@ -751,6 +751,6 @@ export {
   ToolbarItem,
   IToolbarItemProps
 };
-import type * as DateRangeBoxTypes from 'devextreme/ui/date_range_box_types';
+import type * as DateRangeBoxTypes from '@ISalikhzyanov/devextreme/ui/date_range_box_types';
 export { DateRangeBoxTypes };
 

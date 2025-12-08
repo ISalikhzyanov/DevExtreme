@@ -14,9 +14,9 @@ import {
 
 
 
-import { AggregatedPointsPosition, ChartLabelDisplayMode } from 'devextreme/viz/chart';
-import { ScaleBreakLineStyle, DashStyle, Font, RelativePosition, DiscreteAxisDivisionMode, ChartsAxisLabelOverlap, TextOverflow, WordWrap } from 'devextreme/common/charts';
-import { HorizontalAlignment, Position, VerticalAlignment } from 'devextreme/common';
+import { AggregatedPointsPosition, ChartLabelDisplayMode } from '@ISalikhzyanov/devextreme/viz/chart';
+import { ScaleBreakLineStyle, DashStyle, Font, RelativePosition, DiscreteAxisDivisionMode, ChartsAxisLabelOverlap, TextOverflow, WordWrap } from '@ISalikhzyanov/devextreme/common/charts';
+import { HorizontalAlignment, Position, VerticalAlignment } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

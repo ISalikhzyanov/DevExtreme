@@ -14,8 +14,8 @@ import {
 
 
 
-import { PagerPageSize } from 'devextreme/common/grids';
-import { Mode, DisplayMode } from 'devextreme/common';
+import { PagerPageSize } from '@ISalikhzyanov/devextreme/common/grids';
+import { Mode, DisplayMode } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

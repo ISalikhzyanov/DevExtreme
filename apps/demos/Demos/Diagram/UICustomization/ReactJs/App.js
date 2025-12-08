@@ -12,7 +12,7 @@ import {
   Toolbox,
   ViewToolbar,
 } from 'devextreme-react/diagram';
-import { confirm } from 'devextreme/ui/dialog';
+import { confirm } from '@ISalikhzyanov/devextreme/ui/dialog';
 import 'whatwg-fetch';
 
 const pageCommands = ['pageSize', 'pageOrientation', 'pageColor'];

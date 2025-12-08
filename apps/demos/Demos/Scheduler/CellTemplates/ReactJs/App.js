@@ -1,6 +1,6 @@
 import React, { useCallback, useMemo, useState } from 'react';
 import Scheduler from 'devextreme-react/scheduler';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { data, holidays } from './data.js';
 import Utils from './utils.js';
 import DataCell from './DataCell.js';

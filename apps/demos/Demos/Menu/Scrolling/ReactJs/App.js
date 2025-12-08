@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react';
 import Menu from 'devextreme-react/menu';
 import CheckBox from 'devextreme-react/check-box';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import service from './data.js';
 
 const SUBMENU_HEIGHT = 200;

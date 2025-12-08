@@ -164,7 +164,7 @@ import DxSelectBox, { type DxSelectBoxTypes } from 'devextreme-vue/select-box';
 import { jsPDF } from 'jspdf';
 import 'jspdf-autotable';
 import { exportGantt as exportGanttToPdf } from 'devextreme-vue/common/export/pdf';
-import type { GanttPdfExportMode, GanttPdfExportDateRange } from 'devextreme/ui/gantt';
+import type { GanttPdfExportMode, GanttPdfExportDateRange } from '@ISalikhzyanov/devextreme/ui/gantt';
 import {
   tasks,
   dependencies,

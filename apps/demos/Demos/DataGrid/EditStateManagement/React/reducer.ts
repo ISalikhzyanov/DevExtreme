@@ -1,4 +1,4 @@
-import applyChanges from 'devextreme/data/apply_changes';
+import applyChanges from '@ISalikhzyanov/devextreme/data/apply_changes';
 import { DataGridTypes } from 'devextreme-react/data-grid';
 import {
   FETCH_PENDING,

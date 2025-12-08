@@ -2,7 +2,7 @@ import React, { useCallback, useState } from 'react';
 import TreeMap, {
   Colorizer, Tooltip, ITreeMapOptions, ITooltipProps,
 } from 'devextreme-react/tree-map';
-import { TreeMapLayoutAlgorithm } from 'devextreme/viz/tree_map';
+import { TreeMapLayoutAlgorithm } from '@ISalikhzyanov/devextreme/viz/tree_map';
 import SelectBox, { type SelectBoxTypes } from 'devextreme-react/select-box';
 import { populationByAge, algorithmLabel } from './data.ts';
 

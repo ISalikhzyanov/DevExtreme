@@ -12,12 +12,12 @@ import {
 
 
 
-import DataSource from 'devextreme/data/data_source';
-import { MapLayerElement, VectorMapMarkerType, VectorMapLayerType } from 'devextreme/viz/vector_map';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { Font, Palette } from 'devextreme/common/charts';
-import { SingleMultipleOrNone } from 'devextreme/common';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { MapLayerElement, VectorMapMarkerType, VectorMapLayerType } from '@ISalikhzyanov/devextreme/viz/vector_map';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { Font, Palette } from '@ISalikhzyanov/devextreme/common/charts';
+import { SingleMultipleOrNone } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

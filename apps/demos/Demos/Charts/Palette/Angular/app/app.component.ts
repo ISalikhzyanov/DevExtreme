@@ -1,7 +1,7 @@
 import { NgModule, Component, enableProdMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { getPalette } from 'devextreme/viz/palette';
+import { getPalette } from '@ISalikhzyanov/devextreme/viz/palette';
 import { DxPieChartModule, DxSelectBoxModule } from 'devextreme-angular';
 import { Palette, PaletteExtensionMode } from 'devextreme-angular/common/charts';
 import { DataItem, Service } from './app.service';

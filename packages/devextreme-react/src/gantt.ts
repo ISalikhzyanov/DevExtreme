@@ -1162,6 +1162,6 @@ export {
   Validation,
   IValidationProps
 };
-import type * as GanttTypes from 'devextreme/ui/gantt_types';
+import type * as GanttTypes from '@ISalikhzyanov/devextreme/ui/gantt_types';
 export { GanttTypes };
 

@@ -2,7 +2,7 @@ import { Component, NgModule, enableProdMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { DxButtonGroupModule } from 'devextreme-angular';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 import { Alignment, FontStyle, Service } from './app.service';
 

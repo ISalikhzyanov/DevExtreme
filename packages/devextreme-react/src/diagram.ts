@@ -897,6 +897,6 @@ export {
   ZoomLevel,
   IZoomLevelProps
 };
-import type * as DiagramTypes from 'devextreme/ui/diagram_types';
+import type * as DiagramTypes from '@ISalikhzyanov/devextreme/ui/diagram_types';
 export { DiagramTypes };
 

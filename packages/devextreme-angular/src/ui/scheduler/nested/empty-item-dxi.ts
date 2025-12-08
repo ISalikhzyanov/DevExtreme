@@ -12,7 +12,7 @@ import {
 
 
 
-import { FormItemType } from 'devextreme/ui/form';
+import { FormItemType } from '@ISalikhzyanov/devextreme/ui/form';
 
 import {
     DxIntegrationModule,

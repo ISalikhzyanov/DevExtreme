@@ -1,5 +1,5 @@
 import { ClientFunction } from 'testcafe';
-import { Properties } from 'devextreme/ui/drawer';
+import { Properties } from '@ISalikhzyanov/devextreme/ui/drawer';
 
 interface CreateDrawerConfig {
   options?: Properties;

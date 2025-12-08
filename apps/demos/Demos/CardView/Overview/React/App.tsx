@@ -3,7 +3,7 @@ import CardView, {
   CardCover, Column, Selection, Paging, HeaderFilter, SearchPanel, CardViewRef,
 } from 'devextreme-react/card-view';
 import Button from 'devextreme-react/button';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { Employee, employees } from './data.ts';
 
 function imageExpr({ First_Name, Last_Name }: Employee): string {

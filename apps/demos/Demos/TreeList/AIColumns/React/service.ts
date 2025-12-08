@@ -5,7 +5,7 @@ import {
   Response,
 } from 'devextreme-react/common/ai-integration';
 import { AzureOpenAI } from 'openai';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 const AzureOpenAIConfig = {
   dangerouslyAllowBrowser: true,

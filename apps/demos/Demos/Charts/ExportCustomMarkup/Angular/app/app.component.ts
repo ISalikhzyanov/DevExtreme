@@ -5,7 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { DxChartModule, DxChartComponent, DxButtonModule } from 'devextreme-angular';
 
-import { exportFromMarkup } from 'devextreme/viz/export';
+import { exportFromMarkup } from '@ISalikhzyanov/devextreme/viz/export';
 import { Canvg } from 'canvg';
 import { Service, OilProductionDataItem } from './app.service';
 

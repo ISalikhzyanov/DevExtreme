@@ -5,10 +5,10 @@ import {
     Component,
 } from '@angular/core';
 
-import { dxContextMenuItem } from 'devextreme/ui/context_menu';
-import { Command, CustomCommand } from 'devextreme/ui/diagram';
-import { dxFileManagerContextMenuItem, FileManagerPredefinedContextMenuItem } from 'devextreme/ui/file_manager';
-import { GanttPredefinedContextMenuItem } from 'devextreme/ui/gantt';
+import { dxContextMenuItem } from '@ISalikhzyanov/devextreme/ui/context_menu';
+import { Command, CustomCommand } from '@ISalikhzyanov/devextreme/ui/diagram';
+import { dxFileManagerContextMenuItem, FileManagerPredefinedContextMenuItem } from '@ISalikhzyanov/devextreme/ui/file_manager';
+import { GanttPredefinedContextMenuItem } from '@ISalikhzyanov/devextreme/ui/gantt';
 
 @Component({
     template: ''

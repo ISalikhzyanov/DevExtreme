@@ -16,7 +16,7 @@ import {
 
 
 
-import { Mode } from 'devextreme/common';
+import { Mode } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

@@ -7,7 +7,7 @@ import {
   DxChartModule, DxPieChartModule, DxChartComponent, DxPieChartComponent, DxButtonModule,
 } from 'devextreme-angular';
 
-import { exportWidgets } from 'devextreme/viz/export';
+import { exportWidgets } from '@ISalikhzyanov/devextreme/viz/export';
 import { Service, Medals } from './app.service';
 
 if (!/localhost/.test(document.location.host)) {

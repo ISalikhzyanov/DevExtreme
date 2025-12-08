@@ -14,10 +14,10 @@ import {
 
 
 
-import { DashStyle, Font, LabelPosition, TextOverflow, WordWrap } from 'devextreme/common/charts';
-import { dxFunnelItem } from 'devextreme/viz/funnel';
-import { Format } from 'devextreme/common/core/localization';
-import { HorizontalEdge } from 'devextreme/common';
+import { DashStyle, Font, LabelPosition, TextOverflow, WordWrap } from '@ISalikhzyanov/devextreme/common/charts';
+import { dxFunnelItem } from '@ISalikhzyanov/devextreme/viz/funnel';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
+import { HorizontalEdge } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

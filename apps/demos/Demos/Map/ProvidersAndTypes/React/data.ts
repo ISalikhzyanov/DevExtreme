@@ -1,4 +1,4 @@
-import { MapType, MapProvider } from 'devextreme/ui/map';
+import { MapType, MapProvider } from '@ISalikhzyanov/devextreme/ui/map';
 
 export const mapTypes: { key: MapType, name: string }[] = [{
   key: 'roadmap',

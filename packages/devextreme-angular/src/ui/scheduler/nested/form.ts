@@ -16,8 +16,8 @@ import {
 
 
 
-import { AppointmentFormIconsShowMode } from 'devextreme/ui/scheduler';
-import { dxFormButtonItem, dxFormEmptyItem, dxFormGroupItem, dxFormSimpleItem, dxFormTabbedItem } from 'devextreme/ui/form';
+import { AppointmentFormIconsShowMode } from '@ISalikhzyanov/devextreme/ui/scheduler';
+import { dxFormButtonItem, dxFormEmptyItem, dxFormGroupItem, dxFormSimpleItem, dxFormTabbedItem } from '@ISalikhzyanov/devextreme/ui/form';
 
 import {
     DxIntegrationModule,

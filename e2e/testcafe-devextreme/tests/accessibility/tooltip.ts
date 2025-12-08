@@ -1,4 +1,4 @@
-import { Properties } from 'devextreme/ui/tooltip.d';
+import { Properties } from '@ISalikhzyanov/devextreme/ui/tooltip.d';
 import url from '../../helpers/getPageUrl';
 import { testAccessibility, Configuration } from '../../helpers/accessibility/test';
 import { Options } from '../../helpers/generateOptionMatrix';

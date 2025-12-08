@@ -12,9 +12,9 @@ import {
 
 
 
-import { HorizontalAlignment } from 'devextreme/common';
-import { SummaryType } from 'devextreme/common/grids';
-import { Format } from 'devextreme/common/core/localization';
+import { HorizontalAlignment } from '@ISalikhzyanov/devextreme/common';
+import { SummaryType } from '@ISalikhzyanov/devextreme/common/grids';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
 
 import {
     DxIntegrationModule,

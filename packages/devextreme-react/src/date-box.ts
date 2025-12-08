@@ -746,6 +746,6 @@ export {
   ToolbarItem,
   IToolbarItemProps
 };
-import type * as DateBoxTypes from 'devextreme/ui/date_box_types';
+import type * as DateBoxTypes from '@ISalikhzyanov/devextreme/ui/date_box_types';
 export { DateBoxTypes };
 

@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react';
 import FileManager, { type FileManagerTypes, Permissions } from 'devextreme-react/file-manager';
-import RemoteFileSystemProvider from 'devextreme/file_management/remote_provider';
+import RemoteFileSystemProvider from '@ISalikhzyanov/devextreme/file_management/remote_provider';
 import { Popup } from 'devextreme-react/popup';
 
 const remoteProvider = new RemoteFileSystemProvider({

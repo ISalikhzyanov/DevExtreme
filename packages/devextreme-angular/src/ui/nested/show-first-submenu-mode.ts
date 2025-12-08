@@ -14,7 +14,7 @@ import {
 
 
 
-import { SubmenuShowMode } from 'devextreme/common';
+import { SubmenuShowMode } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

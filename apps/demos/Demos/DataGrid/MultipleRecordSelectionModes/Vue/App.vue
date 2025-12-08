@@ -72,7 +72,7 @@ import {
   DxPager,
   type DxDataGridTypes,
 } from 'devextreme-vue/data-grid';
-import themes from 'devextreme/ui/themes';
+import themes from '@ISalikhzyanov/devextreme/ui/themes';
 import { sales } from './data.ts';
 
 const selectAllModes: DxDataGridTypes.SelectAllMode[] = ['allPages', 'page'];

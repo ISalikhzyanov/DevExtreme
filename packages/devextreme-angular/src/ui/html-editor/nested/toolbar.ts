@@ -16,7 +16,7 @@ import {
 
 
 
-import { AIToolbarItem, dxHtmlEditorToolbarItem, HtmlEditorPredefinedToolbarItem } from 'devextreme/ui/html_editor';
+import { AIToolbarItem, dxHtmlEditorToolbarItem, HtmlEditorPredefinedToolbarItem } from '@ISalikhzyanov/devextreme/ui/html_editor';
 
 import {
     DxIntegrationModule,

@@ -123,7 +123,7 @@ try {
         });
     };
 
-    replaceInFiles(reactNpmPath, "from 'devextreme/", `from '${SCOPE}/devextreme/`);
+    replaceInFiles(reactNpmPath, "from '@ISalikhzyanov/devextreme/", `from '${SCOPE}/devextreme/`);
     console.log(`✅ Updated imports in ${SCOPE}/devextreme-react`);
 
     // Восстанавливаем оригинал

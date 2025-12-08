@@ -74,7 +74,7 @@ export type PieChartAnnotationLocation = 'center' | 'edge';
 /** @public */
 export type PieChartLegendHoverMode = 'none' | 'allArgumentPoints';
 /**
- * @deprecated Use ShiftLabelOverlap from 'devextreme/common/charts' instead
+ * @deprecated Use ShiftLabelOverlap from '@ISalikhzyanov/devextreme/common/charts' instead
  */
 export type PieChartLabelOverlap = ShiftLabelOverlap;
 /** @public */

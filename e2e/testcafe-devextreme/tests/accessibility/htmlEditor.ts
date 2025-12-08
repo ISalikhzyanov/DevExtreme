@@ -1,4 +1,4 @@
-import { Properties } from 'devextreme/ui/html_editor.d';
+import { Properties } from '@ISalikhzyanov/devextreme/ui/html_editor.d';
 import HtmlEditor from 'devextreme-testcafe-models/htmlEditor';
 import { Selector } from 'testcafe';
 import url from '../../helpers/getPageUrl';

@@ -16,9 +16,9 @@ import {
 import { DOCUMENT } from '@angular/common';
 
 
-import { LocateInMenuMode, ShowTextMode } from 'devextreme/ui/toolbar';
-import { ToolbarItemLocation, ToolbarItemComponent } from 'devextreme/common';
-import { GanttPredefinedToolbarItem } from 'devextreme/ui/gantt';
+import { LocateInMenuMode, ShowTextMode } from '@ISalikhzyanov/devextreme/ui/toolbar';
+import { ToolbarItemLocation, ToolbarItemComponent } from '@ISalikhzyanov/devextreme/common';
+import { GanttPredefinedToolbarItem } from '@ISalikhzyanov/devextreme/ui/gantt';
 
 import {
     DxIntegrationModule,

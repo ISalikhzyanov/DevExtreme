@@ -18,15 +18,15 @@ import {
 
 
 
-import dxOverlay from 'devextreme/ui/overlay';
-import DOMComponent from 'devextreme/core/dom_component';
-import dxPopup from 'devextreme/ui/popup';
-import { AnimationConfig, PositionConfig } from 'devextreme/common/core/animation';
-import { event } from 'devextreme/events/events.types';
-import { EventInfo } from 'devextreme/common/core/events';
-import { Component as CoreComponent } from 'devextreme/core/component';
-import { PositionAlignment } from 'devextreme/common';
-import { dxPopupToolbarItem } from 'devextreme/ui/popup';
+import dxOverlay from '@ISalikhzyanov/devextreme/ui/overlay';
+import DOMComponent from '@ISalikhzyanov/devextreme/core/dom_component';
+import dxPopup from '@ISalikhzyanov/devextreme/ui/popup';
+import { AnimationConfig, PositionConfig } from '@ISalikhzyanov/devextreme/common/core/animation';
+import { event } from '@ISalikhzyanov/devextreme/events/events.types';
+import { EventInfo } from '@ISalikhzyanov/devextreme/common/core/events';
+import { Component as CoreComponent } from '@ISalikhzyanov/devextreme/core/component';
+import { PositionAlignment } from '@ISalikhzyanov/devextreme/common';
+import { dxPopupToolbarItem } from '@ISalikhzyanov/devextreme/ui/popup';
 
 import {
     DxIntegrationModule,

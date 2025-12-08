@@ -521,6 +521,6 @@ export {
   To,
   IToProps
 };
-import type * as ContextMenuTypes from 'devextreme/ui/context_menu_types';
+import type * as ContextMenuTypes from '@ISalikhzyanov/devextreme/ui/context_menu_types';
 export { ContextMenuTypes };
 

@@ -138,7 +138,7 @@
 </template>
 <script setup lang="ts">
 import DxButton, { type DxButtonTypes } from 'devextreme-vue/button';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 const capitalize = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
 function onClick(e: DxButtonTypes.ClickEvent) {

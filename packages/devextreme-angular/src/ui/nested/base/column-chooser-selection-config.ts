@@ -5,9 +5,9 @@ import {
     Component,
 } from '@angular/core';
 
-import { SelectAllMode, SingleMultipleOrNone } from 'devextreme/common';
-import { SelectionColumnDisplayMode } from 'devextreme/common/grids';
-import { SelectionSensitivity } from 'devextreme/ui/data_grid';
+import { SelectAllMode, SingleMultipleOrNone } from '@ISalikhzyanov/devextreme/common';
+import { SelectionColumnDisplayMode } from '@ISalikhzyanov/devextreme/common/grids';
+import { SelectionSensitivity } from '@ISalikhzyanov/devextreme/ui/data_grid';
 
 @Component({
     template: ''

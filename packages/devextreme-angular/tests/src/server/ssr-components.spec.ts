@@ -11,7 +11,7 @@ import {
   DevExtremeModule,
 } from 'devextreme-angular';
 
-import renderer from 'devextreme/core/renderer';
+import renderer from '@ISalikhzyanov/devextreme/core/renderer';
 
 import { DxServerModule } from 'devextreme-angular/server';
 

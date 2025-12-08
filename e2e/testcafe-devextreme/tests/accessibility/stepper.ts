@@ -1,4 +1,4 @@
-import { Item, Properties } from 'devextreme/ui/stepper.d';
+import { Item, Properties } from '@ISalikhzyanov/devextreme/ui/stepper.d';
 import url from '../../helpers/getPageUrl';
 import { testAccessibility, Configuration } from '../../helpers/accessibility/test';
 import { Options } from '../../helpers/generateOptionMatrix';

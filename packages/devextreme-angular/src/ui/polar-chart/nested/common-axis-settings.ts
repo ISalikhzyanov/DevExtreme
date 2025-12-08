@@ -14,7 +14,7 @@ import {
 
 
 
-import { DashStyle, Font, DiscreteAxisDivisionMode, LabelOverlap } from 'devextreme/common/charts';
+import { DashStyle, Font, DiscreteAxisDivisionMode, LabelOverlap } from '@ISalikhzyanov/devextreme/common/charts';
 
 import {
     DxIntegrationModule,

@@ -5,7 +5,7 @@ import {
     Component,
 } from '@angular/core';
 
-import { Format } from 'devextreme/common';
+import { Format } from '@ISalikhzyanov/devextreme/common';
 
 @Component({
     template: ''

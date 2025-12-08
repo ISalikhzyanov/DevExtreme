@@ -2,7 +2,7 @@ import React, { useCallback, useState } from 'react';
 import ActionSheet from 'devextreme-react/action-sheet';
 import Button from 'devextreme-react/button';
 import Switch from 'devextreme-react/switch';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { actionSheetItems } from './data.js';
 
 const App = () => {

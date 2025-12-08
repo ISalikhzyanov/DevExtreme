@@ -1,7 +1,7 @@
 /* eslint-disable no-restricted-syntax, no-unsafe-optional-chaining */
 import { createScreenshotsComparer } from 'devextreme-screenshot-comparer';
 import Scrollable from 'devextreme-testcafe-models/scrollView/internal/scrollable';
-import Guid from 'devextreme/core/guid';
+import Guid from '@ISalikhzyanov/devextreme/core/guid';
 import { testScreenshot } from '../../../helpers/themeUtils';
 import url from '../../../helpers/getPageUrl';
 import { createWidget } from '../../../helpers/createWidget';

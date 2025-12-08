@@ -1,4 +1,4 @@
-import type { Appointment } from 'devextreme/ui/scheduler';
+import type { Appointment } from '@ISalikhzyanov/devextreme/ui/scheduler';
 
 const MS_IN_DAY = 24 * 60 * 60 * 1000;
 

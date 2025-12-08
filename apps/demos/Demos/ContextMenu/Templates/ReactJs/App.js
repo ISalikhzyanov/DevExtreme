@@ -1,6 +1,6 @@
 import React from 'react';
 import { ContextMenu } from 'devextreme-react/context-menu';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { contextMenuItems as items } from './data.js';
 
 const itemClick = (e) => {

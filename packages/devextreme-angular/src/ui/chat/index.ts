@@ -22,15 +22,15 @@ import {
 } from '@angular/core';
 
 
-import DataSource from 'devextreme/data/data_source';
-import dxChat from 'devextreme/ui/chat';
-import { Alert, Message, AttachmentDownloadClickEvent, DisposingEvent, InitializedEvent, MessageDeletedEvent, MessageDeletingEvent, MessageEditCanceledEvent, MessageEditingStartEvent, MessageEnteredEvent, MessageUpdatedEvent, MessageUpdatingEvent, OptionChangedEvent, TypingEndEvent, TypingStartEvent, User } from 'devextreme/ui/chat';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { Format } from 'devextreme/common/core/localization';
-import { dxFileUploaderOptions } from 'devextreme/ui/file_uploader';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import dxChat from '@ISalikhzyanov/devextreme/ui/chat';
+import { Alert, Message, AttachmentDownloadClickEvent, DisposingEvent, InitializedEvent, MessageDeletedEvent, MessageDeletingEvent, MessageEditCanceledEvent, MessageEditingStartEvent, MessageEnteredEvent, MessageUpdatedEvent, MessageUpdatingEvent, OptionChangedEvent, TypingEndEvent, TypingStartEvent, User } from '@ISalikhzyanov/devextreme/ui/chat';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
+import { dxFileUploaderOptions } from '@ISalikhzyanov/devextreme/ui/file_uploader';
 
-import DxChat from 'devextreme/ui/chat';
+import DxChat from '@ISalikhzyanov/devextreme/ui/chat';
 
 
 import {

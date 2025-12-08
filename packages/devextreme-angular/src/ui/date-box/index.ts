@@ -24,15 +24,15 @@ import {
 } from '@angular/core';
 
 
-import dxDateBox from 'devextreme/ui/date_box';
-import { ApplyValueMode, TextEditorButton, LabelMode, EditorStyle, ValidationMessageMode, Mode, Position, ValidationStatus } from 'devextreme/common';
-import { DropDownPredefinedButton } from 'devextreme/ui/drop_down_editor/ui.drop_down_editor';
-import { dxCalendarOptions } from 'devextreme/ui/calendar';
-import { Format } from 'devextreme/common/core/localization';
-import { dxPopupOptions } from 'devextreme/ui/popup';
-import { ChangeEvent, ClosedEvent, ContentReadyEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, OpenedEvent, OptionChangedEvent, PasteEvent, ValueChangedEvent, DatePickerType, DateType } from 'devextreme/ui/date_box';
+import dxDateBox from '@ISalikhzyanov/devextreme/ui/date_box';
+import { ApplyValueMode, TextEditorButton, LabelMode, EditorStyle, ValidationMessageMode, Mode, Position, ValidationStatus } from '@ISalikhzyanov/devextreme/common';
+import { DropDownPredefinedButton } from '@ISalikhzyanov/devextreme/ui/drop_down_editor/ui.drop_down_editor';
+import { dxCalendarOptions } from '@ISalikhzyanov/devextreme/ui/calendar';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
+import { dxPopupOptions } from '@ISalikhzyanov/devextreme/ui/popup';
+import { ChangeEvent, ClosedEvent, ContentReadyEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, OpenedEvent, OptionChangedEvent, PasteEvent, ValueChangedEvent, DatePickerType, DateType } from '@ISalikhzyanov/devextreme/ui/date_box';
 
-import DxDateBox from 'devextreme/ui/date_box';
+import DxDateBox from '@ISalikhzyanov/devextreme/ui/date_box';
 
 import {
     ControlValueAccessor,

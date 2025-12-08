@@ -20,7 +20,7 @@ import {
   CustomRule,
 } from 'devextreme-react/validator';
 
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import {
   countries,
   nameLabel,

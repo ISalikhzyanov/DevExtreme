@@ -12,9 +12,9 @@ import {
 
 
 
-import { HorizontalAlignment, Orientation, Position, VerticalEdge } from 'devextreme/common';
-import { DashStyle, Font } from 'devextreme/common/charts';
-import { VectorMapMarkerShape } from 'devextreme/viz/vector_map';
+import { HorizontalAlignment, Orientation, Position, VerticalEdge } from '@ISalikhzyanov/devextreme/common';
+import { DashStyle, Font } from '@ISalikhzyanov/devextreme/common/charts';
+import { VectorMapMarkerShape } from '@ISalikhzyanov/devextreme/viz/vector_map';
 
 import {
     DxIntegrationModule,

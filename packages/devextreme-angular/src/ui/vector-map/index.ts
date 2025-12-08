@@ -22,15 +22,15 @@ import {
 } from '@angular/core';
 
 
-import DataSource from 'devextreme/data/data_source';
-import { dxVectorMapAnnotationConfig, dxVectorMapCommonAnnotationConfig, MapLayerElement, VectorMapMarkerType, VectorMapLayerType, VectorMapLegendItem, VectorMapMarkerShape, CenterChangedEvent, ClickEvent, DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, OptionChangedEvent, SelectionChangedEvent, TooltipHiddenEvent, TooltipShownEvent, ZoomFactorChangedEvent } from 'devextreme/viz/vector_map';
-import { HorizontalAlignment, VerticalEdge, ExportFormat, SingleMultipleOrNone, Position, Orientation } from 'devextreme/common';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { Font, Palette, DashStyle, Theme, TextOverflow, WordWrap } from 'devextreme/common/charts';
-import { VectorMapProjection, VectorMapProjectionConfig } from 'devextreme/viz/vector_map/projection';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { dxVectorMapAnnotationConfig, dxVectorMapCommonAnnotationConfig, MapLayerElement, VectorMapMarkerType, VectorMapLayerType, VectorMapLegendItem, VectorMapMarkerShape, CenterChangedEvent, ClickEvent, DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, OptionChangedEvent, SelectionChangedEvent, TooltipHiddenEvent, TooltipShownEvent, ZoomFactorChangedEvent } from '@ISalikhzyanov/devextreme/viz/vector_map';
+import { HorizontalAlignment, VerticalEdge, ExportFormat, SingleMultipleOrNone, Position, Orientation } from '@ISalikhzyanov/devextreme/common';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { Font, Palette, DashStyle, Theme, TextOverflow, WordWrap } from '@ISalikhzyanov/devextreme/common/charts';
+import { VectorMapProjection, VectorMapProjectionConfig } from '@ISalikhzyanov/devextreme/viz/vector_map/projection';
 
-import DxVectorMap from 'devextreme/viz/vector_map';
+import DxVectorMap from '@ISalikhzyanov/devextreme/viz/vector_map';
 
 
 import {

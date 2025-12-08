@@ -1,4 +1,4 @@
-import { registerGradient, registerPattern } from 'devextreme/common/charts';
+import { registerGradient, registerPattern } from '@ISalikhzyanov/devextreme/common/charts';
 
 const imagePatternSize = 12;
 const shapePatternSize = 6;

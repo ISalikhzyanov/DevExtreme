@@ -22,10 +22,10 @@ import {
 } from '@angular/core';
 
 
-import { LabelMode, EditorStyle, ValidationMessageMode, Position, ValidationStatus } from 'devextreme/common';
-import { ChangeEvent, ContentReadyEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, OptionChangedEvent, PasteEvent, ValueChangedEvent } from 'devextreme/ui/text_area';
+import { LabelMode, EditorStyle, ValidationMessageMode, Position, ValidationStatus } from '@ISalikhzyanov/devextreme/common';
+import { ChangeEvent, ContentReadyEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, OptionChangedEvent, PasteEvent, ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/text_area';
 
-import DxTextArea from 'devextreme/ui/text_area';
+import DxTextArea from '@ISalikhzyanov/devextreme/ui/text_area';
 
 import {
     ControlValueAccessor,

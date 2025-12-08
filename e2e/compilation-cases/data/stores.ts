@@ -5,7 +5,7 @@ import {
   StoreOptions,
   CustomStore,
   LoadResult,
-} from 'devextreme/common/data';
+} from '@ISalikhzyanov/devextreme/common/data';
 
 import {
   ANY,

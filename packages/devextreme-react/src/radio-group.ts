@@ -121,6 +121,6 @@ export {
   Item,
   IItemProps
 };
-import type * as RadioGroupTypes from 'devextreme/ui/radio_group_types';
+import type * as RadioGroupTypes from '@ISalikhzyanov/devextreme/ui/radio_group_types';
 export { RadioGroupTypes };
 

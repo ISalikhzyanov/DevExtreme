@@ -16,8 +16,8 @@ import {
 
 
 
-import { ChartsColor, Palette, PaletteExtensionMode } from 'devextreme/common/charts';
-import { HorizontalAlignment, VerticalAlignment } from 'devextreme/common';
+import { ChartsColor, Palette, PaletteExtensionMode } from '@ISalikhzyanov/devextreme/common/charts';
+import { HorizontalAlignment, VerticalAlignment } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

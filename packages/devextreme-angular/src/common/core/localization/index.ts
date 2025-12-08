@@ -7,4 +7,4 @@ export {
     locale,
     parseDate,
     parseNumber,
-} from 'devextreme/common/core/localization';
+} from '@ISalikhzyanov/devextreme/common/core/localization';

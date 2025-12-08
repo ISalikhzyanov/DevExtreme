@@ -127,6 +127,6 @@ export {
   Item,
   IItemProps
 };
-import type * as ButtonGroupTypes from 'devextreme/ui/button_group_types';
+import type * as ButtonGroupTypes from '@ISalikhzyanov/devextreme/ui/button_group_types';
 export { ButtonGroupTypes };
 

@@ -3,7 +3,7 @@ import {
 } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { Options as DataSourceConfig } from 'devextreme/ui/pivot_grid/data_source';
+import { Options as DataSourceConfig } from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
 import { DxPivotGridModule } from 'devextreme-angular';
 import * as AspNetData from 'devextreme-aspnet-data-nojquery';
 

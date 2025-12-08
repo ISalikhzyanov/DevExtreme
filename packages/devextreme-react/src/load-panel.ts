@@ -413,6 +413,6 @@ export {
   To,
   IToProps
 };
-import type * as LoadPanelTypes from 'devextreme/ui/load_panel_types';
+import type * as LoadPanelTypes from '@ISalikhzyanov/devextreme/ui/load_panel_types';
 export { LoadPanelTypes };
 

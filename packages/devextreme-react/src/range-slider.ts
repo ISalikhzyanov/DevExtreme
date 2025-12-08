@@ -156,6 +156,6 @@ export {
   Tooltip,
   ITooltipProps
 };
-import type * as RangeSliderTypes from 'devextreme/ui/range_slider_types';
+import type * as RangeSliderTypes from '@ISalikhzyanov/devextreme/ui/range_slider_types';
 export { RangeSliderTypes };
 

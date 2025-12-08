@@ -1,4 +1,4 @@
-import { Item, Properties } from 'devextreme/ui/menu.d';
+import { Item, Properties } from '@ISalikhzyanov/devextreme/ui/menu.d';
 import Menu from 'devextreme-testcafe-models/menu';
 import url from '../../helpers/getPageUrl';
 import { testAccessibility, Configuration } from '../../helpers/accessibility/test';

@@ -14,9 +14,9 @@ import {
 
 
 
-import { HorizontalAlignment, VerticalAlignment } from 'devextreme/common';
-import { Font, LabelOverlap } from 'devextreme/common/charts';
-import { Format } from 'devextreme/common/core/localization';
+import { HorizontalAlignment, VerticalAlignment } from '@ISalikhzyanov/devextreme/common';
+import { Font, LabelOverlap } from '@ISalikhzyanov/devextreme/common/charts';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
 
 import {
     DxIntegrationModule,

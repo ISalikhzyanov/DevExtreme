@@ -6,7 +6,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 import { DxDiagramModule, DxDiagramComponent } from 'devextreme-angular';
-import { confirm } from 'devextreme/ui/dialog';
+import { confirm } from '@ISalikhzyanov/devextreme/ui/dialog';
 
 if (!/localhost/.test(document.location.host)) {
   enableProdMode();

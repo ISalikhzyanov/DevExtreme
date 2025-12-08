@@ -22,10 +22,10 @@ import {
 } from '@angular/core';
 
 
-import { ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent } from 'devextreme/ui/switch';
-import { ValidationMessageMode, Position, ValidationStatus } from 'devextreme/common';
+import { ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/switch';
+import { ValidationMessageMode, Position, ValidationStatus } from '@ISalikhzyanov/devextreme/common';
 
-import DxSwitch from 'devextreme/ui/switch';
+import DxSwitch from '@ISalikhzyanov/devextreme/ui/switch';
 
 import {
     ControlValueAccessor,

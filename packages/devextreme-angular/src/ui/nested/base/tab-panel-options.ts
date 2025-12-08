@@ -5,10 +5,10 @@ import {
     Component,
 } from '@angular/core';
 
-import { Position, TabsIconPosition, TabsStyle } from 'devextreme/common';
-import { Store } from 'devextreme/data';
-import DataSource, { Options as DataSourceOptions } from 'devextreme/data/data_source';
-import { ContentReadyEvent, DisposingEvent, dxTabPanelItem, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, OptionChangedEvent, SelectionChangedEvent, SelectionChangingEvent, TitleClickEvent, TitleHoldEvent, TitleRenderedEvent } from 'devextreme/ui/tab_panel';
+import { Position, TabsIconPosition, TabsStyle } from '@ISalikhzyanov/devextreme/common';
+import { Store } from '@ISalikhzyanov/devextreme/data';
+import DataSource, { Options as DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { ContentReadyEvent, DisposingEvent, dxTabPanelItem, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, OptionChangedEvent, SelectionChangedEvent, SelectionChangingEvent, TitleClickEvent, TitleHoldEvent, TitleRenderedEvent } from '@ISalikhzyanov/devextreme/ui/tab_panel';
 
 @Component({
     template: ''

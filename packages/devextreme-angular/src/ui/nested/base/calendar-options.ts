@@ -5,8 +5,8 @@ import {
     Component,
 } from '@angular/core';
 
-import { FirstDayOfWeek, Position, ValidationMessageMode, ValidationStatus } from 'devextreme/common';
-import { CalendarSelectionMode, CalendarZoomLevel, DisposingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent, WeekNumberRule } from 'devextreme/ui/calendar';
+import { FirstDayOfWeek, Position, ValidationMessageMode, ValidationStatus } from '@ISalikhzyanov/devextreme/common';
+import { CalendarSelectionMode, CalendarZoomLevel, DisposingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent, WeekNumberRule } from '@ISalikhzyanov/devextreme/ui/calendar';
 
 @Component({
     template: ''

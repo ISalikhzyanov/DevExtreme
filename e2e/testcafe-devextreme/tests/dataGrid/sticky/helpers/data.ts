@@ -1,4 +1,4 @@
-import { Column } from 'devextreme/ui/data_grid';
+import { Column } from '@ISalikhzyanov/devextreme/ui/data_grid';
 
 const dataSource = [{
   ID: 1,

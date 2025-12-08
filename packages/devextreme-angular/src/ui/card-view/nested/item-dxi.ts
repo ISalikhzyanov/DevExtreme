@@ -18,13 +18,13 @@ import {
 import { DOCUMENT } from '@angular/common';
 
 
-import * as CommonTypes from 'devextreme/common';
-import { LocateInMenuMode, ShowTextMode } from 'devextreme/ui/toolbar';
-import { ToolbarItemLocation, ToolbarItemComponent, HorizontalAlignment, VerticalAlignment } from 'devextreme/common';
-import { CardHeaderPredefinedItem, PredefinedToolbarItem } from 'devextreme/ui/card_view';
-import { FormPredefinedButtonItem, FormItemComponent, FormItemType, LabelLocation, dxFormButtonItem, dxFormEmptyItem, dxFormGroupItem, dxFormSimpleItem, dxFormTabbedItem } from 'devextreme/ui/form';
-import { dxTabPanelOptions } from 'devextreme/ui/tab_panel';
-import { dxButtonOptions } from 'devextreme/ui/button';
+import * as CommonTypes from '@ISalikhzyanov/devextreme/common';
+import { LocateInMenuMode, ShowTextMode } from '@ISalikhzyanov/devextreme/ui/toolbar';
+import { ToolbarItemLocation, ToolbarItemComponent, HorizontalAlignment, VerticalAlignment } from '@ISalikhzyanov/devextreme/common';
+import { CardHeaderPredefinedItem, PredefinedToolbarItem } from '@ISalikhzyanov/devextreme/ui/card_view';
+import { FormPredefinedButtonItem, FormItemComponent, FormItemType, LabelLocation, dxFormButtonItem, dxFormEmptyItem, dxFormGroupItem, dxFormSimpleItem, dxFormTabbedItem } from '@ISalikhzyanov/devextreme/ui/form';
+import { dxTabPanelOptions } from '@ISalikhzyanov/devextreme/ui/tab_panel';
+import { dxButtonOptions } from '@ISalikhzyanov/devextreme/ui/button';
 
 import {
     DxIntegrationModule,

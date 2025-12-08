@@ -5,10 +5,10 @@ import {
     Component,
 } from '@angular/core';
 
-import { Orientation } from 'devextreme/common';
-import { Store } from 'devextreme/data';
-import DataSource, { Options as DataSourceOptions } from 'devextreme/data/data_source';
-import { ContentReadyEvent, DisposingEvent, dxSplitterItem, InitializedEvent, ItemClickEvent, ItemCollapsedEvent, ItemContextMenuEvent, ItemExpandedEvent, ItemRenderedEvent, OptionChangedEvent, Properties as dxSplitterOptions, ResizeEndEvent, ResizeEvent, ResizeStartEvent } from 'devextreme/ui/splitter';
+import { Orientation } from '@ISalikhzyanov/devextreme/common';
+import { Store } from '@ISalikhzyanov/devextreme/data';
+import DataSource, { Options as DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { ContentReadyEvent, DisposingEvent, dxSplitterItem, InitializedEvent, ItemClickEvent, ItemCollapsedEvent, ItemContextMenuEvent, ItemExpandedEvent, ItemRenderedEvent, OptionChangedEvent, Properties as dxSplitterOptions, ResizeEndEvent, ResizeEvent, ResizeStartEvent } from '@ISalikhzyanov/devextreme/ui/splitter';
 
 @Component({
     template: ''

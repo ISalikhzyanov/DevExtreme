@@ -7,7 +7,7 @@ import {
   DxButtonModule,
   DxSelectBoxModule,
 } from 'devextreme-angular';
-import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+import PivotGridDataSource from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
 import { DxPivotGridModule, DxPivotGridTypes } from 'devextreme-angular/ui/pivot-grid';
 import { Service, Layout, Sale } from './app.service';
 

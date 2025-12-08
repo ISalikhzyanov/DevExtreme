@@ -16,11 +16,11 @@ import {
 
 
 
-import * as CommonTypes from 'devextreme/common';
-import { HorizontalAlignment, DataType, SortOrder } from 'devextreme/common';
-import { FilterType, ColumnHeaderFilter } from 'devextreme/common/grids';
-import { Format } from 'devextreme/common/core/localization';
-import { dxFormSimpleItem } from 'devextreme/ui/form';
+import * as CommonTypes from '@ISalikhzyanov/devextreme/common';
+import { HorizontalAlignment, DataType, SortOrder } from '@ISalikhzyanov/devextreme/common';
+import { FilterType, ColumnHeaderFilter } from '@ISalikhzyanov/devextreme/common/grids';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
+import { dxFormSimpleItem } from '@ISalikhzyanov/devextreme/ui/form';
 
 import {
     DxIntegrationModule,

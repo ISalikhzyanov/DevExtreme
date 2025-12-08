@@ -14,7 +14,7 @@ import {
 
 
 
-import { ScrollMode, Mode } from 'devextreme/common';
+import { ScrollMode, Mode } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

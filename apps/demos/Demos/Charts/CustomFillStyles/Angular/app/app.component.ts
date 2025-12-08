@@ -2,7 +2,7 @@ import { NgModule, Component, enableProdMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { DxPieChartModule } from 'devextreme-angular';
-import { registerGradient, registerPattern } from 'devextreme/common/charts';
+import { registerGradient, registerPattern } from '@ISalikhzyanov/devextreme/common/charts';
 import { Data, Service } from './app.service';
 
 if (!/localhost/.test(document.location.host)) {

@@ -5,9 +5,9 @@ import {
     Component,
 } from '@angular/core';
 
-import { ValidationStatus } from 'devextreme/common';
-import { UserDefinedElement } from 'devextreme/core/element';
-import { BeforeSendEvent, ContentReadyEvent, DisposingEvent, DropZoneEnterEvent, DropZoneLeaveEvent, FilesUploadedEvent, FileUploadMode, InitializedEvent, OptionChangedEvent, ProgressEvent, UploadAbortedEvent, UploadedEvent, UploadErrorEvent, UploadHttpMethod, UploadStartedEvent, ValueChangedEvent } from 'devextreme/ui/file_uploader';
+import { ValidationStatus } from '@ISalikhzyanov/devextreme/common';
+import { UserDefinedElement } from '@ISalikhzyanov/devextreme/core/element';
+import { BeforeSendEvent, ContentReadyEvent, DisposingEvent, DropZoneEnterEvent, DropZoneLeaveEvent, FilesUploadedEvent, FileUploadMode, InitializedEvent, OptionChangedEvent, ProgressEvent, UploadAbortedEvent, UploadedEvent, UploadErrorEvent, UploadHttpMethod, UploadStartedEvent, ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/file_uploader';
 
 @Component({
     template: ''

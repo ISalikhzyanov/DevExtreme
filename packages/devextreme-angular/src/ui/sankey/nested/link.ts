@@ -14,8 +14,8 @@ import {
 
 
 
-import { SankeyColorMode } from 'devextreme/viz/sankey';
-import { HatchDirection } from 'devextreme/common/charts';
+import { SankeyColorMode } from '@ISalikhzyanov/devextreme/viz/sankey';
+import { HatchDirection } from '@ISalikhzyanov/devextreme/common/charts';
 
 import {
     DxIntegrationModule,

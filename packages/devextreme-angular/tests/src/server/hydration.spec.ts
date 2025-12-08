@@ -4,7 +4,7 @@ import {
 } from '@angular/core';
 import { provideServerRendering, ServerModule } from '@angular/platform-server';
 import { DxServerModule } from 'devextreme-angular/server';
-import infernoRenderer from 'devextreme/core/inferno_renderer';
+import infernoRenderer from '@ISalikhzyanov/devextreme/core/inferno_renderer';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { DevExtremeModule } from 'devextreme-angular';
 import { componentNames } from './component-names';

@@ -2,7 +2,7 @@ import React, { useCallback, useMemo, useState } from 'react';
 import DropDownButton from 'devextreme-react/drop-down-button';
 import Toolbar from 'devextreme-react/toolbar';
 import { Template } from 'devextreme-react/core/template';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import service from './data.js';
 import ColorIcon from './ColorIcon.js';
 import DropDownButtonTemplate from './DropDownButtonTemplate.js';

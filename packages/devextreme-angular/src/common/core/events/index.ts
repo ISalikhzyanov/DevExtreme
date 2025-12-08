@@ -11,4 +11,4 @@ export {
     on,
     one,
     trigger,
-} from 'devextreme/common/core/events';
+} from '@ISalikhzyanov/devextreme/common/core/events';

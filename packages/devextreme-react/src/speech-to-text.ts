@@ -116,6 +116,6 @@ export {
   SpeechRecognitionConfig,
   ISpeechRecognitionConfigProps
 };
-import type * as SpeechToTextTypes from 'devextreme/ui/speech_to_text_types';
+import type * as SpeechToTextTypes from '@ISalikhzyanov/devextreme/ui/speech_to_text_types';
 export { SpeechToTextTypes };
 

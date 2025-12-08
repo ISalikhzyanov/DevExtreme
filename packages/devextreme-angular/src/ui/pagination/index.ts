@@ -20,10 +20,10 @@ import {
 } from '@angular/core';
 
 
-import { DisplayMode, Mode } from 'devextreme/common';
-import { EventInfo } from 'devextreme/common/core/events';
+import { DisplayMode, Mode } from '@ISalikhzyanov/devextreme/common';
+import { EventInfo } from '@ISalikhzyanov/devextreme/common/core/events';
 
-import DxPagination from 'devextreme/ui/pagination';
+import DxPagination from '@ISalikhzyanov/devextreme/ui/pagination';
 
 
 import {

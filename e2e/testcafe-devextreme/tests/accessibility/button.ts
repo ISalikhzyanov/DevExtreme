@@ -1,5 +1,5 @@
 import { ClientFunction } from 'testcafe';
-import { Properties } from 'devextreme/ui/button.d';
+import { Properties } from '@ISalikhzyanov/devextreme/ui/button.d';
 import Button from 'devextreme-testcafe-models/button';
 import { isMaterialBased } from '../../helpers/themeUtils';
 import url from '../../helpers/getPageUrl';

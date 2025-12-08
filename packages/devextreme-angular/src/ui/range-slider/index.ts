@@ -22,11 +22,11 @@ import {
 } from '@angular/core';
 
 
-import { Format } from 'devextreme/common/core/localization';
-import { VerticalEdge, TooltipShowMode, ValidationMessageMode, Position, ValidationStatus, SliderValueChangeMode } from 'devextreme/common';
-import { ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent } from 'devextreme/ui/range_slider';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
+import { VerticalEdge, TooltipShowMode, ValidationMessageMode, Position, ValidationStatus, SliderValueChangeMode } from '@ISalikhzyanov/devextreme/common';
+import { ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/range_slider';
 
-import DxRangeSlider from 'devextreme/ui/range_slider';
+import DxRangeSlider from '@ISalikhzyanov/devextreme/ui/range_slider';
 
 import {
     ControlValueAccessor,

@@ -133,7 +133,7 @@ import type { RequestParams, Response } from 'devextreme-vue/common/ai-integrati
 import { DxButton, type DxButtonTypes } from 'devextreme-vue/button';
 import DxTextArea from 'devextreme-vue/text-area';
 import { AIIntegration } from 'devextreme-vue/common/ai-integration';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { AzureOpenAIConfig, defaultText } from './data.ts';
 
 const text = ref(defaultText);

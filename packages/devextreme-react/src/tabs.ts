@@ -141,6 +141,6 @@ export {
   Item,
   IItemProps
 };
-import type * as TabsTypes from 'devextreme/ui/tabs_types';
+import type * as TabsTypes from '@ISalikhzyanov/devextreme/ui/tabs_types';
 export { TabsTypes };
 

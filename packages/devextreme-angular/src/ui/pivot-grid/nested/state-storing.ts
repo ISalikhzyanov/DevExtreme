@@ -14,7 +14,7 @@ import {
 
 
 
-import { StateStoreType } from 'devextreme/common/grids';
+import { StateStoreType } from '@ISalikhzyanov/devextreme/common/grids';
 
 import {
     DxIntegrationModule,

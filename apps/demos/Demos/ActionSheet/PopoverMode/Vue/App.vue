@@ -23,10 +23,10 @@
 import { ref } from 'vue';
 import DxActionSheet from 'devextreme-vue/action-sheet';
 import DxList, { type DxListTypes } from 'devextreme-vue/list';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { actionSheetItems, contacts } from './data.ts';
 import ContactItem from './ContactItem.vue';
-import { type DxElement } from 'devextreme/core/element';
+import { type DxElement } from '@ISalikhzyanov/devextreme/core/element';
 
 const isActionSheetVisible = ref(false);
 const actionSheetTarget = ref<DxElement>();

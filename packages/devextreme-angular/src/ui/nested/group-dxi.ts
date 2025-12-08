@@ -14,7 +14,7 @@ import {
 
 
 
-import { Command, CustomCommand, ShapeCategory, ShapeType, ToolboxDisplayMode } from 'devextreme/ui/diagram';
+import { Command, CustomCommand, ShapeCategory, ShapeType, ToolboxDisplayMode } from '@ISalikhzyanov/devextreme/ui/diagram';
 
 import {
     DxIntegrationModule,

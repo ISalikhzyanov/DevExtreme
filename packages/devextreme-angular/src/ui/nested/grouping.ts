@@ -14,7 +14,7 @@ import {
 
 
 
-import { GroupExpandMode } from 'devextreme/common/grids';
+import { GroupExpandMode } from '@ISalikhzyanov/devextreme/common/grids';
 
 import {
     DxIntegrationModule,

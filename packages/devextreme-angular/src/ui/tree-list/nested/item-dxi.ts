@@ -16,9 +16,9 @@ import {
 import { DOCUMENT } from '@angular/common';
 
 
-import { LocateInMenuMode, ShowTextMode } from 'devextreme/ui/toolbar';
-import { ToolbarItemLocation, ToolbarItemComponent } from 'devextreme/common';
-import { TreeListPredefinedToolbarItem } from 'devextreme/ui/tree_list';
+import { LocateInMenuMode, ShowTextMode } from '@ISalikhzyanov/devextreme/ui/toolbar';
+import { ToolbarItemLocation, ToolbarItemComponent } from '@ISalikhzyanov/devextreme/common';
+import { TreeListPredefinedToolbarItem } from '@ISalikhzyanov/devextreme/ui/tree_list';
 
 import {
     DxIntegrationModule,

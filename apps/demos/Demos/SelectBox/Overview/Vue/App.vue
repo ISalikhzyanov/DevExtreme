@@ -101,7 +101,7 @@
 import { ref } from 'vue';
 import DxSelectBox, { type DxSelectBoxTypes } from 'devextreme-vue/select-box';
 import { ArrayStore } from 'devextreme-vue/common/data';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import Field from './Field.vue';
 import Item from './Item.vue';
 import service from './data.ts';

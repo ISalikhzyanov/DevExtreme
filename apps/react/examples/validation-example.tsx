@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ClickEvent } from 'devextreme/ui/button';
+import { ClickEvent } from '@ISalikhzyanov/devextreme/ui/button';
 import { Button } from 'devextreme-react/button';
 import { TextBox } from 'devextreme-react/text-box';
 import { ValidationGroup } from 'devextreme-react/validation-group';

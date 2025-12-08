@@ -14,7 +14,7 @@ import {
   FormRef,
 } from 'devextreme-react/form';
 import { TextArea, type TextAreaTypes } from 'devextreme-react/text-area';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 import { AzureOpenAIConfig, defaultText } from './data.ts';
 

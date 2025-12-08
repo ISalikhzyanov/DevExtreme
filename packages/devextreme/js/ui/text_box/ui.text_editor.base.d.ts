@@ -258,7 +258,7 @@ export default class dxTextEditor<
 
 /**
  * @namespace DevExpress.ui
- * @deprecated Use TextEditorButton from 'devextreme/common' instead
+ * @deprecated Use TextEditorButton from '@ISalikhzyanov/devextreme/common' instead
  */
 export type dxTextEditorButton = TextEditorButton;
 

@@ -29,7 +29,7 @@ import DxPivotGrid, {
   DxFieldPanel,
   type DxPivotGridTypes,
 } from 'devextreme-vue/pivot-grid';
-import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+import PivotGridDataSource from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
 import { sales } from './data.ts';
 
 const summaryDisplayModes = [

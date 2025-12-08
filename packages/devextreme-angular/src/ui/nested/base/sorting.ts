@@ -5,7 +5,7 @@ import {
     Component,
 } from '@angular/core';
 
-import { SingleMultipleOrNone } from 'devextreme/common';
+import { SingleMultipleOrNone } from '@ISalikhzyanov/devextreme/common';
 
 @Component({
     template: ''

@@ -22,13 +22,13 @@ import {
 } from '@angular/core';
 
 
-import { AnimationConfig, PositionConfig } from 'devextreme/common/core/animation';
-import { event } from 'devextreme/events/events.types';
-import { EventInfo } from 'devextreme/common/core/events';
-import { PositionAlignment } from 'devextreme/common';
-import { dxPopupToolbarItem } from 'devextreme/ui/popup';
+import { AnimationConfig, PositionConfig } from '@ISalikhzyanov/devextreme/common/core/animation';
+import { event } from '@ISalikhzyanov/devextreme/events/events.types';
+import { EventInfo } from '@ISalikhzyanov/devextreme/common/core/events';
+import { PositionAlignment } from '@ISalikhzyanov/devextreme/common';
+import { dxPopupToolbarItem } from '@ISalikhzyanov/devextreme/ui/popup';
 
-import DxPopup from 'devextreme/ui/popup';
+import DxPopup from '@ISalikhzyanov/devextreme/ui/popup';
 
 
 import {

@@ -1,4 +1,4 @@
-import { type Orientation } from 'devextreme/common';
+import { type Orientation } from '@ISalikhzyanov/devextreme/common';
 import { type DxTabsTypes } from 'devextreme-vue/tabs';
 
 export const tabsWithText = [

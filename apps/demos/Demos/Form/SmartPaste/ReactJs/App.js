@@ -8,7 +8,7 @@ import {
   Form, Item, GroupItem, ButtonItem,
 } from 'devextreme-react/form';
 import { TextArea } from 'devextreme-react/text-area';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { AzureOpenAIConfig, defaultText } from './data.js';
 
 const stylingMode = 'filled';

@@ -10,7 +10,7 @@ import {
 } from 'devextreme-angular/common/ai-integration';
 import { DxButtonModule, type DxButtonTypes } from 'devextreme-angular/ui/button';
 import { DxFormModule, DxFormComponent } from 'devextreme-angular/ui/form';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 import { Service } from './app.service';
 

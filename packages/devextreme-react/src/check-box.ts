@@ -68,6 +68,6 @@ export {
   ICheckBoxOptions,
   CheckBoxRef
 };
-import type * as CheckBoxTypes from 'devextreme/ui/check_box_types';
+import type * as CheckBoxTypes from '@ISalikhzyanov/devextreme/ui/check_box_types';
 export { CheckBoxTypes };
 

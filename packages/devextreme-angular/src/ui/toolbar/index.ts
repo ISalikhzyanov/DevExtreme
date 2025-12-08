@@ -21,14 +21,14 @@ import {
     QueryList
 } from '@angular/core';
 
-export { ExplicitTypes } from 'devextreme/ui/toolbar';
+export { ExplicitTypes } from '@ISalikhzyanov/devextreme/ui/toolbar';
 
-import DataSource from 'devextreme/data/data_source';
-import { dxToolbarItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, OptionChangedEvent } from 'devextreme/ui/toolbar';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { dxToolbarItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, OptionChangedEvent } from '@ISalikhzyanov/devextreme/ui/toolbar';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
 
-import DxToolbar from 'devextreme/ui/toolbar';
+import DxToolbar from '@ISalikhzyanov/devextreme/ui/toolbar';
 
 
 import {

@@ -18,8 +18,8 @@ import {
 import { DOCUMENT } from '@angular/common';
 
 
-import { DashStyle, Font, TextOverflow, AnnotationType, WordWrap } from 'devextreme/common/charts';
-import { dxPieChartAnnotationConfig, PieChartAnnotationLocation } from 'devextreme/viz/pie_chart';
+import { DashStyle, Font, TextOverflow, AnnotationType, WordWrap } from '@ISalikhzyanov/devextreme/common/charts';
+import { dxPieChartAnnotationConfig, PieChartAnnotationLocation } from '@ISalikhzyanov/devextreme/viz/pie_chart';
 
 import {
     DxIntegrationModule,

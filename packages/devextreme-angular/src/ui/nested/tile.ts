@@ -14,7 +14,7 @@ import {
 
 
 
-import { Font, TextOverflow, WordWrap } from 'devextreme/common/charts';
+import { Font, TextOverflow, WordWrap } from '@ISalikhzyanov/devextreme/common/charts';
 
 import {
     DxIntegrationModule,

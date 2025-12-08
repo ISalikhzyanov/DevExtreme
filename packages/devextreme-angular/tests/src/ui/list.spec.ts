@@ -11,7 +11,7 @@ import {
   TestBed,
 } from '@angular/core/testing';
 
-import DxButton from 'devextreme/ui/button';
+import DxButton from '@ISalikhzyanov/devextreme/ui/button';
 
 import {
   DxButtonModule,

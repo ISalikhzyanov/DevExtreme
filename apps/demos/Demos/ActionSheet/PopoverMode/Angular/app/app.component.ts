@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { DxActionSheetModule, DxListModule } from 'devextreme-angular';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { Contact, Service } from './app.service';
 
 if (!/localhost/.test(document.location.host)) {

@@ -22,10 +22,10 @@ import {
 } from '@angular/core';
 
 
-import { CompleteEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent } from 'devextreme/ui/progress_bar';
-import { ValidationMessageMode, Position, ValidationStatus } from 'devextreme/common';
+import { CompleteEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/progress_bar';
+import { ValidationMessageMode, Position, ValidationStatus } from '@ISalikhzyanov/devextreme/common';
 
-import DxProgressBar from 'devextreme/ui/progress_bar';
+import DxProgressBar from '@ISalikhzyanov/devextreme/ui/progress_bar';
 
 import {
     ControlValueAccessor,

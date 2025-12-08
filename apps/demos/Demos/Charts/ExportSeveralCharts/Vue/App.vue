@@ -60,7 +60,7 @@ import DxPieChart, {
   DxLabel as DxPieLabel,
   DxConnector,
 } from 'devextreme-vue/pie-chart';
-import { exportWidgets } from 'devextreme/viz/export';
+import { exportWidgets } from '@ISalikhzyanov/devextreme/viz/export';
 import DxButton from 'devextreme-vue/button';
 import { allMedals, goldMedals } from './data.ts';
 

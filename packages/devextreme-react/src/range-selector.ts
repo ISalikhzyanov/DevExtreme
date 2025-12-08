@@ -2377,6 +2377,6 @@ export {
   Width,
   IWidthProps
 };
-import type * as RangeSelectorTypes from 'devextreme/viz/range_selector_types';
+import type * as RangeSelectorTypes from '@ISalikhzyanov/devextreme/viz/range_selector_types';
 export { RangeSelectorTypes };
 

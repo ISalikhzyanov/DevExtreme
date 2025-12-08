@@ -1,4 +1,4 @@
-import { Properties } from 'devextreme/ui/accordion.d';
+import { Properties } from '@ISalikhzyanov/devextreme/ui/accordion.d';
 import { Selector as $ } from 'testcafe';
 import url from '../../helpers/getPageUrl';
 import { testAccessibility, Configuration } from '../../helpers/accessibility/test';

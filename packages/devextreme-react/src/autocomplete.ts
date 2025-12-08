@@ -690,6 +690,6 @@ export {
   ToolbarItem,
   IToolbarItemProps
 };
-import type * as AutocompleteTypes from 'devextreme/ui/autocomplete_types';
+import type * as AutocompleteTypes from '@ISalikhzyanov/devextreme/ui/autocomplete_types';
 export { AutocompleteTypes };
 

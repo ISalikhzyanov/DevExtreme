@@ -14,8 +14,8 @@ import {
 
 
 
-import { ExportFormat } from 'devextreme/common';
-import { DataGridExportFormat } from 'devextreme/ui/data_grid';
+import { ExportFormat } from '@ISalikhzyanov/devextreme/common';
+import { DataGridExportFormat } from '@ISalikhzyanov/devextreme/ui/data_grid';
 
 import {
     DxIntegrationModule,

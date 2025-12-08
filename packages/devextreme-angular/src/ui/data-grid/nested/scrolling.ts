@@ -14,9 +14,9 @@ import {
 
 
 
-import { DataRenderMode } from 'devextreme/common/grids';
-import { DataGridScrollMode } from 'devextreme/ui/data_grid';
-import { ScrollbarMode, Mode } from 'devextreme/common';
+import { DataRenderMode } from '@ISalikhzyanov/devextreme/common/grids';
+import { DataGridScrollMode } from '@ISalikhzyanov/devextreme/ui/data_grid';
+import { ScrollbarMode, Mode } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

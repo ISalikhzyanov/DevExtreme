@@ -18,7 +18,7 @@ import {
 import { DOCUMENT } from '@angular/common';
 
 
-import { ShapeType } from 'devextreme/ui/diagram';
+import { ShapeType } from '@ISalikhzyanov/devextreme/ui/diagram';
 
 import {
     DxIntegrationModule,

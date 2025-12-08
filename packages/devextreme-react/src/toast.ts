@@ -399,6 +399,6 @@ export {
   To,
   IToProps
 };
-import type * as ToastTypes from 'devextreme/ui/toast_types';
+import type * as ToastTypes from '@ISalikhzyanov/devextreme/ui/toast_types';
 export { ToastTypes };
 

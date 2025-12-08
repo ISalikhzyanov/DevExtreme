@@ -156,6 +156,6 @@ export {
   Tooltip,
   ITooltipProps
 };
-import type * as SliderTypes from 'devextreme/ui/slider_types';
+import type * as SliderTypes from '@ISalikhzyanov/devextreme/ui/slider_types';
 export { SliderTypes };
 

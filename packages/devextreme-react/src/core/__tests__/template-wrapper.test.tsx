@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { default as dxRender } from 'devextreme/core/renderer';
+import { default as dxRender } from '@ISalikhzyanov/devextreme/core/renderer';
 import { useEffect, useContext } from 'react';
 import { TemplateWrapper } from '../template-wrapper';
 import { cleanup, render } from '@testing-library/react';
-import * as events from 'devextreme/events';
+import * as events from '@ISalikhzyanov/devextreme/events';
 import { RemovalLockerContext, UpdateLocker } from '../contexts';
 import { TemplateFunc } from '../types';
 

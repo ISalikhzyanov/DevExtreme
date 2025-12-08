@@ -6,8 +6,8 @@ import Resizable from 'devextreme-react/resizable';
 import CheckBox from 'devextreme-react/check-box';
 import DropDownButton from 'devextreme-react/drop-down-button';
 import SelectBox from 'devextreme-react/select-box';
-import themes from 'devextreme/ui/themes';
-import notify from 'devextreme/ui/notify';
+import themes from '@ISalikhzyanov/devextreme/ui/themes';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import 'devextreme/ui/select_box';
 import {
   fontSizes,

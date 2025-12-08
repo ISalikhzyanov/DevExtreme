@@ -246,7 +246,7 @@ import {
   DxCustomRule,
   type DxValidatorTypes,
 } from 'devextreme-vue/validator';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import service from './data.ts';
 
 const currentDate = new Date();

@@ -21,14 +21,14 @@ import {
     QueryList
 } from '@angular/core';
 
-export { ExplicitTypes } from 'devextreme/ui/gallery';
+export { ExplicitTypes } from '@ISalikhzyanov/devextreme/ui/gallery';
 
-import DataSource from 'devextreme/data/data_source';
-import { dxGalleryItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, OptionChangedEvent, SelectionChangedEvent } from 'devextreme/ui/gallery';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { dxGalleryItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, OptionChangedEvent, SelectionChangedEvent } from '@ISalikhzyanov/devextreme/ui/gallery';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
 
-import DxGallery from 'devextreme/ui/gallery';
+import DxGallery from '@ISalikhzyanov/devextreme/ui/gallery';
 
 
 import {

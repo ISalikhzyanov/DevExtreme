@@ -23,7 +23,7 @@
 import { ref } from 'vue';
 import DxMenu, { type DxMenuTypes } from 'devextreme-vue/menu';
 import DxCheckBox from 'devextreme-vue/check-box';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import service from './data.ts';
 import type { ProductType } from './types';
 

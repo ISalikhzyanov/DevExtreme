@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 import Diagram, {
   CustomShape, Nodes, AutoLayout, ContextToolbox, Toolbox, PropertiesPanel, Group, type DiagramTypes,
 } from 'devextreme-react/diagram';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { ArrayStore } from 'devextreme-react/common/data';
 import service from './data.ts';
 

@@ -22,10 +22,10 @@ import {
 } from '@angular/core';
 
 
-import { dxButtonGroupItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, OptionChangedEvent, SelectionChangedEvent } from 'devextreme/ui/button_group';
-import { SingleMultipleOrNone, ButtonStyle } from 'devextreme/common';
+import { dxButtonGroupItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, OptionChangedEvent, SelectionChangedEvent } from '@ISalikhzyanov/devextreme/ui/button_group';
+import { SingleMultipleOrNone, ButtonStyle } from '@ISalikhzyanov/devextreme/common';
 
-import DxButtonGroup from 'devextreme/ui/button_group';
+import DxButtonGroup from '@ISalikhzyanov/devextreme/ui/button_group';
 
 
 import {

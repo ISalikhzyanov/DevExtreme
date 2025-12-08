@@ -134,6 +134,6 @@ export {
   Item,
   IItemProps
 };
-import type * as StepperTypes from 'devextreme/ui/stepper_types';
+import type * as StepperTypes from '@ISalikhzyanov/devextreme/ui/stepper_types';
 export { StepperTypes };
 

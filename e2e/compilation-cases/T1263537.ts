@@ -1,6 +1,6 @@
 import {
   ODataStore, CustomStore, Store, LoadOptions,
-} from 'devextreme/common/data';
+} from '@ISalikhzyanov/devextreme/common/data';
 
 // Remove the 'ts-expect-error' below to see the current issue:
 // Entity is not compatible with DeepPartial<Entity>

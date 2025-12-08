@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { ClickEvent } from 'devextreme/ui/button';
-import { MasterDetailTemplateData, ColumnCellTemplateData, ToolbarPreparingEvent } from 'devextreme/ui/data_grid';
-import { ValueChangedEvent } from 'devextreme/ui/number_box';
+import { ClickEvent } from '@ISalikhzyanov/devextreme/ui/button';
+import { MasterDetailTemplateData, ColumnCellTemplateData, ToolbarPreparingEvent } from '@ISalikhzyanov/devextreme/ui/data_grid';
+import { ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/number_box';
 import { Template } from 'devextreme-react/core/template';
 import {
   DataGrid,

@@ -6,7 +6,7 @@ import {
   join, basename, extname, relative,
 } from 'path';
 import { createHash } from 'crypto';
-import { version as DX_Version } from 'devextreme/package.json';
+import { version as DX_Version } from '@ISalikhzyanov/devextreme/package.json';
 import { Demo, Framework } from './types';
 import { resourceLinks } from './external-resource-metadata';
 

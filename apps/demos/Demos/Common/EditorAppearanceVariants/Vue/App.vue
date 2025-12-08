@@ -146,7 +146,7 @@ import {
   DxValidator,
   DxRequiredRule,
 } from 'devextreme-vue/validator';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { states } from './data.ts';
 
 const birthDate = ref(new Date(1981, 5, 3));

@@ -18,16 +18,16 @@ import {
 
 import type * as Common from '../common/charts';
 
-/** @deprecated Use SeriesType from 'devextreme/common/charts' instead */
+/** @deprecated Use SeriesType from '@ISalikhzyanov/devextreme/common/charts' instead */
 export type SeriesType = Common.SeriesType;
 
-/** @deprecated Use TimeIntervalConfig from 'devextreme/common/charts' instead */
+/** @deprecated Use TimeIntervalConfig from '@ISalikhzyanov/devextreme/common/charts' instead */
 export type VizTimeInterval = Common.TimeIntervalConfig;
 
-/** @deprecated Use ScaleBreak from 'devextreme/common/charts' instead */
+/** @deprecated Use ScaleBreak from '@ISalikhzyanov/devextreme/common/charts' instead */
 export type ScaleBreak = Common.ScaleBreak;
 
-/** @deprecated Use VisualRange from 'devextreme/common/charts' instead */
+/** @deprecated Use VisualRange from '@ISalikhzyanov/devextreme/common/charts' instead */
 export type VisualRange = Common.VisualRange;
 
 /**

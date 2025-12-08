@@ -5,7 +5,7 @@ import {
     Component,
 } from '@angular/core';
 
-import { DataChangeType } from 'devextreme/common/grids';
+import { DataChangeType } from '@ISalikhzyanov/devextreme/common/grids';
 
 @Component({
     template: ''

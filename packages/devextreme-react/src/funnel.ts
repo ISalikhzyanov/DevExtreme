@@ -1007,6 +1007,6 @@ export {
   TooltipBorder,
   ITooltipBorderProps
 };
-import type * as FunnelTypes from 'devextreme/viz/funnel_types';
+import type * as FunnelTypes from '@ISalikhzyanov/devextreme/viz/funnel_types';
 export { FunnelTypes };
 

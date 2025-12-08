@@ -14,7 +14,7 @@ import {
 
 
 
-import { ChartZoomAndPanMode, EventKeyModifier } from 'devextreme/viz/chart';
+import { ChartZoomAndPanMode, EventKeyModifier } from '@ISalikhzyanov/devextreme/viz/chart';
 
 import {
     DxIntegrationModule,

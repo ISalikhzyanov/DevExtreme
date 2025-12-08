@@ -32,7 +32,7 @@
 import { ref } from 'vue';
 import DxScheduler, { DxEditing, type DxSchedulerTypes } from 'devextreme-vue/scheduler';
 import DxSelectBox from 'devextreme-vue/select-box';
-import { getTimeZones as getTimeZonesUtility } from 'devextreme/time_zone_utils';
+import { getTimeZones as getTimeZonesUtility } from '@ISalikhzyanov/devextreme/time_zone_utils';
 import { DataSource } from 'devextreme-vue/common/data';
 import { data, locations } from './data.ts';
 

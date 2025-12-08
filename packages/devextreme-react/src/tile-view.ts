@@ -128,6 +128,6 @@ export {
   Item,
   IItemProps
 };
-import type * as TileViewTypes from 'devextreme/ui/tile_view_types';
+import type * as TileViewTypes from '@ISalikhzyanov/devextreme/ui/tile_view_types';
 export { TileViewTypes };
 

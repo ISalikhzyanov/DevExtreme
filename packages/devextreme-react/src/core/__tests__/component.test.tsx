@@ -1,5 +1,5 @@
-import * as events from 'devextreme/events';
-import config from 'devextreme/core/config';
+import * as events from '@ISalikhzyanov/devextreme/events';
+import config from '@ISalikhzyanov/devextreme/core/config';
 import * as testingLib from '@testing-library/react';
 import * as React from 'react';
 import { useLayoutEffect } from 'react';

@@ -21,15 +21,15 @@ import {
     QueryList
 } from '@angular/core';
 
-export { ExplicitTypes } from 'devextreme/ui/splitter';
+export { ExplicitTypes } from '@ISalikhzyanov/devextreme/ui/splitter';
 
-import DataSource from 'devextreme/data/data_source';
-import { dxSplitterItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemCollapsedEvent, ItemContextMenuEvent, ItemExpandedEvent, ItemRenderedEvent, OptionChangedEvent, ResizeEvent, ResizeEndEvent, ResizeStartEvent } from 'devextreme/ui/splitter';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { Orientation } from 'devextreme/common';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { dxSplitterItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemCollapsedEvent, ItemContextMenuEvent, ItemExpandedEvent, ItemRenderedEvent, OptionChangedEvent, ResizeEvent, ResizeEndEvent, ResizeStartEvent } from '@ISalikhzyanov/devextreme/ui/splitter';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { Orientation } from '@ISalikhzyanov/devextreme/common';
 
-import DxSplitter from 'devextreme/ui/splitter';
+import DxSplitter from '@ISalikhzyanov/devextreme/ui/splitter';
 
 
 import {

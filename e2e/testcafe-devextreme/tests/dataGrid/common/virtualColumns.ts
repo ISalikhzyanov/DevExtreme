@@ -1,7 +1,7 @@
 import { ClientFunction, Selector } from 'testcafe';
 import { createScreenshotsComparer } from 'devextreme-screenshot-comparer';
 import DataGrid, { CLASS } from 'devextreme-testcafe-models/dataGrid';
-import type { Column } from 'devextreme/ui/data_grid';
+import type { Column } from '@ISalikhzyanov/devextreme/ui/data_grid';
 import url from '../../../helpers/getPageUrl';
 import { createWidget } from '../../../helpers/createWidget';
 import { testScreenshot } from '../../../helpers/themeUtils';

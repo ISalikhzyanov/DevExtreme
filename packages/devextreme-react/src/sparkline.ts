@@ -277,6 +277,6 @@ export {
   Tooltip,
   ITooltipProps
 };
-import type * as SparklineTypes from 'devextreme/viz/sparkline_types';
+import type * as SparklineTypes from '@ISalikhzyanov/devextreme/viz/sparkline_types';
 export { SparklineTypes };
 

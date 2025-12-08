@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unused-state */
 import * as React from 'react';
-import dxTextBox, { ValueChangedEvent } from 'devextreme/ui/text_box';
+import dxTextBox, { ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/text_box';
 import { Button } from 'devextreme-react/button';
 import { TextBox } from 'devextreme-react/text-box';
 import { RequiredRule, Validator } from 'devextreme-react/validator';

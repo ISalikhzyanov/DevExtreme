@@ -1,6 +1,6 @@
 import { NgModule, Injector, createNgModuleRef } from '@angular/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import devextremeAjax from 'devextreme/core/utils/ajax';
+import devextremeAjax from '@ISalikhzyanov/devextreme/core/utils/ajax';
 import { sendRequestFactory } from './ajax';
 
 @NgModule({

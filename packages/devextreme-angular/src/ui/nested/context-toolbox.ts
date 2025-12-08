@@ -14,7 +14,7 @@ import {
 
 
 
-import { ShapeCategory, ShapeType, ToolboxDisplayMode } from 'devextreme/ui/diagram';
+import { ShapeCategory, ShapeType, ToolboxDisplayMode } from '@ISalikhzyanov/devextreme/ui/diagram';
 
 import {
     DxIntegrationModule,

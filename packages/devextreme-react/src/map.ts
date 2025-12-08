@@ -266,6 +266,6 @@ export {
   Tooltip,
   ITooltipProps
 };
-import type * as MapTypes from 'devextreme/ui/map_types';
+import type * as MapTypes from '@ISalikhzyanov/devextreme/ui/map_types';
 export { MapTypes };
 

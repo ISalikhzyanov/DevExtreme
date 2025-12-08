@@ -9,7 +9,7 @@ import {
   DxChartModule,
   DxChartComponent,
 } from 'devextreme-angular';
-import { Options as DataSourceConfig } from 'devextreme/ui/pivot_grid/data_source';
+import { Options as DataSourceConfig } from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
 import { Service } from './app.service';
 
 if (!/localhost/.test(document.location.host)) {

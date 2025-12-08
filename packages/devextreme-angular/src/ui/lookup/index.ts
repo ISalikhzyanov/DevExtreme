@@ -24,15 +24,15 @@ import {
 } from '@angular/core';
 
 
-import DataSource from 'devextreme/data/data_source';
-import { ApplyValueMode, LabelMode, PageLoadMode, SimplifiedSearchMode, EditorStyle, ValidationMessageMode, Mode, Position, ValidationStatus } from 'devextreme/common';
-import { CollectionWidgetItem } from 'devextreme/ui/collection/ui.collection_widget.base';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { dxPopoverOptions } from 'devextreme/ui/popover';
-import { ClosedEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, OpenedEvent, OptionChangedEvent, PageLoadingEvent, PullRefreshEvent, ScrollEvent, SelectionChangedEvent, ValueChangedEvent } from 'devextreme/ui/lookup';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { ApplyValueMode, LabelMode, PageLoadMode, SimplifiedSearchMode, EditorStyle, ValidationMessageMode, Mode, Position, ValidationStatus } from '@ISalikhzyanov/devextreme/common';
+import { CollectionWidgetItem } from '@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { dxPopoverOptions } from '@ISalikhzyanov/devextreme/ui/popover';
+import { ClosedEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, OpenedEvent, OptionChangedEvent, PageLoadingEvent, PullRefreshEvent, ScrollEvent, SelectionChangedEvent, ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/lookup';
 
-import DxLookup from 'devextreme/ui/lookup';
+import DxLookup from '@ISalikhzyanov/devextreme/ui/lookup';
 
 import {
     ControlValueAccessor,

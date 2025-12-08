@@ -19,7 +19,7 @@ import {
   WatcherHelper,
 } from 'devextreme-angular';
 
-import DxButton from 'devextreme/ui/button';
+import DxButton from '@ISalikhzyanov/devextreme/ui/button';
 
 const DxTestExtension = DxButton;
 

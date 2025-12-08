@@ -164,6 +164,6 @@ export {
   Options,
   IOptionsProps
 };
-import type * as TextBoxTypes from 'devextreme/ui/text_box_types';
+import type * as TextBoxTypes from '@ISalikhzyanov/devextreme/ui/text_box_types';
 export { TextBoxTypes };
 

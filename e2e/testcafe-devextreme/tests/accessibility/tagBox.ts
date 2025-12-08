@@ -1,4 +1,4 @@
-import { Properties } from 'devextreme/ui/tag_box.d';
+import { Properties } from '@ISalikhzyanov/devextreme/ui/tag_box.d';
 import TagBox from 'devextreme-testcafe-models/tagBox';
 import url from '../../helpers/getPageUrl';
 import { defaultSelector, testAccessibility, Configuration } from '../../helpers/accessibility/test';

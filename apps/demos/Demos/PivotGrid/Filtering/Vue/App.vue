@@ -48,8 +48,8 @@ import {
   DxPivotGrid, DxHeaderFilter, DxSearch, DxFieldChooser, DxFieldPanel,
 } from 'devextreme-vue/pivot-grid';
 import { DxCheckBox } from 'devextreme-vue/check-box';
-import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
-import XmlaStore from 'devextreme/ui/pivot_grid/xmla_store';
+import PivotGridDataSource from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
+import XmlaStore from '@ISalikhzyanov/devextreme/ui/pivot_grid/xmla_store';
 
 const searchEnabled = ref(true);
 const showRelevantValues = ref(true);

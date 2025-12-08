@@ -867,6 +867,6 @@ export {
   Width,
   IWidthProps
 };
-import type * as LinearGaugeTypes from 'devextreme/viz/linear_gauge_types';
+import type * as LinearGaugeTypes from '@ISalikhzyanov/devextreme/viz/linear_gauge_types';
 export { LinearGaugeTypes };
 

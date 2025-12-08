@@ -747,6 +747,6 @@ export {
   TreeMapborder,
   ITreeMapborderProps
 };
-import type * as TreeMapTypes from 'devextreme/viz/tree_map_types';
+import type * as TreeMapTypes from '@ISalikhzyanov/devextreme/viz/tree_map_types';
 export { TreeMapTypes };
 

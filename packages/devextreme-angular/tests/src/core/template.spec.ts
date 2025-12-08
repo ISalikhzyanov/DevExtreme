@@ -26,7 +26,7 @@ import {
 } from 'devextreme-angular';
 
 // TODO: Try to replace dxButton to Widget ('require' required)
-import DxButton from 'devextreme/ui/button';
+import DxButton from '@ISalikhzyanov/devextreme/ui/button';
 
 const DxTestWidget = DxButton;
 DxTestWidget.defaultOptions({

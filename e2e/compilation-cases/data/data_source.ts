@@ -6,12 +6,12 @@ import {
   ArrayStore,
   ODataStore,
   LocalStore,
-} from 'devextreme/common/data';
+} from '@ISalikhzyanov/devextreme/common/data';
 
 import {
   DataSourceOptionsStub,
   DataSourceLike,
-} from 'devextreme/data/data_source';
+} from '@ISalikhzyanov/devextreme/data/data_source';
 
 import {
   AnotherType,

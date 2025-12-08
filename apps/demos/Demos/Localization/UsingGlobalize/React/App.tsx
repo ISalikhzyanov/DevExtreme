@@ -7,8 +7,8 @@ import 'devextreme/common/core/localization/globalize/date';
 import 'devextreme/common/core/localization/globalize/currency';
 import 'devextreme/common/core/localization/globalize/message';
 
-import deMessages from 'devextreme/localization/messages/de.json';
-import ruMessages from 'devextreme/localization/messages/ru.json';
+import deMessages from '@ISalikhzyanov/devextreme/localization/messages/de.json';
+import ruMessages from '@ISalikhzyanov/devextreme/localization/messages/ru.json';
 
 import deCldrData from 'devextreme-cldr-data/de.json';
 import ruCldrData from 'devextreme-cldr-data/ru.json';

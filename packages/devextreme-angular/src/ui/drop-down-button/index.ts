@@ -22,14 +22,14 @@ import {
 } from '@angular/core';
 
 
-import DataSource from 'devextreme/data/data_source';
-import { dxDropDownButtonItem, ButtonClickEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, OptionChangedEvent, SelectionChangedEvent } from 'devextreme/ui/drop_down_button';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { dxPopupOptions } from 'devextreme/ui/popup';
-import { ButtonStyle, ButtonType } from 'devextreme/common';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { dxDropDownButtonItem, ButtonClickEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, OptionChangedEvent, SelectionChangedEvent } from '@ISalikhzyanov/devextreme/ui/drop_down_button';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { dxPopupOptions } from '@ISalikhzyanov/devextreme/ui/popup';
+import { ButtonStyle, ButtonType } from '@ISalikhzyanov/devextreme/common';
 
-import DxDropDownButton from 'devextreme/ui/drop_down_button';
+import DxDropDownButton from '@ISalikhzyanov/devextreme/ui/drop_down_button';
 
 
 import {

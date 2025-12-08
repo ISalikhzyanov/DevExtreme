@@ -20,15 +20,15 @@ import {
 } from '@angular/core';
 
 
-import DataSource from 'devextreme/data/data_source';
-import { FunnelAlgorithm, dxFunnelItem, FunnelLegendItem, DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, HoverChangedEvent, IncidentOccurredEvent, InitializedEvent, ItemClickEvent, LegendClickEvent, OptionChangedEvent, SelectionChangedEvent } from 'devextreme/viz/funnel';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { ExportFormat, HorizontalEdge, HorizontalAlignment, Position, Orientation, VerticalEdge, SingleMultipleOrNone } from 'devextreme/common';
-import { HatchDirection, DashStyle, Font, LabelPosition, TextOverflow, WordWrap, Palette, PaletteExtensionMode, ShiftLabelOverlap, Theme } from 'devextreme/common/charts';
-import { Format } from 'devextreme/common/core/localization';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { FunnelAlgorithm, dxFunnelItem, FunnelLegendItem, DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, HoverChangedEvent, IncidentOccurredEvent, InitializedEvent, ItemClickEvent, LegendClickEvent, OptionChangedEvent, SelectionChangedEvent } from '@ISalikhzyanov/devextreme/viz/funnel';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { ExportFormat, HorizontalEdge, HorizontalAlignment, Position, Orientation, VerticalEdge, SingleMultipleOrNone } from '@ISalikhzyanov/devextreme/common';
+import { HatchDirection, DashStyle, Font, LabelPosition, TextOverflow, WordWrap, Palette, PaletteExtensionMode, ShiftLabelOverlap, Theme } from '@ISalikhzyanov/devextreme/common/charts';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
 
-import DxFunnel from 'devextreme/viz/funnel';
+import DxFunnel from '@ISalikhzyanov/devextreme/viz/funnel';
 
 
 import {

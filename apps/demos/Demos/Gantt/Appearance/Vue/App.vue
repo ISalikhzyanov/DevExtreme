@@ -142,7 +142,7 @@ import {
   DxEditing,
   type DxGanttTypes,
 } from 'devextreme-vue/gantt';
-import type { GanttScaleType, GanttTaskTitlePosition } from 'devextreme/ui/gantt';
+import type { GanttScaleType, GanttTaskTitlePosition } from '@ISalikhzyanov/devextreme/ui/gantt';
 import DxCheckBox from 'devextreme-vue/check-box';
 import DxSelectBox from 'devextreme-vue/select-box';
 import DxDateBox from 'devextreme-vue/date-box';

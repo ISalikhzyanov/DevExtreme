@@ -23,9 +23,9 @@ import {
 
 import { isPlatformServer } from '@angular/common';
 
-import domAdapter from 'devextreme/core/dom_adapter';
-import { triggerHandler } from 'devextreme/events';
-import config from 'devextreme/core/config';
+import domAdapter from '@ISalikhzyanov/devextreme/core/dom_adapter';
+import { triggerHandler } from '@ISalikhzyanov/devextreme/events';
+import config from '@ISalikhzyanov/devextreme/core/config';
 
 import { DxTemplateDirective } from './template';
 import { IDxTemplateHost, DxTemplateHost } from './template-host';

@@ -524,6 +524,6 @@ export {
   To,
   IToProps
 };
-import type * as MenuTypes from 'devextreme/ui/menu_types';
+import type * as MenuTypes from '@ISalikhzyanov/devextreme/ui/menu_types';
 export { MenuTypes };
 

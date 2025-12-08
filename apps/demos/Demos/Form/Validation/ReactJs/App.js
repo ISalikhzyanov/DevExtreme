@@ -13,8 +13,8 @@ import Form, {
   AsyncRule,
   CustomRule,
 } from 'devextreme-react/form';
-import notify from 'devextreme/ui/notify';
-import Validator from 'devextreme/ui/validator';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
+import Validator from '@ISalikhzyanov/devextreme/ui/validator';
 import 'devextreme-react/autocomplete';
 import 'devextreme-react/date-range-box';
 import service from './data.js';

@@ -1,4 +1,4 @@
-import { Message, User, Properties } from 'devextreme/ui/chat.d';
+import { Message, User, Properties } from '@ISalikhzyanov/devextreme/ui/chat.d';
 import url from '../../helpers/getPageUrl';
 import { testAccessibility, Configuration } from '../../helpers/accessibility/test';
 import { Options } from '../../helpers/generateOptionMatrix';

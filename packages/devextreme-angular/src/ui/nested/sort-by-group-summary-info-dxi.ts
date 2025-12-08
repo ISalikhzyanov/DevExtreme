@@ -12,7 +12,7 @@ import {
 
 
 
-import { SortOrder } from 'devextreme/common';
+import { SortOrder } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

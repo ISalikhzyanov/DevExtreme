@@ -5,7 +5,7 @@ import {
     Component,
 } from '@angular/core';
 
-import { SearchMode } from 'devextreme/common';
+import { SearchMode } from '@ISalikhzyanov/devextreme/common';
 
 @Component({
     template: ''

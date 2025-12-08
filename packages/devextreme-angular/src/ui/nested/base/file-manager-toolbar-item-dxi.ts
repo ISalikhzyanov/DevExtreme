@@ -5,9 +5,9 @@ import {
     Component,
 } from '@angular/core';
 
-import { ToolbarItemComponent, ToolbarItemLocation } from 'devextreme/common';
-import { FileManagerPredefinedToolbarItem } from 'devextreme/ui/file_manager';
-import { LocateInMenuMode, ShowTextMode } from 'devextreme/ui/toolbar';
+import { ToolbarItemComponent, ToolbarItemLocation } from '@ISalikhzyanov/devextreme/common';
+import { FileManagerPredefinedToolbarItem } from '@ISalikhzyanov/devextreme/ui/file_manager';
+import { LocateInMenuMode, ShowTextMode } from '@ISalikhzyanov/devextreme/ui/toolbar';
 
 @Component({
     template: ''

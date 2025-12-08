@@ -5,9 +5,9 @@ import {
     Component,
 } from '@angular/core';
 
-import { Command, CustomCommand } from 'devextreme/ui/diagram';
-import { ButtonItem, EmptyItem, GroupItem, SimpleItem, TabbedItem } from 'devextreme/ui/form';
-import { HtmlEditorImageUploadTab } from 'devextreme/ui/html_editor';
+import { Command, CustomCommand } from '@ISalikhzyanov/devextreme/ui/diagram';
+import { ButtonItem, EmptyItem, GroupItem, SimpleItem, TabbedItem } from '@ISalikhzyanov/devextreme/ui/form';
+import { HtmlEditorImageUploadTab } from '@ISalikhzyanov/devextreme/ui/html_editor';
 
 @Component({
     template: ''

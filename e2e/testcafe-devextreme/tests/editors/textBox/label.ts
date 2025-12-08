@@ -1,9 +1,9 @@
-import type { Properties } from 'devextreme/ui/text_box.d';
-import type { LabelMode, EditorStyle, TextEditorButton } from 'devextreme/common';
+import type { Properties } from '@ISalikhzyanov/devextreme/ui/text_box.d';
+import type { LabelMode, EditorStyle, TextEditorButton } from '@ISalikhzyanov/devextreme/common';
 import { Selector } from 'testcafe';
 import { createScreenshotsComparer } from 'devextreme-screenshot-comparer';
 import TextBox from 'devextreme-testcafe-models/textBox';
-import Guid from 'devextreme/core/guid';
+import Guid from '@ISalikhzyanov/devextreme/core/guid';
 import {
   removeStylesheetRulesFromPage, insertStylesheetRulesToPage, setStyleAttribute,
   appendElementTo, setClassAttribute,

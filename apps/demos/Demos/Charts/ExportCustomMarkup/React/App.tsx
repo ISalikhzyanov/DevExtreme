@@ -3,7 +3,7 @@ import {
   Chart, CommonSeriesSettings, Series, Legend, Title, Subtitle,
 } from 'devextreme-react/chart';
 import { Button } from 'devextreme-react/button';
-import { exportFromMarkup } from 'devextreme/viz/export';
+import { exportFromMarkup } from '@ISalikhzyanov/devextreme/viz/export';
 import { Canvg } from 'canvg';
 import { dataSource } from './data.ts';
 import Form from './Form.tsx';

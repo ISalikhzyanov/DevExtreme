@@ -34,7 +34,7 @@ import { ref } from 'vue';
 import DxActionSheet from 'devextreme-vue/action-sheet';
 import DxSwitch from 'devextreme-vue/switch';
 import DxButton from 'devextreme-vue/button';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { actionSheetItems } from './data.ts';
 
 const dataSource = actionSheetItems;

@@ -586,6 +586,6 @@ export {
   Variables,
   IVariablesProps
 };
-import type * as HtmlEditorTypes from 'devextreme/ui/html_editor_types';
+import type * as HtmlEditorTypes from '@ISalikhzyanov/devextreme/ui/html_editor_types';
 export { HtmlEditorTypes };
 

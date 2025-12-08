@@ -5,16 +5,16 @@ import {
 } from '@angular/common/http';
 import { Component, Injectable, ViewChild } from '@angular/core';
 
-import domAdapter from 'devextreme/core/dom_adapter';
+import domAdapter from '@ISalikhzyanov/devextreme/core/dom_adapter';
 import { DxHttpModule } from 'devextreme-angular/http';
-import DataSource from 'devextreme/data/data_source';
-import ODataStore from 'devextreme/data/odata/store';
-import ajax from 'devextreme/core/utils/ajax';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import ODataStore from '@ISalikhzyanov/devextreme/data/odata/store';
+import ajax from '@ISalikhzyanov/devextreme/core/utils/ajax';
 import { DxFileUploaderComponent, DxFileUploaderModule } from 'devextreme-angular';
 import { Observable } from 'rxjs';
 import createSpy = jasmine.createSpy;
-import RemoteFileSystemProvider from 'devextreme/file_management/remote_provider';
-import FileSystemItem from 'devextreme/file_management/file_system_item';
+import RemoteFileSystemProvider from '@ISalikhzyanov/devextreme/file_management/remote_provider';
+import FileSystemItem from '@ISalikhzyanov/devextreme/file_management/file_system_item';
 
 const interceptors: Record<string, () => void> = {};
 

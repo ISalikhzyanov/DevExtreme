@@ -77,6 +77,6 @@ export {
   IDrawerOptions,
   DrawerRef
 };
-import type * as DrawerTypes from 'devextreme/ui/drawer_types';
+import type * as DrawerTypes from '@ISalikhzyanov/devextreme/ui/drawer_types';
 export { DrawerTypes };
 

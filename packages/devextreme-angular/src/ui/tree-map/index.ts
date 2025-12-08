@@ -20,15 +20,15 @@ import {
 } from '@angular/core';
 
 
-import DataSource from 'devextreme/data/data_source';
-import { Palette, PaletteExtensionMode, Font, TextOverflow, Theme, WordWrap, DashStyle } from 'devextreme/common/charts';
-import { TreeMapColorizerType, TreeMapLayoutAlgorithm, TreeMapLayoutDirection, ClickEvent, DisposingEvent, DrawnEvent, DrillEvent, ExportedEvent, ExportingEvent, FileSavingEvent, HoverChangedEvent, IncidentOccurredEvent, InitializedEvent, NodesInitializedEvent, NodesRenderingEvent, OptionChangedEvent, SelectionChangedEvent, dxTreeMapNode } from 'devextreme/viz/tree_map';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { ExportFormat, SingleMultipleOrNone, HorizontalAlignment, VerticalEdge } from 'devextreme/common';
-import { Format } from 'devextreme/common/core/localization';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { Palette, PaletteExtensionMode, Font, TextOverflow, Theme, WordWrap, DashStyle } from '@ISalikhzyanov/devextreme/common/charts';
+import { TreeMapColorizerType, TreeMapLayoutAlgorithm, TreeMapLayoutDirection, ClickEvent, DisposingEvent, DrawnEvent, DrillEvent, ExportedEvent, ExportingEvent, FileSavingEvent, HoverChangedEvent, IncidentOccurredEvent, InitializedEvent, NodesInitializedEvent, NodesRenderingEvent, OptionChangedEvent, SelectionChangedEvent, dxTreeMapNode } from '@ISalikhzyanov/devextreme/viz/tree_map';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { ExportFormat, SingleMultipleOrNone, HorizontalAlignment, VerticalEdge } from '@ISalikhzyanov/devextreme/common';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
 
-import DxTreeMap from 'devextreme/viz/tree_map';
+import DxTreeMap from '@ISalikhzyanov/devextreme/viz/tree_map';
 
 
 import {

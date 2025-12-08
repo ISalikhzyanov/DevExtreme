@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { ClickEvent } from 'devextreme/ui/button';
-import { ValueChangedEvent } from 'devextreme/ui/text_box';
-import { ValidatedEvent } from 'devextreme/ui/validator';
+import { ClickEvent } from '@ISalikhzyanov/devextreme/ui/button';
+import { ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/text_box';
+import { ValidatedEvent } from '@ISalikhzyanov/devextreme/ui/validator';
 import {
   Button, TextBox, ValidationSummary, Validator,
 } from 'devextreme-react';

@@ -277,6 +277,6 @@ export {
   Tooltip,
   ITooltipProps
 };
-import type * as BulletTypes from 'devextreme/viz/bullet_types';
+import type * as BulletTypes from '@ISalikhzyanov/devextreme/viz/bullet_types';
 export { BulletTypes };
 

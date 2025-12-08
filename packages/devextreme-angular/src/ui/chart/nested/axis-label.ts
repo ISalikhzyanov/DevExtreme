@@ -18,10 +18,10 @@ import {
 import { DOCUMENT } from '@angular/common';
 
 
-import { HorizontalAlignment, Position } from 'devextreme/common';
-import { ChartLabelDisplayMode } from 'devextreme/viz/chart';
-import { Font, ChartsAxisLabelOverlap, RelativePosition, TextOverflow, WordWrap } from 'devextreme/common/charts';
-import { Format } from 'devextreme/common/core/localization';
+import { HorizontalAlignment, Position } from '@ISalikhzyanov/devextreme/common';
+import { ChartLabelDisplayMode } from '@ISalikhzyanov/devextreme/viz/chart';
+import { Font, ChartsAxisLabelOverlap, RelativePosition, TextOverflow, WordWrap } from '@ISalikhzyanov/devextreme/common/charts';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
 
 import {
     DxIntegrationModule,

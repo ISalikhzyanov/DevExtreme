@@ -1,6 +1,6 @@
 import {
   Appointment,
-} from 'devextreme/js/ui/scheduler';
+} from '@ISalikhzyanov/devextreme/js/ui/scheduler';
 
 import {
   ANY,

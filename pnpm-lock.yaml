@@ -100,6 +100,12 @@ importers:
 
   .:
     devDependencies:
+      '@ISalikhzyanov/devextreme':
+        specifier: workspace:*
+        version: link:packages/devextreme/artifacts/npm/devextreme
+      '@ISalikhzyanov/devextreme-react':
+        specifier: workspace:*
+        version: link:packages/devextreme-react/npm
       '@nx/devkit':
         specifier: 18.3.4
         version: 18.3.4(nx@19.4.2(@swc/core@1.9.2(@swc/helpers@0.5.15)))
@@ -192,7 +198,7 @@ importers:
     dependencies:
       '@ISalikhzyanov/devextreme':
         specifier: workspace:*
-        version: link:../..
+        version: link:../../packages/devextreme/artifacts/npm/devextreme
       '@angular/animations':
         specifier: 17.3.12
         version: 17.3.12(@angular/core@17.3.12(rxjs@7.8.1)(zone.js@0.14.10))
@@ -268,7 +274,7 @@ importers:
     dependencies:
       '@ISalikhzyanov/devextreme':
         specifier: workspace:*
-        version: link:../..
+        version: link:../../packages/devextreme/artifacts/npm/devextreme
       '@ISalikhzyanov/devextreme-react':
         specifier: workspace:*
         version: link:../../packages/devextreme-react/npm
@@ -346,10 +352,10 @@ importers:
         version: link:../../packages/devextreme-angular/npm/dist
       devextreme-aspnet-data:
         specifier: 5.0.0
-        version: 5.0.0(devextreme@packages+devextreme+artifacts+npm+devextreme)
+        version: 5.0.0(devextreme@25.1.7)
       devextreme-aspnet-data-nojquery:
         specifier: 5.0.0
-        version: 5.0.0(devextreme@packages+devextreme+artifacts+npm+devextreme)
+        version: 5.0.0(devextreme@25.1.7)
       devextreme-cldr-data:
         specifier: 1.0.3
         version: 1.0.3
@@ -689,7 +695,7 @@ importers:
     dependencies:
       '@ISalikhzyanov/devextreme':
         specifier: workspace:*
-        version: link:../..
+        version: link:../../packages/devextreme/artifacts/npm/devextreme
       '@ISalikhzyanov/devextreme-react':
         specifier: workspace:*
         version: link:../../packages/devextreme-react/npm
@@ -735,7 +741,7 @@ importers:
     dependencies:
       '@ISalikhzyanov/devextreme':
         specifier: workspace:*
-        version: link:../..
+        version: link:../../packages/devextreme/artifacts/npm/devextreme
       '@ISalikhzyanov/devextreme-react':
         specifier: workspace:*
         version: link:../../packages/devextreme-react/npm
@@ -799,7 +805,7 @@ importers:
     dependencies:
       '@ISalikhzyanov/devextreme':
         specifier: workspace:*
-        version: link:../..
+        version: link:../../packages/devextreme/artifacts/npm/devextreme
       devextreme-vue:
         specifier: workspace:*
         version: link:../../packages/devextreme-vue/npm
@@ -860,7 +866,7 @@ importers:
     devDependencies:
       '@ISalikhzyanov/devextreme':
         specifier: workspace:*
-        version: link:../..
+        version: link:../../packages/devextreme/artifacts/npm/devextreme
       '@eslint/eslintrc':
         specifier: 'catalog:'
         version: 3.2.0
@@ -941,7 +947,7 @@ importers:
     devDependencies:
       '@ISalikhzyanov/devextreme':
         specifier: workspace:*
-        version: link:../..
+        version: link:../../packages/devextreme/artifacts/npm/devextreme
       '@angular/common':
         specifier: 11.2.14
         version: 11.2.14(@angular/core@19.2.8(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1)
@@ -998,7 +1004,7 @@ importers:
     devDependencies:
       '@ISalikhzyanov/devextreme':
         specifier: workspace:*
-        version: link:../..
+        version: link:../../packages/devextreme/artifacts/npm/devextreme
       '@babel/eslint-parser':
         specifier: catalog:eslint8
         version: 7.23.10(@babel/core@7.26.10)(eslint@9.18.0(jiti@1.21.6))
@@ -1076,7 +1082,7 @@ importers:
     dependencies:
       '@ISalikhzyanov/devextreme':
         specifier: workspace:~
-        version: link:../..
+        version: link:../../packages/devextreme/artifacts/npm/devextreme
       '@ISalikhzyanov/devextreme-react':
         specifier: workspace:~
         version: link:../../packages/devextreme-react/npm
@@ -1387,7 +1393,7 @@ importers:
         version: 2.2.2
       devextreme-aspnet-data:
         specifier: 5.0.0
-        version: 5.0.0(devextreme@packages+devextreme+artifacts+npm+devextreme)
+        version: 5.0.0(devextreme@25.1.7)
       devextreme-cldr-data:
         specifier: 1.0.3
         version: 1.0.3
@@ -1721,7 +1727,7 @@ importers:
     dependencies:
       '@ISalikhzyanov/devextreme':
         specifier: workspace:*
-        version: link:../..
+        version: link:../devextreme/artifacts/npm/devextreme
       '@angular-devkit/schematics':
         specifier: 17.3.11
         version: 17.3.11(chokidar@3.6.0)
@@ -1918,7 +1924,7 @@ importers:
     dependencies:
       '@ISalikhzyanov/devextreme':
         specifier: workspace:*
-        version: link:../..
+        version: link:../devextreme/artifacts/npm/devextreme
       prop-types:
         specifier: ^15.8.1
         version: 15.8.1
@@ -2119,7 +2125,7 @@ importers:
     dependencies:
       '@ISalikhzyanov/devextreme':
         specifier: workspace:*
-        version: link:../..
+        version: link:../devextreme/artifacts/npm/devextreme
     devDependencies:
       '@babel/eslint-parser':
         specifier: 'catalog:'
@@ -2224,7 +2230,7 @@ importers:
     devDependencies:
       '@ISalikhzyanov/devextreme':
         specifier: workspace:*
-        version: link:../..
+        version: link:../devextreme/artifacts/npm/devextreme
 
 packages:
 
@@ -10279,6 +10285,10 @@ packages:
     engines: {node: '>=12.0.0'}
     peerDependencies:
       testcafe: ^1.14.0 || ^2.0.0 || ^3.0.0
+
+  devextreme@25.1.7:
+    resolution: {integrity: sha512-kItaD/eVASH7DKFjTaccgyKPTocn1euw0LH+YEo/PD9u0HRA9nGB0JIGQQpo2z2bCAV9ZV33BN67sjRzuTbmxg==}
+    hasBin: true
 
   device-specs@1.0.1:
     resolution: {integrity: sha512-rxns/NDZfbdYumnn801z9uo8kWIz3Eld7Bk/F0V9zw4sZemSoD93+gxHEonLdxYulkws4iCMt7ZP8zuM8EzUSg==}
@@ -24809,15 +24819,13 @@ snapshots:
     transitivePeerDependencies:
       - '@parcel/core'
 
-  '@parcel/cache@2.12.0(@parcel/core@2.12.0(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)':
+  '@parcel/cache@2.12.0(@parcel/core@2.12.0(@swc/helpers@0.5.15))':
     dependencies:
       '@parcel/core': 2.12.0(@swc/helpers@0.5.15)
       '@parcel/fs': 2.12.0(@parcel/core@2.12.0(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
       '@parcel/logger': 2.12.0
       '@parcel/utils': 2.12.0
       lmdb: 2.8.5
-    transitivePeerDependencies:
-      - '@swc/helpers'
 
   '@parcel/codeframe@2.12.0':
     dependencies:
@@ -24877,7 +24885,7 @@ snapshots:
   '@parcel/core@2.12.0(@swc/helpers@0.5.15)':
     dependencies:
       '@mischnic/json-sourcemap': 0.1.1
-      '@parcel/cache': 2.12.0(@parcel/core@2.12.0(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
+      '@parcel/cache': 2.12.0(@parcel/core@2.12.0(@swc/helpers@0.5.15))
       '@parcel/diagnostic': 2.12.0
       '@parcel/events': 2.12.0
       '@parcel/fs': 2.12.0(@parcel/core@2.12.0(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
@@ -25292,7 +25300,7 @@ snapshots:
 
   '@parcel/types@2.12.0(@parcel/core@2.12.0(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)':
     dependencies:
-      '@parcel/cache': 2.12.0(@parcel/core@2.12.0(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
+      '@parcel/cache': 2.12.0(@parcel/core@2.12.0(@swc/helpers@0.5.15))
       '@parcel/diagnostic': 2.12.0
       '@parcel/fs': 2.12.0(@parcel/core@2.12.0(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
       '@parcel/package-manager': 2.12.0(@parcel/core@2.12.0(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
@@ -31356,13 +31364,13 @@ snapshots:
       '@devexpress/utils': 1.4.7
       tslib: 2.3.1
 
-  devextreme-aspnet-data-nojquery@5.0.0(devextreme@packages+devextreme+artifacts+npm+devextreme):
+  devextreme-aspnet-data-nojquery@5.0.0(devextreme@25.1.7):
     dependencies:
-      devextreme: link:packages/devextreme/artifacts/npm/devextreme
+      devextreme: 25.1.7
 
-  devextreme-aspnet-data@5.0.0(devextreme@packages+devextreme+artifacts+npm+devextreme):
+  devextreme-aspnet-data@5.0.0(devextreme@25.1.7):
     dependencies:
-      devextreme: link:packages/devextreme/artifacts/npm/devextreme
+      devextreme: 25.1.7
 
   devextreme-cldr-data@1.0.3: {}
 
@@ -31412,6 +31420,19 @@ snapshots:
       pngjs: 6.0.0
       testcafe: 3.7.2
       tslib: 2.6.3
+
+  devextreme@25.1.7:
+    dependencies:
+      '@babel/runtime': 7.26.10
+      '@preact/signals-core': 1.8.0
+      devexpress-diagram: 2.2.24
+      devexpress-gantt: 4.1.64
+      devextreme-quill: 1.7.6
+      inferno: 8.2.3
+      inferno-create-element: 8.2.3
+      inferno-hydrate: 8.2.3
+      jszip: 3.10.1
+      rrule: 2.8.1
 
   device-specs@1.0.1: {}
 

@@ -66,7 +66,7 @@ import {
   DxLegend,
   DxTitle,
 } from 'devextreme-vue/chart';
-import { exportFromMarkup } from 'devextreme/viz/export';
+import { exportFromMarkup } from '@ISalikhzyanov/devextreme/viz/export';
 import DxButton from 'devextreme-vue/button';
 import { Canvg } from 'canvg';
 import { dataSource } from './data.ts';

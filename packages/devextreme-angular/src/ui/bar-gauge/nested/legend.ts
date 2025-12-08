@@ -14,10 +14,10 @@ import {
 
 
 
-import { DashStyle, Font } from 'devextreme/common/charts';
-import { BarGaugeBarInfo, BarGaugeLegendItem } from 'devextreme/viz/bar_gauge';
-import { HorizontalAlignment, Position, Orientation, VerticalEdge } from 'devextreme/common';
-import { Format } from 'devextreme/common/core/localization';
+import { DashStyle, Font } from '@ISalikhzyanov/devextreme/common/charts';
+import { BarGaugeBarInfo, BarGaugeLegendItem } from '@ISalikhzyanov/devextreme/viz/bar_gauge';
+import { HorizontalAlignment, Position, Orientation, VerticalEdge } from '@ISalikhzyanov/devextreme/common';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
 
 import {
     DxIntegrationModule,

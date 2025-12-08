@@ -14,8 +14,8 @@ import {
 
 
 
-import { dxSankeyNode } from 'devextreme/viz/sankey';
-import { Font, TextOverflow } from 'devextreme/common/charts';
+import { dxSankeyNode } from '@ISalikhzyanov/devextreme/viz/sankey';
+import { Font, TextOverflow } from '@ISalikhzyanov/devextreme/common/charts';
 
 import {
     DxIntegrationModule,

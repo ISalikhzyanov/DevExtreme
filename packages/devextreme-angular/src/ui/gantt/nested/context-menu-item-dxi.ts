@@ -18,8 +18,8 @@ import {
 import { DOCUMENT } from '@angular/common';
 
 
-import { dxContextMenuItem } from 'devextreme/ui/context_menu';
-import { GanttPredefinedContextMenuItem } from 'devextreme/ui/gantt';
+import { dxContextMenuItem } from '@ISalikhzyanov/devextreme/ui/context_menu';
+import { GanttPredefinedContextMenuItem } from '@ISalikhzyanov/devextreme/ui/gantt';
 
 import {
     DxIntegrationModule,

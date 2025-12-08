@@ -14,7 +14,7 @@ import {
 
 
 
-import { Font, LabelOverlap } from 'devextreme/common/charts';
+import { Font, LabelOverlap } from '@ISalikhzyanov/devextreme/common/charts';
 
 import {
     DxIntegrationModule,

@@ -8,7 +8,7 @@ import CardView, {
   SearchPanel,
 } from 'devextreme-react/card-view';
 import Button from 'devextreme-react/button';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { employees } from './data.js';
 
 function imageExpr({ First_Name, Last_Name }) {

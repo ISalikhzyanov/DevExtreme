@@ -58,6 +58,6 @@ export {
   ISpeedDialActionOptions,
   SpeedDialActionRef
 };
-import type * as SpeedDialActionTypes from 'devextreme/ui/speed_dial_action_types';
+import type * as SpeedDialActionTypes from '@ISalikhzyanov/devextreme/ui/speed_dial_action_types';
 export { SpeedDialActionTypes };
 

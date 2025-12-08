@@ -2,7 +2,7 @@ import type { WidgetName } from './types';
 import Widget from './internal/widget';
 import Scrollable from './scrollView/scrollable';
 import TextArea from './textArea';
-import dxChat from 'devextreme/ui/chat';
+import dxChat from '@ISalikhzyanov/devextreme/ui/chat';
 
 const CLASS = {
   input: 'dx-texteditor-input',

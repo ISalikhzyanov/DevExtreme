@@ -17,10 +17,10 @@ import {
 } from '@angular/core';
 
 
-import { ScrollDirection } from 'devextreme/common';
-import { DisposingEvent, InitializedEvent, OptionChangedEvent, PullDownEvent, ReachBottomEvent, ScrollEvent, UpdatedEvent } from 'devextreme/ui/scroll_view';
+import { ScrollDirection } from '@ISalikhzyanov/devextreme/common';
+import { DisposingEvent, InitializedEvent, OptionChangedEvent, PullDownEvent, ReachBottomEvent, ScrollEvent, UpdatedEvent } from '@ISalikhzyanov/devextreme/ui/scroll_view';
 
-import DxScrollView from 'devextreme/ui/scroll_view';
+import DxScrollView from '@ISalikhzyanov/devextreme/ui/scroll_view';
 
 
 import {

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import dxTreeList from 'devextreme/ui/tree_list';
+import dxTreeList from '@ISalikhzyanov/devextreme/ui/tree_list';
 import { wrapDxWithReact } from '../utils';
 import { TREE_LIST_DATA } from './data';
 

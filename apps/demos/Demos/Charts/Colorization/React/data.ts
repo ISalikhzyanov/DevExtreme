@@ -1,4 +1,4 @@
-import { Properties as TreeMapPropType } from 'devextreme/viz/tree_map';
+import { Properties as TreeMapPropType } from '@ISalikhzyanov/devextreme/viz/tree_map';
 
 type typeOptionsType = TreeMapPropType['colorizer'];
 

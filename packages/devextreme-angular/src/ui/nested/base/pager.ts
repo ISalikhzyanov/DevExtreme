@@ -5,8 +5,8 @@ import {
     Component,
 } from '@angular/core';
 
-import { DisplayMode, Mode } from 'devextreme/common';
-import { PagerPageSize } from 'devextreme/common/grids';
+import { DisplayMode, Mode } from '@ISalikhzyanov/devextreme/common';
+import { PagerPageSize } from '@ISalikhzyanov/devextreme/common/grids';
 
 @Component({
     template: ''

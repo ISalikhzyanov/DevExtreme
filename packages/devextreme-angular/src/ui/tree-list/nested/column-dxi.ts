@@ -16,14 +16,14 @@ import {
 
 
 
-import * as CommonTypes from 'devextreme/common';
-import { ColumnAIOptions, FilterOperation, FilterType, FixedPosition, ColumnHeaderFilter, SelectedFilterOperation } from 'devextreme/common/grids';
-import { HorizontalAlignment, DataType, SortOrder } from 'devextreme/common';
-import { dxTreeListColumnButton, TreeListPredefinedColumnButton, dxTreeListColumn, TreeListCommandColumnType } from 'devextreme/ui/tree_list';
-import { Format } from 'devextreme/common/core/localization';
-import { dxFormSimpleItem } from 'devextreme/ui/form';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
+import * as CommonTypes from '@ISalikhzyanov/devextreme/common';
+import { ColumnAIOptions, FilterOperation, FilterType, FixedPosition, ColumnHeaderFilter, SelectedFilterOperation } from '@ISalikhzyanov/devextreme/common/grids';
+import { HorizontalAlignment, DataType, SortOrder } from '@ISalikhzyanov/devextreme/common';
+import { dxTreeListColumnButton, TreeListPredefinedColumnButton, dxTreeListColumn, TreeListCommandColumnType } from '@ISalikhzyanov/devextreme/ui/tree_list';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
+import { dxFormSimpleItem } from '@ISalikhzyanov/devextreme/ui/form';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
 
 import {
     DxIntegrationModule,

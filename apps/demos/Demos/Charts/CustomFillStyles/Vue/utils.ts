@@ -1,4 +1,4 @@
-import * as chartMethods from 'devextreme/common/charts';
+import * as chartMethods from '@ISalikhzyanov/devextreme/common/charts';
 
 const { registerGradient, registerPattern } = chartMethods;
 const imagePatternSize = 12;

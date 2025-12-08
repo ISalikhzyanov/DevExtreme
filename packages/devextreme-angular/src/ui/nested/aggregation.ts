@@ -14,7 +14,7 @@ import {
 
 
 
-import { ChartSeriesAggregationMethod } from 'devextreme/viz/chart';
+import { ChartSeriesAggregationMethod } from '@ISalikhzyanov/devextreme/viz/chart';
 
 import {
     DxIntegrationModule,

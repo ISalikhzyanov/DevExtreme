@@ -78,6 +78,6 @@ export {
   ITextAreaOptions,
   TextAreaRef
 };
-import type * as TextAreaTypes from 'devextreme/ui/text_area_types';
+import type * as TextAreaTypes from '@ISalikhzyanov/devextreme/ui/text_area_types';
 export { TextAreaTypes };
 

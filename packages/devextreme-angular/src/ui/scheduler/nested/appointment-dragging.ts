@@ -14,10 +14,10 @@ import {
 
 
 
-import dxScheduler from 'devextreme/ui/scheduler';
-import dxSortable from 'devextreme/ui/sortable';
-import dxDraggable from 'devextreme/ui/draggable';
-import { event } from 'devextreme/events/events.types';
+import dxScheduler from '@ISalikhzyanov/devextreme/ui/scheduler';
+import dxSortable from '@ISalikhzyanov/devextreme/ui/sortable';
+import dxDraggable from '@ISalikhzyanov/devextreme/ui/draggable';
+import { event } from '@ISalikhzyanov/devextreme/events/events.types';
 
 import {
     DxIntegrationModule,

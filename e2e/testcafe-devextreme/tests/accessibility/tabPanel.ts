@@ -1,4 +1,4 @@
-import { Item, Properties } from 'devextreme/ui/tab_panel.d';
+import { Item, Properties } from '@ISalikhzyanov/devextreme/ui/tab_panel.d';
 import url from '../../helpers/getPageUrl';
 import { testAccessibility, Configuration } from '../../helpers/accessibility/test';
 import { Options } from '../../helpers/generateOptionMatrix';

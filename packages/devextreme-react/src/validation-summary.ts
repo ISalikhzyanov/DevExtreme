@@ -123,6 +123,6 @@ export {
   Item,
   IItemProps
 };
-import type * as ValidationSummaryTypes from 'devextreme/ui/validation_summary_types';
+import type * as ValidationSummaryTypes from '@ISalikhzyanov/devextreme/ui/validation_summary_types';
 export { ValidationSummaryTypes };
 

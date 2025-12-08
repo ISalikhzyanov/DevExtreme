@@ -22,10 +22,10 @@ import {
 } from '@angular/core';
 
 
-import { ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent } from 'devextreme/ui/recurrence_editor';
-import { ValidationMessageMode, Position, ValidationStatus } from 'devextreme/common';
+import { ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/recurrence_editor';
+import { ValidationMessageMode, Position, ValidationStatus } from '@ISalikhzyanov/devextreme/common';
 
-import DxRecurrenceEditor from 'devextreme/ui/recurrence_editor';
+import DxRecurrenceEditor from '@ISalikhzyanov/devextreme/ui/recurrence_editor';
 
 import {
     ControlValueAccessor,

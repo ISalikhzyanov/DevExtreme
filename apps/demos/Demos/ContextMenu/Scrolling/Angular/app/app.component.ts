@@ -2,7 +2,7 @@ import { NgModule, Component, enableProdMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import notify from 'devextreme/ui/notify'; // Import notify correctly
+import notify from '@ISalikhzyanov/devextreme/ui/notify'; // Import notify correctly
 import { DxContextMenuModule, type DxContextMenuTypes } from 'devextreme-angular/ui/context-menu';
 
 import { Service, type ContextMenuItems } from './app.service';

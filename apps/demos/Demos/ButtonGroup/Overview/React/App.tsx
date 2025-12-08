@@ -1,6 +1,6 @@
 import React from 'react';
 import { ButtonGroup, type ButtonGroupTypes } from 'devextreme-react/button-group';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { alignments, fontStyles } from './data.ts';
 
 const selectedItemKeys = ['left'];

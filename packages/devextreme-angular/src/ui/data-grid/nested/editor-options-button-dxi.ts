@@ -12,8 +12,8 @@ import {
 
 
 
-import { TextEditorButtonLocation } from 'devextreme/common';
-import { dxButtonOptions } from 'devextreme/ui/button';
+import { TextEditorButtonLocation } from '@ISalikhzyanov/devextreme/common';
+import { dxButtonOptions } from '@ISalikhzyanov/devextreme/ui/button';
 
 import {
     DxIntegrationModule,

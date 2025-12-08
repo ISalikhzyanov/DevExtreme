@@ -1,6 +1,6 @@
 import { Selector, ClientFunction } from 'testcafe';
 import type { WidgetName } from '../types';
-import { isObject } from 'devextreme/core/utils/type';
+import { isObject } from '@ISalikhzyanov/devextreme/core/utils/type';
 
 function getComponentInstance(
   selector: Selector,

@@ -37,7 +37,7 @@
 </template>
 <script setup lang="ts">
 import DxButtonGroup, { type DxButtonGroupTypes } from 'devextreme-vue/button-group';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { alignments, fontStyles } from './data.ts';
 
 function itemClick(e: DxButtonGroupTypes.ItemClickEvent) {

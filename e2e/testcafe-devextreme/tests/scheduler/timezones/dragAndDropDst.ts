@@ -1,5 +1,5 @@
 import Scheduler from 'devextreme-testcafe-models/scheduler';
-import type { Appointment } from 'devextreme/ui/scheduler';
+import type { Appointment } from '@ISalikhzyanov/devextreme/ui/scheduler';
 import url from '../../../helpers/getPageUrl';
 import { getTimezoneTest, MACHINE_TIMEZONES, MachineTimezonesType } from '../../../helpers/machineTimezones';
 import { createWidget } from '../../../helpers/createWidget';

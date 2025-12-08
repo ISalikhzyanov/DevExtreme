@@ -1,4 +1,4 @@
-import { type Position } from 'devextreme/common';
+import { type Position } from '@ISalikhzyanov/devextreme/common';
 import { type DxTabPanelTypes } from 'devextreme-vue/tab-panel';
 
 export const tabsPositionsSelectBoxLabel = { 'aria-label': 'Tab position' };

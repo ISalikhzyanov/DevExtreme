@@ -1,7 +1,7 @@
 import { Selector } from 'testcafe';
 import { createScreenshotsComparer } from 'devextreme-screenshot-comparer';
-import { OpenedStateMode } from 'devextreme/ui/drawer';
-import { Position } from 'devextreme/common';
+import { OpenedStateMode } from '@ISalikhzyanov/devextreme/ui/drawer';
+import { Position } from '@ISalikhzyanov/devextreme/common';
 import url from '../../../helpers/getPageUrl';
 import { createDrawer } from './drawer.helpers';
 import { testScreenshot } from '../../../helpers/themeUtils';

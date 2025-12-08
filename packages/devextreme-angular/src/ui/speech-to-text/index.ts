@@ -17,10 +17,10 @@ import {
 } from '@angular/core';
 
 
-import { CustomSpeechRecognizer, ContentReadyEvent, DisposingEvent, EndEvent, ErrorEvent, InitializedEvent, OptionChangedEvent, ResultEvent, StartClickEvent, StopClickEvent, SpeechRecognitionConfig } from 'devextreme/ui/speech_to_text';
-import { ButtonStyle, ButtonType } from 'devextreme/common';
+import { CustomSpeechRecognizer, ContentReadyEvent, DisposingEvent, EndEvent, ErrorEvent, InitializedEvent, OptionChangedEvent, ResultEvent, StartClickEvent, StopClickEvent, SpeechRecognitionConfig } from '@ISalikhzyanov/devextreme/ui/speech_to_text';
+import { ButtonStyle, ButtonType } from '@ISalikhzyanov/devextreme/common';
 
-import DxSpeechToText from 'devextreme/ui/speech_to_text';
+import DxSpeechToText from '@ISalikhzyanov/devextreme/ui/speech_to_text';
 
 
 import {

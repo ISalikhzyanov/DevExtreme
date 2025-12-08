@@ -14,9 +14,9 @@ import {
 
 
 
-import { SingleMultipleOrNone, SelectAllMode } from 'devextreme/common';
-import { SelectionSensitivity } from 'devextreme/ui/data_grid';
-import { SelectionColumnDisplayMode } from 'devextreme/common/grids';
+import { SingleMultipleOrNone, SelectAllMode } from '@ISalikhzyanov/devextreme/common';
+import { SelectionSensitivity } from '@ISalikhzyanov/devextreme/ui/data_grid';
+import { SelectionColumnDisplayMode } from '@ISalikhzyanov/devextreme/common/grids';
 
 import {
     DxIntegrationModule,

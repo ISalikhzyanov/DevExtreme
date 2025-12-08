@@ -26,8 +26,8 @@ const importTemplates = {
     },
     esm: {
         empty: (modulePath) => `import 'devextreme/${modulePath}';`,
-        default: (modulePath) => `import ${pathToName(modulePath)} from 'devextreme/${modulePath}';`,
-        named: (modulePath, moduleExport) => `import { ${moduleExport} } from 'devextreme/${modulePath}';`,
+        default: (modulePath) => `import ${pathToName(modulePath)} from '@ISalikhzyanov/devextreme/${modulePath}';`,
+        named: (modulePath, moduleExport) => `import { ${moduleExport} } from '@ISalikhzyanov/devextreme/${modulePath}';`,
     }
 };
 

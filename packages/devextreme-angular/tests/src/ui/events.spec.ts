@@ -11,8 +11,8 @@ import {
   DxDataGridModule,
 } from 'devextreme-angular';
 
-import readyCallbacks from 'devextreme/core/utils/ready_callbacks';
-import { on } from 'devextreme/events';
+import readyCallbacks from '@ISalikhzyanov/devextreme/core/utils/ready_callbacks';
+import { on } from '@ISalikhzyanov/devextreme/events';
 
 @Component({
   selector: 'test-container-component',

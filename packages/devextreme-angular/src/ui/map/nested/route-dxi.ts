@@ -14,7 +14,7 @@ import {
 
 
 
-import { RouteMode } from 'devextreme/ui/map';
+import { RouteMode } from '@ISalikhzyanov/devextreme/ui/map';
 
 import {
     DxIntegrationModule,

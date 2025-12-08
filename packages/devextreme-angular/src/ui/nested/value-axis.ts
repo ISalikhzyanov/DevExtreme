@@ -18,9 +18,9 @@ import {
 
 
 
-import { AxisScaleType, ChartsDataType, DashStyle, DiscreteAxisDivisionMode, Font, LabelOverlap, TimeInterval, ValueAxisVisualRangeUpdateMode, VisualRange } from 'devextreme/common/charts';
-import { Format } from 'devextreme/common/core/localization';
-import { ChartAxisScale } from 'devextreme/viz/range_selector';
+import { AxisScaleType, ChartsDataType, DashStyle, DiscreteAxisDivisionMode, Font, LabelOverlap, TimeInterval, ValueAxisVisualRangeUpdateMode, VisualRange } from '@ISalikhzyanov/devextreme/common/charts';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
+import { ChartAxisScale } from '@ISalikhzyanov/devextreme/viz/range_selector';
 
 import {
     DxIntegrationModule,

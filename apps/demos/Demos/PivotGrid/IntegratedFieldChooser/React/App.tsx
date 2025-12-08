@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+import PivotGridDataSource from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
 
 import SelectBox from 'devextreme-react/select-box';
 

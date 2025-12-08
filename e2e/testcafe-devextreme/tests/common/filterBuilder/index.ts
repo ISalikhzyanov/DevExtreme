@@ -1,6 +1,6 @@
 import { createScreenshotsComparer } from 'devextreme-screenshot-comparer';
 import FilterBuilder from 'devextreme-testcafe-models/filterBuilder';
-import { DataType } from 'devextreme/ui/filter_builder';
+import { DataType } from '@ISalikhzyanov/devextreme/ui/filter_builder';
 import { createWidget } from '../../../helpers/createWidget';
 import url from '../../../helpers/getPageUrl';
 import { fields, filter } from './data';

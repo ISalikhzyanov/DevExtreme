@@ -507,6 +507,6 @@ export {
   ToolbarItem,
   IToolbarItemProps
 };
-import type * as PopoverTypes from 'devextreme/ui/popover_types';
+import type * as PopoverTypes from '@ISalikhzyanov/devextreme/ui/popover_types';
 export { PopoverTypes };
 

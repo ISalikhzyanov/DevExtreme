@@ -3,7 +3,7 @@ import type {
   Orientation,
   ScrollMode,
   ViewType,
-} from 'devextreme/ui/scheduler';
+} from '@ISalikhzyanov/devextreme/ui/scheduler';
 import { createWidget } from '../../../../../helpers/createWidget';
 import url from '../../../../../helpers/getPageUrl';
 

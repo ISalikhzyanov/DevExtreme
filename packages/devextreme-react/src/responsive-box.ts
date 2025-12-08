@@ -211,6 +211,6 @@ export {
   Row,
   IRowProps
 };
-import type * as ResponsiveBoxTypes from 'devextreme/ui/responsive_box_types';
+import type * as ResponsiveBoxTypes from '@ISalikhzyanov/devextreme/ui/responsive_box_types';
 export { ResponsiveBoxTypes };
 

@@ -9,8 +9,8 @@ import {
 import { ApplicationRef, Component } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { DxHttpModule } from 'devextreme-angular/http';
-import DataSource from 'devextreme/data/data_source';
-import ODataStore from 'devextreme/data/odata/store';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import ODataStore from '@ISalikhzyanov/devextreme/data/odata/store';
 import { throwError } from 'rxjs';
 
 const TEST_URL = '';

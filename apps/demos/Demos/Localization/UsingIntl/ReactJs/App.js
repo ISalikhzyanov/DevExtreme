@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import DataGrid, { Column, Editing, FilterRow } from 'devextreme-react/data-grid';
 import SelectBox from 'devextreme-react/select-box';
-import deMessages from 'devextreme/localization/messages/de.json';
-import ruMessages from 'devextreme/localization/messages/ru.json';
+import deMessages from '@ISalikhzyanov/devextreme/localization/messages/de.json';
+import ruMessages from '@ISalikhzyanov/devextreme/localization/messages/ru.json';
 import { locale, loadMessages, formatMessage } from 'devextreme-react/common/core/localization';
 import service from './data.js';
 

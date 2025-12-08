@@ -1,6 +1,6 @@
 import React, { useCallback, useRef, useState } from 'react';
-import config from 'devextreme/core/config';
-import repaintFloatingActionButton from 'devextreme/ui/speed_dial_action/repaint_floating_action_button';
+import config from '@ISalikhzyanov/devextreme/core/config';
+import repaintFloatingActionButton from '@ISalikhzyanov/devextreme/ui/speed_dial_action/repaint_floating_action_button';
 import DataGrid, {
   Column, Editing, Lookup, Texts, Selection,
 } from 'devextreme-react/data-grid';

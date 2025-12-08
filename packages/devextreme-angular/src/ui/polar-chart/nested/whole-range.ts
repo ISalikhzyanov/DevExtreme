@@ -16,7 +16,7 @@ import {
 
 
 
-import { TimeInterval } from 'devextreme/common/charts';
+import { TimeInterval } from '@ISalikhzyanov/devextreme/common/charts';
 
 import {
     DxIntegrationModule,

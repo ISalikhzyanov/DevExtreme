@@ -2,7 +2,7 @@ import React, { useCallback, useRef } from 'react';
 import FileUploader from 'devextreme-react/file-uploader';
 import Button from 'devextreme-react/button';
 import TextBox from 'devextreme-react/text-box';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 const firstNameLabel = { 'aria-label': 'First Name' };
 const lastNameLabel = { 'aria-label': 'Last Name' };

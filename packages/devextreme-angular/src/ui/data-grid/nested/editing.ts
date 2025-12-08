@@ -18,11 +18,11 @@ import {
 
 
 
-import dxDataGrid from 'devextreme/ui/data_grid';
-import { dxDataGridRowObject } from 'devextreme/ui/data_grid';
-import { DataChange, GridsEditMode, NewRowPosition, GridsEditRefreshMode, StartEditAction } from 'devextreme/common/grids';
-import { dxFormOptions } from 'devextreme/ui/form';
-import { dxPopupOptions } from 'devextreme/ui/popup';
+import dxDataGrid from '@ISalikhzyanov/devextreme/ui/data_grid';
+import { dxDataGridRowObject } from '@ISalikhzyanov/devextreme/ui/data_grid';
+import { DataChange, GridsEditMode, NewRowPosition, GridsEditRefreshMode, StartEditAction } from '@ISalikhzyanov/devextreme/common/grids';
+import { dxFormOptions } from '@ISalikhzyanov/devextreme/ui/form';
+import { dxPopupOptions } from '@ISalikhzyanov/devextreme/ui/popup';
 
 import {
     DxIntegrationModule,

@@ -12,8 +12,8 @@ import {
 
 
 
-import { DashStyle, Font, RelativePosition } from 'devextreme/common/charts';
-import { HorizontalAlignment, VerticalAlignment } from 'devextreme/common';
+import { DashStyle, Font, RelativePosition } from '@ISalikhzyanov/devextreme/common/charts';
+import { HorizontalAlignment, VerticalAlignment } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

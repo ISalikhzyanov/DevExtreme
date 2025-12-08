@@ -1,9 +1,9 @@
 /* eslint-disable no-restricted-syntax */
-import type { DatePickerType, DateType, Properties } from 'devextreme/ui/date_box.d';
-import { EditorStyle } from 'devextreme/common';
+import type { DatePickerType, DateType, Properties } from '@ISalikhzyanov/devextreme/ui/date_box.d';
+import { EditorStyle } from '@ISalikhzyanov/devextreme/common';
 import { Selector } from 'testcafe';
 import { createScreenshotsComparer } from 'devextreme-screenshot-comparer';
-import Guid from 'devextreme/core/guid';
+import Guid from '@ISalikhzyanov/devextreme/core/guid';
 import {
   insertStylesheetRulesToPage,
   appendElementTo, setClassAttribute,

@@ -22,10 +22,10 @@ import {
 } from '@angular/core';
 
 
-import { ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent } from 'devextreme/ui/check_box';
-import { ValidationMessageMode, Position, ValidationStatus } from 'devextreme/common';
+import { ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent, ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/check_box';
+import { ValidationMessageMode, Position, ValidationStatus } from '@ISalikhzyanov/devextreme/common';
 
-import DxCheckBox from 'devextreme/ui/check_box';
+import DxCheckBox from '@ISalikhzyanov/devextreme/ui/check_box';
 
 import {
     ControlValueAccessor,

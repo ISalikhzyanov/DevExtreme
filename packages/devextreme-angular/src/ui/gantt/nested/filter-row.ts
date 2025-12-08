@@ -14,7 +14,7 @@ import {
 
 
 
-import { dxGanttFilterRowOperationDescriptions } from 'devextreme/ui/gantt';
+import { dxGanttFilterRowOperationDescriptions } from '@ISalikhzyanov/devextreme/ui/gantt';
 
 import {
     DxIntegrationModule,

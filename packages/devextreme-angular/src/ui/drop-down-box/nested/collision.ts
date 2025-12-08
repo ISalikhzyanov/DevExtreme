@@ -14,7 +14,7 @@ import {
 
 
 
-import { CollisionResolution } from 'devextreme/common/core/animation';
+import { CollisionResolution } from '@ISalikhzyanov/devextreme/common/core/animation';
 
 import {
     DxIntegrationModule,

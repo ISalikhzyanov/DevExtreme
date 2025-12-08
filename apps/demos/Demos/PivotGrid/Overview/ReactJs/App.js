@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+import PivotGridDataSource from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
 import Chart, {
   AdaptiveLayout, CommonSeriesSettings, Size, Tooltip,
 } from 'devextreme-react/chart';

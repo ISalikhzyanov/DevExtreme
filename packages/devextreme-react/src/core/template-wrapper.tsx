@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as events from 'devextreme/events';
+import * as events from '@ISalikhzyanov/devextreme/events';
 
 import {
   useCallback,

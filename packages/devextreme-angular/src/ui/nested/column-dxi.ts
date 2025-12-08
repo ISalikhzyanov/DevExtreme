@@ -16,8 +16,8 @@ import {
 
 
 
-import { SortOrder } from 'devextreme/common';
-import { SelectedFilterOperation } from 'devextreme/common/grids';
+import { SortOrder } from '@ISalikhzyanov/devextreme/common';
+import { SelectedFilterOperation } from '@ISalikhzyanov/devextreme/common/grids';
 
 import {
     DxIntegrationModule,

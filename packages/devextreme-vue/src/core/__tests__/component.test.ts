@@ -1,7 +1,7 @@
 import { PatchFlags } from '@vue/shared';
 import { mount } from '@vue/test-utils';
-import * as events from 'devextreme/events';
-import config from 'devextreme/core/config';
+import * as events from '@ISalikhzyanov/devextreme/events';
+import config from '@ISalikhzyanov/devextreme/core/config';
 import {
   App, createVNode, defineComponent, h, nextTick, renderSlot, ref,
 } from 'vue';

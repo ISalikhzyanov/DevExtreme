@@ -66,7 +66,7 @@ import {
   DxGroup,
   type DxDiagramTypes,
 } from 'devextreme-vue/diagram';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { ArrayStore } from 'devextreme-vue/common/data';
 import service from './data.ts';
 

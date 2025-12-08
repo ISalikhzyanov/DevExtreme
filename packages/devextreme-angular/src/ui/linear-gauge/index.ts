@@ -22,13 +22,13 @@ import {
 } from '@angular/core';
 
 
-import { AnimationEaseMode, Font, ChartsColor, Palette, PaletteExtensionMode, LabelOverlap, Theme, TextOverflow, WordWrap, DashStyle } from 'devextreme/common/charts';
-import { ExportFormat, Orientation, HorizontalAlignment, VerticalAlignment, VerticalEdge } from 'devextreme/common';
-import { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, OptionChangedEvent, TooltipHiddenEvent, TooltipShownEvent } from 'devextreme/viz/linear_gauge';
-import { Format } from 'devextreme/common/core/localization';
-import { GaugeIndicator } from 'devextreme/viz/gauges/base_gauge';
+import { AnimationEaseMode, Font, ChartsColor, Palette, PaletteExtensionMode, LabelOverlap, Theme, TextOverflow, WordWrap, DashStyle } from '@ISalikhzyanov/devextreme/common/charts';
+import { ExportFormat, Orientation, HorizontalAlignment, VerticalAlignment, VerticalEdge } from '@ISalikhzyanov/devextreme/common';
+import { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, OptionChangedEvent, TooltipHiddenEvent, TooltipShownEvent } from '@ISalikhzyanov/devextreme/viz/linear_gauge';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
+import { GaugeIndicator } from '@ISalikhzyanov/devextreme/viz/gauges/base_gauge';
 
-import DxLinearGauge from 'devextreme/viz/linear_gauge';
+import DxLinearGauge from '@ISalikhzyanov/devextreme/viz/linear_gauge';
 
 
 import {

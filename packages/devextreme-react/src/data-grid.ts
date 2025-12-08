@@ -3536,6 +3536,6 @@ export {
   ValueFormat,
   IValueFormatProps
 };
-import type * as DataGridTypes from 'devextreme/ui/data_grid_types';
+import type * as DataGridTypes from '@ISalikhzyanov/devextreme/ui/data_grid_types';
 export { DataGridTypes };
 

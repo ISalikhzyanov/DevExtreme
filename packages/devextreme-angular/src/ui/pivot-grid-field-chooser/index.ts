@@ -20,12 +20,12 @@ import {
 } from '@angular/core';
 
 
-import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
-import { ApplyChangesMode, HeaderFilterSearchConfig } from 'devextreme/common/grids';
-import { FieldChooserLayout } from 'devextreme/common';
-import { ContentReadyEvent, ContextMenuPreparingEvent, DisposingEvent, InitializedEvent, OptionChangedEvent } from 'devextreme/ui/pivot_grid_field_chooser';
+import PivotGridDataSource from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
+import { ApplyChangesMode, HeaderFilterSearchConfig } from '@ISalikhzyanov/devextreme/common/grids';
+import { FieldChooserLayout } from '@ISalikhzyanov/devextreme/common';
+import { ContentReadyEvent, ContextMenuPreparingEvent, DisposingEvent, InitializedEvent, OptionChangedEvent } from '@ISalikhzyanov/devextreme/ui/pivot_grid_field_chooser';
 
-import DxPivotGridFieldChooser from 'devextreme/ui/pivot_grid_field_chooser';
+import DxPivotGridFieldChooser from '@ISalikhzyanov/devextreme/ui/pivot_grid_field_chooser';
 
 
 import {

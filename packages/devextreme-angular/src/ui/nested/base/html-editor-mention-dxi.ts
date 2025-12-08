@@ -5,8 +5,8 @@ import {
     Component,
 } from '@angular/core';
 
-import { Store } from 'devextreme/data';
-import DataSource, { Options as DataSourceOptions } from 'devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data';
+import DataSource, { Options as DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
 
 @Component({
     template: ''

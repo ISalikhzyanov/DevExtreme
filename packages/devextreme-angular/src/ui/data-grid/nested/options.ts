@@ -18,8 +18,8 @@ import {
 import { DOCUMENT } from '@angular/common';
 
 
-import { ClickEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent } from 'devextreme/ui/button';
-import { ButtonStyle, ButtonType } from 'devextreme/common';
+import { ClickEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent } from '@ISalikhzyanov/devextreme/ui/button';
+import { ButtonStyle, ButtonType } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

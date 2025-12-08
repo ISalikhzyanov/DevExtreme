@@ -73,8 +73,8 @@
 </template>
 <script setup lang="ts">
 import { computed, ref } from 'vue';
-import config from 'devextreme/core/config';
-import repaintFloatingActionButton from 'devextreme/ui/speed_dial_action/repaint_floating_action_button';
+import config from '@ISalikhzyanov/devextreme/core/config';
+import repaintFloatingActionButton from '@ISalikhzyanov/devextreme/ui/speed_dial_action/repaint_floating_action_button';
 import {
   DxDataGrid,
   DxColumn,

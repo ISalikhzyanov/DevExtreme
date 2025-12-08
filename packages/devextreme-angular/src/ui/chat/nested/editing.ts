@@ -14,8 +14,8 @@ import {
 
 
 
-import dxChat from 'devextreme/ui/chat';
-import { Message } from 'devextreme/ui/chat';
+import dxChat from '@ISalikhzyanov/devextreme/ui/chat';
+import { Message } from '@ISalikhzyanov/devextreme/ui/chat';
 
 import {
     DxIntegrationModule,

@@ -11,8 +11,8 @@ import {
   EmbeddedViewRef,
 } from '@angular/core';
 
-import { one } from 'devextreme/events';
-import domAdapter from 'devextreme/core/dom_adapter';
+import { one } from '@ISalikhzyanov/devextreme/events';
+import domAdapter from '@ISalikhzyanov/devextreme/core/dom_adapter';
 import { DxTemplateHost } from './template-host';
 import { getElement } from './utils';
 

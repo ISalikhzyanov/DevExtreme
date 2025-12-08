@@ -1,4 +1,4 @@
-import { Properties } from 'devextreme/ui/speed_dial_action.d';
+import { Properties } from '@ISalikhzyanov/devextreme/ui/speed_dial_action.d';
 import url from '../../helpers/getPageUrl';
 import { testAccessibility, Configuration } from '../../helpers/accessibility/test';
 import { Options } from '../../helpers/generateOptionMatrix';

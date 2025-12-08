@@ -21,14 +21,14 @@ import {
     QueryList
 } from '@angular/core';
 
-export { ExplicitTypes } from 'devextreme/ui/box';
+export { ExplicitTypes } from '@ISalikhzyanov/devextreme/ui/box';
 
-import DataSource from 'devextreme/data/data_source';
-import { Distribution, CrosswiseDistribution, dxBoxItem, BoxDirection, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, OptionChangedEvent } from 'devextreme/ui/box';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { Distribution, CrosswiseDistribution, dxBoxItem, BoxDirection, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, OptionChangedEvent } from '@ISalikhzyanov/devextreme/ui/box';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
 
-import DxBox from 'devextreme/ui/box';
+import DxBox from '@ISalikhzyanov/devextreme/ui/box';
 
 
 import {

@@ -17,9 +17,9 @@ import {
 } from '@angular/core';
 
 
-import { DisposingEvent, InitializedEvent, OptionChangedEvent } from 'devextreme/ui/validation_group';
+import { DisposingEvent, InitializedEvent, OptionChangedEvent } from '@ISalikhzyanov/devextreme/ui/validation_group';
 
-import DxValidationGroup from 'devextreme/ui/validation_group';
+import DxValidationGroup from '@ISalikhzyanov/devextreme/ui/validation_group';
 
 
 import {

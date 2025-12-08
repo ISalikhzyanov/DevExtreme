@@ -14,8 +14,8 @@ import {
 
 
 
-import { Mode } from 'devextreme/common';
-import { LoadPanelIndicatorProperties } from 'devextreme/ui/load_panel';
+import { Mode } from '@ISalikhzyanov/devextreme/common';
+import { LoadPanelIndicatorProperties } from '@ISalikhzyanov/devextreme/ui/load_panel';
 
 import {
     DxIntegrationModule,

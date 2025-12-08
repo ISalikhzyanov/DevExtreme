@@ -77,6 +77,6 @@ export {
   IFileUploaderOptions,
   FileUploaderRef
 };
-import type * as FileUploaderTypes from 'devextreme/ui/file_uploader_types';
+import type * as FileUploaderTypes from '@ISalikhzyanov/devextreme/ui/file_uploader_types';
 export { FileUploaderTypes };
 

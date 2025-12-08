@@ -1,5 +1,5 @@
 import { createScreenshotsComparer } from 'devextreme-screenshot-comparer';
-import { Item } from 'devextreme/ui/stepper.d';
+import { Item } from '@ISalikhzyanov/devextreme/ui/stepper.d';
 import Stepper from 'devextreme-testcafe-models/stepper';
 import { testScreenshot } from '../../../helpers/themeUtils';
 import url from '../../../helpers/getPageUrl';

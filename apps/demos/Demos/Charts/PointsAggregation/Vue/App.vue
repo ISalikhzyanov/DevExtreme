@@ -104,7 +104,7 @@
 </template>
 <script setup lang="ts">
 import { ref } from 'vue';
-import type { chartPointAggregationInfoObject as ChartPointAggregationInfoObject } from 'devextreme/viz/chart';
+import type { chartPointAggregationInfoObject as ChartPointAggregationInfoObject } from '@ISalikhzyanov/devextreme/viz/chart';
 import DxChart, {
   DxCommonSeriesSettings,
   DxSeries,

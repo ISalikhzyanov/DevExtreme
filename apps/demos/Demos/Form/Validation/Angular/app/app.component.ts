@@ -9,8 +9,8 @@ import {
   DxNumberBoxModule,
   DxAutocompleteModule,
 } from 'devextreme-angular';
-import notify from 'devextreme/ui/notify';
-import Validator from 'devextreme/ui/validator';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
+import Validator from '@ISalikhzyanov/devextreme/ui/validator';
 import { AsyncRule } from 'devextreme-angular/common';
 import { DxFormModule, DxFormComponent, DxFormTypes } from 'devextreme-angular/ui/form';
 import { DxTextBoxTypes } from 'devextreme-angular/ui/text-box';

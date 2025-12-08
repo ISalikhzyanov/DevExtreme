@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, type ButtonTypes } from 'devextreme-react/button';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 const onClick = (e: ButtonTypes.ClickEvent) => {
   const buttonText = e.component.option('text');

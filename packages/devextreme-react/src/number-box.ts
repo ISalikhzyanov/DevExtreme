@@ -190,6 +190,6 @@ export {
   Options,
   IOptionsProps
 };
-import type * as NumberBoxTypes from 'devextreme/ui/number_box_types';
+import type * as NumberBoxTypes from '@ISalikhzyanov/devextreme/ui/number_box_types';
 export { NumberBoxTypes };
 

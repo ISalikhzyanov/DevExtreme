@@ -14,7 +14,7 @@ import {
 
 
 
-import { SingleMultipleOrNone } from 'devextreme/common';
+import { SingleMultipleOrNone } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

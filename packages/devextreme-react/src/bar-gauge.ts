@@ -826,6 +826,6 @@ export {
   TooltipBorder,
   ITooltipBorderProps
 };
-import type * as BarGaugeTypes from 'devextreme/viz/bar_gauge_types';
+import type * as BarGaugeTypes from '@ISalikhzyanov/devextreme/viz/bar_gauge_types';
 export { BarGaugeTypes };
 

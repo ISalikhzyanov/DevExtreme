@@ -14,7 +14,7 @@ import {
 
 
 
-import { Orientation } from 'devextreme/common';
+import { Orientation } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

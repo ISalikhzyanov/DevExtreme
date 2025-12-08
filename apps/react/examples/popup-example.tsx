@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { ValueChangedEvent } from 'devextreme/ui/text_box';
+import { ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/text_box';
 import { Button } from 'devextreme-react/button';
 import { Popup } from 'devextreme-react/popup';
 import { ScrollView } from 'devextreme-react/scroll-view';

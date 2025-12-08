@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { ValueChangedEvent } from 'devextreme/ui/radio_group';
+import { ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/radio_group';
 import Drawer from 'devextreme-react/drawer';
 import RadioGroup from 'devextreme-react/radio-group';
 import Toolbar from 'devextreme-react/toolbar';

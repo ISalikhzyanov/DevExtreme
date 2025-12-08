@@ -20,13 +20,13 @@ import {
 } from '@angular/core';
 
 
-import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
-import { PivotGridDataFieldArea, CellClickEvent, CellPreparedEvent, ContentReadyEvent, ContextMenuPreparingEvent, DisposingEvent, ExportingEvent, InitializedEvent, OptionChangedEvent, PivotGridRowHeaderLayout, PivotGridTotalDisplayMode } from 'devextreme/ui/pivot_grid';
-import { PivotGridDataSourceOptions } from 'devextreme/ui/pivot_grid/data_source';
-import { ApplyChangesMode, HeaderFilterSearchConfig, StateStoreType } from 'devextreme/common/grids';
-import { FieldChooserLayout, ScrollMode, Mode } from 'devextreme/common';
+import PivotGridDataSource from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
+import { PivotGridDataFieldArea, CellClickEvent, CellPreparedEvent, ContentReadyEvent, ContextMenuPreparingEvent, DisposingEvent, ExportingEvent, InitializedEvent, OptionChangedEvent, PivotGridRowHeaderLayout, PivotGridTotalDisplayMode } from '@ISalikhzyanov/devextreme/ui/pivot_grid';
+import { PivotGridDataSourceOptions } from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
+import { ApplyChangesMode, HeaderFilterSearchConfig, StateStoreType } from '@ISalikhzyanov/devextreme/common/grids';
+import { FieldChooserLayout, ScrollMode, Mode } from '@ISalikhzyanov/devextreme/common';
 
-import DxPivotGrid from 'devextreme/ui/pivot_grid';
+import DxPivotGrid from '@ISalikhzyanov/devextreme/ui/pivot_grid';
 
 
 import {

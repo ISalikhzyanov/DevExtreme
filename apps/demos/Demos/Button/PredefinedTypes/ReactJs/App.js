@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'devextreme-react/button';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 const onClick = (e) => {
   const buttonText = e.component.option('text');

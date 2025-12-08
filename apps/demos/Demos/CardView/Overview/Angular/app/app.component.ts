@@ -5,7 +5,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { DxCardViewModule, DxCardViewComponent, DxButtonModule } from 'devextreme-angular';
 import { AppService, Employee } from './app.service';
 
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 if (!document.location.host.includes('localhost')) {
   enableProdMode();

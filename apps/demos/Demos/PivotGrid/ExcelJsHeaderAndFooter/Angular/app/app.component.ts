@@ -5,8 +5,8 @@ import { DxCheckBoxModule } from 'devextreme-angular';
 import { Workbook, WorksheetViewFrozen } from 'devextreme-exceljs-fork';
 import { saveAs } from 'file-saver-es';
 // Our demo infrastructure requires us to use 'file-saver-es'. We recommend that you use the official 'file-saver' package in your applications.
-import { exportPivotGrid } from 'devextreme/excel_exporter';
-import { Options as DataSourceConfig } from 'devextreme/ui/pivot_grid/data_source';
+import { exportPivotGrid } from '@ISalikhzyanov/devextreme/excel_exporter';
+import { Options as DataSourceConfig } from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
 import { DxPivotGridModule, DxPivotGridTypes } from 'devextreme-angular/ui/pivot-grid';
 import { Service, Sale } from './app.service';
 

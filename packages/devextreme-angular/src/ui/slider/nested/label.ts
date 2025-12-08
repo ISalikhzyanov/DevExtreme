@@ -14,8 +14,8 @@ import {
 
 
 
-import { Format } from 'devextreme/common/core/localization';
-import { VerticalEdge } from 'devextreme/common';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
+import { VerticalEdge } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

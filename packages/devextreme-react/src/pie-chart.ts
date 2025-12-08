@@ -1504,6 +1504,6 @@ export {
   TooltipBorder,
   ITooltipBorderProps
 };
-import type * as PieChartTypes from 'devextreme/viz/pie_chart_types';
+import type * as PieChartTypes from '@ISalikhzyanov/devextreme/viz/pie_chart_types';
 export { PieChartTypes };
 

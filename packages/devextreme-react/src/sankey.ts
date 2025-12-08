@@ -712,6 +712,6 @@ export {
   TooltipBorder,
   ITooltipBorderProps
 };
-import type * as SankeyTypes from 'devextreme/viz/sankey_types';
+import type * as SankeyTypes from '@ISalikhzyanov/devextreme/viz/sankey_types';
 export { SankeyTypes };
 

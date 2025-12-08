@@ -5,7 +5,7 @@ import {
     Component,
 } from '@angular/core';
 
-import { DataType } from 'devextreme/common';
+import { DataType } from '@ISalikhzyanov/devextreme/common';
 
 @Component({
     template: ''

@@ -3,7 +3,7 @@ import DataGrid, {
   Column, Editing, ValidationRule, Button, IButtonProps, Toolbar, Item, Scrolling, type DataGridTypes, Pager,
 } from 'devextreme-react/data-grid';
 import SelectBox from 'devextreme-react/select-box';
-import Guid from 'devextreme/core/guid';
+import Guid from '@ISalikhzyanov/devextreme/core/guid';
 import { dataSource, positionLabel, scrollingModeLabel } from './data.ts';
 
 const newRowPositionOptions = ['first', 'last', 'pageTop', 'pageBottom', 'viewportTop', 'viewportBottom'];

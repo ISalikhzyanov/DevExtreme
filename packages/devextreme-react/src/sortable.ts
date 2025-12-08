@@ -104,6 +104,6 @@ export {
   CursorOffset,
   ICursorOffsetProps
 };
-import type * as SortableTypes from 'devextreme/ui/sortable_types';
+import type * as SortableTypes from '@ISalikhzyanov/devextreme/ui/sortable_types';
 export { SortableTypes };
 

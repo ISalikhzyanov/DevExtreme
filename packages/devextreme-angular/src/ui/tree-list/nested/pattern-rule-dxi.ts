@@ -12,7 +12,7 @@ import {
 
 
 
-import { ValidationRuleType } from 'devextreme/common';
+import { ValidationRuleType } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

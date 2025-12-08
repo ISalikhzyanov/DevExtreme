@@ -22,18 +22,18 @@ import {
 } from '@angular/core';
 
 
-import dxScheduler from 'devextreme/ui/scheduler';
-import dxSortable from 'devextreme/ui/sortable';
-import dxDraggable from 'devextreme/ui/draggable';
-import DataSource from 'devextreme/data/data_source';
-import { AllDayPanelMode, ViewType, dxSchedulerAppointment, AppointmentFormIconsShowMode, CellAppointmentsLimit, AppointmentAddedEvent, AppointmentAddingEvent, AppointmentClickEvent, AppointmentContextMenuEvent, AppointmentDblClickEvent, AppointmentDeletedEvent, AppointmentDeletingEvent, AppointmentFormOpeningEvent, AppointmentRenderedEvent, AppointmentTooltipShowingEvent, AppointmentUpdatedEvent, AppointmentUpdatingEvent, CellClickEvent, CellContextMenuEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent, RecurrenceEditMode, dxSchedulerScrolling, dxSchedulerToolbar } from 'devextreme/ui/scheduler';
-import { event } from 'devextreme/events/events.types';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { dxFormButtonItem, dxFormEmptyItem, dxFormGroupItem, dxFormSimpleItem, dxFormTabbedItem } from 'devextreme/ui/form';
-import { FirstDayOfWeek, Orientation } from 'devextreme/common';
+import dxScheduler from '@ISalikhzyanov/devextreme/ui/scheduler';
+import dxSortable from '@ISalikhzyanov/devextreme/ui/sortable';
+import dxDraggable from '@ISalikhzyanov/devextreme/ui/draggable';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { AllDayPanelMode, ViewType, dxSchedulerAppointment, AppointmentFormIconsShowMode, CellAppointmentsLimit, AppointmentAddedEvent, AppointmentAddingEvent, AppointmentClickEvent, AppointmentContextMenuEvent, AppointmentDblClickEvent, AppointmentDeletedEvent, AppointmentDeletingEvent, AppointmentFormOpeningEvent, AppointmentRenderedEvent, AppointmentTooltipShowingEvent, AppointmentUpdatedEvent, AppointmentUpdatingEvent, CellClickEvent, CellContextMenuEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, OptionChangedEvent, RecurrenceEditMode, dxSchedulerScrolling, dxSchedulerToolbar } from '@ISalikhzyanov/devextreme/ui/scheduler';
+import { event } from '@ISalikhzyanov/devextreme/events/events.types';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { dxFormButtonItem, dxFormEmptyItem, dxFormGroupItem, dxFormSimpleItem, dxFormTabbedItem } from '@ISalikhzyanov/devextreme/ui/form';
+import { FirstDayOfWeek, Orientation } from '@ISalikhzyanov/devextreme/common';
 
-import DxScheduler from 'devextreme/ui/scheduler';
+import DxScheduler from '@ISalikhzyanov/devextreme/ui/scheduler';
 
 
 import {

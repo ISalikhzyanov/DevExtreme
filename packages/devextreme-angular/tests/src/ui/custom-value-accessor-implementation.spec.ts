@@ -16,7 +16,7 @@ import {
   TestBed,
 } from '@angular/core/testing';
 
-import DxTextBox from 'devextreme/ui/text_box';
+import DxTextBox from '@ISalikhzyanov/devextreme/ui/text_box';
 
 import {
   DxTextBoxModule,

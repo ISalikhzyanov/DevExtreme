@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
-import dxInformer from 'devextreme/ui/informer';
+import dxInformer from '@ISalikhzyanov/devextreme/ui/informer';
 import { wrapDxWithReact } from '../utils';
 
 

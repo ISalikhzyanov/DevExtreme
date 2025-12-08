@@ -2,9 +2,9 @@ import {
   ComponentPublicInstance, defineComponent, h, VNode,
 } from 'vue';
 
-import CreateCallback from 'devextreme/core/utils/callbacks';
-import { triggerHandler } from 'devextreme/events';
-import config from 'devextreme/core/config';
+import CreateCallback from '@ISalikhzyanov/devextreme/core/utils/callbacks';
+import { triggerHandler } from '@ISalikhzyanov/devextreme/events';
+import config from '@ISalikhzyanov/devextreme/core/config';
 
 import {
   defaultSlots, getChildren, getComponentProps, getVModelValue, VMODEL_NAME,

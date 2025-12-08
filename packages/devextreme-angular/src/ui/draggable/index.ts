@@ -17,10 +17,10 @@ import {
 } from '@angular/core';
 
 
-import { DragDirection } from 'devextreme/common';
-import { DisposingEvent, DragEndEvent, DragMoveEvent, DragStartEvent, InitializedEvent, OptionChangedEvent } from 'devextreme/ui/draggable';
+import { DragDirection } from '@ISalikhzyanov/devextreme/common';
+import { DisposingEvent, DragEndEvent, DragMoveEvent, DragStartEvent, InitializedEvent, OptionChangedEvent } from '@ISalikhzyanov/devextreme/ui/draggable';
 
-import DxDraggable from 'devextreme/ui/draggable';
+import DxDraggable from '@ISalikhzyanov/devextreme/ui/draggable';
 
 
 import {

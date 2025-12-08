@@ -2,7 +2,7 @@ import React, { useCallback, useState } from 'react';
 import ActionSheet, { type ActionSheetTypes } from 'devextreme-react/action-sheet';
 import List, { type ListTypes } from 'devextreme-react/list';
 
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 import RenderContactItem from './ContactItem.tsx';
 import { actionSheetItems, contacts } from './data.ts';

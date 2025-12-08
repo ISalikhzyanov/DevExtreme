@@ -12,7 +12,7 @@ import type {
 import type { NativeEventInfo } from '@ISalikhzyanov/devextreme/common/core/events';
 import type { ButtonStyle, template, ButtonType } from '@ISalikhzyanov/devextreme/common';
 import type { CollectionWidgetItem } from '@ISalikhzyanov/devextreme/ui/collection/ui.collection_widget.base';
-import type * as ActionSheetTypes from 'devextreme/ui/action_sheet_types';
+import type * as ActionSheetTypes from '@ISalikhzyanov/devextreme/ui/action_sheet_types';
 import NestedOption from './core/nested-option';
 import {
   Component as BaseComponent, IHtmlOptions, ComponentRef, NestedComponentMeta,

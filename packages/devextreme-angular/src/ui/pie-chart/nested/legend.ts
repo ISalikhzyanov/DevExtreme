@@ -14,9 +14,9 @@ import {
 
 
 
-import { DashStyle, Font } from 'devextreme/common/charts';
-import { PieChartLegendItem, PieChartLegendHoverMode } from 'devextreme/viz/pie_chart';
-import { HorizontalAlignment, Position, Orientation, VerticalEdge } from 'devextreme/common';
+import { DashStyle, Font } from '@ISalikhzyanov/devextreme/common/charts';
+import { PieChartLegendItem, PieChartLegendHoverMode } from '@ISalikhzyanov/devextreme/viz/pie_chart';
+import { HorizontalAlignment, Position, Orientation, VerticalEdge } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

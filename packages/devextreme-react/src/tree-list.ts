@@ -3091,6 +3091,6 @@ export {
   ValidationRule,
   IValidationRuleProps
 };
-import type * as TreeListTypes from 'devextreme/ui/tree_list_types';
+import type * as TreeListTypes from '@ISalikhzyanov/devextreme/ui/tree_list_types';
 export { TreeListTypes };
 

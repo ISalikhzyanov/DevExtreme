@@ -14,10 +14,10 @@ import {
 
 
 
-import { HorizontalAlignment, Orientation, Position, VerticalEdge } from 'devextreme/common';
-import { DashStyle, Font, LegendHoverMode, RelativePosition } from 'devextreme/common/charts';
-import { Format } from 'devextreme/common/core/localization';
-import { PieChartLegendHoverMode } from 'devextreme/viz/pie_chart';
+import { HorizontalAlignment, Orientation, Position, VerticalEdge } from '@ISalikhzyanov/devextreme/common';
+import { DashStyle, Font, LegendHoverMode, RelativePosition } from '@ISalikhzyanov/devextreme/common/charts';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
+import { PieChartLegendHoverMode } from '@ISalikhzyanov/devextreme/viz/pie_chart';
 
 import {
     DxIntegrationModule,

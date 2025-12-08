@@ -101,7 +101,7 @@
 </template>
 <script setup lang="ts">
 import DxButton from 'devextreme-vue/button';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 function weatherClick() {
   notify('The Weather button was clicked');

@@ -56,6 +56,6 @@ export {
   IValidationGroupOptions,
   ValidationGroupRef
 };
-import type * as ValidationGroupTypes from 'devextreme/ui/validation_group_types';
+import type * as ValidationGroupTypes from '@ISalikhzyanov/devextreme/ui/validation_group_types';
 export { ValidationGroupTypes };
 

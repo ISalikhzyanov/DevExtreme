@@ -136,6 +136,6 @@ export {
   Item,
   IItemProps
 };
-import type * as SplitterTypes from 'devextreme/ui/splitter_types';
+import type * as SplitterTypes from '@ISalikhzyanov/devextreme/ui/splitter_types';
 export { SplitterTypes };
 

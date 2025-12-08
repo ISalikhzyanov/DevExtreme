@@ -14,7 +14,7 @@ import {
 
 
 
-import { PieChartSeries } from 'devextreme/viz/pie_chart';
+import { PieChartSeries } from '@ISalikhzyanov/devextreme/viz/pie_chart';
 
 import {
     DxIntegrationModule,

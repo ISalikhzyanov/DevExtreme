@@ -3,7 +3,7 @@ import DropDownButton, { type DropDownButtonTypes } from 'devextreme-react/drop-
 import Toolbar from 'devextreme-react/toolbar';
 import { Template } from 'devextreme-react/core/template';
 import { type ButtonTypes } from 'devextreme-react/button';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import service from './data.ts';
 import ColorIcon from './ColorIcon.tsx';
 import DropDownButtonTemplate from './DropDownButtonTemplate.tsx';

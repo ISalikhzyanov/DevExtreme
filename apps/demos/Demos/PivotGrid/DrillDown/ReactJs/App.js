@@ -2,7 +2,7 @@ import React, { useCallback, useRef, useState } from 'react';
 import { PivotGrid, FieldChooser } from 'devextreme-react/pivot-grid';
 import { DataGrid, Column } from 'devextreme-react/data-grid';
 import { Popup } from 'devextreme-react/popup';
-import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+import PivotGridDataSource from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
 import { sales } from './data.js';
 
 const App = () => {

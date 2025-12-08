@@ -14,7 +14,7 @@ import {
 
 
 
-import { PositionConfig } from 'devextreme/common/core/animation';
+import { PositionConfig } from '@ISalikhzyanov/devextreme/common/core/animation';
 
 import {
     DxIntegrationModule,

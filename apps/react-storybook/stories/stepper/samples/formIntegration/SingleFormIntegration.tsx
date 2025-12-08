@@ -7,7 +7,7 @@ import 'devextreme-react/date-range-box';
 import 'devextreme-react/number-box';
 import 'devextreme-react/select-box';
 import 'devextreme-react/text-area';
-import type { SelectionChangedEvent, SelectionChangingEvent } from 'devextreme/ui/stepper';
+import type { SelectionChangedEvent, SelectionChangingEvent } from '@ISalikhzyanov/devextreme/ui/stepper';
 import validationEngine from "@ISalikhzyanov/devextreme/ui/validation_engine";
 
 import { initialSteps, formData, mealPlans, roomTypes } from "./data";

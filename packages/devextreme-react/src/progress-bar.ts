@@ -69,6 +69,6 @@ export {
   IProgressBarOptions,
   ProgressBarRef
 };
-import type * as ProgressBarTypes from 'devextreme/ui/progress_bar_types';
+import type * as ProgressBarTypes from '@ISalikhzyanov/devextreme/ui/progress_bar_types';
 export { ProgressBarTypes };
 

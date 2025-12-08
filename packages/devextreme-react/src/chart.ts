@@ -4122,6 +4122,6 @@ export {
   ZoomAndPan,
   IZoomAndPanProps
 };
-import type * as ChartTypes from 'devextreme/viz/chart_types';
+import type * as ChartTypes from '@ISalikhzyanov/devextreme/viz/chart_types';
 export { ChartTypes };
 

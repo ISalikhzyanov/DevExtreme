@@ -14,7 +14,7 @@ import {
 
 
 
-import { Font, RelativePosition } from 'devextreme/common/charts';
+import { Font, RelativePosition } from '@ISalikhzyanov/devextreme/common/charts';
 
 import {
     DxIntegrationModule,

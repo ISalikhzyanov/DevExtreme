@@ -13,7 +13,7 @@ import {
   ViewToolbar,
   type DiagramTypes,
 } from 'devextreme-react/diagram';
-import { confirm } from 'devextreme/ui/dialog';
+import { confirm } from '@ISalikhzyanov/devextreme/ui/dialog';
 import 'whatwg-fetch';
 
 const pageCommands: DiagramTypes.Command[] = ['pageSize', 'pageOrientation', 'pageColor'];

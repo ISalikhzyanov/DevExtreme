@@ -5,8 +5,8 @@ import {
     Component,
 } from '@angular/core';
 
-import { AsyncRule, CompareRule, CustomRule, EmailRule, HorizontalAlignment, NumericRule, PatternRule, RangeRule, RequiredRule, StringLengthRule } from 'devextreme/common';
-import { FormItemComponent, FormItemType, LabelLocation } from 'devextreme/ui/form';
+import { AsyncRule, CompareRule, CustomRule, EmailRule, HorizontalAlignment, NumericRule, PatternRule, RangeRule, RequiredRule, StringLengthRule } from '@ISalikhzyanov/devextreme/common';
+import { FormItemComponent, FormItemType, LabelLocation } from '@ISalikhzyanov/devextreme/ui/form';
 
 @Component({
     template: ''

@@ -1,4 +1,4 @@
-import { ToolbarItem, Properties } from 'devextreme/ui/popup.d';
+import { ToolbarItem, Properties } from '@ISalikhzyanov/devextreme/ui/popup.d';
 import url from '../../helpers/getPageUrl';
 import { testAccessibility, Configuration } from '../../helpers/accessibility/test';
 import { Options } from '../../helpers/generateOptionMatrix';

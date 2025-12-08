@@ -12,7 +12,7 @@ import {
   DxChartModule, DxChartComponent, DxScrollViewModule,
 } from 'devextreme-angular';
 
-import dxChart from 'devextreme/viz/chart';
+import dxChart from '@ISalikhzyanov/devextreme/viz/chart';
 
 @Component({
   selector: 'test-container-component',

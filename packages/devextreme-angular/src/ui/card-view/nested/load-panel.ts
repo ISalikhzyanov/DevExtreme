@@ -16,10 +16,10 @@ import {
 
 
 
-import { AnimationConfig, PositionConfig } from 'devextreme/common/core/animation';
-import { event } from 'devextreme/events/events.types';
-import { LoadPanelIndicatorProperties, ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, OptionChangedEvent, ShowingEvent, ShownEvent } from 'devextreme/ui/load_panel';
-import { PositionAlignment } from 'devextreme/common';
+import { AnimationConfig, PositionConfig } from '@ISalikhzyanov/devextreme/common/core/animation';
+import { event } from '@ISalikhzyanov/devextreme/events/events.types';
+import { LoadPanelIndicatorProperties, ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, OptionChangedEvent, ShowingEvent, ShownEvent } from '@ISalikhzyanov/devextreme/ui/load_panel';
+import { PositionAlignment } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

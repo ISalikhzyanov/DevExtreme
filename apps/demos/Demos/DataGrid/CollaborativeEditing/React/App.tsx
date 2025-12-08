@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 import { HubConnectionBuilder, HttpTransportType } from '@aspnet/signalr';
 import * as AspNetData from 'devextreme-aspnet-data-nojquery';
-import Guid from 'devextreme/core/guid';
+import Guid from '@ISalikhzyanov/devextreme/core/guid';
 import Grid from './Grid.tsx';
 
 const BASE_PATH = 'https://js.devexpress.com/Demos/NetCore/';

@@ -6,8 +6,8 @@ import {
   makeStateKey,
 } from '@angular/core';
 import { isPlatformServer } from '@angular/common';
-import ajax from 'devextreme/core/utils/ajax';
-import { Deferred } from 'devextreme/core/utils/deferred';
+import ajax from '@ISalikhzyanov/devextreme/core/utils/ajax';
+import { Deferred } from '@ISalikhzyanov/devextreme/core/utils/deferred';
 
 @NgModule({})
 

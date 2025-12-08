@@ -14,7 +14,7 @@ import {
 
 
 
-import { ChartsColor } from 'devextreme/common/charts';
+import { ChartsColor } from '@ISalikhzyanov/devextreme/common/charts';
 
 import {
     DxIntegrationModule,

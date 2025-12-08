@@ -2,7 +2,7 @@ import React from 'react';
 import { HtmlEditor, Toolbar, Item, IHtmlEditorOptions, IItemProps } from 'devextreme-react/html-editor';
 import type { Meta, StoryObj } from '@storybook/react';
 import { defaultToolbarItems, fullToolbarItems } from './data';
-import { AIIntegration } from 'devextreme/artifacts/npm/devextreme/common/ai-integration';
+import { AIIntegration } from '@ISalikhzyanov/devextreme/artifacts/npm/devextreme/common/ai-integration';
 
 const meta: Meta<typeof HtmlEditor> = {
   title: 'Editors/HtmlEditor',

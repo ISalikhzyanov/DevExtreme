@@ -81,6 +81,6 @@ export {
   ICalendarOptions,
   CalendarRef
 };
-import type * as CalendarTypes from 'devextreme/ui/calendar_types';
+import type * as CalendarTypes from '@ISalikhzyanov/devextreme/ui/calendar_types';
 export { CalendarTypes };
 

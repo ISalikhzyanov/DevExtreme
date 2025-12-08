@@ -14,11 +14,11 @@ import {
 
 
 
-import dxSortable from 'devextreme/ui/sortable';
-import dxDraggable from 'devextreme/ui/draggable';
-import { DragDirection, DragHighlight } from 'devextreme/common';
-import { GridBase } from 'devextreme/common/grids';
-import { event } from 'devextreme/events/events.types';
+import dxSortable from '@ISalikhzyanov/devextreme/ui/sortable';
+import dxDraggable from '@ISalikhzyanov/devextreme/ui/draggable';
+import { DragDirection, DragHighlight } from '@ISalikhzyanov/devextreme/common';
+import { GridBase } from '@ISalikhzyanov/devextreme/common/grids';
+import { event } from '@ISalikhzyanov/devextreme/events/events.types';
 
 import {
     DxIntegrationModule,

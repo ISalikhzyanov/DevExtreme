@@ -14,7 +14,7 @@ import {
 
 
 
-import { DragHighlight } from 'devextreme/common';
+import { DragHighlight } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

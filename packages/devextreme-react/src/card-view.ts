@@ -3000,6 +3000,6 @@ export {
   ValidationRule,
   IValidationRuleProps
 };
-import type * as CardViewTypes from 'devextreme/ui/card_view_types';
+import type * as CardViewTypes from '@ISalikhzyanov/devextreme/ui/card_view_types';
 export { CardViewTypes };
 

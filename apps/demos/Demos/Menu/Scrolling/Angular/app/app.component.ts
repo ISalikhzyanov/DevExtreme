@@ -4,7 +4,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { DxCheckBoxModule } from 'devextreme-angular';
 import { DxMenuModule, type DxMenuTypes } from 'devextreme-angular/ui/menu';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 import { Service, type Product } from './app.service';
 

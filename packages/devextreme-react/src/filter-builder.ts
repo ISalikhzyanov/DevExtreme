@@ -273,6 +273,6 @@ export {
   Lookup,
   ILookupProps
 };
-import type * as FilterBuilderTypes from 'devextreme/ui/filter_builder_types';
+import type * as FilterBuilderTypes from '@ISalikhzyanov/devextreme/ui/filter_builder_types';
 export { FilterBuilderTypes };
 

@@ -71,7 +71,7 @@ import {
   DxTooltip,
   type DxVectorMapTypes,
 } from 'devextreme-vue/vector-map';
-import { type MapLayerElement } from 'devextreme/viz/vector_map';
+import { type MapLayerElement } from '@ISalikhzyanov/devextreme/viz/vector_map';
 import { populations, markers } from './data.ts';
 
 const colorGroups = [0, 0.5, 0.8, 1, 2, 3, 100];

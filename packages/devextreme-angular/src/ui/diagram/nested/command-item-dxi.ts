@@ -14,8 +14,8 @@ import {
 
 
 
-import { Command, CustomCommand } from 'devextreme/ui/diagram';
-import { ToolbarItemLocation } from 'devextreme/common';
+import { Command, CustomCommand } from '@ISalikhzyanov/devextreme/ui/diagram';
+import { ToolbarItemLocation } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

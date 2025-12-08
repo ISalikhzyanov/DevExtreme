@@ -73,7 +73,7 @@ export {
     ValidationStatus,
     VerticalAlignment,
     VerticalEdge,
-} from 'devextreme/common';
+} from '@ISalikhzyanov/devextreme/common';
 
 export * as AiIntegration from './ai-integration';
 export * as Charts from './charts';

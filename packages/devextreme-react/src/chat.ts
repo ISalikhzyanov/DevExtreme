@@ -420,6 +420,6 @@ export {
   User,
   IUserProps
 };
-import type * as ChatTypes from 'devextreme/ui/chat_types';
+import type * as ChatTypes from '@ISalikhzyanov/devextreme/ui/chat_types';
 export { ChatTypes };
 

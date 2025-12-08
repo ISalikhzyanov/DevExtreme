@@ -447,6 +447,6 @@ export {
   ToolbarItem,
   IToolbarItemProps
 };
-import type * as PopupTypes from 'devextreme/ui/popup_types';
+import type * as PopupTypes from '@ISalikhzyanov/devextreme/ui/popup_types';
 export { PopupTypes };
 

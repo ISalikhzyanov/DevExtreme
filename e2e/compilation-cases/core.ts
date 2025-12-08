@@ -9,7 +9,7 @@ import {
   toAssertion,
 } from './consts';
 
-import { AllPermutations } from 'devextreme/core';
+import { AllPermutations } from '@ISalikhzyanov/devextreme/core';
 
 {
   const expected0: AllPermutations<'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h'> = ANY as string;
@@ -27,7 +27,7 @@ import { AllPermutations } from 'devextreme/core';
   const expected32: Expected3 = ANY as AllPermutations<'a' | 'b' | 'c'>;
 }
 
-import { Permutations } from 'devextreme/core';
+import { Permutations } from '@ISalikhzyanov/devextreme/core';
 
 {
   const expected0: Permutations<'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h'> = ANY as string;
@@ -45,7 +45,7 @@ import { Permutations } from 'devextreme/core';
   const expected32: Expected3 = ANY as Permutations<'a' | 'b' | 'c'>;
 }
 
-import { Scalar } from 'devextreme/core';
+import { Scalar } from '@ISalikhzyanov/devextreme/core';
 
 {
   interface TestInterface { i: any }
@@ -76,7 +76,7 @@ import { Scalar } from 'devextreme/core';
   const nonScalar4: object extends Scalar ? true : false = false;
 }
 
-import { PropertyType } from 'devextreme/core';
+import { PropertyType } from '@ISalikhzyanov/devextreme/core';
 
 {
   type ComplexType = {

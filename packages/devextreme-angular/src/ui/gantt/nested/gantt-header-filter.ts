@@ -14,8 +14,8 @@ import {
 
 
 
-import { HeaderFilterSearchConfig } from 'devextreme/common/grids';
-import { dxGanttHeaderFilterTexts } from 'devextreme/ui/gantt';
+import { HeaderFilterSearchConfig } from '@ISalikhzyanov/devextreme/common/grids';
+import { dxGanttHeaderFilterTexts } from '@ISalikhzyanov/devextreme/ui/gantt';
 
 import {
     DxIntegrationModule,

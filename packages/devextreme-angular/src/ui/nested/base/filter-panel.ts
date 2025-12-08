@@ -5,7 +5,7 @@ import {
     Component,
 } from '@angular/core';
 
-import { FilterPanelTexts } from 'devextreme/common/grids';
+import { FilterPanelTexts } from '@ISalikhzyanov/devextreme/common/grids';
 
 @Component({
     template: ''

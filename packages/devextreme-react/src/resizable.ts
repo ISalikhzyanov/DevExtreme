@@ -72,6 +72,6 @@ export {
   IResizableOptions,
   ResizableRef
 };
-import type * as ResizableTypes from 'devextreme/ui/resizable_types';
+import type * as ResizableTypes from '@ISalikhzyanov/devextreme/ui/resizable_types';
 export { ResizableTypes };
 

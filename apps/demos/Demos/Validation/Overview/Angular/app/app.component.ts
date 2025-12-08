@@ -14,7 +14,7 @@ import {
   DxValidatorComponent,
   DxValidationSummaryModule,
 } from 'devextreme-angular';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { DxButtonTypes } from 'devextreme-angular/ui/button';
 import { DxTextBoxTypes } from 'devextreme-angular/ui/text-box';
 import { ValidationCallbackData } from 'devextreme-angular/common';

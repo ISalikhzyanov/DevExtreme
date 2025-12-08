@@ -18,11 +18,11 @@ import {
 import { DOCUMENT } from '@angular/common';
 
 
-import * as CommonTypes from 'devextreme/common';
-import { FormItemComponent, FormItemType, LabelLocation, FormPredefinedButtonItem, dxFormButtonItem, dxFormEmptyItem, dxFormGroupItem, dxFormSimpleItem, dxFormTabbedItem } from 'devextreme/ui/form';
-import { HorizontalAlignment, VerticalAlignment } from 'devextreme/common';
-import { dxTabPanelOptions } from 'devextreme/ui/tab_panel';
-import { dxButtonOptions } from 'devextreme/ui/button';
+import * as CommonTypes from '@ISalikhzyanov/devextreme/common';
+import { FormItemComponent, FormItemType, LabelLocation, FormPredefinedButtonItem, dxFormButtonItem, dxFormEmptyItem, dxFormGroupItem, dxFormSimpleItem, dxFormTabbedItem } from '@ISalikhzyanov/devextreme/ui/form';
+import { HorizontalAlignment, VerticalAlignment } from '@ISalikhzyanov/devextreme/common';
+import { dxTabPanelOptions } from '@ISalikhzyanov/devextreme/ui/tab_panel';
+import { dxButtonOptions } from '@ISalikhzyanov/devextreme/ui/button';
 
 import {
     DxIntegrationModule,

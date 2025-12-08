@@ -1,7 +1,7 @@
 import { ComponentPublicInstance, Slot } from 'vue';
 
-import domAdapter from 'devextreme/core/dom_adapter';
-import { one } from 'devextreme/events';
+import domAdapter from '@ISalikhzyanov/devextreme/core/dom_adapter';
+import { one } from '@ISalikhzyanov/devextreme/events';
 import {
   discover as discoverSlots,
   mountTemplate,

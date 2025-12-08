@@ -2,7 +2,7 @@ import React, { useCallback, useState } from 'react';
 
 import Menu, { type MenuTypes } from 'devextreme-react/menu';
 import CheckBox, { type CheckBoxTypes } from 'devextreme-react/check-box';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 import service from './data.ts';
 import type { ProductType } from './types';

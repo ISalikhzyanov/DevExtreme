@@ -7,8 +7,8 @@ import {
   FieldPanel,
 } from 'devextreme-react/pivot-grid';
 import { CheckBox } from 'devextreme-react/check-box';
-import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
-import XmlaStore from 'devextreme/ui/pivot_grid/xmla_store';
+import PivotGridDataSource from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
+import XmlaStore from '@ISalikhzyanov/devextreme/ui/pivot_grid/xmla_store';
 
 const dataSource = new PivotGridDataSource({
   fields: [

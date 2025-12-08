@@ -1,8 +1,8 @@
 import { Selector } from 'testcafe';
 import { createScreenshotsComparer } from 'devextreme-screenshot-comparer';
 import Toolbar from 'devextreme-testcafe-models/toolbar/toolbar';
-import { ToolbarItemComponent } from 'devextreme/common';
-import { Item, LocateInMenuMode } from 'devextreme/ui/toolbar';
+import { ToolbarItemComponent } from '@ISalikhzyanov/devextreme/common';
+import { Item, LocateInMenuMode } from '@ISalikhzyanov/devextreme/ui/toolbar';
 import { testScreenshot } from '../../../helpers/themeUtils';
 import url from '../../../helpers/getPageUrl';
 import { createWidget } from '../../../helpers/createWidget';

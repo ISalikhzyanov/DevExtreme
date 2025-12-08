@@ -16,7 +16,7 @@ import {
 
 
 
-import { dxFileManagerDetailsColumn } from 'devextreme/ui/file_manager';
+import { dxFileManagerDetailsColumn } from '@ISalikhzyanov/devextreme/ui/file_manager';
 
 import {
     DxIntegrationModule,

@@ -22,7 +22,7 @@ import DxPivotGrid, {
   DxFieldChooser,
   type DxPivotGridTypes,
 } from 'devextreme-vue/pivot-grid';
-import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+import PivotGridDataSource from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
 import { Workbook } from 'devextreme-exceljs-fork';
 // Our demo infrastructure requires us to use 'file-saver-es'.
 // We recommend that you use the official 'file-saver' package in your applications.

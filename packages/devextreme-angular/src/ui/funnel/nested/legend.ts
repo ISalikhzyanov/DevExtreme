@@ -14,9 +14,9 @@ import {
 
 
 
-import { DashStyle, Font } from 'devextreme/common/charts';
-import { dxFunnelItem, FunnelLegendItem } from 'devextreme/viz/funnel';
-import { HorizontalAlignment, Position, Orientation, VerticalEdge } from 'devextreme/common';
+import { DashStyle, Font } from '@ISalikhzyanov/devextreme/common/charts';
+import { dxFunnelItem, FunnelLegendItem } from '@ISalikhzyanov/devextreme/viz/funnel';
+import { HorizontalAlignment, Position, Orientation, VerticalEdge } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

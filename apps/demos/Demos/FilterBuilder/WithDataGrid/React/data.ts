@@ -1,4 +1,4 @@
-import { DataType } from 'devextreme/common';
+import { DataType } from '@ISalikhzyanov/devextreme/common';
 
 interface Product {
   Product_ID: number;

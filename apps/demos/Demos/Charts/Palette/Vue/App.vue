@@ -53,7 +53,7 @@ import DxPieChart, {
   type DxPieChartTypes,
 } from 'devextreme-vue/pie-chart';
 import DxSelectBox from 'devextreme-vue/select-box';
-import { getPalette } from 'devextreme/viz/palette';
+import { getPalette } from '@ISalikhzyanov/devextreme/viz/palette';
 import { paletteCollection, paletteExtensionModes, dataSource } from './data.ts';
 
 const palette = ref<DxPieChartTypes.Palette>(paletteCollection[0]);

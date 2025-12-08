@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 
-import { CutEvent } from 'devextreme/js/ui/color_box';
-import { EVENT_PROPERTIES } from 'devextreme/js/__internal/events/core/m_consts';
+import { CutEvent } from '@ISalikhzyanov/devextreme/js/ui/color_box';
+import { EVENT_PROPERTIES } from '@ISalikhzyanov/devextreme/js/__internal/events/core/m_consts';
 
 type NATIVE_EVENT_ARGS = KeyboardEvent
   & PointerEvent

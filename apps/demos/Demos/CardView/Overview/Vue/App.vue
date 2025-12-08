@@ -101,7 +101,7 @@ import DxCardView, {
   DxColumn, DxCardCover, DxSelection, DxPaging, DxSearchPanel, DxHeaderFilter,
 } from 'devextreme-vue/card-view';
 import DxButton from 'devextreme-vue/button';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { ref } from 'vue';
 import type { Employee } from './data.ts';
 import { employees } from './data.ts';

@@ -55,7 +55,7 @@
 import DxToolbar, { DxItem } from 'devextreme-vue/toolbar';
 import DxList from 'devextreme-vue/list';
 import { DataSource } from 'devextreme-vue/common/data';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import 'devextreme/ui/select_box';
 import { productTypes, products } from './data.ts';
 

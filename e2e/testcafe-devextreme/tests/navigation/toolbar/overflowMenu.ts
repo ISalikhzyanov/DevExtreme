@@ -1,8 +1,8 @@
 import { ClientFunction } from 'testcafe';
 import { createScreenshotsComparer } from 'devextreme-screenshot-comparer';
 import Toolbar from 'devextreme-testcafe-models/toolbar/toolbar';
-import { Item } from 'devextreme/ui/toolbar';
-import { Item as ButtonGroupItem } from 'devextreme/ui/button_group';
+import { Item } from '@ISalikhzyanov/devextreme/ui/toolbar';
+import { Item as ButtonGroupItem } from '@ISalikhzyanov/devextreme/ui/button_group';
 import { testScreenshot } from '../../../helpers/themeUtils';
 import url from '../../../helpers/getPageUrl';
 import { createWidget } from '../../../helpers/createWidget';

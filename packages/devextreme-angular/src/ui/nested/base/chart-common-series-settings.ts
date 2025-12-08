@@ -5,12 +5,12 @@ import {
     Component,
 } from '@angular/core';
 
-import { HorizontalAlignment } from 'devextreme/common';
-import { ChartsColor, ChartsDataType, DashStyle, Font, HatchDirection, LabelPosition, PointInteractionMode, PointSymbol, RelativePosition, SeriesHoverMode, SeriesSelectionMode, SeriesType, TextOverflow, ValueErrorBarDisplayMode, ValueErrorBarType, WordWrap } from 'devextreme/common/charts';
-import { Format } from 'devextreme/common/core/localization';
-import { ChartSeriesAggregationMethod, FinancialChartReductionLevel } from 'devextreme/viz/chart';
-import { PieChartSeriesInteractionMode, SmallValuesGroupingMode } from 'devextreme/viz/pie_chart';
-import { PolarChartSeriesType } from 'devextreme/viz/polar_chart';
+import { HorizontalAlignment } from '@ISalikhzyanov/devextreme/common';
+import { ChartsColor, ChartsDataType, DashStyle, Font, HatchDirection, LabelPosition, PointInteractionMode, PointSymbol, RelativePosition, SeriesHoverMode, SeriesSelectionMode, SeriesType, TextOverflow, ValueErrorBarDisplayMode, ValueErrorBarType, WordWrap } from '@ISalikhzyanov/devextreme/common/charts';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
+import { ChartSeriesAggregationMethod, FinancialChartReductionLevel } from '@ISalikhzyanov/devextreme/viz/chart';
+import { PieChartSeriesInteractionMode, SmallValuesGroupingMode } from '@ISalikhzyanov/devextreme/viz/pie_chart';
+import { PolarChartSeriesType } from '@ISalikhzyanov/devextreme/viz/polar_chart';
 
 @Component({
     template: ''

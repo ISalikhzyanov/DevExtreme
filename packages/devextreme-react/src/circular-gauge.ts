@@ -854,6 +854,6 @@ export {
   ValueIndicator,
   IValueIndicatorProps
 };
-import type * as CircularGaugeTypes from 'devextreme/viz/circular_gauge_types';
+import type * as CircularGaugeTypes from '@ISalikhzyanov/devextreme/viz/circular_gauge_types';
 export { CircularGaugeTypes };
 

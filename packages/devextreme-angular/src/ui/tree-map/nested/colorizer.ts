@@ -14,8 +14,8 @@ import {
 
 
 
-import { Palette, PaletteExtensionMode } from 'devextreme/common/charts';
-import { TreeMapColorizerType } from 'devextreme/viz/tree_map';
+import { Palette, PaletteExtensionMode } from '@ISalikhzyanov/devextreme/common/charts';
+import { TreeMapColorizerType } from '@ISalikhzyanov/devextreme/viz/tree_map';
 
 import {
     DxIntegrationModule,

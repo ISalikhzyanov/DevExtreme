@@ -4,7 +4,7 @@ import {
   type RequestParams,
   type Response,
 } from 'devextreme-vue/common/ai-integration';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 type AIMessage = (OpenAI.ChatCompletionUserMessageParam | OpenAI.ChatCompletionSystemMessageParam) & {
   content: string;

@@ -1,4 +1,4 @@
-import { Properties } from 'devextreme/ui/toolbar.d';
+import { Properties } from '@ISalikhzyanov/devextreme/ui/toolbar.d';
 import Toolbar from 'devextreme-testcafe-models/toolbar/toolbar';
 import url from '../../helpers/getPageUrl';
 import { defaultSelector, testAccessibility, Configuration } from '../../helpers/accessibility/test';

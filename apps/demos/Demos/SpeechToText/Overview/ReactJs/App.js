@@ -4,7 +4,7 @@ import { TextArea } from 'devextreme-react/text-area';
 import { Button } from 'devextreme-react/button';
 import { SelectBox } from 'devextreme-react/select-box';
 import { Switch } from 'devextreme-react/switch';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import {
   displayModes, stylingModes, types, languages, langMap,
 } from './data.js';

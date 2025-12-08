@@ -22,11 +22,11 @@ import {
 } from '@angular/core';
 
 
-import FileSystemItem from 'devextreme/file_management/file_system_item';
-import { dxFileManagerContextMenu, dxFileManagerDetailsColumn, FileManagerItemViewMode, ContentReadyEvent, ContextMenuItemClickEvent, ContextMenuShowingEvent, CurrentDirectoryChangedEvent, DirectoryCreatedEvent, DirectoryCreatingEvent, DisposingEvent, ErrorOccurredEvent, FileUploadedEvent, FileUploadingEvent, FocusedItemChangedEvent, InitializedEvent, ItemCopiedEvent, ItemCopyingEvent, ItemDeletedEvent, ItemDeletingEvent, ItemDownloadingEvent, ItemMovedEvent, ItemMovingEvent, ItemRenamedEvent, ItemRenamingEvent, OptionChangedEvent, SelectedFileOpenedEvent, SelectionChangedEvent, ToolbarItemClickEvent, dxFileManagerToolbar } from 'devextreme/ui/file_manager';
-import { SingleOrMultiple } from 'devextreme/common';
+import FileSystemItem from '@ISalikhzyanov/devextreme/file_management/file_system_item';
+import { dxFileManagerContextMenu, dxFileManagerDetailsColumn, FileManagerItemViewMode, ContentReadyEvent, ContextMenuItemClickEvent, ContextMenuShowingEvent, CurrentDirectoryChangedEvent, DirectoryCreatedEvent, DirectoryCreatingEvent, DisposingEvent, ErrorOccurredEvent, FileUploadedEvent, FileUploadingEvent, FocusedItemChangedEvent, InitializedEvent, ItemCopiedEvent, ItemCopyingEvent, ItemDeletedEvent, ItemDeletingEvent, ItemDownloadingEvent, ItemMovedEvent, ItemMovingEvent, ItemRenamedEvent, ItemRenamingEvent, OptionChangedEvent, SelectedFileOpenedEvent, SelectionChangedEvent, ToolbarItemClickEvent, dxFileManagerToolbar } from '@ISalikhzyanov/devextreme/ui/file_manager';
+import { SingleOrMultiple } from '@ISalikhzyanov/devextreme/common';
 
-import DxFileManager from 'devextreme/ui/file_manager';
+import DxFileManager from '@ISalikhzyanov/devextreme/ui/file_manager';
 
 
 import {

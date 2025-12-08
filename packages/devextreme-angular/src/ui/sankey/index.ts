@@ -20,15 +20,15 @@ import {
 } from '@angular/core';
 
 
-import DataSource from 'devextreme/data/data_source';
-import { VerticalAlignment, ExportFormat, HorizontalAlignment, VerticalEdge } from 'devextreme/common';
-import { DataSourceOptions } from 'devextreme/data/data_source';
-import { Store } from 'devextreme/data/store';
-import { dxSankeyNode, SankeyColorMode, DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, LinkClickEvent, LinkHoverEvent, NodeClickEvent, NodeHoverEvent, OptionChangedEvent } from 'devextreme/viz/sankey';
-import { Font, TextOverflow, HatchDirection, Palette, PaletteExtensionMode, Theme, WordWrap, DashStyle } from 'devextreme/common/charts';
-import { Format } from 'devextreme/common/core/localization';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
+import { VerticalAlignment, ExportFormat, HorizontalAlignment, VerticalEdge } from '@ISalikhzyanov/devextreme/common';
+import { DataSourceOptions } from '@ISalikhzyanov/devextreme/data/data_source';
+import { Store } from '@ISalikhzyanov/devextreme/data/store';
+import { dxSankeyNode, SankeyColorMode, DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, LinkClickEvent, LinkHoverEvent, NodeClickEvent, NodeHoverEvent, OptionChangedEvent } from '@ISalikhzyanov/devextreme/viz/sankey';
+import { Font, TextOverflow, HatchDirection, Palette, PaletteExtensionMode, Theme, WordWrap, DashStyle } from '@ISalikhzyanov/devextreme/common/charts';
+import { Format } from '@ISalikhzyanov/devextreme/common/core/localization';
 
-import DxSankey from 'devextreme/viz/sankey';
+import DxSankey from '@ISalikhzyanov/devextreme/viz/sankey';
 
 
 import {

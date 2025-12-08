@@ -14,8 +14,8 @@ import {
 
 
 
-import { AnimationConfig, AnimationState, AnimationType } from 'devextreme/common/core/animation';
-import { Direction } from 'devextreme/common';
+import { AnimationConfig, AnimationState, AnimationType } from '@ISalikhzyanov/devextreme/common/core/animation';
+import { Direction } from '@ISalikhzyanov/devextreme/common';
 
 import {
     DxIntegrationModule,

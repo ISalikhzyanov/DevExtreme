@@ -5,8 +5,8 @@ import {
     Component,
 } from '@angular/core';
 
-import { Mode } from 'devextreme/common';
-import { ButtonItem, ContentReadyEvent, DisposingEvent, EditorEnterKeyEvent, EmptyItem, FieldDataChangedEvent, FormLabelMode, GroupItem, InitializedEvent, LabelLocation, OptionChangedEvent, SimpleItem, TabbedItem } from 'devextreme/ui/form';
+import { Mode } from '@ISalikhzyanov/devextreme/common';
+import { ButtonItem, ContentReadyEvent, DisposingEvent, EditorEnterKeyEvent, EmptyItem, FieldDataChangedEvent, FormLabelMode, GroupItem, InitializedEvent, LabelLocation, OptionChangedEvent, SimpleItem, TabbedItem } from '@ISalikhzyanov/devextreme/ui/form';
 
 @Component({
     template: ''

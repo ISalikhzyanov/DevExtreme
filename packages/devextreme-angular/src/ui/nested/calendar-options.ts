@@ -16,7 +16,7 @@ import {
 
 
 
-import { CalendarZoomLevel } from 'devextreme/ui/calendar';
+import { CalendarZoomLevel } from '@ISalikhzyanov/devextreme/ui/calendar';
 
 import {
     DxIntegrationModule,

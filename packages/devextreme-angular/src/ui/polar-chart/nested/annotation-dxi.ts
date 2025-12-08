@@ -16,8 +16,8 @@ import {
 import { DOCUMENT } from '@angular/common';
 
 
-import { DashStyle, Font, TextOverflow, AnnotationType, WordWrap } from 'devextreme/common/charts';
-import { dxPolarChartAnnotationConfig } from 'devextreme/viz/polar_chart';
+import { DashStyle, Font, TextOverflow, AnnotationType, WordWrap } from '@ISalikhzyanov/devextreme/common/charts';
+import { dxPolarChartAnnotationConfig } from '@ISalikhzyanov/devextreme/viz/polar_chart';
 
 import {
     DxIntegrationModule,

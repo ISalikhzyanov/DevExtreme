@@ -1,6 +1,6 @@
 import { Selector } from 'testcafe';
 import { createScreenshotsComparer } from 'devextreme-screenshot-comparer';
-import { Item, ButtonType } from 'devextreme/ui/button_group.d';
+import { Item, ButtonType } from '@ISalikhzyanov/devextreme/ui/button_group.d';
 import {
   setStyleAttribute,
   appendElementTo,

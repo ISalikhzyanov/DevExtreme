@@ -81,8 +81,8 @@ import DxButton from 'devextreme-vue/button';
 import DxRadioGroup, { type DxRadioGroupTypes } from 'devextreme-vue/radio-group';
 import DxSelectBox from 'devextreme-vue/select-box';
 import DxNumberBox from 'devextreme-vue/number-box';
-import notify from 'devextreme/ui/notify';
-import hideToasts from 'devextreme/ui/toast/hide_toasts';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
+import hideToasts from '@ISalikhzyanov/devextreme/ui/toast/hide_toasts';
 
 const types = ['error', 'info', 'success', 'warning'];
 const positions = [

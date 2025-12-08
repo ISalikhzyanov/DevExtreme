@@ -18,7 +18,7 @@
 </template>
 <script setup lang="ts">
 import { DxContextMenu, type DxContextMenuTypes } from 'devextreme-vue/context-menu';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import { contextMenuItems as items } from './data.ts';
 import type { ContextMenuItem } from './types';
 

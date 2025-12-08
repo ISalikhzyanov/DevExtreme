@@ -1,6 +1,6 @@
 import { AzureOpenAI, OpenAI } from 'openai';
 import { Injectable } from '@angular/core';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import {
   AIIntegration,
   type RequestParams,

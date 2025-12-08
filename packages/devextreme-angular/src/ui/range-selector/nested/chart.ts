@@ -16,10 +16,10 @@ import {
 
 
 
-import { dxChartCommonSeriesSettings } from 'devextreme/viz/chart';
-import { Palette, PaletteExtensionMode, ChartsDataType } from 'devextreme/common/charts';
-import { ChartSeries } from 'devextreme/viz/common';
-import { ChartAxisScale } from 'devextreme/viz/range_selector';
+import { dxChartCommonSeriesSettings } from '@ISalikhzyanov/devextreme/viz/chart';
+import { Palette, PaletteExtensionMode, ChartsDataType } from '@ISalikhzyanov/devextreme/common/charts';
+import { ChartSeries } from '@ISalikhzyanov/devextreme/viz/common';
+import { ChartAxisScale } from '@ISalikhzyanov/devextreme/viz/range_selector';
 
 import {
     DxIntegrationModule,

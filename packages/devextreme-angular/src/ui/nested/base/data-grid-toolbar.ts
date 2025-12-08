@@ -5,12 +5,12 @@ import {
     Component,
 } from '@angular/core';
 
-import { UserDefinedElement } from 'devextreme/core/element';
-import { DataGridPredefinedToolbarItem, dxDataGridToolbarItem } from 'devextreme/ui/data_grid';
-import { dxFileManagerToolbarItem, FileManagerPredefinedToolbarItem } from 'devextreme/ui/file_manager';
-import { dxGanttToolbarItem, GanttPredefinedToolbarItem } from 'devextreme/ui/gantt';
-import { AIToolbarItem, dxHtmlEditorToolbarItem, HtmlEditorPredefinedToolbarItem } from 'devextreme/ui/html_editor';
-import { dxTreeListToolbarItem, TreeListPredefinedToolbarItem } from 'devextreme/ui/tree_list';
+import { UserDefinedElement } from '@ISalikhzyanov/devextreme/core/element';
+import { DataGridPredefinedToolbarItem, dxDataGridToolbarItem } from '@ISalikhzyanov/devextreme/ui/data_grid';
+import { dxFileManagerToolbarItem, FileManagerPredefinedToolbarItem } from '@ISalikhzyanov/devextreme/ui/file_manager';
+import { dxGanttToolbarItem, GanttPredefinedToolbarItem } from '@ISalikhzyanov/devextreme/ui/gantt';
+import { AIToolbarItem, dxHtmlEditorToolbarItem, HtmlEditorPredefinedToolbarItem } from '@ISalikhzyanov/devextreme/ui/html_editor';
+import { dxTreeListToolbarItem, TreeListPredefinedToolbarItem } from '@ISalikhzyanov/devextreme/ui/tree_list';
 
 @Component({
     template: ''

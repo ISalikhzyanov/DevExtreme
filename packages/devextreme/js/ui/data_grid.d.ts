@@ -2528,7 +2528,7 @@ export type ExplicitTypes<TRowData, TKey> = {
   ToolbarPreparingEvent: ToolbarPreparingEvent<TRowData, TKey>;
 };
 
-/** @deprecated RowDraggingTemplateData from 'devextreme/common/grids' instead */
+/** @deprecated RowDraggingTemplateData from '@ISalikhzyanov/devextreme/common/grids' instead */
 export type RowDraggingTemplateDataModel = RowDraggingTemplateData;
 
 /** @public */

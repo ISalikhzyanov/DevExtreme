@@ -203,6 +203,6 @@ export {
   Texts,
   ITextsProps
 };
-import type * as PivotGridFieldChooserTypes from 'devextreme/ui/pivot_grid_field_chooser_types';
+import type * as PivotGridFieldChooserTypes from '@ISalikhzyanov/devextreme/ui/pivot_grid_field_chooser_types';
 export { PivotGridFieldChooserTypes };
 

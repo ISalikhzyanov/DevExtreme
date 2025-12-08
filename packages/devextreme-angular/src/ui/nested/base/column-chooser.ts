@@ -5,10 +5,10 @@ import {
     Component,
 } from '@angular/core';
 
-import { SortOrder } from 'devextreme/common';
-import { PositionConfig } from 'devextreme/common/core/animation';
-import { ColumnChooserMode, ColumnChooserSearchConfig, ColumnChooserSelectionConfig } from 'devextreme/common/grids';
-import { UserDefinedElement } from 'devextreme/core/element';
+import { SortOrder } from '@ISalikhzyanov/devextreme/common';
+import { PositionConfig } from '@ISalikhzyanov/devextreme/common/core/animation';
+import { ColumnChooserMode, ColumnChooserSearchConfig, ColumnChooserSelectionConfig } from '@ISalikhzyanov/devextreme/common/grids';
+import { UserDefinedElement } from '@ISalikhzyanov/devextreme/core/element';
 
 @Component({
     template: ''

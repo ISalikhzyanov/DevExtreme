@@ -34,8 +34,8 @@ import DxPivotGrid, {
   DxSearch,
   DxScrolling,
 } from 'devextreme-vue/pivot-grid';
-import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
-import XmlaStore from 'devextreme/ui/pivot_grid/xmla_store';
+import PivotGridDataSource from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
+import XmlaStore from '@ISalikhzyanov/devextreme/ui/pivot_grid/xmla_store';
 
 const dataSource = new PivotGridDataSource({
   paginate: true,

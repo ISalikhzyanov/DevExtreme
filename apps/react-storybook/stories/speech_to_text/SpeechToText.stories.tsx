@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
-import dxSpeechToText from 'devextreme/ui/speech_to_text';
+import dxSpeechToText from '@ISalikhzyanov/devextreme/ui/speech_to_text';
 import { wrapDxWithReact } from '../utils';
 
 

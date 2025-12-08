@@ -6,7 +6,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { NgForm } from '@angular/forms';
 
 import { DxTextBoxModule, DxFileUploaderModule, DxButtonModule } from 'devextreme-angular';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 
 if (!/localhost/.test(document.location.host)) {
   enableProdMode();

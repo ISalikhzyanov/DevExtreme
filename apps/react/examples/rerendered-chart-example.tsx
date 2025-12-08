@@ -1,5 +1,5 @@
 import * as React from 'react';
-import DataSource from 'devextreme/data/data_source';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
 
 import {
   Chart,

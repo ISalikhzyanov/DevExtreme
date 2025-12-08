@@ -68,6 +68,6 @@ export {
   ISwitchOptions,
   SwitchRef
 };
-import type * as SwitchTypes from 'devextreme/ui/switch_types';
+import type * as SwitchTypes from '@ISalikhzyanov/devextreme/ui/switch_types';
 export { SwitchTypes };
 

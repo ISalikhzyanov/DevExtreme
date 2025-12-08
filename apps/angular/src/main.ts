@@ -4,7 +4,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
-import config from 'devextreme/core/config';
+import config from '@ISalikhzyanov/devextreme/core/config';
 config({ defaultCurrency: 'EUR' });
 
 if (environment.production) {

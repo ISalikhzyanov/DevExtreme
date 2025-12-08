@@ -44,4 +44,4 @@ export {
     VisualRangeUpdateMode,
     WordWrap,
     ZoomPanAction,
-} from 'devextreme/common/charts';
+} from '@ISalikhzyanov/devextreme/common/charts';

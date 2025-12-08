@@ -1,7 +1,7 @@
 /* eslint-disable no-alert */
 /* eslint-disable max-len */
 import * as React from 'react';
-import { ValueChangedEvent } from 'devextreme/ui/text_box';
+import { ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/text_box';
 import { Button } from 'devextreme-react/button';
 import { ScrollView } from 'devextreme-react/scroll-view';
 import { TextBox } from 'devextreme-react/text-box';

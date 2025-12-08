@@ -1,6 +1,6 @@
 import React from 'react';
 import PivotGrid, { FieldChooser, Scrolling } from 'devextreme-react/pivot-grid';
-import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+import PivotGridDataSource from '@ISalikhzyanov/devextreme/ui/pivot_grid/data_source';
 import { sales } from './data.js';
 
 const App = () => (

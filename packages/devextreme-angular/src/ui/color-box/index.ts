@@ -24,12 +24,12 @@ import {
 } from '@angular/core';
 
 
-import { ApplyValueMode, TextEditorButton, LabelMode, EditorStyle, ValidationMessageMode, Mode, Position, ValidationStatus } from 'devextreme/common';
-import { DropDownPredefinedButton, FieldAddons } from 'devextreme/ui/drop_down_editor/ui.drop_down_editor';
-import { dxPopupOptions } from 'devextreme/ui/popup';
-import { ChangeEvent, ClosedEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, OpenedEvent, OptionChangedEvent, PasteEvent, ValueChangedEvent } from 'devextreme/ui/color_box';
+import { ApplyValueMode, TextEditorButton, LabelMode, EditorStyle, ValidationMessageMode, Mode, Position, ValidationStatus } from '@ISalikhzyanov/devextreme/common';
+import { DropDownPredefinedButton, FieldAddons } from '@ISalikhzyanov/devextreme/ui/drop_down_editor/ui.drop_down_editor';
+import { dxPopupOptions } from '@ISalikhzyanov/devextreme/ui/popup';
+import { ChangeEvent, ClosedEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, OpenedEvent, OptionChangedEvent, PasteEvent, ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/color_box';
 
-import DxColorBox from 'devextreme/ui/color_box';
+import DxColorBox from '@ISalikhzyanov/devextreme/ui/color_box';
 
 import {
     ControlValueAccessor,

@@ -130,6 +130,6 @@ export {
   Item,
   IItemProps
 };
-import type * as BoxTypes from 'devextreme/ui/box_types';
+import type * as BoxTypes from '@ISalikhzyanov/devextreme/ui/box_types';
 export { BoxTypes };
 

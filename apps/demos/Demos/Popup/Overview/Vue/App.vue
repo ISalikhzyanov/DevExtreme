@@ -70,7 +70,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import { DxPopup, DxPosition, DxToolbarItem } from 'devextreme-vue/popup';
-import notify from 'devextreme/ui/notify';
+import notify from '@ISalikhzyanov/devextreme/ui/notify';
 import EmployeeItem from './EmployeeItem.vue';
 import { employees } from './data.ts';
 

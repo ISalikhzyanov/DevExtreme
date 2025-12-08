@@ -132,6 +132,6 @@ export {
   Item,
   IItemProps
 };
-import type * as MultiViewTypes from 'devextreme/ui/multi_view_types';
+import type * as MultiViewTypes from '@ISalikhzyanov/devextreme/ui/multi_view_types';
 export { MultiViewTypes };
 

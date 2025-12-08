@@ -1,4 +1,4 @@
-import { Item, Properties } from 'devextreme/ui/context_menu.d';
+import { Item, Properties } from '@ISalikhzyanov/devextreme/ui/context_menu.d';
 import ContextMenu from 'devextreme-testcafe-models/contextMenu';
 import url from '../../helpers/getPageUrl';
 import { defaultSelector, testAccessibility, Configuration } from '../../helpers/accessibility/test';

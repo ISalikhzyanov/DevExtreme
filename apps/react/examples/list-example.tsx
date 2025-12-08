@@ -1,7 +1,7 @@
 /* eslint-disable max-classes-per-file */
 import * as React from 'react';
-import { ValueChangedEvent } from 'devextreme/ui/text_box';
-import DataSource from 'devextreme/data/data_source';
+import { ValueChangedEvent } from '@ISalikhzyanov/devextreme/ui/text_box';
+import DataSource from '@ISalikhzyanov/devextreme/data/data_source';
 import { Button } from 'devextreme-react/button';
 import { List, Item as ListItem, IItemProps } from 'devextreme-react/list';
 import { TextBox } from 'devextreme-react/text-box';
