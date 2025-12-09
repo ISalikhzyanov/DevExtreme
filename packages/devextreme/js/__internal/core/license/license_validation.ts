@@ -1,24 +1,9 @@
-import config from '@js/core/config';
-import errors from '@js/core/errors';
-import { fullVersion } from '@js/core/version';
-
-import type { Version } from '../../utils/version';
-import {
-  assertedVersionsCompatible,
-  getPreviousMajorVersion,
-  parseVersion,
-} from '../../utils/version';
 import { base64ToBytes } from './byte_utils';
-import { INTERNAL_USAGE_ID, PUBLIC_KEY } from './key';
+import { PUBLIC_KEY } from './key';
 import { pad } from './pkcs1';
 import { compareSignatures } from './rsa_bigint';
 import { sha1 } from './sha1';
-import { showTrialPanel } from './trial_panel';
-import type {
-  License,
-  LicenseCheckParams,
-  Token,
-} from './types';
+import type { License, Token } from './types';
 import { TokenKind } from './types';
 
 interface Payload extends Partial<License> {
@@ -27,14 +12,13 @@ interface Payload extends Partial<License> {
 }
 
 const FORMAT = 1;
-const RTM_MIN_PATCH_VERSION = 3;
+// const RTM_MIN_PATCH_VERSION = 3;
 const KEY_SPLITTER = '.';
 
-const BUY_NOW_LINK = 'https://go.devexpress.com/Licensing_Installer_Watermark_DevExtremeJQuery.aspx';
-const LICENSING_DOC_LINK = 'https://go.devexpress.com/Licensing_Documentation_DevExtremeJQuery.aspx';
+// const BUY_NOW_LINK = 'https://go.devexpress.com/Licensing_Installer_Watermark_DevExtremeJQuery.aspx';
+// const LICENSING_DOC_LINK = 'https://go.devexpress.com/Licensing_Documentation_DevExtremeJQuery.aspx';
 
-const NBSP = '\u00A0';
-const SUBSCRIPTION_NAMES = `Universal, DXperience, ASP.NET${NBSP}and${NBSP}Blazor, DevExtreme${NBSP}Complete`;
+// const NBSP = '\u00A0';
 
 const GENERAL_ERROR: Token = { kind: TokenKind.corrupted, error: 'general' };
 const VERIFICATION_ERROR: Token = { kind: TokenKind.corrupted, error: 'verification' };
@@ -115,95 +99,96 @@ export function parseLicenseKey(encodedKey: string | undefined): Token {
   };
 }
 
-function isPreview(patch: number): boolean {
-  return isNaN(patch) || patch < RTM_MIN_PATCH_VERSION;
-}
+// function isPreview(patch: number): boolean {
+//   return isNaN(patch) || patch < RTM_MIN_PATCH_VERSION;
+// }
+//
+// function isDevExpressLicenseKey(licenseKey: string): boolean {
+//   return licenseKey.startsWith('LCX') || licenseKey.startsWith('LCP');
+// }
 
-function isDevExpressLicenseKey(licenseKey: string): boolean {
-  return licenseKey.startsWith('LCX') || licenseKey.startsWith('LCP');
-}
+// function getLicenseCheckParams({
+//   licenseKey,
+//   version,
+// }: {
+//   licenseKey: string | undefined;
+//   version: Version;
+// }): LicenseCheckParams {
+//   let preview = false;
+//
+//   try {
+//     preview = isPreview(version.patch);
+//
+//     const { major, minor } = preview ? getPreviousMajorVersion(version) : version;
+//
+//     if (!licenseKey) {
+//       return { preview, error: 'W0019' };
+//     }
+//
+//     if (isDevExpressLicenseKey(licenseKey)) {
+//       return { preview, error: 'W0024' };
+//     }
+//
+//     const license = parseLicenseKey(licenseKey);
+//
+//     if (license.kind === TokenKind.corrupted) {
+//       return { preview, error: 'W0021' };
+//     }
+//
+//     if (license.kind === TokenKind.internal) {
+//       return { preview, internal: true, error: license.internalUsageId
+//       === INTERNAL_USAGE_ID ? undefined : 'W0020' };
+//     }
+//
+//     if (!(major && minor)) {
+//       return { preview, error: 'W0021' };
+//     }
+//
+//     if (major * 10 + minor > license.payload.maxVersionAllowed) {
+//       return { preview, error: 'W0020' };
+//     }
+//
+//     return { preview, error: undefined };
+//   } catch {
+//     return { preview, error: 'W0021' };
+//   }
+// }
 
-function getLicenseCheckParams({
-  licenseKey,
-  version,
-}: {
-  licenseKey: string | undefined;
-  version: Version;
-}): LicenseCheckParams {
-  let preview = false;
-
-  try {
-    preview = isPreview(version.patch);
-
-    const { major, minor } = preview ? getPreviousMajorVersion(version) : version;
-
-    if (!licenseKey) {
-      return { preview, error: 'W0019' };
-    }
-
-    if (isDevExpressLicenseKey(licenseKey)) {
-      return { preview, error: 'W0024' };
-    }
-
-    const license = parseLicenseKey(licenseKey);
-
-    if (license.kind === TokenKind.corrupted) {
-      return { preview, error: 'W0021' };
-    }
-
-    if (license.kind === TokenKind.internal) {
-      return { preview, internal: true, error: license.internalUsageId === INTERNAL_USAGE_ID ? undefined : 'W0020' };
-    }
-
-    if (!(major && minor)) {
-      return { preview, error: 'W0021' };
-    }
-
-    if (major * 10 + minor > license.payload.maxVersionAllowed) {
-      return { preview, error: 'W0020' };
-    }
-
-    return { preview, error: undefined };
-  } catch {
-    return { preview, error: 'W0021' };
-  }
-}
-
-export function validateLicense(licenseKey: string, versionStr: string = fullVersion): void {
-  if (validationPerformed) {
-    return;
-  }
-  validationPerformed = true;
-
-  const version = parseVersion(versionStr);
-
-  const versionsCompatible = assertedVersionsCompatible(version);
-
-  const { internal, error } = getLicenseCheckParams({
-    licenseKey,
-    version,
-  });
-
-  if (!versionsCompatible && internal) {
-    return;
-  }
-
-  if (error && !internal) {
-    const buyNowLink = config().buyNowLink ?? BUY_NOW_LINK;
-    const licensingDocLink = config().licensingDocLink ?? LICENSING_DOC_LINK;
-    showTrialPanel(buyNowLink, licensingDocLink, fullVersion, SUBSCRIPTION_NAMES);
-  }
-
-  const preview = isPreview(version.patch);
-
-  if (error) {
-    errors.log(preview ? 'W0022' : error);
-    return;
-  }
-
-  if (preview && !internal) {
-    errors.log('W0022');
-  }
+export function validateLicense(): void {
+  // if (validationPerformed) {
+  //   return;
+  // }
+  // validationPerformed = true;
+  //
+  // const version = parseVersion(versionStr);
+  //
+  // const versionsCompatible = assertedVersionsCompatible(version);
+  //
+  // const { internal, error } = getLicenseCheckParams({
+  //   licenseKey,
+  //   version,
+  // });
+  //
+  // if (!versionsCompatible && internal) {
+  //   return;
+  // }
+  //
+  // if (error && !internal) {
+  //   const buyNowLink = config().buyNowLink ?? BUY_NOW_LINK;
+  //   const licensingDocLink = config().licensingDocLink ?? LICENSING_DOC_LINK;
+  //   showTrialPanel(buyNowLink, licensingDocLink, fullVersion, SUBSCRIPTION_NAMES);
+  // }
+  //
+  // const preview = isPreview(version.patch);
+  //
+  // if (error) {
+  //   errors.log(preview ? 'W0022' : error);
+  //   return;
+  // }
+  //
+  // if (preview && !internal) {
+  //   errors.log('W0022');
+  // }
 }
 
 export function peekValidationPerformed(): boolean {
