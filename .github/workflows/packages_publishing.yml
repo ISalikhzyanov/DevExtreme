@@ -1,42 +1,38 @@
 name: Publishing to GitHub Packages
 
-permissions:
-  contents: read
-  packages: write
 on:
   workflow_dispatch:
     inputs:
       tag:
-        description: "Choose a tag: 'daily' when publishing a daily build with a timestamp version, 'stable' when publishing a stable build from a release branch"
+        description: "Build type: 'daily' for timestamped alpha builds, 'release' for clean stable versions"
         type: choice
         options:
           - daily
-          - stable
+          - release
         default: 'daily'
         required: false
       filter:
         type: string
-        description: Package file filter pattern
+        description: Package file filter pattern (e.g. 'devextreme-react')
         required: false
 
 env:
   NX_SKIP_NX_CACHE: true
-  FILTER: ${{ github.event_name == 'workflow_dispatch' && inputs.filter || '' }}
-  SET_TIMESTAMP_VERSION:  ${{ inputs.tag == 'daily' }}
-  MOVE_DAILY_TAG: ${{ inputs.tag == 'daily' }}
-  MOVE_STABLE_TAG: ${{ inputs.tag == 'stable' }}
 
 jobs:
   build:
     name: Build packages
     runs-on: windows-latest
+    env:
+      FILTER: ${{ github.event.inputs.filter || '' }}
+      SET_TIMESTAMP_VERSION: ${{ github.event.inputs.tag == 'daily' }}
     outputs:
       packages: ${{ steps.filter.outputs.packages }}
     steps:
       - name: Get sources
         uses: actions/checkout@v4
 
-      - name: Set up nodejs
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
@@ -63,7 +59,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Set timestamp version
+      - name: Set timestamp version (for daily builds)
         if: ${{ env.SET_TIMESTAMP_VERSION == 'true' }}
         run: pnpx ts-node tools/scripts/set-timestamp-version
 
@@ -85,12 +81,20 @@ jobs:
         id: filter
         working-directory: artifacts/npm
         shell: bash
-        run: ls *.tgz | grep -E -i "$FILTER" | sed -r 's/^(.*).tgz$/"\1"/g' | paste -sd "," - | sed -r 's/(.*)/packages=[\1]/' >> "$GITHUB_OUTPUT"
+        run: |
+          if [ -n "$FILTER" ]; then
+            PKGS=$(ls *.tgz | grep -E -i "$FILTER" | sed -r 's/^(.*).tgz$/"\1"/g' | paste -sd "," -)
+          else
+            PKGS=$(ls *.tgz | sed -r 's/^(.*).tgz$/"\1"/g' | paste -sd "," -)
+          fi
+          echo "packages=[$PKGS]" >> "$GITHUB_OUTPUT"
 
   publish:
     name: Publish package
     runs-on: ubuntu-latest
     needs: build
+    env:
+      IS_RELEASE: ${{ github.event.inputs.tag == 'release' }}
     strategy:
       fail-fast: false
       matrix:
@@ -104,7 +108,7 @@ jobs:
         with:
           name: packages
 
-      - name: Use Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
@@ -131,48 +135,59 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Change package scope
+      - name: Change package scope and clean version (for release)
         id: scopedPackage
         env:
           PACKAGE: ${{ matrix.package }}
+          IS_RELEASE: ${{ env.IS_RELEASE }}
         run: |
-          SCOPE=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]');
-          PACKAGE_DIR=$(npx ts-node tools/scripts/change-package-scope --tgz $PACKAGE.tgz --scope $SCOPE)
-          echo "packageDir=$PACKAGE_DIR" >> "$GITHUB_OUTPUT";
-          cd $PACKAGE_DIR;
-          pnpm pkg get name --workspaces=false | tr -d '"' | sed -r 's/(.*)/name=\1/' >> "$GITHUB_OUTPUT";
-          pnpm pkg get version --workspaces=false | tr -d '"' | sed -r 's/(.*)/version=\1/' >> "$GITHUB_OUTPUT";
-          pnpm pkg get version --workspaces=false | tr -d '"' | sed -r 's/([0-9]+\.[0-9]+).*/majorVersion=\1/' >> "$GITHUB_OUTPUT";
+          SCOPE=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
+          PACKAGE_DIR=$(npx ts-node tools/scripts/change-package-scope --tgz "$PACKAGE.tgz" --scope "$SCOPE")
+          echo "packageDir=$PACKAGE_DIR" >> "$GITHUB_OUTPUT"
+          cd "$PACKAGE_DIR"
 
-        # --ignore-scripts is required for publishing devextreme-angular which fails with error:
-        # 'Trying to publish a package that has been compiled by Ivy in full compilation mode.'
-        # Should be removed.
-      - name: Publish to npm.pkg.github.com
+          ORIGINAL_VERSION=$(pnpm pkg get version --workspaces=false | tr -d '"')
+          echo "Original version: $ORIGINAL_VERSION"
+
+          if [ "$IS_RELEASE" = "true" ]; then
+            CLEAN_VERSION=$(echo "$ORIGINAL_VERSION" | sed -E 's/^([0-9]+\.[0-9]+\.[0-9]+)(-.*)?/\1/')
+            echo "Release mode: using clean version $CLEAN_VERSION"
+          else
+            CLEAN_VERSION="$ORIGINAL_VERSION"
+          fi
+
+          pnpm pkg set version="$CLEAN_VERSION" --workspaces=false
+
+          pnpm pkg get name --workspaces=false | tr -d '"' | sed 's/.*/name=&/' >> "$GITHUB_OUTPUT"
+          echo "version=$CLEAN_VERSION" >> "$GITHUB_OUTPUT"
+          echo "majorVersion=$(echo "$CLEAN_VERSION" | sed -E 's/^([0-9]+\.[0-9]+).*/\1/')" >> "$GITHUB_OUTPUT"
+
+      - name: Publish to GitHub Packages
         working-directory: ${{ steps.scopedPackage.outputs.packageDir }}
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          pnpm set //npm.pkg.github.com/:_authToken="$NODE_AUTH_TOKEN";
-          pnpm publish --no-git-checks --quiet --ignore-scripts --registry https://npm.pkg.github.com;
+          pnpm config set //npm.pkg.github.com/:_authToken="$NODE_AUTH_TOKEN"
+          pnpm publish --no-git-checks --quiet --ignore-scripts --registry https://npm.pkg.github.com
 
-      - name: Move 'daily' tag
-        if: ${{ env.MOVE_DAILY_TAG == 'true' }}
+      - name: Move 'daily' dist-tag
+        if: ${{ github.event.inputs.tag == 'daily' }}
         env:
           PACKAGE_NAME: ${{ steps.scopedPackage.outputs.name }}
           PACKAGE_VERSION: ${{ steps.scopedPackage.outputs.version }}
           PACKAGE_VERSION_MAJOR: ${{ steps.scopedPackage.outputs.majorVersion }}
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          pnpm set //npm.pkg.github.com/:_authToken="$NODE_AUTH_TOKEN"
-          pnpm dist-tag add $PACKAGE_NAME@$PACKAGE_VERSION $PACKAGE_VERSION_MAJOR-daily --registry=https://npm.pkg.github.com
+          pnpm config set //npm.pkg.github.com/:_authToken="$NODE_AUTH_TOKEN"
+          pnpm dist-tag add "$PACKAGE_NAME@$PACKAGE_VERSION" "$PACKAGE_VERSION_MAJOR-daily" --registry=https://npm.pkg.github.com
 
-      - name: Move 'stable' tag
-        if: ${{ env.MOVE_STABLE_TAG == 'true' }}
+      - name: Move 'stable' dist-tag
+        if: ${{ github.event.inputs.tag == 'release' }}
         env:
           PACKAGE_NAME: ${{ steps.scopedPackage.outputs.name }}
           PACKAGE_VERSION: ${{ steps.scopedPackage.outputs.version }}
           PACKAGE_VERSION_MAJOR: ${{ steps.scopedPackage.outputs.majorVersion }}
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          pnpm set //npm.pkg.github.com/:_authToken="$NODE_AUTH_TOKEN"
-          pnpm dist-tag add $PACKAGE_NAME@$PACKAGE_VERSION $PACKAGE_VERSION_MAJOR-stable --registry=https://npm.pkg.github.com
+          pnpm config set //npm.pkg.github.com/:_authToken="$NODE_AUTH_TOKEN"
+          pnpm dist-tag add "$PACKAGE_NAME@$PACKAGE_VERSION" "$PACKAGE_VERSION_MAJOR-stable" --registry=https://npm.pkg.github.com

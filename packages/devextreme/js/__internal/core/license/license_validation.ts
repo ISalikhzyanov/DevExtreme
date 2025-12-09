@@ -154,7 +154,8 @@ export function parseLicenseKey(encodedKey: string | undefined): Token {
 //   }
 // }
 
-export function validateLicense(): void {
+export function validateLicense(licenseKey: string, versionStr: string): void {
+  console.warn(licenseKey, versionStr);
   // if (validationPerformed) {
   //   return;
   // }

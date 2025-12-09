@@ -4,16 +4,26 @@ on:
   schedule:
     - cron: '30 19 * * *'
   workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Type of publish'
+        type: choice
+        options:
+          - daily
+          - release
+        default: 'daily'
+        required: true
+      branch:
+        description: 'Branch to publish from'
+        type: string
+        default: '25_2'
+        required: true
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    strategy:
-      matrix:
-        branch: ['25_2']
-
     name: Run Packages Publishing workflow
     steps:
       - name: Get sources
@@ -23,6 +33,9 @@ jobs:
             README.md
           sparse-checkout-cone-mode: false
 
-      - name: Publish Packages (${{ matrix.branch }})
+      - name: Trigger Packages Publishing
         run: |
-          gh workflow run packages_publishing.yml -f tag=daily --ref ${{ matrix.branch }}          
+          gh workflow run packages_publishing.yml \
+            -f tag=${{ github.event.inputs.tag || 'daily' }} \
+            -f filter='' \
+            --ref ${{ github.event.inputs.branch || '25_2' }}
